@@ -1,0 +1,1405 @@
+﻿Log file open, 03/26/19 12:19:07
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: ResidentEvil
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1566402058) SRandInit(-1566402058).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.150950
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +7:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.107s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Binaries/Win64/UE4Editor-ResidentEvil.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am DESKTOP-151KF17 (192.168.0.92:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line:  
+LogInit: Base Directory: D:/Cai Dat/UE4/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.03.26-05.19.09:367][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.26-05.19.09:367][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.26-05.19.09:386][  0]LogInit: Computer: DESKTOP-151KF17
+[2019.03.26-05.19.09:387][  0]LogInit: User: kvtuy
+[2019.03.26-05.19.09:387][  0]LogInit: CPU Page size=4096, Cores=2
+[2019.03.26-05.19.09:387][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.03.26-05.19.09:387][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.03.26-05.19.09:387][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.26-05.19.09:387][  0]LogMemory: Process Physical Memory: 273.15 MB used, 273.16 MB peak
+[2019.03.26-05.19.09:387][  0]LogMemory: Process Virtual Memory: 265.93 MB used, 265.93 MB peak
+[2019.03.26-05.19.09:387][  0]LogMemory: Physical Memory: 5343.17 MB used,  10929.82 MB free, 16272.99 MB total
+[2019.03.26-05.19.09:387][  0]LogMemory: Virtual Memory: 4780.39 MB used,  10929.82 MB free, 134217728.00 MB total
+[2019.03.26-05.19.09:405][  0]LogInit: Using OS detected language (en-US).
+[2019.03.26-05.19.09:405][  0]LogInit: Using OS detected locale (en-US).
+[2019.03.26-05.19.09:412][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.03.26-05.19.09:993][  0]LogStreaming: Display: Took  0.588s to EndInitTextLocalization.
+[2019.03.26-05.19.09:994][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.26-05.19.10:034][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.26-05.19.10:034][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.26-05.19.10:308][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.26-05.19.10:382][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950M' (Feature Level 11_0)
+[2019.03.26-05.19.10:382][  0]LogD3D11RHI:       4055/0/8136 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.26-05.19.10:389][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2019.03.26-05.19.10:389][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.03.26-05.19.10:392][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.26-05.19.10:392][  0]LogD3D11RHI:       0/0/8136 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.26-05.19.10:392][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.26-05.19.10:427][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.26-05.19.10:427][  0]LogD3D11RHI:     GPU DeviceId: 0x139a (for the marketing name, search the web for "GPU Device Id")
+[2019.03.26-05.19.10:427][  0]LogWindows: EnumDisplayDevices:
+[2019.03.26-05.19.10:427][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2019.03.26-05.19.10:428][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2019.03.26-05.19.10:428][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2019.03.26-05.19.10:428][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.03.26-05.19.10:428][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
+[2019.03.26-05.19.10:428][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.03.26-05.19.10:428][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.03.26-05.19.10:428][  0]LogRHI: Texture pool is 2839 MB (70% of 4055 MB)
+[2019.03.26-05.19.10:493][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.03.26-05.19.10:494][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.03.26-05.19.10:494][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.26-05.19.10:518][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.03.26-05.19.10:519][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Intermediate/Shaders/WorkingDirectory/11880/).
+[2019.03.26-05.19.10:519][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kvtuy/AppData/Local/Temp/UnrealShaderWorkingDir/D4B5B2C0456C587B167493BD4100B1DD/'.
+[2019.03.26-05.19.10:902][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.26-05.19.10:921][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.26-05.19.10:937][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.26-05.19.10:953][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.26-05.19.10:969][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.26-05.19.10:986][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.26-05.19.11:002][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.26-05.19.11:017][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.26-05.19.11:024][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.26-05.19.11:037][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2019.03.26-05.19.11:051][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2019.03.26-05.19.11:065][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2019.03.26-05.19.11:078][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2019.03.26-05.19.11:091][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2019.03.26-05.19.11:105][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2019.03.26-05.19.11:132][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2019.03.26-05.19.11:132][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.03.26-05.19.11:145][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.26-05.19.11:147][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.26-05.19.11:185][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.26-05.19.11:198][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.26-05.19.11:213][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.26-05.19.11:226][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.26-05.19.11:240][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.26-05.19.11:254][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.26-05.19.11:254][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.26-05.19.11:369][  0]LogXGEController: Cleaning working directory: C:/Users/kvtuy/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.03.26-05.19.11:369][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.26-05.19.11:369][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.26-05.19.11:369][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.26-05.19.12:443][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.26-05.19.12:542][  0]LogDerivedDataCache: Loaded boot cache 0.10s 77MB C:/Users/kvtuy/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.03.26-05.19.12:542][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kvtuy/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2019.03.26-05.19.12:542][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.26-05.19.12:542][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.26-05.19.12:542][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.26-05.19.12:542][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.26-05.19.12:561][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.26-05.19.12:575][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kvtuy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.26-05.19.12:575][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.26-05.19.12:575][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.26-05.19.12:589][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.26-05.19.12:589][  0]LogSlate: Using Freetype 2.6.0
+[2019.03.26-05.19.12:590][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.26-05.19.12:590][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.26-05.19.12:738][  0]LogAssetRegistry: FAssetRegistry took 0.0293 seconds to start up
+[2019.03.26-05.19.13:331][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.26-05.19.13:517][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.26-05.19.13:520][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.26-05.19.13:520][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.26-05.19.13:520][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.26-05.19.13:520][  0]LogMeshReduction: No automatic mesh merging module available
+[2019.03.26-05.19.13:520][  0]LogMeshMerging: No automatic mesh merging module available
+[2019.03.26-05.19.13:554][  0]LogNetVersion: ResidentEvil , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3990793033)
+[2019.03.26-05.19.14:210][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.099956 seconds
+[2019.03.26-05.19.14:217][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2019.03.26-05.19.14:217][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2019.03.26-05.19.14:217][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.26-05.19.16:657][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.26-05.19.16:690][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.26-05.19.17:117][  0]SourceControl: Source control is disabled
+[2019.03.26-05.19.17:117][  0]SourceControl: Source control is disabled
+[2019.03.26-05.19.17:137][  0]SourceControl: Source control is disabled
+[2019.03.26-05.19.17:157][  0]SourceControl: Source control is disabled
+[2019.03.26-05.19.17:703][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.26-05.19.17:883][  0]LogOcInput: OculusInput pre-init called
+[2019.03.26-05.19.18:004][  0]LogEngine: Initializing Engine...
+[2019.03.26-05.19.18:006][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.26-05.19.18:007][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.26-05.19.18:007][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.26-05.19.18:298][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.26-05.19.18:309][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.26-05.19.18:347][  0]LogInit: FAudioDevice initialized.
+[2019.03.26-05.19.18:435][  0]LogDerivedDataCache: Saved boot cache 0.09s 77MB C:/Users/kvtuy/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.03.26-05.19.18:454][  0]LogInit: Texture streaming: Enabled
+[2019.03.26-05.19.18:472][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.26-05.19.18:487][  0]LogInit: Transaction tracking system initialized
+[2019.03.26-05.19.18:514][  0]BlueprintLog: New page: Editor Load
+[2019.03.26-05.19.18:592][  0]LocalizationService: Localization service is disabled
+[2019.03.26-05.19.18:697][  0]LogConsoleResponse: Display: 
+[2019.03.26-05.19.18:901][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.26-05.19.18:901][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.26-05.19.18:901][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.26-05.19.18:901][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.26-05.19.18:901][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.26-05.19.19:327][  0]LogFileCache: Scanning file cache for directory 'D:/KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/' took 0.02s
+[2019.03.26-05.19.19:336][  0]SourceControl: Source control is disabled
+[2019.03.26-05.19.19:337][  0]Cmd: MAP LOAD FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.26-05.19.19:337][  0]LightingResults: New page: Lighting Build
+[2019.03.26-05.19.19:341][  0]MapCheck: New page: Map Check
+[2019.03.26-05.19.19:341][  0]LightingResults: New page: Lighting Build
+[2019.03.26-05.19.19:590][  0]LogAIModule: Creating AISystem for world Map01
+[2019.03.26-05.19.19:597][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.26-05.19.19:613][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.26-05.19.19:673][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 60.49ms to complete.
+[2019.03.26-05.19.19:673][  0]LogFileHelpers: Loading map 'Map01' took 0.337
+[2019.03.26-05.19.19:829][  0]LogCollectionManager: Loaded 0 collections in 0.002039 seconds
+[2019.03.26-05.19.19:871][  0]LogFileCache: Scanning file cache for directory 'D:/KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Collections/' took 0.01s
+[2019.03.26-05.19.19:871][  0]LogFileCache: Scanning file cache for directory 'D:/KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/Developers/kvtuy/Collections/' took 0.01s
+[2019.03.26-05.19.19:871][  0]LogFileCache: Scanning file cache for directory 'D:/KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/Collections/' took 0.01s
+[2019.03.26-05.19.19:871][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.03.26-05.19.19:887][  0]LogContentBrowser: Native class hierarchy populated in 0.0159 seconds. Added 2457 classes and 565 folders.
+[2019.03.26-05.19.19:900][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0065 seconds. Added 0 classes and 0 folders.
+[2019.03.26-05.19.19:960][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0061 seconds. Added 0 classes and 0 folders.
+[2019.03.26-05.19.19:972][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0062 seconds. Added 1 classes and 2 folders.
+[2019.03.26-05.19.19:998][  0]LogSlate: Took 0.001083 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.26-05.19.20:003][  0]LogSlate: Took 0.000372 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.26-05.19.20:014][  0]LogSlate: Took 0.000596 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.26-05.19.20:131][  0]LogRenderer: Reallocating scene render targets to support 856x380 Format 10 NumSamples 1 (Frame:1).
+[2019.03.26-05.19.20:332][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0062 seconds. Added 0 classes and 0 folders.
+[2019.03.26-05.19.20:332][  0]LogLoad: (Engine Initialization) Total time: 13.95 seconds
+[2019.03.26-05.19.20:332][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.26-05.19.20:689][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.26-05.19.20:712][  0]LogSlate: Took 0.000258 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.26-05.19.22:025][  4]LogAssetRegistry: Asset discovery search completed in 9.3094 seconds
+[2019.03.26-05.19.22:032][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.03.26-05.19.22:032][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000115 seconds (updated 0 objects)
+[2019.03.26-05.20.02:647][214]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-05.20.05:332][373]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.26-05.20.05:352][373]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0073 seconds. Added 1 classes and 2 folders.
+[2019.03.26-05.20.05:398][373]LogSkeletalMesh: Skeletal Mesh found in DDC [6.350800ms] /Game/MyCharacter/Hero/genAssault.genAssault
+[2019.03.26-05.20.05:668][373]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.26-05.20.05:678][373]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0070 seconds. Added 1 classes and 0 folders.
+[2019.03.26-05.20.05:725][373]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_0:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.03.26-05.20.06:326][373]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0077 seconds. Added 1 classes and 0 folders.
+[2019.03.26-05.20.06:365][374]LogRenderer: Reallocating scene render targets to support 856x584 Format 10 NumSamples 1 (Frame:1).
+[2019.03.26-05.20.27:352][559]LogSavePackage: Save=9.97ms
+[2019.03.26-05.20.27:352][559]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/genAssault_Skeleton8DDA5B2A4248E944C125FFA87B710FD8.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault_Skeleton.uasset'
+[2019.03.26-05.20.27:355][559]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault_Skeleton.uasset
+[2019.03.26-05.21.03:913][703]LogSavePackage: Save=9.05ms
+[2019.03.26-05.21.03:913][703]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/genAssault_SkeletonD595D78B42799C5B5DFD38A5CDA140E4.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault_Skeleton.uasset'
+[2019.03.26-05.21.03:914][703]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault_Skeleton.uasset
+[2019.03.26-05.21.14:178][309]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-05.21.19:591][621]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.26-05.21.31:947][357]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-05.21.48:245][325]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-05.21.56:929][836]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-05.22.06:040][369]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-05.22.06:679][405]LogSavePackage: Save=9.07ms
+[2019.03.26-05.22.06:679][405]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/genAssault_SkeletonC68DF1D84AEF4207BD977D9B0280BDD6.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault_Skeleton.uasset'
+[2019.03.26-05.22.06:680][405]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault_Skeleton.uasset
+[2019.03.26-05.22.07:043][427]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-05.22.19:456][164]LogSkeletalMesh: Skeletal Mesh found in DDC [5.239000ms] /Game/MyAssets/MCO_Mocap_Basics/Character/Mesh/SK_Mannequin.SK_Mannequin
+[2019.03.26-05.22.19:485][164]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.26-05.22.19:510][164]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_4:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2019.03.26-05.22.35:713][103]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-05.23.17:779][ 26]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-05.23.21:584][249]Cmd: TRANSACTION UNDO
+[2019.03.26-05.23.21:584][249]LogEditorTransaction: Undo Rotate Bone
+[2019.03.26-05.23.21:846][249]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.26-05.23.21:855][249]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.26-05.23.27:179][553]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-05.23.51:503][  6]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-05.24.24:439][964]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-05.24.28:692][216]LogSavePackage: Save=8.69ms
+[2019.03.26-05.24.28:692][216]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/UE4_Mannequin_Skeleton78E2EFE647B8BA1B0E56359A31E93D2F.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/MCO_Mocap_Basics/Character/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2019.03.26-05.24.28:693][216]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/MCO_Mocap_Basics/Character/Mesh/UE4_Mannequin_Skeleton.uasset
+[2019.03.26-05.24.30:474][321]LogSavePackage: Save=8.49ms
+[2019.03.26-05.24.30:475][321]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/UE4_Mannequin_SkeletonB3618F844315631F587DF9827136128C.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/MCO_Mocap_Basics/Character/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2019.03.26-05.24.30:476][321]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/MCO_Mocap_Basics/Character/Mesh/UE4_Mannequin_Skeleton.uasset
+[2019.03.26-05.24.39:424][774]LogSlate: Window 'Save Content' being destroyed
+[2019.03.26-05.24.39:566][774]LogSavePackage: Save=51.15ms
+[2019.03.26-05.24.39:566][774]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/SK_Mannequin11521F5B428038C9662B628F7A404100.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/MCO_Mocap_Basics/Character/Mesh/SK_Mannequin.uasset'
+[2019.03.26-05.24.39:570][774]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/MCO_Mocap_Basics/Character/Mesh/SK_Mannequin.uasset
+[2019.03.26-05.24.39:615][774]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Hero/genAssault" FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault.uasset" SILENT=true
+[2019.03.26-05.24.39:685][774]LogSavePackage: Save=54.97ms
+[2019.03.26-05.24.39:685][774]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/genAssault4C49FF1342C2E578414AF3895F978844.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault.uasset'
+[2019.03.26-05.24.39:688][774]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault.uasset
+[2019.03.26-05.24.40:486][814]LogSkeletalMesh: Skeletal Mesh found in DDC [4.873500ms] /Game/MyAssets/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.SK_Mannequin
+[2019.03.26-05.24.40:507][814]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.Actor_2.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2019.03.26-05.24.40:533][814]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_5:PersistentLevel.Actor_2.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2019.03.26-05.25.27:529][213]LogSavePackage: Save=8.80ms
+[2019.03.26-05.25.27:529][213]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/UE4_Mannequin_Skeleton88EB23B64CA7D3343B7507BB47C3DB79.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2019.03.26-05.25.27:533][213]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset
+[2019.03.26-05.26.13:921][831]LogSavePackage: Save=9.29ms
+[2019.03.26-05.26.13:921][831]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/UE4_Mannequin_Skeleton16AACB614045B6B6441498BA14AD387E.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/MCO_Mocap_Basics/Character/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2019.03.26-05.26.13:922][831]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/MCO_Mocap_Basics/Character/Mesh/UE4_Mannequin_Skeleton.uasset
+[2019.03.26-05.26.14:553][867]LogSavePackage: Save=9.04ms
+[2019.03.26-05.26.14:553][867]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/UE4_Mannequin_SkeletonBEB56C484BB2E530BD1F619438A44BF9.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/MCO_Mocap_Basics/Character/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2019.03.26-05.26.14:554][867]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/MCO_Mocap_Basics/Character/Mesh/UE4_Mannequin_Skeleton.uasset
+[2019.03.26-05.26.47:025][803]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-05.26.58:794][496]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-05.27.17:913][624]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-05.27.37:605][791]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-05.27.37:712][795]LogSavePackage: Save=11.83ms
+[2019.03.26-05.27.37:712][795]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/UE4_Mannequin_SkeletonC629C86A41896F7FF606ED865A8F7C11.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2019.03.26-05.27.37:714][795]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset
+[2019.03.26-05.27.51:097][596]LogSavePackage: Save=8.79ms
+[2019.03.26-05.27.51:097][596]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/UE4_Mannequin_Skeleton57A23D8D458704DD174625BDE3D828C2.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2019.03.26-05.27.51:098][596]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset
+[2019.03.26-05.27.56:704][930]LogSavePackage: Save=8.52ms
+[2019.03.26-05.27.56:704][930]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/UE4_Mannequin_Skeleton7F0ECBC34949ABF19D226A92DF38BD6A.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2019.03.26-05.27.56:705][930]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset
+[2019.03.26-05.27.57:284][963]LogSavePackage: Save=8.53ms
+[2019.03.26-05.27.57:284][963]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/UE4_Mannequin_Skeleton3DCE789E49A64CE6AE4724AD35B3C7DC.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2019.03.26-05.27.57:285][963]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset
+[2019.03.26-05.28.08:114][607]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-05.28.10:053][719]LogSavePackage: Save=8.62ms
+[2019.03.26-05.28.10:053][719]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/genAssault_SkeletonC1EDA5B14DBDDC9147A262B35EFE1C45.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault_Skeleton.uasset'
+[2019.03.26-05.28.10:054][719]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault_Skeleton.uasset
+[2019.03.26-05.28.13:018][831]LogSlate: Window 'Save Content' being destroyed
+[2019.03.26-05.28.13:143][831]LogSavePackage: Save=45.66ms
+[2019.03.26-05.28.13:143][831]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/SK_Mannequin6981F85C465621216A7796AAA2E5AE51.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.uasset'
+[2019.03.26-05.28.13:146][831]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.uasset
+[2019.03.26-05.28.13:150][831]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Hero/genAssault" FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault.uasset" SILENT=true
+[2019.03.26-05.28.13:202][831]LogSavePackage: Save=44.23ms
+[2019.03.26-05.28.13:202][831]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/genAssault153419F14CDB0DE6576031B9EEB996F6.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault.uasset'
+[2019.03.26-05.28.13:206][831]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault.uasset
+[2019.03.26-05.28.26:615][605]LogSavePackage: Save=8.40ms
+[2019.03.26-05.28.26:615][605]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/genAssault_SkeletonF70A11794A934A085D1B75AFF1AE0B60.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault_Skeleton.uasset'
+[2019.03.26-05.28.26:616][605]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault_Skeleton.uasset
+[2019.03.26-05.28.28:737][731]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMap/Map01" FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.26-05.28.28:788][731]LogSavePackage: Save=27.98ms
+[2019.03.26-05.28.28:788][731]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Map0126FF03834EB57AAD82DD1F94170CD998.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01.umap'
+[2019.03.26-05.28.28:790][731]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01.umap
+[2019.03.26-05.28.28:822][731]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMap/Map01_BuiltData" FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01_BuiltData.uasset" SILENT=true
+[2019.03.26-05.28.28:856][731]LogSavePackage: Save=21.13ms
+[2019.03.26-05.28.28:856][731]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Map01_BuiltDataEB0444144BAC4627865439B1BEE51CBD.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01_BuiltData.uasset'
+[2019.03.26-05.28.28:857][731]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01_BuiltData.uasset
+[2019.03.26-05.28.45:945][716]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.26-05.28.45:966][716]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2019.03.26-05.28.49:981][950]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MOB1_Walk_F_IPC.MOB1_Walk_F_IPC
+[2019.03.26-05.28.49:981][950]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.MOB1_Walk_F_IPC) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.26-05.28.49:983][950]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MOB1_Walk_F_IPC.MOB1_Walk_F_IPC
+[2019.03.26-05.28.49:984][950]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_0) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.26-05.28.49:993][950]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MOB1_Walk_F_IPC.MOB1_Walk_F_IPC
+[2019.03.26-05.28.49:994][950]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_1) using current/default (AnimCompress_BitwiseCompressOnly_2) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.26-05.28.50:000][950]LogSlate: Window 'Select Skeleton' being destroyed
+[2019.03.26-05.28.51:534][ 34]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2019.03.26-05.28.51:577][ 34]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_5) - call TermArticulated first.
+[2019.03.26-05.28.52:140][ 34]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.03.26-05.29.33:076][443]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-05.29.33:143][447]LogSlate: Window 'MOB1_Walk_F_IPC*' being destroyed
+[2019.03.26-05.29.34:769][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MOB1_Walk_F_IPC" FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MOB1_Walk_F_IPC.uasset" SILENT=true
+[2019.03.26-05.29.34:791][519]LogSavePackage: Save=20.10ms
+[2019.03.26-05.29.34:791][519]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/MOB1_Walk_F_IPC64665F36446DA2E4916CB1989C7F01AD.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MOB1_Walk_F_IPC.uasset'
+[2019.03.26-05.29.34:794][519]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MOB1_Walk_F_IPC.uasset
+[2019.03.26-06.03.55:993][463]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.03.26-06.03.56:357][465]LogHttp: Warning: 000002B4A48A3100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.26-06.03.56:358][465]LogHttp: Warning: 000002B4A48A3100: libcurl info message cache 0 (Connection 3 seems to be dead!)
+[2019.03.26-06.03.56:358][465]LogHttp: Warning: 000002B4A48A3100: libcurl info message cache 1 (Closing connection 3)
+[2019.03.26-06.03.56:358][465]LogHttp: Warning: 000002B4A48A3100: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.26-06.03.56:358][465]LogHttp: Warning: 000002B4A48A3100: libcurl info message cache 3 (Closing connection 4)
+[2019.03.26-06.04.06:156][492]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyMap/Map01' took 0.017
+[2019.03.26-06.04.06:158][492]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MyCharacter/Hero/genAssault_Skeleton] ([1] browsable assets)...
+[2019.03.26-06.04.06:158][492]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyCharacter/Hero/genAssault_Skeleton]
+[2019.03.26-06.04.06:182][492]LogSavePackage: Save=11.18ms
+[2019.03.26-06.04.06:182][492]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/genAssault_Skeleton_Auto117FFD61740FCDB075FD80686333BDB5C.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Autosaves/Game/MyCharacter/Hero/genAssault_Skeleton_Auto1.uasset'
+[2019.03.26-06.04.06:183][492]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Autosaves/Game/MyCharacter/Hero/genAssault_Skeleton_Auto1.uasset
+[2019.03.26-06.04.06:184][492]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MyAssets/MCO_Mocap_Basics/Character/Mesh/UE4_Mannequin_Skeleton] ([1] browsable assets)...
+[2019.03.26-06.04.06:184][492]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyAssets/MCO_Mocap_Basics/Character/Mesh/UE4_Mannequin_Skeleton]
+[2019.03.26-06.04.06:266][492]LogSavePackage: Save=66.39ms
+[2019.03.26-06.04.06:266][492]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/UE4_Mannequin_Skeleton_Auto18A08849E4148E011330AA7B4E4AC28E9.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Autosaves/Game/MyAssets/MCO_Mocap_Basics/Character/Mesh/UE4_Mannequin_Skeleton_Auto1.uasset'
+[2019.03.26-06.04.06:272][492]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Autosaves/Game/MyAssets/MCO_Mocap_Basics/Character/Mesh/UE4_Mannequin_Skeleton_Auto1.uasset
+[2019.03.26-06.04.06:272][492]LogFileHelpers: Auto-saving content packages took 0.115
+[2019.03.26-06.04.40:277][776]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.05.17:491][979]LogSavePackage: Save=9.04ms
+[2019.03.26-06.05.17:491][979]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/genAssault_Skeleton644422D24D16ACEB640E7AB3C5CF4B81.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault_Skeleton.uasset'
+[2019.03.26-06.05.17:497][979]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault_Skeleton.uasset
+[2019.03.26-06.05.20:313][146]LogSavePackage: Save=8.89ms
+[2019.03.26-06.05.20:313][146]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/genAssault_Skeleton1E8C906F4105165228708F92EF9A0FB0.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault_Skeleton.uasset'
+[2019.03.26-06.05.20:314][146]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault_Skeleton.uasset
+[2019.03.26-06.05.27:707][539]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.05.48:412][747]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.26-06.05.48:444][747]LogSavePackage: Save=9.09ms
+[2019.03.26-06.05.48:444][747]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/genAssault_Skeleton9A1551F44A63A2346B5C8C875ABC6F8D.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault_Skeleton.uasset'
+[2019.03.26-06.05.48:445][747]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault_Skeleton.uasset
+[2019.03.26-06.05.54:060][ 81]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.26-06.06.04:400][692]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.06.04:503][696]LogSavePackage: Save=9.67ms
+[2019.03.26-06.06.04:503][696]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/UE4_Mannequin_Skeleton233086F841BAACB45A15F48DB8B3CF1C.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/MCO_Mocap_Basics/Character/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2019.03.26-06.06.04:507][696]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/MCO_Mocap_Basics/Character/Mesh/UE4_Mannequin_Skeleton.uasset
+[2019.03.26-06.06.13:465][224]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.06.16:380][396]LogSavePackage: Save=9.31ms
+[2019.03.26-06.06.16:380][396]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/UE4_Mannequin_Skeleton88F5F08749650D009739A8BDDB902DBA.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/MCO_Mocap_Basics/Character/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2019.03.26-06.06.16:381][396]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/MCO_Mocap_Basics/Character/Mesh/UE4_Mannequin_Skeleton.uasset
+[2019.03.26-06.06.20:077][617]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.26-06.06.37:558][665]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.06.39:430][775]LogSavePackage: Save=8.37ms
+[2019.03.26-06.06.39:430][775]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/UE4_Mannequin_Skeleton169FF48141398AF33BFC728A0570883B.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2019.03.26-06.06.39:431][775]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset
+[2019.03.26-06.06.40:756][852]LogSavePackage: Save=9.52ms
+[2019.03.26-06.06.40:756][852]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/UE4_Mannequin_Skeleton306352AB4D1EAE3958D6CB82064545EC.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2019.03.26-06.06.40:757][852]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset
+[2019.03.26-06.06.42:881][979]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.06.44:638][ 35]LogSlate: Window 'Delete Assets' being destroyed
+[2019.03.26-06.06.57:901][747]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.Actor_4.DebugSkelMeshComponent_8) Already registered. Aborting.
+[2019.03.26-06.06.57:931][747]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.Actor_4.DebugSkelMeshComponent_8) - call TermArticulated first.
+[2019.03.26-06.06.58:316][747]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.03.26-06.07.09:596][398]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2019.03.26-06.07.17:153][663]LogSlate: Window 'Create New Animation Object' being destroyed
+[2019.03.26-06.07.18:791][753]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/MOB1_Walk_F_IPC.MOB1_Walk_F_IPC
+[2019.03.26-06.07.18:792][753]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.MOB1_Walk_F_IPC) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.26-06.07.18:794][753]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/MOB1_Walk_F_IPC.MOB1_Walk_F_IPC
+[2019.03.26-06.07.18:794][753]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_2) using current/default (AnimCompress_BitwiseCompressOnly_4) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.26-06.07.18:803][753]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/MOB1_Walk_F_IPC.MOB1_Walk_F_IPC
+[2019.03.26-06.07.18:803][753]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_3) using current/default (AnimCompress_BitwiseCompressOnly_5) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.26-06.07.18:811][753]LogSlate: Window 'Select Skeleton' being destroyed
+[2019.03.26-06.07.20:810][851]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.Actor_5.DebugSkelMeshComponent_13) Already registered. Aborting.
+[2019.03.26-06.07.20:845][851]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_17:PersistentLevel.Actor_5.DebugSkelMeshComponent_13) - call TermArticulated first.
+[2019.03.26-06.07.21:332][851]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.03.26-06.07.35:568][704]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.07.37:703][808]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.Actor_6.DebugSkelMeshComponent_16) Already registered. Aborting.
+[2019.03.26-06.07.37:740][808]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_20:PersistentLevel.Actor_6.DebugSkelMeshComponent_16) - call TermArticulated first.
+[2019.03.26-06.08.09:831][693]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.08.19:451][262]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.08.29:862][878]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.08.44:943][773]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.08.52:073][195]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.08.57:810][531]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.09.11:716][362]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.09.18:153][691]LogSlate: Window 'Save Content' being destroyed
+[2019.03.26-06.09.18:245][691]LogSavePackage: Save=38.87ms
+[2019.03.26-06.09.18:245][691]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/SK_Mannequin3DBA2B4B419F34CFCEE6F3A3E63B935F.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.uasset'
+[2019.03.26-06.09.18:248][691]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.uasset
+[2019.03.26-06.09.18:297][691]LogSavePackage: Save=37.17ms
+[2019.03.26-06.09.18:297][691]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/SK_MannequinFC0C26F346AED00BFD56129FF50DB9BE.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/MCO_Mocap_Basics/Character/Mesh/SK_Mannequin.uasset'
+[2019.03.26-06.09.18:300][691]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/MCO_Mocap_Basics/Character/Mesh/SK_Mannequin.uasset
+[2019.03.26-06.09.18:329][691]LogSavePackage: Save=11.31ms
+[2019.03.26-06.09.18:329][691]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/UE4_Mannequin_Skeleton1CE0545445B2BC309732379F3599CF4E.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/MCO_Mocap_Basics/Character/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2019.03.26-06.09.18:332][691]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/MCO_Mocap_Basics/Character/Mesh/UE4_Mannequin_Skeleton.uasset
+[2019.03.26-06.09.18:336][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Hero/genAssault" FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault.uasset" SILENT=true
+[2019.03.26-06.09.18:394][691]LogSavePackage: Save=43.55ms
+[2019.03.26-06.09.18:394][691]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/genAssaultB5ED3D8E49E61812E3E7E0B15EFE7DD7.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault.uasset'
+[2019.03.26-06.09.18:397][691]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault.uasset
+[2019.03.26-06.09.18:423][691]LogSavePackage: Save=8.75ms
+[2019.03.26-06.09.18:423][691]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/genAssault_Skeleton7C0198AF43183A3B2DEF9E9406E63B31.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault_Skeleton.uasset'
+[2019.03.26-06.09.18:427][691]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault_Skeleton.uasset
+[2019.03.26-06.09.18:469][691]LogSavePackage: Save=16.61ms
+[2019.03.26-06.09.18:469][691]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/MOB1_Walk_F_IPC9491CA364B19F7C33EF3A0AE97DA6EBA.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/MOB1_Walk_F_IPC.uasset'
+[2019.03.26-06.09.18:472][691]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/MOB1_Walk_F_IPC.uasset
+[2019.03.26-06.09.20:729][773]LogSlate: Window 'Delete Assets' being destroyed
+[2019.03.26-06.09.29:481][256]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.Actor_7.DebugSkelMeshComponent_17) Already registered. Aborting.
+[2019.03.26-06.09.29:513][256]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_21:PersistentLevel.Actor_7.DebugSkelMeshComponent_17) - call TermArticulated first.
+[2019.03.26-06.09.47:004][264]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.09.58:654][953]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.10.13:276][822]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.10.26:729][617]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.10.38:705][327]LogSavePackage: Save=9.34ms
+[2019.03.26-06.10.38:705][327]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/UE4_Mannequin_Skeleton36FC111E4E2E221858DB51BC72381754.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/MCO_Mocap_Basics/Character/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2019.03.26-06.10.38:706][327]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/MCO_Mocap_Basics/Character/Mesh/UE4_Mannequin_Skeleton.uasset
+[2019.03.26-06.10.45:966][732]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.Actor_8.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2019.03.26-06.10.45:991][732]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_22:PersistentLevel.Actor_8.DebugSkelMeshComponent_18) - call TermArticulated first.
+[2019.03.26-06.10.56:181][319]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.11.02:194][675]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.11.08:212][ 30]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.11.20:994][786]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.11.21:099][790]LogSavePackage: Save=8.81ms
+[2019.03.26-06.11.21:099][790]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/UE4_Mannequin_Skeleton99F304BD465E9EBE1FFA24B6AA6AB6D8.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2019.03.26-06.11.21:100][790]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset
+[2019.03.26-06.11.29:573][293]LogSavePackage: Save=8.59ms
+[2019.03.26-06.11.29:573][293]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/UE4_Mannequin_SkeletonC1D6D8F8409E18615A69B799EB7F14B4.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2019.03.26-06.11.29:574][293]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset
+[2019.03.26-06.11.34:926][612]LogSavePackage: Save=8.44ms
+[2019.03.26-06.11.34:926][612]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/UE4_Mannequin_Skeleton61E3C214472F8DC9C27288BF94B483D4.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/MCO_Mocap_Basics/Character/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2019.03.26-06.11.34:927][612]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/MCO_Mocap_Basics/Character/Mesh/UE4_Mannequin_Skeleton.uasset
+[2019.03.26-06.11.39:555][828]LogSlate: Window 'Save Content' being destroyed
+[2019.03.26-06.11.39:633][828]LogSavePackage: Save=36.08ms
+[2019.03.26-06.11.39:633][828]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/SK_Mannequin1528397E4C4B73DA61DC618D581EFA73.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.uasset'
+[2019.03.26-06.11.39:636][828]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.uasset
+[2019.03.26-06.11.39:689][828]LogSavePackage: Save=40.58ms
+[2019.03.26-06.11.39:689][828]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/SK_MannequinC43985C64FE9B8DD262E55BEC7945145.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/MCO_Mocap_Basics/Character/Mesh/SK_Mannequin.uasset'
+[2019.03.26-06.11.39:693][828]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/MCO_Mocap_Basics/Character/Mesh/SK_Mannequin.uasset
+[2019.03.26-06.11.54:069][652]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2019.03.26-06.12.03:505][ 25]LogSlate: Window 'Create New Animation Object' being destroyed
+[2019.03.26-06.12.04:453][ 74]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/MOB1_Stand_Relaxed_Idle_v2_IPC.MOB1_Stand_Relaxed_Idle_v2_IPC
+[2019.03.26-06.12.04:455][ 74]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.MOB1_Stand_Relaxed_Idle_v2_IPC) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.26-06.12.04:465][ 74]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/MOB1_Stand_Relaxed_Idle_v2_IPC.MOB1_Stand_Relaxed_Idle_v2_IPC
+[2019.03.26-06.12.04:467][ 74]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_4) using current/default (AnimCompress_BitwiseCompressOnly_7) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.26-06.12.04:492][ 74]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/MOB1_Stand_Relaxed_Idle_v2_IPC.MOB1_Stand_Relaxed_Idle_v2_IPC
+[2019.03.26-06.12.04:495][ 74]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_5) using current/default (AnimCompress_BitwiseCompressOnly_8) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.26-06.12.04:511][ 74]LogSlate: Window 'Select Skeleton' being destroyed
+[2019.03.26-06.12.06:427][167]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_25:PersistentLevel.Actor_9.DebugSkelMeshComponent_21) Already registered. Aborting.
+[2019.03.26-06.12.06:456][167]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_25:PersistentLevel.Actor_9.DebugSkelMeshComponent_21) - call TermArticulated first.
+[2019.03.26-06.12.06:946][167]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.03.26-06.12.18:290][846]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.12.40:704][181]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.12.43:864][367]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/MOB1_Stand_Relaxed_Idle_v2_IPC.MOB1_Stand_Relaxed_Idle_v2_IPC
+[2019.03.26-06.12.43:866][367]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_6) using current/default (AnimCompress_BitwiseCompressOnly_9) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.26-06.13.07:978][809]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.13.20:165][534]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.13.20:670][564]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/MOB1_Stand_Relaxed_Idle_v2_IPC.MOB1_Stand_Relaxed_Idle_v2_IPC
+[2019.03.26-06.13.20:672][564]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_7) using current/default (AnimCompress_BitwiseCompressOnly_10) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.26-06.13.33:887][348]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.13.34:007][351]LogSavePackage: Save=22.34ms
+[2019.03.26-06.13.34:007][351]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/MOB1_Stand_Relaxed_Idle_v2_IPC7E522BEF48F56DD10CB7FD926D204ED0.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/MOB1_Stand_Relaxed_Idle_v2_IPC.uasset'
+[2019.03.26-06.13.34:010][351]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/MOB1_Stand_Relaxed_Idle_v2_IPC.uasset
+[2019.03.26-06.13.46:837][ 20]LogSlate: Window 'Save Content' being destroyed
+[2019.03.26-06.13.46:894][ 20]LogSavePackage: Save=11.02ms
+[2019.03.26-06.13.46:894][ 20]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/UE4_Mannequin_SkeletonBDF61E684F41E18A428C3796F0231E84.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/MCO_Mocap_Basics/Character/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2019.03.26-06.13.46:897][ 20]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/MCO_Mocap_Basics/Character/Mesh/UE4_Mannequin_Skeleton.uasset
+[2019.03.26-06.13.46:920][ 20]LogSavePackage: Save=8.68ms
+[2019.03.26-06.13.46:920][ 20]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/genAssault_SkeletonB7EE2AD34C72D2661BCA49BB8EDEDF64.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault_Skeleton.uasset'
+[2019.03.26-06.13.46:923][ 20]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault_Skeleton.uasset
+[2019.03.26-06.13.54:470][437]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.Actor_10.DebugSkelMeshComponent_24) Already registered. Aborting.
+[2019.03.26-06.13.54:505][437]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_28:PersistentLevel.Actor_10.DebugSkelMeshComponent_24) - call TermArticulated first.
+[2019.03.26-06.13.55:070][437]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.03.26-06.14.05:615][ 33]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2019.03.26-06.14.15:672][341]LogSlate: Window 'Create New Animation Object' being destroyed
+[2019.03.26-06.14.17:148][421]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/MOB1_Walk_F_IPC.MOB1_Walk_F_IPC
+[2019.03.26-06.14.17:149][421]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.MOB1_Walk_F_IPC) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.26-06.14.17:150][421]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/MOB1_Walk_F_IPC.MOB1_Walk_F_IPC
+[2019.03.26-06.14.17:151][421]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_8) using current/default (AnimCompress_BitwiseCompressOnly_12) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.26-06.14.17:161][421]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/MOB1_Walk_F_IPC.MOB1_Walk_F_IPC
+[2019.03.26-06.14.17:162][421]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_9) using current/default (AnimCompress_BitwiseCompressOnly_13) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.26-06.14.17:170][421]LogSlate: Window 'Select Skeleton' being destroyed
+[2019.03.26-06.14.32:556][289]Cmd: TRANSACTION UNDO
+[2019.03.26-06.14.32:556][289]LogEditorTransaction: Undo Rotate Bone
+[2019.03.26-06.14.32:912][289]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_25:PersistentLevel.Actor_9.DebugSkelMeshComponent_21) Already registered. Aborting.
+[2019.03.26-06.14.32:919][289]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.Actor_8.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2019.03.26-06.14.32:928][289]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.Actor_7.DebugSkelMeshComponent_17) Already registered. Aborting.
+[2019.03.26-06.14.35:313][418]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.14.46:690][ 94]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.14.56:281][664]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.15.00:536][918]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/MOB1_Walk_F_IPC.MOB1_Walk_F_IPC
+[2019.03.26-06.15.00:537][918]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_10) using current/default (AnimCompress_BitwiseCompressOnly_14) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.26-06.15.03:899][118]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/MOB1_Walk_F_IPC.MOB1_Walk_F_IPC
+[2019.03.26-06.15.03:900][118]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_11) using current/default (AnimCompress_BitwiseCompressOnly_15) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.26-06.15.09:984][477]Cmd: TRANSACTION UNDO
+[2019.03.26-06.15.09:984][477]LogEditorTransaction: Undo Rotate Bone
+[2019.03.26-06.15.10:383][477]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_25:PersistentLevel.Actor_9.DebugSkelMeshComponent_21) Already registered. Aborting.
+[2019.03.26-06.15.10:397][477]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.Actor_8.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2019.03.26-06.15.10:412][477]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.Actor_7.DebugSkelMeshComponent_17) Already registered. Aborting.
+[2019.03.26-06.15.15:507][772]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.15.16:012][802]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/MOB1_Walk_F_IPC.MOB1_Walk_F_IPC
+[2019.03.26-06.15.16:013][802]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_12) using current/default (AnimCompress_BitwiseCompressOnly_16) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.26-06.15.21:096][106]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.15.34:873][924]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.15.36:676][ 28]LogSavePackage: Save=18.26ms
+[2019.03.26-06.15.36:676][ 28]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/MOB1_Walk_F_IPC28A58DA4424915CAFF03ADAB974A5B57.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/MOB1_Walk_F_IPC.uasset'
+[2019.03.26-06.15.36:678][ 28]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/MOB1_Walk_F_IPC.uasset
+[2019.03.26-06.15.39:516][195]LogSavePackage: Save=11.24ms
+[2019.03.26-06.15.39:516][195]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/MOB1_Walk_F_IPC756C120B46481BE78E12B68107078A6E.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/MOB1_Walk_F_IPC.uasset'
+[2019.03.26-06.15.39:517][195]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/MOB1_Walk_F_IPC.uasset
+[2019.03.26-06.16.05:383][713]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Hero/Idle" FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/Idle.uasset" SILENT=true
+[2019.03.26-06.16.05:413][713]LogSavePackage: Save=27.41ms
+[2019.03.26-06.16.05:413][713]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Idle3604C9ED44FC4EB072547896CF62237B.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/Idle.uasset'
+[2019.03.26-06.16.05:416][713]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/Idle.uasset
+[2019.03.26-06.16.09:087][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Hero/Walking" FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/Walking.uasset" SILENT=true
+[2019.03.26-06.16.09:107][896]LogSavePackage: Save=18.42ms
+[2019.03.26-06.16.09:107][896]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/WalkingFDB7A94B476A6C87EB6707A7767974E6.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/Walking.uasset'
+[2019.03.26-06.16.09:110][896]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/Walking.uasset
+[2019.03.26-06.16.13:921][148]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Hero/Walk" FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/Walk.uasset" SILENT=true
+[2019.03.26-06.16.13:946][148]LogSavePackage: Save=22.06ms
+[2019.03.26-06.16.13:946][148]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Walk3CA31A6740BCDC1F8A8942BA4963A884.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/Walk.uasset'
+[2019.03.26-06.16.13:949][148]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/Walk.uasset
+[2019.03.26-06.16.22:846][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Hero/WalkForward" FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/WalkForward.uasset" SILENT=true
+[2019.03.26-06.16.22:875][642]LogSavePackage: Save=25.64ms
+[2019.03.26-06.16.22:875][642]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/WalkForwardE0EA99184EC56B67EA134089F83B7829.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/WalkForward.uasset'
+[2019.03.26-06.16.22:878][642]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/WalkForward.uasset
+[2019.03.26-06.16.29:345][931]LogSlate: Window 'Save Content' being destroyed
+[2019.03.26-06.16.29:404][931]LogSavePackage: Save=9.61ms
+[2019.03.26-06.16.29:404][931]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/UE4_Mannequin_SkeletonBED2AF2C450ECB0C23482D9DC58E9DA5.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/MCO_Mocap_Basics/Character/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2019.03.26-06.16.29:407][931]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/MCO_Mocap_Basics/Character/Mesh/UE4_Mannequin_Skeleton.uasset
+[2019.03.26-06.16.29:435][931]LogSavePackage: Save=9.77ms
+[2019.03.26-06.16.29:435][931]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/genAssault_Skeleton00B279234846ACAC8EF0E5910605FD06.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault_Skeleton.uasset'
+[2019.03.26-06.16.29:438][931]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault_Skeleton.uasset
+[2019.03.26-06.16.49:257][760]LogSlate: Window 'Pick Skeleton' being destroyed
+[2019.03.26-06.18.27:342][505]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.18.27:491][514]LogLinker: Warning: Can't find file '/Game/MyCharacter/Hero/Walk'
+[2019.03.26-06.18.27:491][514]LogLinker: Warning: Can't find file '/Game/MyCharacter/Hero/Walk'
+[2019.03.26-06.18.27:491][514]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/MyCharacter/Hero/Walk.Walk'
+[2019.03.26-06.19.14:440][250]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.19.14:547][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Hero/Walking" FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/Walking.uasset" SILENT=true
+[2019.03.26-06.19.14:563][254]LogSavePackage: Save=13.92ms
+[2019.03.26-06.19.14:563][254]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Walking6BDF34BA47C5824CA60D349EA05F6602.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/Walking.uasset'
+[2019.03.26-06.19.14:566][254]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/Walking.uasset
+[2019.03.26-06.19.33:528][367]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2019.03.26-06.19.39:053][367]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2019.03.26-06.19.40:677][367]LogSlate: Window 'Create Animation Blueprint' being destroyed
+[2019.03.26-06.19.48:244][730]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b48a415658, Size=4, Default__SKEL_HunkAnimation_C Function /Game/MyCharacter/Hero/HunkAnimation.SKEL_HunkAnimation_C:ExecuteUbergraph_HunkAnimation
+[2019.03.26-06.19.48:246][730]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b48a414120, Size=4, Default__HunkAnimation_C Function /Game/MyCharacter/Hero/HunkAnimation.HunkAnimation_C:ExecuteUbergraph_HunkAnimation
+[2019.03.26-06.19.49:204][774]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.Actor_11.DebugSkelMeshComponent_31) Already registered. Aborting.
+[2019.03.26-06.19.49:528][774]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0069 seconds. Added 116 classes and 0 folders.
+[2019.03.26-06.19.49:850][774]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b41ba276f8, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2019.03.26-06.19.49:850][774]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b41ba276f0, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2019.03.26-06.19.50:299][774]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_38:PersistentLevel.Actor_11.DebugSkelMeshComponent_31) - call TermArticulated first.
+[2019.03.26-06.19.50:607][774]LogSlate: Took 0.005673 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.26-06.19.56:920][118]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002b48a415658, Size=4
+[2019.03.26-06.19.56:920][118]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b4f541e128, Size=4, Default__SKEL_HunkAnimation_C Function /Engine/Transient.REINST_SKEL_HunkAnimation_C_0:ExecuteUbergraph_HunkAnimation
+[2019.03.26-06.19.56:922][118]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b4f541fae0, Size=4, Default__SKEL_HunkAnimation_C Function /Game/MyCharacter/Hero/HunkAnimation.SKEL_HunkAnimation_C:ExecuteUbergraph_HunkAnimation
+[2019.03.26-06.20.13:536][800]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.03.26-06.20.16:094][952]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002b4f541fae0, Size=4
+[2019.03.26-06.20.16:094][952]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b4f541fae0, Size=4, Default__SKEL_HunkAnimation_C Function /Engine/Transient.REINST_SKEL_HunkAnimation_C_1:ExecuteUbergraph_HunkAnimation
+[2019.03.26-06.20.16:096][952]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b4f541fc50, Size=4, Default__SKEL_HunkAnimation_C Function /Game/MyCharacter/Hero/HunkAnimation.SKEL_HunkAnimation_C:ExecuteUbergraph_HunkAnimation
+[2019.03.26-06.20.16:103][952]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002b4f541fc50, Size=4
+[2019.03.26-06.20.16:103][952]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b4f541fc50, Size=4, Default__SKEL_HunkAnimation_C Function /Engine/Transient.REINST_SKEL_HunkAnimation_C_2:ExecuteUbergraph_HunkAnimation
+[2019.03.26-06.20.16:105][952]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b4f541e590, Size=4, Default__SKEL_HunkAnimation_C Function /Game/MyCharacter/Hero/HunkAnimation.SKEL_HunkAnimation_C:ExecuteUbergraph_HunkAnimation
+[2019.03.26-06.20.17:899][ 52]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002b4f541e590, Size=4
+[2019.03.26-06.20.17:899][ 52]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b4f4fee7c0, Size=4, Default__SKEL_HunkAnimation_C Function /Engine/Transient.REINST_SKEL_HunkAnimation_C_3:ExecuteUbergraph_HunkAnimation
+[2019.03.26-06.20.17:901][ 52]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b4f4fee728, Size=4, Default__SKEL_HunkAnimation_C Function /Game/MyCharacter/Hero/HunkAnimation.SKEL_HunkAnimation_C:ExecuteUbergraph_HunkAnimation
+[2019.03.26-06.20.29:726][760]BlueprintLog: New page: Compile HunkAnimation
+[2019.03.26-06.20.29:728][760]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002b4f4fee728, Size=4
+[2019.03.26-06.20.29:728][760]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b4f4fee728, Size=4, Default__SKEL_HunkAnimation_C Function /Engine/Transient.REINST_SKEL_HunkAnimation_C_4:ExecuteUbergraph_HunkAnimation
+[2019.03.26-06.20.29:730][760]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002b48a414120, Size=4
+[2019.03.26-06.20.29:730][760]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b4f4feff60, Size=4, Default__HunkAnimation_C Function /Engine/Transient.REINST_HunkAnimation_C_5:ExecuteUbergraph_HunkAnimation
+[2019.03.26-06.20.29:732][760]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b4f4fee5f8, Size=4, Default__HunkAnimation_C Function /Game/MyCharacter/Hero/HunkAnimation.HunkAnimation_C:ExecuteUbergraph_HunkAnimation
+[2019.03.26-06.20.29:834][760]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002b4f541e128, Size=4
+[2019.03.26-06.20.29:837][760]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002b4f541fae0, Size=4
+[2019.03.26-06.20.29:837][760]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002b4f541fc50, Size=4
+[2019.03.26-06.20.29:837][760]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002b4f4fee7c0, Size=4
+[2019.03.26-06.20.29:837][760]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002b4f4fee728, Size=4
+[2019.03.26-06.20.35:664][ 96]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.20.35:737][ 99]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002b4f4feff60, Size=4
+[2019.03.26-06.20.36:630][ 99]LogSlate: Window 'Save Content' being destroyed
+[2019.03.26-06.20.36:704][ 99]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Hero/HunkAnimation" FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/HunkAnimation.uasset" SILENT=true
+[2019.03.26-06.20.36:743][ 99]LogSavePackage: Save=36.64ms
+[2019.03.26-06.20.36:743][ 99]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/HunkAnimation02A2B8664772288D33ACE78F88248B92.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/HunkAnimation.uasset'
+[2019.03.26-06.20.36:747][ 99]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/HunkAnimation.uasset
+[2019.03.26-06.21.22:319][ 18]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.21.49:973][566]LogSlate: Window 'Delete Assets' being destroyed
+[2019.03.26-06.21.52:052][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMap/Map01" FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.26-06.21.52:117][677]LogSavePackage: Save=28.39ms
+[2019.03.26-06.21.52:117][677]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Map010A934A3C4F047BBD8AFC00B8AECDD7CF.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01.umap'
+[2019.03.26-06.21.52:119][677]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01.umap
+[2019.03.26-06.21.52:151][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMap/Map01_BuiltData" FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01_BuiltData.uasset" SILENT=true
+[2019.03.26-06.21.52:181][677]LogSavePackage: Save=16.47ms
+[2019.03.26-06.21.52:181][677]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Map01_BuiltData57B88C3549F0257F5C93F483132BE1E9.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01_BuiltData.uasset'
+[2019.03.26-06.21.52:182][677]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01_BuiltData.uasset
+[2019.03.26-06.21.55:213][854]Candidate modules for hot reload:
+[2019.03.26-06.21.55:213][854]  ResidentEvil
+[2019.03.26-06.21.55:213][854]Launching UnrealBuildTool... [D:/Cai Dat/UE4/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe ResidentEvil -ModuleWithSuffix=ResidentEvil,7961 Win64 Development -editorrecompile -canskiplink "D:/KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/ResidentEvil.uproject" ]
+[2019.03.26-06.21.55:220][854]Warning: Starting HotReload took  0.0s.
+[2019.03.26-06.22.06:123][506]CompilerResultsLog: New page: Compilation - Mar 26, 2019, 8:22:06 PM
+[2019.03.26-06.22.06:125][506]CompilerResultsLog: Compiling game modules for hot reload
+[2019.03.26-06.22.06:125][506]CompilerResultsLog: Performing 15 actions (2 in parallel)
+[2019.03.26-06.22.06:125][506]CompilerResultsLog: HunkAnimInstance.cpp
+[2019.03.26-06.22.06:125][506]CompilerResultsLog: GameConstValue.cpp
+[2019.03.26-06.22.06:125][506]CompilerResultsLog: ResidentEvil.cpp
+[2019.03.26-06.22.06:125][506]CompilerResultsLog: ResidentEvilGameModeBase.cpp
+[2019.03.26-06.22.06:125][506]CompilerResultsLog: Hunk.cpp
+[2019.03.26-06.22.06:126][506]CompilerResultsLog: MyGameInstance.cpp
+[2019.03.26-06.22.06:126][506]CompilerResultsLog: MyGameModeBase.cpp
+[2019.03.26-06.22.06:126][506]CompilerResultsLog: Hunk.gen.cpp
+[2019.03.26-06.22.06:126][506]CompilerResultsLog: MyGameInstance.gen.cpp
+[2019.03.26-06.22.06:126][506]CompilerResultsLog: HunkAnimInstance.gen.cpp
+[2019.03.26-06.22.06:126][506]CompilerResultsLog: MyGameModeBase.gen.cpp
+[2019.03.26-06.22.06:126][506]CompilerResultsLog: ResidentEvil.init.gen.cpp
+[2019.03.26-06.22.06:126][506]CompilerResultsLog: ResidentEvilGameModeBase.gen.cpp
+[2019.03.26-06.22.06:126][506]CompilerResultsLog: [14/15] Link UE4Editor-ResidentEvil-7961.dll
+[2019.03.26-06.22.06:126][506]CompilerResultsLog: [15/15] Link UE4Editor-ResidentEvil-7961.lib
+[2019.03.26-06.22.06:126][506]CompilerResultsLog:    Creating library D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ResidentEvil-7961.lib and object D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ResidentEvil-7961.exp
+[2019.03.26-06.22.06:126][506]CompilerResultsLog:    Creating library D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ResidentEvil-7961.suppressed.lib and object D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ResidentEvil-7961.suppressed.exp
+[2019.03.26-06.22.06:126][506]CompilerResultsLog: Total build time: 10.53 seconds (Local executor: 9.60 seconds)
+[2019.03.26-06.22.06:126][506]LogMainFrame: MainFrame: Module compiling took 10.918 seconds
+[2019.03.26-06.22.06:167][506]LogHotReload: Re-instancing Hunk after hot-reload.
+[2019.03.26-06.22.06:260][506]LogContentBrowser: Native class hierarchy updated for 'ResidentEvil' in 0.0065 seconds. Added 5 classes and 7 folders.
+[2019.03.26-06.22.06:262][506]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.03.26-06.22.06:638][506]LogContentBrowser: Native class hierarchy populated in 0.0154 seconds. Added 2459 classes and 569 folders.
+[2019.03.26-06.22.06:641][506]Display: HotReload took 11.5s.
+[2019.03.26-06.22.10:023][706]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.22.10:096][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMap/Map01" FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.26-06.22.10:172][709]LogSavePackage: Save=24.50ms
+[2019.03.26-06.22.10:172][709]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Map01F2CF31C5475206DE155F01A55C21F26B.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01.umap'
+[2019.03.26-06.22.10:173][709]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01.umap
+[2019.03.26-06.22.10:211][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMap/Map01_BuiltData" FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01_BuiltData.uasset" SILENT=true
+[2019.03.26-06.22.10:235][709]LogSavePackage: Save=16.96ms
+[2019.03.26-06.22.10:235][709]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Map01_BuiltDataE68DAAE24E3F0290BE189097653ABC80.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01_BuiltData.uasset'
+[2019.03.26-06.22.10:236][709]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01_BuiltData.uasset
+[2019.03.26-06.22.16:018][977]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.26-06.22.16:037][977]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.26-06.22.16:037][977]PIE: New page: PIE session: Map01 (Mar 26, 2019, 8:22:16 PM)
+[2019.03.26-06.22.16:037][977]LogPlayLevel: Creating play world package: /Game/MyMap/UEDPIE_0_Map01
+[2019.03.26-06.22.16:039][977]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002216s)
+[2019.03.26-06.22.16:040][977]LogAIModule: Creating AISystem for world Map01
+[2019.03.26-06.22.16:041][977]LogPlayLevel: PIE: World Init took: (0.001359s)
+[2019.03.26-06.22.16:041][977]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMap/Map01.Map01 to /Game/MyMap/UEDPIE_0_Map01.Map01 (0.003787s)
+[2019.03.26-06.22.16:068][977]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.26-06.22.16:099][977]LogInit: FAudioDevice initialized.
+[2019.03.26-06.22.16:141][977]LogLoad: Game class is 'MyGameModeBase'
+[2019.03.26-06.22.16:142][977]LogWorld: Bringing World /Game/MyMap/UEDPIE_0_Map01.Map01 up for play (max tick rate 60) at 2019.03.26-13.22.16
+[2019.03.26-06.22.16:142][977]LogWorld: Bringing up level for play took: 0.000831
+[2019.03.26-06.22.16:170][977]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0058 seconds. Added 11 classes and 0 folders.
+[2019.03.26-06.22.16:176][977]PIE: Play in editor start time for /Game/MyMap/UEDPIE_0_Map01 1.017
+[2019.03.26-06.22.32:675][952]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.22.48:049][813]BlueprintLog: New page: Compile HunkAnimation
+[2019.03.26-06.22.48:053][813]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002b4f4fee5f8, Size=4
+[2019.03.26-06.22.48:053][813]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b4889fab10, Size=4, Default__HunkAnimation_C Function /Engine/Transient.REINST_HunkAnimation_C_7:ExecuteUbergraph_HunkAnimation
+[2019.03.26-06.22.48:055][813]LogUObjectGlobals: Created PersistentFrame Addr=0x000002b4889fac80, Size=4, Default__HunkAnimation_C Function /Game/MyCharacter/Hero/HunkAnimation.HunkAnimation_C:ExecuteUbergraph_HunkAnimation
+[2019.03.26-06.22.48:822][843]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Hero/HunkAnimation" FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/HunkAnimation.uasset" SILENT=true
+[2019.03.26-06.22.48:862][843]LogSavePackage: Save=25.85ms
+[2019.03.26-06.22.48:862][843]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/HunkAnimationD75BBFB84B8A6789400340A6D3D24CD3.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/HunkAnimation.uasset'
+[2019.03.26-06.22.48:865][843]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/HunkAnimation.uasset
+[2019.03.26-06.22.51:818][ 19]Candidate modules for hot reload:
+[2019.03.26-06.22.51:818][ 19]  ResidentEvil
+[2019.03.26-06.22.51:818][ 19]Launching UnrealBuildTool... [D:/Cai Dat/UE4/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe ResidentEvil -ModuleWithSuffix=ResidentEvil,1734 Win64 Development -editorrecompile -canskiplink "D:/KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/ResidentEvil.uproject" ]
+[2019.03.26-06.22.51:832][ 19]Warning: Starting HotReload took  0.0s.
+[2019.03.26-06.22.53:084][ 95]CompilerResultsLog: New page: Compilation - Mar 26, 2019, 8:22:53 PM
+[2019.03.26-06.22.53:084][ 95]CompilerResultsLog: Compiling game modules for hot reload
+[2019.03.26-06.22.53:084][ 95]CompilerResultsLog: Target is up to date
+[2019.03.26-06.22.53:084][ 95]CompilerResultsLog: Total build time: 0.89 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2019.03.26-06.22.53:084][ 95]LogMainFrame: MainFrame: Module compiling took 1.271 seconds
+[2019.03.26-06.22.53:110][ 95]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002b4889fab10, Size=4
+[2019.03.26-06.22.53:385][ 95]LogContentBrowser: Native class hierarchy populated in 0.0158 seconds. Added 2459 classes and 569 folders.
+[2019.03.26-06.22.53:386][ 95]Display: HotReload took  1.6s.
+[2019.03.26-06.22.54:701][172]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.26-06.22.54:720][172]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.26-06.22.54:721][172]PIE: New page: PIE session: Map01 (Mar 26, 2019, 8:22:54 PM)
+[2019.03.26-06.22.54:721][172]LogPlayLevel: Creating play world package: /Game/MyMap/UEDPIE_0_Map01
+[2019.03.26-06.22.54:723][172]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001857s)
+[2019.03.26-06.22.54:723][172]LogAIModule: Creating AISystem for world Map01
+[2019.03.26-06.22.54:723][172]LogPlayLevel: PIE: World Init took: (0.000785s)
+[2019.03.26-06.22.54:724][172]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMap/Map01.Map01 to /Game/MyMap/UEDPIE_0_Map01.Map01 (0.002822s)
+[2019.03.26-06.22.54:801][172]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.26-06.22.54:829][172]LogInit: FAudioDevice initialized.
+[2019.03.26-06.22.54:874][172]LogLoad: Game class is 'MyGameModeBase'
+[2019.03.26-06.22.54:877][172]LogWorld: Bringing World /Game/MyMap/UEDPIE_0_Map01.Map01 up for play (max tick rate 60) at 2019.03.26-13.22.54
+[2019.03.26-06.22.54:878][172]LogWorld: Bringing up level for play took: 0.001992
+[2019.03.26-06.22.54:884][172]PIE: Play in editor start time for /Game/MyMap/UEDPIE_0_Map01 -0.275
+[2019.03.26-06.23.14:778][351]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.23.14:828][354]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.26-06.23.14:847][354]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.26-06.23.14:847][354]PIE: New page: PIE session: Map01 (Mar 26, 2019, 8:23:14 PM)
+[2019.03.26-06.23.14:847][354]LogPlayLevel: Creating play world package: /Game/MyMap/UEDPIE_0_Map01
+[2019.03.26-06.23.14:849][354]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001968s)
+[2019.03.26-06.23.14:849][354]LogAIModule: Creating AISystem for world Map01
+[2019.03.26-06.23.14:850][354]LogPlayLevel: PIE: World Init took: (0.000954s)
+[2019.03.26-06.23.14:850][354]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMap/Map01.Map01 to /Game/MyMap/UEDPIE_0_Map01.Map01 (0.003172s)
+[2019.03.26-06.23.14:879][354]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.26-06.23.14:907][354]LogInit: FAudioDevice initialized.
+[2019.03.26-06.23.14:939][354]LogLoad: Game class is 'MyGameModeBase'
+[2019.03.26-06.23.14:940][354]LogWorld: Bringing World /Game/MyMap/UEDPIE_0_Map01.Map01 up for play (max tick rate 60) at 2019.03.26-13.23.14
+[2019.03.26-06.23.14:941][354]LogWorld: Bringing up level for play took: 0.000621
+[2019.03.26-06.23.14:942][354]PIE: Play in editor start time for /Game/MyMap/UEDPIE_0_Map01 -0.216
+[2019.03.26-06.23.30:814][300]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.23.52:373][662]Candidate modules for hot reload:
+[2019.03.26-06.23.52:373][662]  ResidentEvil
+[2019.03.26-06.23.52:373][662]Launching UnrealBuildTool... [D:/Cai Dat/UE4/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe ResidentEvil -ModuleWithSuffix=ResidentEvil,6143 Win64 Development -editorrecompile -canskiplink "D:/KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/ResidentEvil.uproject" ]
+[2019.03.26-06.23.52:383][662]Warning: Starting HotReload took  0.0s.
+[2019.03.26-06.23.58:321][ 15]CompilerResultsLog: New page: Compilation - Mar 26, 2019, 8:23:58 PM
+[2019.03.26-06.23.58:321][ 15]CompilerResultsLog: Compiling game modules for hot reload
+[2019.03.26-06.23.58:321][ 15]CompilerResultsLog: Performing 5 actions (2 in parallel)
+[2019.03.26-06.23.58:321][ 15]CompilerResultsLog: GameConstValue.cpp
+[2019.03.26-06.23.58:321][ 15]CompilerResultsLog: HunkAnimInstance.cpp
+[2019.03.26-06.23.58:321][ 15]CompilerResultsLog: Hunk.cpp
+[2019.03.26-06.23.58:321][ 15]CompilerResultsLog: [4/5] Link UE4Editor-ResidentEvil-6143.dll
+[2019.03.26-06.23.58:321][ 15]CompilerResultsLog: [5/5] Link UE4Editor-ResidentEvil-6143.lib
+[2019.03.26-06.23.58:321][ 15]CompilerResultsLog:    Creating library D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ResidentEvil-6143.lib and object D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ResidentEvil-6143.exp
+[2019.03.26-06.23.58:321][ 15]CompilerResultsLog:    Creating library D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ResidentEvil-6143.suppressed.lib and object D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ResidentEvil-6143.suppressed.exp
+[2019.03.26-06.23.58:321][ 15]CompilerResultsLog: Total build time: 5.60 seconds (Local executor: 4.67 seconds)
+[2019.03.26-06.23.58:322][ 15]LogMainFrame: MainFrame: Module compiling took 5.953 seconds
+[2019.03.26-06.23.58:382][ 15]LogHotReload: Re-instancing Hunk after hot-reload.
+[2019.03.26-06.23.58:491][ 15]LogContentBrowser: Native class hierarchy updated for 'ResidentEvil' in 0.0064 seconds. Added 5 classes and 7 folders.
+[2019.03.26-06.23.58:495][ 15]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.03.26-06.23.58:850][ 15]LogContentBrowser: Native class hierarchy populated in 0.0161 seconds. Added 2459 classes and 569 folders.
+[2019.03.26-06.23.58:850][ 15]Display: HotReload took  6.5s.
+[2019.03.26-06.24.00:307][ 97]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.24.00:374][101]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.26-06.24.00:392][101]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.26-06.24.00:393][101]PIE: New page: PIE session: Map01 (Mar 26, 2019, 8:24:00 PM)
+[2019.03.26-06.24.00:393][101]LogPlayLevel: Creating play world package: /Game/MyMap/UEDPIE_0_Map01
+[2019.03.26-06.24.00:395][101]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002084s)
+[2019.03.26-06.24.00:396][101]LogAIModule: Creating AISystem for world Map01
+[2019.03.26-06.24.00:396][101]LogPlayLevel: PIE: World Init took: (0.001426s)
+[2019.03.26-06.24.00:396][101]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMap/Map01.Map01 to /Game/MyMap/UEDPIE_0_Map01.Map01 (0.003666s)
+[2019.03.26-06.24.00:470][101]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.26-06.24.00:499][101]LogInit: FAudioDevice initialized.
+[2019.03.26-06.24.00:535][101]LogLoad: Game class is 'MyGameModeBase'
+[2019.03.26-06.24.00:537][101]LogWorld: Bringing World /Game/MyMap/UEDPIE_0_Map01.Map01 up for play (max tick rate 60) at 2019.03.26-13.24.00
+[2019.03.26-06.24.00:537][101]LogWorld: Bringing up level for play took: 0.001003
+[2019.03.26-06.24.00:541][101]PIE: Play in editor start time for /Game/MyMap/UEDPIE_0_Map01 -0.617
+[2019.03.26-06.24.21:941][370]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.24.24:968][551]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2019.03.26-06.24.25:042][551]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.26-06.24.26:284][621]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.26-06.24.26:328][621]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.26-06.24.34:540][109]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.24.45:158][280]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.24.45:221][283]Candidate modules for hot reload:
+[2019.03.26-06.24.45:221][283]  ResidentEvil
+[2019.03.26-06.24.45:221][283]Launching UnrealBuildTool... [D:/Cai Dat/UE4/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe ResidentEvil -ModuleWithSuffix=ResidentEvil,184 Win64 Development -editorrecompile -canskiplink "D:/KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/ResidentEvil.uproject" ]
+[2019.03.26-06.24.45:229][283]Warning: Starting HotReload took  0.0s.
+[2019.03.26-06.24.52:427][633]CompilerResultsLog: New page: Compilation - Mar 26, 2019, 8:24:52 PM
+[2019.03.26-06.24.52:427][633]CompilerResultsLog: Compiling game modules for hot reload
+[2019.03.26-06.24.52:427][633]CompilerResultsLog: Performing 5 actions (2 in parallel)
+[2019.03.26-06.24.52:427][633]CompilerResultsLog: HunkAnimInstance.cpp
+[2019.03.26-06.24.52:427][633]CompilerResultsLog: GameConstValue.cpp
+[2019.03.26-06.24.52:427][633]CompilerResultsLog: Hunk.cpp
+[2019.03.26-06.24.52:427][633]CompilerResultsLog: [4/5] Link UE4Editor-ResidentEvil-184.dll
+[2019.03.26-06.24.52:427][633]CompilerResultsLog: [5/5] Link UE4Editor-ResidentEvil-184.lib
+[2019.03.26-06.24.52:427][633]CompilerResultsLog:    Creating library D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ResidentEvil-184.lib and object D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ResidentEvil-184.exp
+[2019.03.26-06.24.52:427][633]CompilerResultsLog:    Creating library D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ResidentEvil-184.suppressed.lib and object D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ResidentEvil-184.suppressed.exp
+[2019.03.26-06.24.52:427][633]CompilerResultsLog: Total build time: 6.67 seconds (Local executor: 5.58 seconds)
+[2019.03.26-06.24.52:427][633]LogMainFrame: MainFrame: Module compiling took 7.211 seconds
+[2019.03.26-06.24.52:494][633]LogHotReload: Re-instancing Hunk after hot-reload.
+[2019.03.26-06.24.52:620][633]LogContentBrowser: Native class hierarchy updated for 'ResidentEvil' in 0.0065 seconds. Added 5 classes and 7 folders.
+[2019.03.26-06.24.52:624][633]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.03.26-06.24.53:052][633]LogContentBrowser: Native class hierarchy populated in 0.0196 seconds. Added 2459 classes and 569 folders.
+[2019.03.26-06.24.53:052][633]Display: HotReload took  7.8s.
+[2019.03.26-06.24.53:900][678]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.24.53:983][683]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.26-06.24.54:009][683]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.26-06.24.54:009][683]PIE: New page: PIE session: Map01 (Mar 26, 2019, 8:24:54 PM)
+[2019.03.26-06.24.54:009][683]LogPlayLevel: Creating play world package: /Game/MyMap/UEDPIE_0_Map01
+[2019.03.26-06.24.54:012][683]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002622s)
+[2019.03.26-06.24.54:013][683]LogAIModule: Creating AISystem for world Map01
+[2019.03.26-06.24.54:013][683]LogPlayLevel: PIE: World Init took: (0.001138s)
+[2019.03.26-06.24.54:013][683]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMap/Map01.Map01 to /Game/MyMap/UEDPIE_0_Map01.Map01 (0.004005s)
+[2019.03.26-06.24.54:087][683]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.26-06.24.54:117][683]LogInit: FAudioDevice initialized.
+[2019.03.26-06.24.54:151][683]LogLoad: Game class is 'MyGameModeBase'
+[2019.03.26-06.24.54:152][683]LogWorld: Bringing World /Game/MyMap/UEDPIE_0_Map01.Map01 up for play (max tick rate 60) at 2019.03.26-13.24.54
+[2019.03.26-06.24.54:152][683]LogWorld: Bringing up level for play took: 0.000802
+[2019.03.26-06.24.54:154][683]PIE: Play in editor start time for /Game/MyMap/UEDPIE_0_Map01 0.996
+[2019.03.26-06.24.58:792][955]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.26-06.25.17:365][ 67]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.26-06.25.18:156][107]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.26-06.25.20:502][244]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.25.24:180][459]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.26-06.25.24:206][459]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.26-06.25.24:911][500]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.26-06.25.25:668][542]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.25.26:617][590]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.26-06.25.26:636][590]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.26-06.25.26:637][590]PIE: New page: PIE session: Map01 (Mar 26, 2019, 8:25:26 PM)
+[2019.03.26-06.25.26:637][590]LogPlayLevel: Creating play world package: /Game/MyMap/UEDPIE_0_Map01
+[2019.03.26-06.25.26:639][590]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002274s)
+[2019.03.26-06.25.26:640][590]LogAIModule: Creating AISystem for world Map01
+[2019.03.26-06.25.26:640][590]LogPlayLevel: PIE: World Init took: (0.000803s)
+[2019.03.26-06.25.26:640][590]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMap/Map01.Map01 to /Game/MyMap/UEDPIE_0_Map01.Map01 (0.003275s)
+[2019.03.26-06.25.26:669][590]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.26-06.25.26:696][590]LogInit: FAudioDevice initialized.
+[2019.03.26-06.25.26:729][590]LogLoad: Game class is 'MyGameModeBase'
+[2019.03.26-06.25.26:730][590]LogWorld: Bringing World /Game/MyMap/UEDPIE_0_Map01.Map01 up for play (max tick rate 60) at 2019.03.26-13.25.26
+[2019.03.26-06.25.26:730][590]LogWorld: Bringing up level for play took: 0.000531
+[2019.03.26-06.25.26:732][590]PIE: Play in editor start time for /Game/MyMap/UEDPIE_0_Map01 -0.426
+[2019.03.26-06.26.32:750][542]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.03.26-06.26.34:403][631]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.26-06.26.46:414][325]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.26-06.26.58:230][  8]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.27.00:808][162]LogActorFactory: Actor Factory created Cube
+[2019.03.26-06.27.01:687][214]LogActorFactory: Actor Factory created Cube
+[2019.03.26-06.27.04:340][369]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.26-06.27.21:902][417]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.03.26-06.27.22:460][447]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.03.26-06.27.24:646][577]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.27.33:228][ 78]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.03.26-06.27.42:056][602]Cmd: DELETE
+[2019.03.26-06.27.42:056][602]Cmd: ACTOR DELETE
+[2019.03.26-06.27.42:068][602]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.03.26-06.27.42:093][602]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2019.03.26-06.27.49:369][ 36]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.27.55:291][390]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Hero/HunkAnimation" FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/HunkAnimation.uasset" SILENT=true
+[2019.03.26-06.27.55:324][390]LogSavePackage: Save=16.77ms
+[2019.03.26-06.27.55:324][390]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/HunkAnimation3C517D5C4633A4AF9BAE34AEB575936E.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/HunkAnimation.uasset'
+[2019.03.26-06.27.55:327][390]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/HunkAnimation.uasset
+[2019.03.26-06.28.11:517][361]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.28.38:009][950]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.28.47:759][501]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.29.19:944][175]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.29.20:033][179]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMap/Map01" FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.26-06.29.20:133][179]LogSavePackage: Save=30.70ms
+[2019.03.26-06.29.20:133][179]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Map01D4ABEA71487B43EA841B70875C41122E.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01.umap'
+[2019.03.26-06.29.20:136][179]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01.umap
+[2019.03.26-06.29.20:170][179]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMap/Map01_BuiltData" FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01_BuiltData.uasset" SILENT=true
+[2019.03.26-06.29.20:205][179]LogSavePackage: Save=18.75ms
+[2019.03.26-06.29.20:205][179]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Map01_BuiltData93C65DDA460B181FD1E483A678173821.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01_BuiltData.uasset'
+[2019.03.26-06.29.20:206][179]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01_BuiltData.uasset
+[2019.03.26-06.29.24:036][407]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.26-06.29.24:056][407]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.26-06.29.24:056][407]PIE: New page: PIE session: Map01 (Mar 26, 2019, 8:29:24 PM)
+[2019.03.26-06.29.24:056][407]LogPlayLevel: Creating play world package: /Game/MyMap/UEDPIE_0_Map01
+[2019.03.26-06.29.24:059][407]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003119s)
+[2019.03.26-06.29.24:060][407]LogAIModule: Creating AISystem for world Map01
+[2019.03.26-06.29.24:061][407]LogPlayLevel: PIE: World Init took: (0.001294s)
+[2019.03.26-06.29.24:061][407]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMap/Map01.Map01 to /Game/MyMap/UEDPIE_0_Map01.Map01 (0.004612s)
+[2019.03.26-06.29.24:111][407]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.26-06.29.24:143][407]LogInit: FAudioDevice initialized.
+[2019.03.26-06.29.24:180][407]LogLoad: Game class is 'MyGameModeBase'
+[2019.03.26-06.29.24:182][407]LogWorld: Bringing World /Game/MyMap/UEDPIE_0_Map01.Map01 up for play (max tick rate 60) at 2019.03.26-13.29.24
+[2019.03.26-06.29.24:182][407]LogWorld: Bringing up level for play took: 0.001102
+[2019.03.26-06.29.24:185][407]PIE: Play in editor start time for /Game/MyMap/UEDPIE_0_Map01 1.027
+[2019.03.26-06.30.11:398][971]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.41.52:991][314]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.03.26-06.41.55:268][434]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.26-06.42.02:528][841]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.26-06.42.02:541][841]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMap/Map01" FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.26-06.42.02:602][841]LogSavePackage: Save=24.67ms
+[2019.03.26-06.42.02:602][841]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Map01B6AA1915435F0425C8849DB172F7960C.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01.umap'
+[2019.03.26-06.42.02:605][841]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01.umap
+[2019.03.26-06.42.02:638][841]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMap/Map01_BuiltData" FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01_BuiltData.uasset" SILENT=true
+[2019.03.26-06.42.02:674][841]LogSavePackage: Save=20.51ms
+[2019.03.26-06.42.02:674][841]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Map01_BuiltData59C5941641E37E3612F63E9D2FCBAC06.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01_BuiltData.uasset'
+[2019.03.26-06.42.02:676][841]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01_BuiltData.uasset
+[2019.03.26-06.42.04:312][928]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.42.04:378][932]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.26-06.42.04:397][932]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.26-06.42.04:398][932]PIE: New page: PIE session: Map01 (Mar 26, 2019, 8:42:04 PM)
+[2019.03.26-06.42.04:398][932]LogPlayLevel: Creating play world package: /Game/MyMap/UEDPIE_0_Map01
+[2019.03.26-06.42.04:400][932]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001859s)
+[2019.03.26-06.42.04:400][932]LogAIModule: Creating AISystem for world Map01
+[2019.03.26-06.42.04:401][932]LogPlayLevel: PIE: World Init took: (0.001035s)
+[2019.03.26-06.42.04:401][932]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMap/Map01.Map01 to /Game/MyMap/UEDPIE_0_Map01.Map01 (0.003118s)
+[2019.03.26-06.42.04:427][932]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.26-06.42.04:455][932]LogInit: FAudioDevice initialized.
+[2019.03.26-06.42.04:490][932]LogLoad: Game class is 'MyGameModeBase'
+[2019.03.26-06.42.04:491][932]LogWorld: Bringing World /Game/MyMap/UEDPIE_0_Map01.Map01 up for play (max tick rate 60) at 2019.03.26-13.42.04
+[2019.03.26-06.42.04:492][932]LogWorld: Bringing up level for play took: 0.001191
+[2019.03.26-06.42.04:494][932]PIE: Play in editor start time for /Game/MyMap/UEDPIE_0_Map01 -0.664
+[2019.03.26-06.44.23:995][293]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.26-06.44.24:010][293]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMap/Map01" FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.26-06.44.24:061][293]LogSavePackage: Save=25.03ms
+[2019.03.26-06.44.24:061][293]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Map01040BC0AF43D51D9C031A3BB7D5B53499.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01.umap'
+[2019.03.26-06.44.24:062][293]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01.umap
+[2019.03.26-06.44.24:095][293]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMap/Map01_BuiltData" FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01_BuiltData.uasset" SILENT=true
+[2019.03.26-06.44.24:120][293]LogSavePackage: Save=17.78ms
+[2019.03.26-06.44.24:120][293]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Map01_BuiltDataA090F8C74587E0C267EA279E4E7D9BE5.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01_BuiltData.uasset'
+[2019.03.26-06.44.24:121][293]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01_BuiltData.uasset
+[2019.03.26-06.44.25:285][357]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.45.41:797][782]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-06.45.41:952][785]LogSlate: Window 'ResidentEvil - Unreal Editor' being destroyed
+[2019.03.26-06.45.42:173][786]Cmd: QUIT_EDITOR
+[2019.03.26-06.45.42:931][786]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.26-06.45.42:979][786]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.03.26-06.45.42:979][786]LogExit: Preparing to exit.
+[2019.03.26-06.45.43:145][786]LogDirectoryWatcher: A directory notification for 'D:/KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/' was aborted.
+[2019.03.26-06.45.43:203][786]LogExit: Editor shut down
+[2019.03.26-06.45.43:214][786]LogExit: Transaction tracking system shut down
+[2019.03.26-06.45.43:238][786]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002b41ba276f8, Size=4
+[2019.03.26-06.45.43:239][786]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002b41ba276f0, Size=4
+[2019.03.26-06.45.43:240][786]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002b4889fac80, Size=4
+[2019.03.26-06.45.43:496][786]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2019.03.26-06.45.43:496][786]LogDirectoryWatcher: A directory notification for '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/' was aborted.
+[2019.03.26-06.45.43:496][786]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
+[2019.03.26-06.45.43:496][786]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
+[2019.03.26-06.45.43:496][786]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
+[2019.03.26-06.45.43:496][786]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2019.03.26-06.45.43:496][786]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2019.03.26-06.45.43:496][786]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2019.03.26-06.45.43:651][786]LogExit: Object subsystem successfully closed.
+[2019.03.26-06.45.43:664][786]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.03.26-06.45.43:671][786]LogD3D11RHI: Shutdown
+[2019.03.26-06.45.43:671][786]LogD3D11RHI: CleanupD3DDevice
+[2019.03.26-06.45.43:677][786]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.03.26-06.45.43:691][786]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (595)
+[2019.03.26-06.45.43:691][786]LogModuleManager: Shutting down and abandoning module ResidentEvil (593)
+[2019.03.26-06.45.43:691][786]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (591)
+[2019.03.26-06.45.43:691][786]LogModuleManager: Shutting down and abandoning module BlueprintGraph (588)
+[2019.03.26-06.45.43:691][786]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (586)
+[2019.03.26-06.45.43:691][786]LogModuleManager: Shutting down and abandoning module AnimationEditor (584)
+[2019.03.26-06.45.43:691][786]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (582)
+[2019.03.26-06.45.43:691][786]LogModuleManager: Shutting down and abandoning module PinnedCommandList (580)
+[2019.03.26-06.45.43:691][786]LogModuleManager: Shutting down and abandoning module SkeletonEditor (578)
+[2019.03.26-06.45.43:691][786]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (576)
+[2019.03.26-06.45.43:691][786]LogModuleManager: Shutting down and abandoning module DesktopPlatform (574)
+[2019.03.26-06.45.43:692][786]LogModuleManager: Shutting down and abandoning module SceneOutliner (572)
+[2019.03.26-06.45.43:692][786]LogModuleManager: Shutting down and abandoning module AddContentDialog (570)
+[2019.03.26-06.45.43:692][786]LogDirectoryWatcher: A directory notification for 'D:/Cai Dat/UE4/UE_4.19/FeaturePacks/' was aborted.
+[2019.03.26-06.45.43:695][786]LogModuleManager: Shutting down and abandoning module WidgetCarousel (569)
+[2019.03.26-06.45.43:695][786]LogModuleManager: Shutting down and abandoning module EditorWidgets (566)
+[2019.03.26-06.45.43:695][786]LogModuleManager: Shutting down and abandoning module CollectionManager (564)
+[2019.03.26-06.45.43:695][786]LogDirectoryWatcher: A directory notification for 'D:/KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/Collections/' was aborted.
+[2019.03.26-06.45.43:695][786]LogDirectoryWatcher: A directory notification for 'D:/KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/Developers/kvtuy/Collections/' was aborted.
+[2019.03.26-06.45.43:695][786]LogDirectoryWatcher: A directory notification for 'D:/KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Collections/' was aborted.
+[2019.03.26-06.45.43:695][786]LogModuleManager: Shutting down and abandoning module StatsViewer (562)
+[2019.03.26-06.45.43:695][786]LogModuleManager: Shutting down and abandoning module FoliageEdit (560)
+[2019.03.26-06.45.43:695][786]LogModuleManager: Shutting down and abandoning module LandscapeEditor (558)
+[2019.03.26-06.45.43:696][786]LogModuleManager: Shutting down and abandoning module MeshPaintMode (556)
+[2019.03.26-06.45.43:696][786]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (554)
+[2019.03.26-06.45.43:696][786]LogModuleManager: Shutting down and abandoning module ActorPickerMode (552)
+[2019.03.26-06.45.43:696][786]LogModuleManager: Shutting down and abandoning module GeometryMode (550)
+[2019.03.26-06.45.43:696][786]LogModuleManager: Shutting down and abandoning module TextureAlignMode (548)
+[2019.03.26-06.45.43:696][786]LogModuleManager: Shutting down and abandoning module BspMode (546)
+[2019.03.26-06.45.43:696][786]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (544)
+[2019.03.26-06.45.43:696][786]LogModuleManager: Shutting down and abandoning module HardwareSurvey (542)
+[2019.03.26-06.45.43:696][786]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (540)
+[2019.03.26-06.45.43:696][786]LogModuleManager: Shutting down and abandoning module AutomationWorker (538)
+[2019.03.26-06.45.43:696][786]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (536)
+[2019.03.26-06.45.43:696][786]LogModuleManager: Shutting down and abandoning module SequenceRecorder (535)
+[2019.03.26-06.45.43:696][786]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (532)
+[2019.03.26-06.45.43:696][786]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (530)
+[2019.03.26-06.45.43:696][786]LogModuleManager: Shutting down and abandoning module PlacementMode (529)
+[2019.03.26-06.45.43:696][786]LogModuleManager: Shutting down and abandoning module MaterialEditor (528)
+[2019.03.26-06.45.43:696][786]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (524)
+[2019.03.26-06.45.43:696][786]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (522)
+[2019.03.26-06.45.43:696][786]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (520)
+[2019.03.26-06.45.43:696][786]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (518)
+[2019.03.26-06.45.43:696][786]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (516)
+[2019.03.26-06.45.43:696][786]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (514)
+[2019.03.26-06.45.43:696][786]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (512)
+[2019.03.26-06.45.43:696][786]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (510)
+[2019.03.26-06.45.43:696][786]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (508)
+[2019.03.26-06.45.43:696][786]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (506)
+[2019.03.26-06.45.43:696][786]LogModuleManager: Shutting down and abandoning module CharacterAI (504)
+[2019.03.26-06.45.43:696][786]LogModuleManager: Shutting down and abandoning module SmartSnapping (502)
+[2019.03.26-06.45.43:696][786]LogModuleManager: Shutting down and abandoning module SessionServices (500)
+[2019.03.26-06.45.43:696][786]LogModuleManager: Shutting down and abandoning module ViewportSnapping (498)
+[2019.03.26-06.45.43:696][786]LogModuleManager: Shutting down and abandoning module ViewportInteraction (496)
+[2019.03.26-06.45.43:696][786]LogModuleManager: Shutting down and abandoning module ClothPainter (494)
+[2019.03.26-06.45.43:696][786]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (493)
+[2019.03.26-06.45.43:696][786]LogModuleManager: Shutting down and abandoning module LogVisualizer (490)
+[2019.03.26-06.45.43:697][786]LogModuleManager: Shutting down and abandoning module IntroTutorials (488)
+[2019.03.26-06.45.43:697][786]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (487)
+[2019.03.26-06.45.43:697][786]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (484)
+[2019.03.26-06.45.43:697][786]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (482)
+[2019.03.26-06.45.43:697][786]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (480)
+[2019.03.26-06.45.43:697][786]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (479)
+[2019.03.26-06.45.44:311][786]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (476)
+[2019.03.26-06.45.44:311][786]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (474)
+[2019.03.26-06.45.44:311][786]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (472)
+[2019.03.26-06.45.44:311][786]LogModuleManager: Shutting down and abandoning module InputBindingEditor (470)
+[2019.03.26-06.45.44:311][786]LogModuleManager: Shutting down and abandoning module MergeActors (468)
+[2019.03.26-06.45.44:311][786]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (466)
+[2019.03.26-06.45.44:311][786]LogModuleManager: Shutting down and abandoning module LocalizationService (465)
+[2019.03.26-06.45.44:311][786]LogModuleManager: Shutting down and abandoning module HardwareTargeting (462)
+[2019.03.26-06.45.44:312][786]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (460)
+[2019.03.26-06.45.44:312][786]LogModuleManager: Shutting down and abandoning module UndoHistory (458)
+[2019.03.26-06.45.44:312][786]LogModuleManager: Shutting down and abandoning module XmlParser (456)
+[2019.03.26-06.45.44:312][786]LogModuleManager: Shutting down and abandoning module Blutility (454)
+[2019.03.26-06.45.44:312][786]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (452)
+[2019.03.26-06.45.44:312][786]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (451)
+[2019.03.26-06.45.44:313][786]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (448)
+[2019.03.26-06.45.44:313][786]LogModuleManager: Shutting down and abandoning module SettingsEditor (446)
+[2019.03.26-06.45.44:313][786]LogModuleManager: Shutting down and abandoning module ProjectLauncher (444)
+[2019.03.26-06.45.44:313][786]LogModuleManager: Shutting down and abandoning module SessionFrontend (442)
+[2019.03.26-06.45.44:313][786]LogModuleManager: Shutting down and abandoning module ProfilerClient (440)
+[2019.03.26-06.45.44:313][786]LogModuleManager: Shutting down and abandoning module DeviceManager (438)
+[2019.03.26-06.45.44:313][786]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (437)
+[2019.03.26-06.45.44:380][786]LogModuleManager: Shutting down and abandoning module AutomationController (434)
+[2019.03.26-06.45.44:380][786]LogModuleManager: Shutting down and abandoning module AutomationWindow (432)
+[2019.03.26-06.45.44:380][786]LogModuleManager: Shutting down and abandoning module Layers (430)
+[2019.03.26-06.45.44:381][786]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (428)
+[2019.03.26-06.45.44:381][786]LogModuleManager: Shutting down and abandoning module DetailCustomizations (426)
+[2019.03.26-06.45.44:381][786]LogModuleManager: Shutting down and abandoning module PackagesDialog (424)
+[2019.03.26-06.45.44:382][786]LogModuleManager: Shutting down and abandoning module Persona (422)
+[2019.03.26-06.45.44:382][786]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (421)
+[2019.03.26-06.45.44:382][786]LogModuleManager: Shutting down and abandoning module AnimGraph (419)
+[2019.03.26-06.45.44:382][786]LogModuleManager: Shutting down and abandoning module Kismet (416)
+[2019.03.26-06.45.44:402][786]LogModuleManager: Shutting down and abandoning module GraphEditor (414)
+[2019.03.26-06.45.44:402][786]LogModuleManager: Shutting down and abandoning module ClassViewer (412)
+[2019.03.26-06.45.44:407][786]LogModuleManager: Shutting down and abandoning module Toolbox (410)
+[2019.03.26-06.45.44:407][786]LogModuleManager: Shutting down and abandoning module ModuleUI (408)
+[2019.03.26-06.45.44:407][786]LogModuleManager: Shutting down and abandoning module MovieSceneTools (406)
+[2019.03.26-06.45.44:408][786]LogModuleManager: Shutting down and abandoning module OutputLog (404)
+[2019.03.26-06.45.44:408][786]LogModuleManager: Shutting down and abandoning module GammaUI (402)
+[2019.03.26-06.45.44:408][786]LogModuleManager: Shutting down and abandoning module Documentation (400)
+[2019.03.26-06.45.44:408][786]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (398)
+[2019.03.26-06.45.44:408][786]LogModuleManager: Shutting down and abandoning module MovieScene (396)
+[2019.03.26-06.45.44:408][786]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (394)
+[2019.03.26-06.45.44:408][786]LogModuleManager: Shutting down and abandoning module LauncherPlatform (392)
+[2019.03.26-06.45.44:408][786]LogModuleManager: Shutting down and abandoning module AnalyticsET (390)
+[2019.03.26-06.45.44:408][786]LogModuleManager: Shutting down and abandoning module PortalServices (388)
+[2019.03.26-06.45.44:409][786]LogModuleManager: Shutting down and abandoning module PortalRpc (386)
+[2019.03.26-06.45.44:409][786]LogModuleManager: Shutting down and abandoning module MessagingRpc (384)
+[2019.03.26-06.45.44:409][786]LogModuleManager: Shutting down and abandoning module AIModule (382)
+[2019.03.26-06.45.44:409][786]LogModuleManager: Shutting down and abandoning module GameplayDebugger (381)
+[2019.03.26-06.45.44:409][786]LogModuleManager: Shutting down and abandoning module AITestSuite (379)
+[2019.03.26-06.45.44:409][786]LogModuleManager: Shutting down and abandoning module ProfilerService (376)
+[2019.03.26-06.45.44:444][786]LogModuleManager: Shutting down and abandoning module TaskGraph (374)
+[2019.03.26-06.45.44:444][786]LogModuleManager: Shutting down and abandoning module SteamVRController (372)
+[2019.03.26-06.45.44:444][786]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (370)
+[2019.03.26-06.45.44:444][786]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (368)
+[2019.03.26-06.45.44:444][786]LogModuleManager: Shutting down and abandoning module OculusInput (366)
+[2019.03.26-06.45.44:444][786]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (364)
+[2019.03.26-06.45.44:444][786]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (362)
+[2019.03.26-06.45.44:444][786]LogModuleManager: Shutting down and abandoning module CableComponent (360)
+[2019.03.26-06.45.44:444][786]LogModuleManager: Shutting down and abandoning module AudioCapture (358)
+[2019.03.26-06.45.44:444][786]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (356)
+[2019.03.26-06.45.44:444][786]LogModuleManager: Shutting down and abandoning module AndroidPermission (354)
+[2019.03.26-06.45.44:445][786]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (350)
+[2019.03.26-06.45.44:445][786]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (348)
+[2019.03.26-06.45.44:445][786]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (346)
+[2019.03.26-06.45.44:445][786]LogModuleManager: Shutting down and abandoning module MediaCompositing (344)
+[2019.03.26-06.45.44:445][786]LogModuleManager: Shutting down and abandoning module LinearTimecode (342)
+[2019.03.26-06.45.44:445][786]LogModuleManager: Shutting down and abandoning module ImgMedia (340)
+[2019.03.26-06.45.44:458][786]LogModuleManager: Shutting down and abandoning module HTML5Networking (338)
+[2019.03.26-06.45.44:458][786]LogModuleManager: Shutting down and abandoning module AlembicImporter (336)
+[2019.03.26-06.45.44:458][786]LogModuleManager: Shutting down and abandoning module AlembicLibrary (335)
+[2019.03.26-06.45.44:458][786]LogModuleManager: Shutting down and abandoning module GeometryCache (334)
+[2019.03.26-06.45.44:458][786]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (333)
+[2019.03.26-06.45.44:458][786]LogModuleManager: Shutting down and abandoning module DatasmithContent (328)
+[2019.03.26-06.45.44:458][786]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (326)
+[2019.03.26-06.45.44:458][786]LogModuleManager: Shutting down and abandoning module PluginBrowser (324)
+[2019.03.26-06.45.44:458][786]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (322)
+[2019.03.26-06.45.44:459][786]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (320)
+[2019.03.26-06.45.44:459][786]LogModuleManager: Shutting down and abandoning module CryptoKeys (318)
+[2019.03.26-06.45.44:459][786]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (316)
+[2019.03.26-06.45.44:459][786]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (314)
+[2019.03.26-06.45.44:459][786]LogModuleManager: Shutting down and abandoning module UObjectPlugin (312)
+[2019.03.26-06.45.44:459][786]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (310)
+[2019.03.26-06.45.44:460][786]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (308)
+[2019.03.26-06.45.44:460][786]LogModuleManager: Shutting down and abandoning module GitSourceControl (306)
+[2019.03.26-06.45.44:460][786]LogModuleManager: Shutting down and abandoning module SourceControl (305)
+[2019.03.26-06.45.44:460][786]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (302)
+[2019.03.26-06.45.44:460][786]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (300)
+[2019.03.26-06.45.44:460][786]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (298)
+[2019.03.26-06.45.44:460][786]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (296)
+[2019.03.26-06.45.44:460][786]LogModuleManager: Shutting down and abandoning module Paper2DEditor (294)
+[2019.03.26-06.45.44:461][786]LogModuleManager: Shutting down and abandoning module MeshPaint (293)
+[2019.03.26-06.45.44:461][786]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (288)
+[2019.03.26-06.45.44:461][786]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (286)
+[2019.03.26-06.45.44:461][786]LogModuleManager: Shutting down and abandoning module PhysXVehicles (284)
+[2019.03.26-06.45.44:461][786]LogModuleManager: Shutting down and abandoning module OculusEditor (282)
+[2019.03.26-06.45.44:461][786]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (280)
+[2019.03.26-06.45.44:461][786]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (278)
+[2019.03.26-06.45.44:461][786]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (276)
+[2019.03.26-06.45.44:461][786]LogModuleManager: Shutting down and abandoning module ActorSequence (274)
+[2019.03.26-06.45.44:461][786]LogModuleManager: Shutting down and abandoning module UdpMessaging (272)
+[2019.03.26-06.45.44:562][786]LogModuleManager: Shutting down and abandoning module TcpMessaging (270)
+[2019.03.26-06.45.44:663][786]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
+[2019.03.26-06.45.44:663][786]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
+[2019.03.26-06.45.44:663][786]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
+[2019.03.26-06.45.44:663][786]LogModuleManager: Shutting down and abandoning module DataValidation (262)
+[2019.03.26-06.45.44:664][786]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
+[2019.03.26-06.45.44:665][786]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
+[2019.03.26-06.45.44:669][786]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
+[2019.03.26-06.45.44:669][786]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (256)
+[2019.03.26-06.45.44:672][786]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2019.03.26-06.45.44:672][786]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2019.03.26-06.45.44:673][786]LogDirectoryWatcher: A directory notification for 'D:/KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Binaries/Win64' was aborted.
+[2019.03.26-06.45.44:674][786]LogModuleManager: Shutting down and abandoning module ContentBrowser (249)
+[2019.03.26-06.45.44:679][786]LogModuleManager: Shutting down and abandoning module TreeMap (247)
+[2019.03.26-06.45.44:680][786]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
+[2019.03.26-06.45.44:680][786]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (242)
+[2019.03.26-06.45.44:680][786]LogModuleManager: Shutting down and abandoning module LiveLink (240)
+[2019.03.26-06.45.44:844][786]LogModuleManager: Shutting down and abandoning module Paper2D (238)
+[2019.03.26-06.45.44:844][786]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
+[2019.03.26-06.45.44:844][786]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
+[2019.03.26-06.45.44:848][786]LogModuleManager: Shutting down and abandoning module Media (233)
+[2019.03.26-06.45.44:857][786]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
+[2019.03.26-06.45.44:857][786]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
+[2019.03.26-06.45.44:857][786]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
+[2019.03.26-06.45.44:857][786]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
+[2019.03.26-06.45.44:857][786]LogModuleManager: Shutting down and abandoning module Overlay (222)
+[2019.03.26-06.45.44:857][786]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
+[2019.03.26-06.45.44:857][786]LogModuleManager: Shutting down and abandoning module VREditor (218)
+[2019.03.26-06.45.44:858][786]LogModuleManager: Shutting down and abandoning module StringTableEditor (216)
+[2019.03.26-06.45.44:858][786]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (214)
+[2019.03.26-06.45.44:858][786]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (212)
+[2019.03.26-06.45.44:858][786]LogModuleManager: Shutting down and abandoning module FunctionalTesting (210)
+[2019.03.26-06.45.44:858][786]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (208)
+[2019.03.26-06.45.44:858][786]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (207)
+[2019.03.26-06.45.44:858][786]LogModuleManager: Shutting down and abandoning module UMG (204)
+[2019.03.26-06.45.44:858][786]LogModuleManager: Shutting down and abandoning module UMGEditor (203)
+[2019.03.26-06.45.44:859][786]LogModuleManager: Shutting down and abandoning module Sequencer (202)
+[2019.03.26-06.45.44:859][786]LogModuleManager: Shutting down and abandoning module MessageLog (199)
+[2019.03.26-06.45.44:859][786]LogModuleManager: Shutting down and abandoning module SlateReflector (194)
+[2019.03.26-06.45.44:860][786]LogModuleManager: Shutting down and abandoning module Slate (192)
+[2019.03.26-06.45.44:860][786]LogModuleManager: Shutting down and abandoning module EditorStyle (190)
+[2019.03.26-06.45.44:893][786]LogModuleManager: Shutting down and abandoning module MRMesh (188)
+[2019.03.26-06.45.44:893][786]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (186)
+[2019.03.26-06.45.44:893][786]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (184)
+[2019.03.26-06.45.44:893][786]LogModuleManager: Shutting down and abandoning module XAudio2 (182)
+[2019.03.26-06.45.44:893][786]LogModuleManager: Shutting down and abandoning module Networking (180)
+[2019.03.26-06.45.44:893][786]LogModuleManager: Shutting down and abandoning module Core (178)
+[2019.03.26-06.45.44:893][786]LogModuleManager: Shutting down and abandoning module LevelSequence (176)
+[2019.03.26-06.45.44:893][786]LogModuleManager: Shutting down and abandoning module KismetCompiler (174)
+[2019.03.26-06.45.44:894][786]LogModuleManager: Shutting down and abandoning module MeshUtilities (172)
+[2019.03.26-06.45.44:894][786]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (171)
+[2019.03.26-06.45.44:895][786]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (170)
+[2019.03.26-06.45.44:895][786]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (169)
+[2019.03.26-06.45.44:895][786]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (167)
+[2019.03.26-06.45.44:895][786]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
+[2019.03.26-06.45.44:895][786]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
+[2019.03.26-06.45.44:895][786]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
+[2019.03.26-06.45.44:906][786]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2019.03.26-06.45.44:915][786]LogDerivedDataCache: Shutdown
+[2019.03.26-06.45.44:915][786]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2019.03.26-06.45.44:915][786]LogXGEController: Cleaning working directory: C:/Users/kvtuy/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.03.26-06.45.44:915][786]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2019.03.26-06.45.44:915][786]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2019.03.26-06.45.44:915][786]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2019.03.26-06.45.44:915][786]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2019.03.26-06.45.44:915][786]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2019.03.26-06.45.44:915][786]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2019.03.26-06.45.44:915][786]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2019.03.26-06.45.44:915][786]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2019.03.26-06.45.44:915][786]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2019.03.26-06.45.44:915][786]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2019.03.26-06.45.44:916][786]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2019.03.26-06.45.44:916][786]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2019.03.26-06.45.44:916][786]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2019.03.26-06.45.44:916][786]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2019.03.26-06.45.44:916][786]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2019.03.26-06.45.44:916][786]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2019.03.26-06.45.44:916][786]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
+[2019.03.26-06.45.44:916][786]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
+[2019.03.26-06.45.44:916][786]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
+[2019.03.26-06.45.44:917][786]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
+[2019.03.26-06.45.44:917][786]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
+[2019.03.26-06.45.44:917][786]LogModuleManager: Shutting down and abandoning module Messaging (109)
+[2019.03.26-06.45.44:917][786]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
+[2019.03.26-06.45.44:917][786]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
+[2019.03.26-06.45.44:917][786]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
+[2019.03.26-06.45.44:917][786]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (101)
+[2019.03.26-06.45.44:917][786]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (99)
+[2019.03.26-06.45.44:917][786]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (97)
+[2019.03.26-06.45.44:917][786]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (95)
+[2019.03.26-06.45.44:917][786]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (93)
+[2019.03.26-06.45.44:917][786]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
+[2019.03.26-06.45.44:917][786]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
+[2019.03.26-06.45.44:917][786]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
+[2019.03.26-06.45.44:917][786]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
+[2019.03.26-06.45.44:917][786]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
+[2019.03.26-06.45.44:918][786]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
+[2019.03.26-06.45.44:918][786]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
+[2019.03.26-06.45.44:918][786]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
+[2019.03.26-06.45.44:918][786]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
+[2019.03.26-06.45.44:918][786]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
+[2019.03.26-06.45.44:918][786]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
+[2019.03.26-06.45.44:918][786]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
+[2019.03.26-06.45.44:918][786]LogModuleManager: Shutting down and abandoning module InputCore (66)
+[2019.03.26-06.45.44:918][786]LogModuleManager: Shutting down and abandoning module Settings (64)
+[2019.03.26-06.45.44:918][786]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
+[2019.03.26-06.45.44:918][786]LogModuleManager: Shutting down and abandoning module SteamVR (60)
+[2019.03.26-06.45.44:918][786]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
+[2019.03.26-06.45.44:918][786]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
+[2019.03.26-06.45.44:918][786]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
+[2019.03.26-06.45.44:918][786]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2019.03.26-06.45.44:918][786]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2019.03.26-06.45.44:918][786]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2019.03.26-06.45.44:918][786]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2019.03.26-06.45.44:919][786]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2019.03.26-06.45.44:919][786]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.03.26-06.45.44:919][786]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B87D099DD-4219-2085-1307-08B3CAAF352C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=0c4c5f304307896d9a7e629a07f73503%7Cbd0d44da81fc4386b9b7e19b4dc26ea9%7Ca2cfd1b4-f417-43a9-8f1c-a82aed35cb7d&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.03.26-06.45.44:953][786]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2019.03.26-06.45.44:955][786]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.03.26-06.45.44:955][786]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.03.26-06.45.44:955][786]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.03.26-06.45.44:956][786]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.03.26-06.45.44:958][786]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.03.26-06.45.44:958][786]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.03.26-06.45.44:958][786]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.03.26-06.45.44:961][786]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.03.26-06.45.44:961][786]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.03.26-06.45.44:961][786]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.03.26-06.45.44:961][786]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.03.26-06.45.44:961][786]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.03.26-06.45.44:961][786]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.03.26-06.45.44:961][786]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.03.26-06.45.44:961][786]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.03.26-06.45.44:962][786]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.03.26-06.45.44:962][786]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.03.26-06.45.44:962][786]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.03.26-06.45.44:967][786]LogExit: Exiting.
+[2019.03.26-06.45.45:000][786]Log file closed, 03/26/19 13:45:45
