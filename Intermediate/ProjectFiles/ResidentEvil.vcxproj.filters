@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ResidentEvil.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{A712392B-978C-437B-BD8F-D0FE904ECB82}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ResidentEvil.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ResidentEvilEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{DF3FED8F-270B-43EB-A6CB-1D160766A91C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\ResidentEvil">
+      <UniqueIdentifier>{CCDA26B8-79B0-40A8-9CB6-CEAEF8F53727}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ResidentEvil\ResidentEvil.Build.cs">
+      <Filter>Source\ResidentEvil</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ResidentEvil\ResidentEvil.cpp">
+      <Filter>Source\ResidentEvil</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ResidentEvil\ResidentEvil.h">
+      <Filter>Source\ResidentEvil</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ResidentEvil\ResidentEvilGameModeBase.cpp">
+      <Filter>Source\ResidentEvil</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ResidentEvil\ResidentEvilGameModeBase.h">
+      <Filter>Source\ResidentEvil</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\ResidentEvil\GameModeBase">
+      <UniqueIdentifier>{decb59fb-cff3-4e45-adb6-bae6feb40d14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ResidentEvil\GameInstance">
+      <UniqueIdentifier>{ffab580f-aab9-49ce-b8ab-8de2173844a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ResidentEvil\Character">
+      <UniqueIdentifier>{47aff54d-b67c-4de6-9582-d6454b06f5a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ResidentEvil\Character\Hero">
+      <UniqueIdentifier>{9661c440-d813-4087-a7dd-c160a0995d6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ResidentEvil\HunkAnimation">
+      <UniqueIdentifier>{9ae21000-0c10-443d-ba69-73d2e8523a3b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\ResidentEvil\GameModeBase\MyGameModeBase.h">
+      <Filter>Source\ResidentEvil\GameModeBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ResidentEvil\GameInstance\MyGameInstance.h">
+      <Filter>Source\ResidentEvil\GameInstance</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Hero\Hunk.h">
+      <Filter>Source\ResidentEvil\Character\Hero</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ResidentEvil\GameConstValue.h">
+      <Filter>Source\ResidentEvil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ResidentEvil\HunkAnimation\HunkAnimInstance.h">
+      <Filter>Source\ResidentEvil\HunkAnimation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\ResidentEvil\GameModeBase\MyGameModeBase.cpp">
+      <Filter>Source\ResidentEvil\GameModeBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ResidentEvil\GameInstance\MyGameInstance.cpp">
+      <Filter>Source\ResidentEvil\GameInstance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Hero\Hunk.cpp">
+      <Filter>Source\ResidentEvil\Character\Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ResidentEvil\GameConstValue.cpp">
+      <Filter>Source\ResidentEvil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ResidentEvil\HunkAnimation\HunkAnimInstance.cpp">
+      <Filter>Source\ResidentEvil\HunkAnimation</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
