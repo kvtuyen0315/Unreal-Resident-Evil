@@ -1,3 +1,17 @@
-﻿  Target is up to date
+﻿  Creating makefile for ResidentEvilEditor (ini files are newer than UBTMakefile)
+  Parsing headers for ResidentEvilEditor
+    Running UnrealHeaderTool "D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\ResidentEvil.uproject" "D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\ResidentEvilEditor\Development\ResidentEvilEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for ResidentEvilEditor in 10.0805241 seconds
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Binaries\Win64\UE4Editor-ResidentEvil-8458.dll".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Binaries\Win64\UE4Editor-ResidentEvil-8458.pdb".
+  Performing 6 actions (2 in parallel)
+  HunkAnimInstance.cpp
+  Hunk.cpp
+  MyGameModeBase.cpp
+  Hunk.gen.cpp
+  [5/6] Link UE4Editor-ResidentEvil.dll
+  [6/6] Link UE4Editor-ResidentEvil.lib
+     Creating library D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ResidentEvil.lib and object D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ResidentEvil.exp
+     Creating library D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ResidentEvil.suppressed.lib and object D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ResidentEvil.suppressed.exp
   Deploying ResidentEvilEditor Win64 Development...
-  Total build time: 0.99 seconds (NoActionsToExecute executor: 0.00 seconds)
+  Total build time: 20.58 seconds (Local executor: 3.75 seconds)

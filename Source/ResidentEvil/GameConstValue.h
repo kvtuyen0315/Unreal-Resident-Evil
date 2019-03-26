@@ -8,6 +8,7 @@
 /*Word*/
 #define _Fzero (0.0f)
 #define _Izero (0)
+#define Delta_Secons GetWorld()->DeltaTimeSeconds
 
 #pragma region Hunk.
 /*SetCapsuleCollisionHunk*/
@@ -20,10 +21,15 @@
 
 /*SetCameraFollowToHunk*/
 #define TARGET_ARM_LENGTH (130.0f)
-#define LOCATION_CAMERA FVector(_Fzero, _Fzero, 60.0f)
+#define LOCATION_CAMERA FVector(_Fzero, 20.0f, 60.0f)
 
 /*SetCharacterMovement*/
 #define MAX_WALK_SPEED (150.0f)
+#define MAX_WALK_SPRINT_SPEED (400.0f)
+#define MAX_WALK_CROUCH_SPEED (100.0f)
+
+/*LookPicth & LookYaw*/
+#define LOOKRATE (45.0f)
 
 #pragma endregion
 

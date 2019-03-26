@@ -11,9 +11,18 @@
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Camera/CameraComponent.h"
 #include "Animation/AnimBlueprint.h"
+#include "Engine/World.h"
+#include "Kismet/KismetMathLibrary.h"
 
 // Sets default values
-AHunk::AHunk()
+AHunk::AHunk() :
+	// Float.
+	_speedWalk (_Fzero),
+
+	// Bool.
+	_isSprint	(false),
+	_isCrouch	(false),
+	_isFalling	(false)
 {
 	// Tuyển.
 	// Set null class.
@@ -49,6 +58,7 @@ void AHunk::SetCapsuleCollisionHunk()
 	_capsuleCollisionHunk = this->GetCapsuleComponent();
 	_capsuleCollisionHunk->SetCapsuleSize(RADIUS_CAPSULE, HEIGHT_CAPSULE, true);
 	_capsuleCollisionHunk->bHiddenInGame = false;
+	
 }
 
 void AHunk::SetSkeletalMeshHunk()
@@ -84,9 +94,29 @@ void AHunk::SetCharacterMovement()
 {
 	_characterMovementHunk = this->GetCharacterMovement();
 	_characterMovementHunk->bOrientRotationToMovement = true;
-	_characterMovementHunk->MaxWalkSpeed = MAX_WALK_SPEED;
+	_characterMovementHunk->NavAgentProps.bCanCrouch = true;
+	_characterMovementHunk->MaxWalkSpeed = _speedWalk = MAX_WALK_SPEED;
+	_characterMovementHunk->MaxWalkSpeedCrouched = MAX_WALK_CROUCH_SPEED;
 }
 #pragma endregion
+
+#pragma region Get Functions.
+bool AHunk::GetIsSprint()
+{
+	return _isSprint;
+}
+
+bool AHunk::GetIsCrouch()
+{
+	return _isCrouch;
+}
+
+bool AHunk::GetIsFalling()
+{
+	return _isFalling;
+}
+#pragma endregion
+
 
 // Called when the game starts or when spawned
 void AHunk::BeginPlay()
@@ -99,6 +129,9 @@ void AHunk::BeginPlay()
 void AHunk::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	_isFalling = _characterMovementHunk->IsFalling();
+	_isCrouch = _characterMovementHunk->IsCrouching();
 
 }
 
@@ -114,7 +147,10 @@ void AHunk::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	PlayerInputComponent->BindAxis("Look Yaw", this, &AHunk::LookYaw);
 
 	// Input keycode.
-
+	PlayerInputComponent->BindAction("Sprint", IE_Pressed, this, &AHunk::PressedSprint);
+	PlayerInputComponent->BindAction("Sprint", IE_Released, this, &AHunk::ReleasedSprint);
+	PlayerInputComponent->BindAction("Crouch", IE_Pressed, this, &AHunk::PressedCrouch);
+	PlayerInputComponent->BindAction("Crouch", IE_Released, this, &AHunk::ReleasedCrouch);
 }
 
 // Tuyển.
@@ -126,6 +162,10 @@ void AHunk::MoveForward(float value)
 		_rotationHunk = this->Controller->GetControlRotation();
 		_yawRotationHunk = FRotator(_Fzero, _rotationHunk.Yaw, _Fzero);
 		_directionMoving = FRotationMatrix(_yawRotationHunk).GetUnitAxis(EAxis::X);
+
+		_characterMovementHunk->MaxWalkSpeed = UKismetMathLibrary::FInterpTo(_characterMovementHunk->MaxWalkSpeed, _speedWalk, Delta_Secons, 5.0f);
+		_characterMovementHunk->MaxWalkSpeedCrouched = UKismetMathLibrary::FInterpTo(_characterMovementHunk->MaxWalkSpeedCrouched, MAX_WALK_CROUCH_SPEED, Delta_Secons, 5.0f);
+
 		this->AddMovementInput(_directionMoving, value, true);
 	}
 }
@@ -137,6 +177,10 @@ void AHunk::MoveRight(float value)
 		_rotationHunk = this->Controller->GetControlRotation();
 		_yawRotationHunk = FRotator(_Fzero, _rotationHunk.Yaw, _Fzero);
 		_directionMoving = FRotationMatrix(_yawRotationHunk).GetUnitAxis(EAxis::Y);
+
+		_characterMovementHunk->MaxWalkSpeed = UKismetMathLibrary::FInterpTo(_characterMovementHunk->MaxWalkSpeed, _speedWalk, Delta_Secons, 5.0f);
+		_characterMovementHunk->MaxWalkSpeedCrouched = UKismetMathLibrary::FInterpTo(_characterMovementHunk->MaxWalkSpeedCrouched, MAX_WALK_CROUCH_SPEED, Delta_Secons, 5.0f);
+
 		this->AddMovementInput(_directionMoving, value, true);
 	}
 }
@@ -145,7 +189,7 @@ void AHunk::LookPicth(float rate)
 {
 	if (rate != _Fzero)
 	{
-		this->AddControllerPitchInput(rate);
+		this->AddControllerPitchInput(rate * LOOKRATE * Delta_Secons);
 	}
 }
 
@@ -153,7 +197,44 @@ void AHunk::LookYaw(float rate)
 {
 	if (rate != _Fzero)
 	{
-		this->AddControllerYawInput(rate);
+		this->AddControllerYawInput(rate * LOOKRATE * Delta_Secons);
+	}
+}
+
+void AHunk::PressedSprint()
+{
+	_isSprint = true;
+	_speedWalk = MAX_WALK_SPRINT_SPEED;
+}
+
+void AHunk::ReleasedSprint()
+{
+	_isSprint = false;
+	_speedWalk = MAX_WALK_SPEED;
+}
+
+void AHunk::PressedCrouch()
+{
+	if (_isSprint)
+	{
+		return;
+	}
+
+	this->Crouch();
+
+}
+
+void AHunk::ReleasedCrouch()
+{
+	this->UnCrouch();
+
+	if (_isSprint)
+	{
+		_speedWalk = MAX_WALK_SPRINT_SPEED;
+	}
+	else
+	{
+		_speedWalk = MAX_WALK_SPEED;
 	}
 }
 #pragma endregion

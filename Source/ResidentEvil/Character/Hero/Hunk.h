@@ -6,9 +6,6 @@
 #include "GameFramework/Character.h"
 #include "Hunk.generated.h"
 
-class USpringArmComponent;
-class UCameraComponent;
-
 UCLASS()
 class RESIDENTEVIL_API AHunk : public ACharacter
 {
@@ -16,6 +13,14 @@ class RESIDENTEVIL_API AHunk : public ACharacter
 
 #pragma region Variable.
 private:
+	// Float.
+	float _speedWalk;
+
+	// Bool.
+	bool _isSprint;
+	bool _isCrouch;
+	bool _isFalling;
+
 	// FVector.
 	FVector _locationSkeletalHunk;
 	FVector _locationCamera;
@@ -52,6 +57,14 @@ private:
 	void SetCharacterMovement();
 #pragma endregion
 
+#pragma region Get Functions.
+public:
+	bool GetIsSprint();
+	bool GetIsCrouch();
+	bool GetIsFalling();
+#pragma endregion
+
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -72,6 +85,11 @@ private:
 	void LookPicth(float rate);
 	void LookYaw(float rate);
 
+	void PressedSprint();
+	void ReleasedSprint();
+
+	void PressedCrouch();
+	void ReleasedCrouch();
 #pragma endregion
 
 #pragma endregion

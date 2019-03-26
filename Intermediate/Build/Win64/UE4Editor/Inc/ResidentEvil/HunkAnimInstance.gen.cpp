@@ -43,6 +43,31 @@ void EmptyLinkFunctionForGeneratedCodeHunkAnimInstance() {}
 			};
 #endif
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp__isFalling_MetaData[] = {
+				{ "Category", "Is Falling" },
+				{ "ModuleRelativePath", "HunkAnimation/HunkAnimInstance.h" },
+			};
+#endif
+			auto NewProp__isFalling_SetBit = [](void* Obj){ ((UHunkAnimInstance*)Obj)->_isFalling = 1; };
+			static const UE4CodeGen_Private::FBoolPropertyParams NewProp__isFalling = { UE4CodeGen_Private::EPropertyClass::Bool, "_isFalling", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000020015, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(UHunkAnimInstance), &UE4CodeGen_Private::TBoolSetBitWrapper<decltype(NewProp__isFalling_SetBit)>::SetBit, METADATA_PARAMS(NewProp__isFalling_MetaData, ARRAY_COUNT(NewProp__isFalling_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp__isCrouch_MetaData[] = {
+				{ "Category", "Is Crouch" },
+				{ "ModuleRelativePath", "HunkAnimation/HunkAnimInstance.h" },
+			};
+#endif
+			auto NewProp__isCrouch_SetBit = [](void* Obj){ ((UHunkAnimInstance*)Obj)->_isCrouch = 1; };
+			static const UE4CodeGen_Private::FBoolPropertyParams NewProp__isCrouch = { UE4CodeGen_Private::EPropertyClass::Bool, "_isCrouch", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000020015, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(UHunkAnimInstance), &UE4CodeGen_Private::TBoolSetBitWrapper<decltype(NewProp__isCrouch_SetBit)>::SetBit, METADATA_PARAMS(NewProp__isCrouch_MetaData, ARRAY_COUNT(NewProp__isCrouch_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp__isSprint_MetaData[] = {
+				{ "Category", "Is Sprint" },
+				{ "ModuleRelativePath", "HunkAnimation/HunkAnimInstance.h" },
+				{ "ToolTip", "Bool." },
+			};
+#endif
+			auto NewProp__isSprint_SetBit = [](void* Obj){ ((UHunkAnimInstance*)Obj)->_isSprint = 1; };
+			static const UE4CodeGen_Private::FBoolPropertyParams NewProp__isSprint = { UE4CodeGen_Private::EPropertyClass::Bool, "_isSprint", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000020015, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(UHunkAnimInstance), &UE4CodeGen_Private::TBoolSetBitWrapper<decltype(NewProp__isSprint_SetBit)>::SetBit, METADATA_PARAMS(NewProp__isSprint_MetaData, ARRAY_COUNT(NewProp__isSprint_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp__direction_MetaData[] = {
 				{ "Category", "Direction" },
 				{ "ModuleRelativePath", "HunkAnimation/HunkAnimInstance.h" },
@@ -58,6 +83,9 @@ void EmptyLinkFunctionForGeneratedCodeHunkAnimInstance() {}
 #endif
 			static const UE4CodeGen_Private::FFloatPropertyParams NewProp__speed = { UE4CodeGen_Private::EPropertyClass::Float, "_speed", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000020015, 1, nullptr, STRUCT_OFFSET(UHunkAnimInstance, _speed), METADATA_PARAMS(NewProp__speed_MetaData, ARRAY_COUNT(NewProp__speed_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp__isFalling,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp__isCrouch,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp__isSprint,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp__direction,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp__speed,
 			};
@@ -79,7 +107,7 @@ void EmptyLinkFunctionForGeneratedCodeHunkAnimInstance() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UHunkAnimInstance, 278633258);
+	IMPLEMENT_CLASS(UHunkAnimInstance, 2732555568);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UHunkAnimInstance(Z_Construct_UClass_UHunkAnimInstance, &UHunkAnimInstance::StaticClass, TEXT("/Script/ResidentEvil"), TEXT("UHunkAnimInstance"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UHunkAnimInstance);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -61,7 +61,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UHunkAnimInstance); \
 
 #define ResidentEvil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO___speed() { return STRUCT_OFFSET(UHunkAnimInstance, _speed); } \
-	FORCEINLINE static uint32 __PPO___direction() { return STRUCT_OFFSET(UHunkAnimInstance, _direction); }
+	FORCEINLINE static uint32 __PPO___direction() { return STRUCT_OFFSET(UHunkAnimInstance, _direction); } \
+	FORCEINLINE static uint32 __PPO___isSprint() { return STRUCT_OFFSET(UHunkAnimInstance, _isSprint); } \
+	FORCEINLINE static uint32 __PPO___isCrouch() { return STRUCT_OFFSET(UHunkAnimInstance, _isCrouch); } \
+	FORCEINLINE static uint32 __PPO___isFalling() { return STRUCT_OFFSET(UHunkAnimInstance, _isFalling); }
 
 
 #define ResidentEvil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h_12_PROLOG

@@ -22,6 +22,9 @@ void UHunkAnimInstance::NativeUpdateAnimation(float DeltaTime)
 	{
 		_hunk = *hunk;
 		_speed = _hunk->GetVelocity().Size();
+		_isSprint = _hunk->GetIsSprint();
+		_isCrouch = _hunk->GetIsCrouch();
+		_isFalling = _hunk->GetIsFalling();
 
 	}
 }

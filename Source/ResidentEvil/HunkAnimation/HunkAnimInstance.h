@@ -14,13 +14,22 @@ class RESIDENTEVIL_API UHunkAnimInstance : public UAnimInstance
 {
 	GENERATED_BODY()
 
+//Tuyển.
 #pragma region Variable.
 protected:
 	// Float.
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Speed")
-	float _speed;
+		float _speed;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Direction")
-	float _direction;
+		float _direction;
+
+	// Bool.
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Is Sprint")
+		bool _isSprint;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Is Crouch")
+		bool _isCrouch;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Is Falling")
+		bool _isFalling;
 
 	// Class.
 	class AHunk *_hunk;
