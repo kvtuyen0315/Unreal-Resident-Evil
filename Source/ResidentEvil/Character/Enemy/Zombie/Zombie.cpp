@@ -17,7 +17,6 @@ AZombie::AZombie(const FObjectInitializer& ObjectInitializer) : Super(ObjectInit
 
 	static ConstructorHelpers::FObjectFinder<UAnimSequence> anim(TEXT("AnimSequence'/Game/MyAssets/AnimStarterPack/Aim_Space_Hip.Aim_Space_Hip'"));
 	Anim = anim.Object;
-	UE_LOG(LogTemp, Warning, TEXT("Constructor end"));
 }
 
 void AZombie::BeginPlay()
