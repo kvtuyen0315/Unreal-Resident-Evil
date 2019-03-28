@@ -13,32 +13,31 @@ class RESIDENTEVIL_API AHunk : public ACharacter
 
 #pragma region Variable.
 private:
-	// Float.
-	float _speedWalk;
+	float SpeedWalk;
 
-	// Bool.
-	bool _isSprint;
-	bool _isCrouch;
-	bool _isFalling;
+	bool IsSprint;
+	bool IsCrouch;
+	bool IsFalling;
+	bool IsRifle;
+	bool IsAim;
+	bool IsFiring;
 
-	// FVector.
-	FVector _locationSkeletalHunk;
-	FVector _locationCamera;
-	FVector _directionMoving;
+private:
+	FVector LocationSkeletalHunk;
+	FVector LocationCamera;
+	FVector DirectionMoving;
 
-	// FRotator.
-	FRotator _rotationSkeletalHunk;
-	FRotator _rotationHunk;
-	FRotator _yawRotationHunk;
+	FRotator RotationSkeletalHunk;
+	FRotator RotationHunk;
+	FRotator YawRotationHunk;
 
-	// Class.
-	UCapsuleComponent *_capsuleCollisionHunk;
-	USkeletalMesh *_skeletalMeshHunk;
-	USkeletalMeshComponent *_meshHunk;
-	UCharacterMovementComponent *_characterMovementHunk;
+	UCapsuleComponent *CapsuleCollisionHunk;
+	USkeletalMesh *SkeletalMeshHunk;
+	USkeletalMeshComponent *MeshHunk;
+	UCharacterMovementComponent *CharacterMovementHunk;
 
-	class USpringArmComponent *_spaceCameraToHunk;
-	class UCameraComponent *_followCamera;
+	class USpringArmComponent *SpaceCameraToHunk;
+	class UCameraComponent *FollowCamera;
 
 #pragma endregion
 
@@ -62,6 +61,9 @@ public:
 	bool GetIsSprint();
 	bool GetIsCrouch();
 	bool GetIsFalling();
+	bool GetIsRifle();
+	bool GetIsAim();
+	bool GetIsFire();
 #pragma endregion
 
 
@@ -90,6 +92,14 @@ private:
 
 	void PressedCrouch();
 	void ReleasedCrouch();
+
+	void PressedEquipOrUnEquipWeapont();
+
+	void PressedAim();
+	void ReleasedAim();
+
+	void PressedFire();
+	void ReleasedFire();
 #pragma endregion
 
 #pragma endregion

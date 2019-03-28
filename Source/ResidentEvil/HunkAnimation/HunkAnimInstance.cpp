@@ -6,25 +6,35 @@
 #include "EngineUtils.h"
 
 UHunkAnimInstance::UHunkAnimInstance() :
-	// Float.
-	_speed		(_Fzero),
-	_direction	(_Fzero)
+	Speed		(_Fzero),
+	Direction	(_Fzero),
+
+	IsSprint	(false),
+	IsCrouch	(false),
+	IsFalling	(false),
+	IsRifle		(false),
+	IsAim		(false),
+	IsFiring	(false)
+
 {
 	// Set null class.
-	_hunk = NULL;
+	Hunk = NULL;
 }
 
 void UHunkAnimInstance::NativeUpdateAnimation(float DeltaTime)
 {
 	Super::NativeUpdateAnimation(DeltaTime);
 
-	for (TActorIterator<AHunk> hunk(this->GetWorld()); hunk; ++hunk)
+	for (TActorIterator<AHunk> Hunk(this->GetWorld()); Hunk; ++Hunk)
 	{
-		_hunk = *hunk;
-		_speed = _hunk->GetVelocity().Size();
-		_isSprint = _hunk->GetIsSprint();
-		_isCrouch = _hunk->GetIsCrouch();
-		_isFalling = _hunk->GetIsFalling();
-
+		this->Hunk = *Hunk;
+		Speed = this->Hunk->GetVelocity().Size();
+		IsSprint = this->Hunk->GetIsSprint();
+		IsCrouch = this->Hunk->GetIsCrouch();
+		IsFalling = this->Hunk->GetIsFalling();
+		IsRifle = this->Hunk->GetIsRifle();
+		IsAim = this->Hunk->GetIsAim();
+		IsFiring = this->Hunk->GetIsFire();
+		Direction = this->CalculateDirection(this->Hunk->GetVelocity(), this->Hunk->GetActorRotation());
 	}
 }

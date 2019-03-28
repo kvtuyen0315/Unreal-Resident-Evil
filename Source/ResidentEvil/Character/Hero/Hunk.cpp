@@ -16,22 +16,23 @@
 
 // Sets default values
 AHunk::AHunk() :
-	// Float.
-	_speedWalk (_Fzero),
+	SpeedWalk (_Fzero),
 
-	// Bool.
-	_isSprint	(false),
-	_isCrouch	(false),
-	_isFalling	(false)
+	IsSprint	(false),
+	IsCrouch	(false),
+	IsFalling	(false),
+	IsRifle		(false),
+	IsAim		(false),
+	IsFiring	(false)
 {
 	// Tuyển.
 	// Set null class.
-	_capsuleCollisionHunk = NULL;
-	_meshHunk = NULL;
-	_skeletalMeshHunk = NULL;
-	_spaceCameraToHunk = NULL;
-	_followCamera = NULL;
-	_characterMovementHunk = NULL;
+	CapsuleCollisionHunk = NULL;
+	MeshHunk = NULL;
+	SkeletalMeshHunk = NULL;
+	SpaceCameraToHunk = NULL;
+	FollowCamera = NULL;
+	CharacterMovementHunk = NULL;
 
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
@@ -55,65 +56,83 @@ void AHunk::SetRotationHunk()
 
 void AHunk::SetCapsuleCollisionHunk()
 {
-	_capsuleCollisionHunk = this->GetCapsuleComponent();
-	_capsuleCollisionHunk->SetCapsuleSize(RADIUS_CAPSULE, HEIGHT_CAPSULE, true);
-	_capsuleCollisionHunk->bHiddenInGame = false;
+	CapsuleCollisionHunk = this->GetCapsuleComponent();
+	CapsuleCollisionHunk->SetCapsuleSize(RADIUS_CAPSULE, HEIGHT_CAPSULE, true);
+	CapsuleCollisionHunk->bHiddenInGame = false;
 	
 }
 
 void AHunk::SetSkeletalMeshHunk()
 {
-	_meshHunk = this->GetMesh();
+	MeshHunk = this->GetMesh();
 	static ConstructorHelpers::FObjectFinder<USkeletalMesh> skeletalMesh(TEXT("/Game/MyCharacter/Hero/genAssault"));
-	_skeletalMeshHunk = skeletalMesh.Object;
-	_meshHunk->SetSkeletalMesh(_skeletalMeshHunk);
-	_locationSkeletalHunk = LOCALTION_SKELETAL_HUNK;
-	_rotationSkeletalHunk = ROTATION_SKELETAL_HUNK;
-	_meshHunk->SetRelativeLocationAndRotation(_locationSkeletalHunk, _rotationSkeletalHunk);
+	SkeletalMeshHunk = skeletalMesh.Object;
+	MeshHunk->SetSkeletalMesh(SkeletalMeshHunk);
+	LocationSkeletalHunk = LOCALTION_SKELETAL_HUNK;
+	RotationSkeletalHunk = ROTATION_SKELETAL_HUNK;
+	MeshHunk->SetRelativeLocationAndRotation(LocationSkeletalHunk, RotationSkeletalHunk);
 
 	static ConstructorHelpers::FObjectFinder<UAnimBlueprint> animationBlueprint(TEXT("/Game/MyCharacter/Hero/HunkAnimation"));
-	_meshHunk->SetAnimationMode(EAnimationMode::AnimationBlueprint);
-	_meshHunk->SetAnimInstanceClass(animationBlueprint.Object->GetAnimBlueprintGeneratedClass());
+	MeshHunk->SetAnimationMode(EAnimationMode::AnimationBlueprint);
+	MeshHunk->SetAnimInstanceClass(animationBlueprint.Object->GetAnimBlueprintGeneratedClass());
 }
 
 void AHunk::SetCameraFollowToHunk()
 {
-	_spaceCameraToHunk = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpaceCameraToHunk"));
-	_spaceCameraToHunk->SetupAttachment(RootComponent);
-	_spaceCameraToHunk->TargetArmLength = TARGET_ARM_LENGTH;
-	_locationCamera = LOCATION_CAMERA;
-	_spaceCameraToHunk->SetRelativeLocation(_locationCamera);
-	_spaceCameraToHunk->bUsePawnControlRotation = true;
+	SpaceCameraToHunk = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpaceCameraToHunk"));
+	SpaceCameraToHunk->SetupAttachment(RootComponent);
+	SpaceCameraToHunk->TargetArmLength = TARGET_ARM_LENGTH;
+	LocationCamera = LOCATION_CAMERA;
+	SpaceCameraToHunk->SetRelativeLocation(LocationCamera);
+	SpaceCameraToHunk->bUsePawnControlRotation = true;
+	SpaceCameraToHunk->SocketOffset.Y = SOCKET_OFFSET_Y;
+	SpaceCameraToHunk->SocketOffset.Z = SOCKET_OFFSET_Z;
+
 	
-	_followCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
-	_followCamera->SetupAttachment(_spaceCameraToHunk, USpringArmComponent::SocketName);
-	_followCamera->bUsePawnControlRotation = false;
+	FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
+	FollowCamera->SetupAttachment(SpaceCameraToHunk, USpringArmComponent::SocketName);
+	FollowCamera->bUsePawnControlRotation = false;
 }
 
 void AHunk::SetCharacterMovement()
 {
-	_characterMovementHunk = this->GetCharacterMovement();
-	_characterMovementHunk->bOrientRotationToMovement = true;
-	_characterMovementHunk->NavAgentProps.bCanCrouch = true;
-	_characterMovementHunk->MaxWalkSpeed = _speedWalk = MAX_WALK_SPEED;
-	_characterMovementHunk->MaxWalkSpeedCrouched = MAX_WALK_CROUCH_SPEED;
+	CharacterMovementHunk = this->GetCharacterMovement();
+	CharacterMovementHunk->bOrientRotationToMovement = true;
+	CharacterMovementHunk->NavAgentProps.bCanCrouch = true;
+	CharacterMovementHunk->MaxWalkSpeed = SpeedWalk = MAX_WALK_SPEED;
+	CharacterMovementHunk->MaxWalkSpeedCrouched = MAX_WALK_CROUCH_SPEED;
 }
 #pragma endregion
 
 #pragma region Get Functions.
 bool AHunk::GetIsSprint()
 {
-	return _isSprint;
+	return IsSprint;
 }
 
 bool AHunk::GetIsCrouch()
 {
-	return _isCrouch;
+	return IsCrouch;
 }
 
 bool AHunk::GetIsFalling()
 {
-	return _isFalling;
+	return IsFalling;
+}
+
+bool AHunk::GetIsRifle()
+{
+	return IsRifle;
+}
+
+bool AHunk::GetIsAim()
+{
+	return IsAim;
+}
+
+bool AHunk::GetIsFire()
+{
+	return IsFiring;
 }
 #pragma endregion
 
@@ -130,8 +149,8 @@ void AHunk::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	_isFalling = _characterMovementHunk->IsFalling();
-	_isCrouch = _characterMovementHunk->IsCrouching();
+	IsFalling = CharacterMovementHunk->IsFalling();
+	IsCrouch = CharacterMovementHunk->IsCrouching();
 
 }
 
@@ -151,37 +170,53 @@ void AHunk::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	PlayerInputComponent->BindAction("Sprint", IE_Released, this, &AHunk::ReleasedSprint);
 	PlayerInputComponent->BindAction("Crouch", IE_Pressed, this, &AHunk::PressedCrouch);
 	PlayerInputComponent->BindAction("Crouch", IE_Released, this, &AHunk::ReleasedCrouch);
+	PlayerInputComponent->BindAction("Equip Or UnEquip Weapont", IE_Pressed, this, &AHunk::PressedEquipOrUnEquipWeapont);
+	PlayerInputComponent->BindAction("Aim", IE_Pressed, this, &AHunk::PressedAim);
+	PlayerInputComponent->BindAction("Aim", IE_Released, this, &AHunk::ReleasedAim);
+	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AHunk::PressedFire);
+	PlayerInputComponent->BindAction("Fire", IE_Released, this, &AHunk::ReleasedFire);
+
 }
 
 // Tuyển.
 #pragma region Moving.
 void AHunk::MoveForward(float value)
 {
+	if ((value < _Fzero) && (IsSprint))
+	{
+		return;
+	}
+
 	if ((this->Controller != NULL) && (value != _Fzero))
 	{
-		_rotationHunk = this->Controller->GetControlRotation();
-		_yawRotationHunk = FRotator(_Fzero, _rotationHunk.Yaw, _Fzero);
-		_directionMoving = FRotationMatrix(_yawRotationHunk).GetUnitAxis(EAxis::X);
+		RotationHunk = this->Controller->GetControlRotation();
+		YawRotationHunk = FRotator(_Fzero, RotationHunk.Yaw, _Fzero);
+		DirectionMoving = FRotationMatrix(YawRotationHunk).GetUnitAxis(EAxis::X);
 
-		_characterMovementHunk->MaxWalkSpeed = UKismetMathLibrary::FInterpTo(_characterMovementHunk->MaxWalkSpeed, _speedWalk, Delta_Secons, 5.0f);
-		_characterMovementHunk->MaxWalkSpeedCrouched = UKismetMathLibrary::FInterpTo(_characterMovementHunk->MaxWalkSpeedCrouched, MAX_WALK_CROUCH_SPEED, Delta_Secons, 5.0f);
+		CharacterMovementHunk->MaxWalkSpeed = UKismetMathLibrary::FInterpTo(CharacterMovementHunk->MaxWalkSpeed, SpeedWalk, Delta_Secons, 5.0f);
+		CharacterMovementHunk->MaxWalkSpeedCrouched = UKismetMathLibrary::FInterpTo(CharacterMovementHunk->MaxWalkSpeedCrouched, MAX_WALK_CROUCH_SPEED, Delta_Secons, 5.0f);
 
-		this->AddMovementInput(_directionMoving, value, true);
+		this->AddMovementInput(DirectionMoving, value, true);
 	}
 }
 
 void AHunk::MoveRight(float value)
 {
+	if (IsSprint)
+	{
+		return;
+	}
+
 	if ((this->Controller != NULL) && (value != _Fzero))
 	{
-		_rotationHunk = this->Controller->GetControlRotation();
-		_yawRotationHunk = FRotator(_Fzero, _rotationHunk.Yaw, _Fzero);
-		_directionMoving = FRotationMatrix(_yawRotationHunk).GetUnitAxis(EAxis::Y);
+		RotationHunk = this->Controller->GetControlRotation();
+		YawRotationHunk = FRotator(_Fzero, RotationHunk.Yaw, _Fzero);
+		DirectionMoving = FRotationMatrix(YawRotationHunk).GetUnitAxis(EAxis::Y);
 
-		_characterMovementHunk->MaxWalkSpeed = UKismetMathLibrary::FInterpTo(_characterMovementHunk->MaxWalkSpeed, _speedWalk, Delta_Secons, 5.0f);
-		_characterMovementHunk->MaxWalkSpeedCrouched = UKismetMathLibrary::FInterpTo(_characterMovementHunk->MaxWalkSpeedCrouched, MAX_WALK_CROUCH_SPEED, Delta_Secons, 5.0f);
+		CharacterMovementHunk->MaxWalkSpeed = UKismetMathLibrary::FInterpTo(CharacterMovementHunk->MaxWalkSpeed, SpeedWalk, Delta_Secons, 5.0f);
+		CharacterMovementHunk->MaxWalkSpeedCrouched = UKismetMathLibrary::FInterpTo(CharacterMovementHunk->MaxWalkSpeedCrouched, MAX_WALK_CROUCH_SPEED, Delta_Secons, 5.0f);
 
-		this->AddMovementInput(_directionMoving, value, true);
+		this->AddMovementInput(DirectionMoving, value, true);
 	}
 }
 
@@ -203,19 +238,33 @@ void AHunk::LookYaw(float rate)
 
 void AHunk::PressedSprint()
 {
-	_isSprint = true;
-	_speedWalk = MAX_WALK_SPRINT_SPEED;
+	if (IsAim)
+	{
+		return;
+	}
+
+	IsSprint = true;
+	SpeedWalk = MAX_WALK_SPRINT_SPEED;
+	this->bUseControllerRotationYaw = true;
+	CharacterMovementHunk->bOrientRotationToMovement = false;
 }
 
 void AHunk::ReleasedSprint()
 {
-	_isSprint = false;
-	_speedWalk = MAX_WALK_SPEED;
+	if (IsAim)
+	{
+		return;
+	}
+
+	IsSprint = false;
+	IsRifle? SpeedWalk = MAX_WALK_RIFLE_SPEED : SpeedWalk = MAX_WALK_SPEED;
+	this->bUseControllerRotationYaw = false;
+	CharacterMovementHunk->bOrientRotationToMovement = true;
 }
 
 void AHunk::PressedCrouch()
 {
-	if (_isSprint)
+	if (IsSprint)
 	{
 		return;
 	}
@@ -228,13 +277,55 @@ void AHunk::ReleasedCrouch()
 {
 	this->UnCrouch();
 
-	if (_isSprint)
+	if (IsSprint)
 	{
-		_speedWalk = MAX_WALK_SPRINT_SPEED;
+		SpeedWalk = MAX_WALK_SPRINT_SPEED;
 	}
 	else
 	{
-		_speedWalk = MAX_WALK_SPEED;
+		IsRifle? SpeedWalk = MAX_WALK_RIFLE_SPEED : SpeedWalk = MAX_WALK_SPEED;
 	}
+}
+
+void AHunk::PressedEquipOrUnEquipWeapont()
+{
+	IsRifle = !IsRifle;
+
+	if (!IsSprint)
+	{
+		IsRifle? SpeedWalk = MAX_WALK_RIFLE_SPEED : SpeedWalk = MAX_WALK_SPEED;
+	}
+}
+
+void AHunk::PressedAim()
+{
+	if (!IsRifle || IsSprint)
+	{
+		return;
+	}
+
+	IsAim = true;
+	this->bUseControllerRotationYaw = true;
+	CharacterMovementHunk->bOrientRotationToMovement = false;
+}
+
+void AHunk::ReleasedAim()
+{
+	IsAim = false;
+	this->bUseControllerRotationYaw = false;
+	CharacterMovementHunk->bOrientRotationToMovement = true;
+}
+
+void AHunk::PressedFire()
+{
+	if (IsAim)
+	{
+		IsFiring = true;
+	}
+}
+
+void AHunk::ReleasedFire()
+{
+	IsFiring = false;
 }
 #pragma endregion

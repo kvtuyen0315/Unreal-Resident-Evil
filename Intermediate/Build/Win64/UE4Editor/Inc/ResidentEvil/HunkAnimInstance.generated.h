@@ -60,11 +60,14 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UHunkAnimInstance); \
 
 
 #define ResidentEvil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h_15_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO___speed() { return STRUCT_OFFSET(UHunkAnimInstance, _speed); } \
-	FORCEINLINE static uint32 __PPO___direction() { return STRUCT_OFFSET(UHunkAnimInstance, _direction); } \
-	FORCEINLINE static uint32 __PPO___isSprint() { return STRUCT_OFFSET(UHunkAnimInstance, _isSprint); } \
-	FORCEINLINE static uint32 __PPO___isCrouch() { return STRUCT_OFFSET(UHunkAnimInstance, _isCrouch); } \
-	FORCEINLINE static uint32 __PPO___isFalling() { return STRUCT_OFFSET(UHunkAnimInstance, _isFalling); }
+	FORCEINLINE static uint32 __PPO__Speed() { return STRUCT_OFFSET(UHunkAnimInstance, Speed); } \
+	FORCEINLINE static uint32 __PPO__Direction() { return STRUCT_OFFSET(UHunkAnimInstance, Direction); } \
+	FORCEINLINE static uint32 __PPO__IsSprint() { return STRUCT_OFFSET(UHunkAnimInstance, IsSprint); } \
+	FORCEINLINE static uint32 __PPO__IsCrouch() { return STRUCT_OFFSET(UHunkAnimInstance, IsCrouch); } \
+	FORCEINLINE static uint32 __PPO__IsFalling() { return STRUCT_OFFSET(UHunkAnimInstance, IsFalling); } \
+	FORCEINLINE static uint32 __PPO__IsRifle() { return STRUCT_OFFSET(UHunkAnimInstance, IsRifle); } \
+	FORCEINLINE static uint32 __PPO__IsAim() { return STRUCT_OFFSET(UHunkAnimInstance, IsAim); } \
+	FORCEINLINE static uint32 __PPO__IsFiring() { return STRUCT_OFFSET(UHunkAnimInstance, IsFiring); }
 
 
 #define ResidentEvil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h_12_PROLOG
