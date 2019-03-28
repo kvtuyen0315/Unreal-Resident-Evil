@@ -27,4 +27,10 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+protected:
+	UPROPERTY(EditAnywhere, Category = Behavior)
+	class UBehaviorTree* AIBehaviorTree;
+public:
+	UBehaviorTree* GetAIBehaviorTree() const { return AIBehaviorTree; }
 };
