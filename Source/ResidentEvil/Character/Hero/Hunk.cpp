@@ -13,6 +13,7 @@
 #include "Animation/AnimBlueprint.h"
 #include "Engine/World.h"
 #include "Kismet/KismetMathLibrary.h"
+#include "Perception/AISense_Hearing.h"
 
 // Sets default values
 AHunk::AHunk() :
@@ -141,7 +142,6 @@ bool AHunk::GetIsFire()
 void AHunk::BeginPlay()
 {
 	Super::BeginPlay();
-
 }
 
 // Called every frame
@@ -152,6 +152,8 @@ void AHunk::Tick(float DeltaTime)
 	IsFalling = CharacterMovementHunk->IsFalling();
 	IsCrouch = CharacterMovementHunk->IsCrouching();
 
+	// Danny test noise
+	UAISense_Hearing::ReportNoiseEvent(this, GetActorLocation(), 1.0, this);
 }
 
 // Called to bind functionality to input

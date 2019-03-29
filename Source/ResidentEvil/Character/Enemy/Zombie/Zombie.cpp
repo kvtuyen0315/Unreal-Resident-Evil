@@ -51,7 +51,7 @@ void AZombie::SetupEnemySensingComponent()
 	// Set Sigh Config
 	AISightConfig = CreateDefaultSubobject<UAISenseConfig_Sight>(TEXT("Sight Config"));
 	AIPereptionComp->ConfigureSense(*AISightConfig);
-	AIPereptionComp->SetDominantSense(AISightConfig->GetSenseImplementation());
+	//AIPereptionComp->SetDominantSense(AISightConfig->GetSenseImplementation());
 	// set Hearing Config
 	AIHearingConfig = CreateDefaultSubobject<UAISenseConfig_Hearing>(TEXT("Hearing Config"));
 	AIPereptionComp->ConfigureSense(*AIHearingConfig);
@@ -69,7 +69,7 @@ void AZombie::OnSenseActors(const TArray<AActor*>& TestActors)
 		AHunk* Hunk = Cast<AHunk>(Actor);
 		if (Hunk)
 		{
-			GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Red, "AZombie see Player");
+			//GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Red, TEXT("AZombie see Player %s"));
 		}
 	}
 }
@@ -81,7 +81,20 @@ void AZombie::OnUpdatedSenseActor(AActor * UpdatedActor, FAIStimulus Stimulus)
 	{
 		if (Stimulus.WasSuccessfullySensed())
 		{
-			GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, "AZombie see Player");
+			FString Name = this->AISightConfig->GetName();
+			FString Name2 = this->AISightConfig->GetSenseName();
+			FAISenseID SenseID = this->AISightConfig->GetSenseID();
+			FString Name3 = this->AIHearingConfig->GetName();
+			FString Name4 = this->AIHearingConfig->GetSenseName();
+			FAISenseID SenseID2 = this->AIHearingConfig->GetSenseID();
+			if (Stimulus.Type == SenseID)
+			{
+				GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, TEXT("AZombie see Player"));
+			}
+			else if (Stimulus.Type == SenseID2)
+			{
+				GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, TEXT("AZombie hear player"));
+			}
 		}
 		else
 		{
@@ -118,8 +131,9 @@ void AZombie::PostInitializeComponents()
 	if (AIHearingConfig)
 	{
 		AIHearingConfig->HearingRange = 1000.f;
-		AIHearingConfig->LoSHearingRange = 1200.f;
-		AIHearingConfig->bUseLoSHearing = true;
+		AIHearingConfig->DetectionByAffiliation.bDetectEnemies = true;
+		AIHearingConfig->DetectionByAffiliation.bDetectNeutrals = true;
+		AIHearingConfig->DetectionByAffiliation.bDetectFriendlies = true;
 		AIPereptionComp->ConfigureSense(*AIHearingConfig);
 	}
 }
