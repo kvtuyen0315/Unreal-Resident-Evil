@@ -7,6 +7,9 @@
 #include "BehaviorTree/Blackboard/BlackboardKeyAllTypes.h"
 #include "EnemyBase.h"
 
+#define KEY_ID_TARGET "Target"
+#define KEY_ID_TARGET_SIGHT_INFO "TargetInSightInfo"
+
 AEnemyAIController::AEnemyAIController()
 {
 	BlackboardComp = CreateDefaultSubobject<UBlackboardComponent>(TEXT("BlackboardComp"));
@@ -23,7 +26,8 @@ void AEnemyAIController::Possess(APawn* AIPawn)
 	{
 		BlackboardComp->InitializeBlackboard(*EnemyPawn->GetAIBehaviorTree()->BlackboardAsset);
 
-		EnemyKeyID = BlackboardComp->GetKeyID("Target");
+		EnemyKeyID = BlackboardComp->GetKeyID(KEY_ID_TARGET);
+		TargetInSightInfoID = BlackboardComp->GetKeyID(KEY_ID_TARGET_SIGHT_INFO);
 
 		BehaviorComp->StartTree(*EnemyPawn->GetAIBehaviorTree());
 	}

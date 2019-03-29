@@ -27,11 +27,14 @@ public:
 	virtual void Possess(APawn* AIPawn) override;
 protected:
 	uint8 EnemyKeyID;
+	uint8 TargetInSightInfoID;
 
 	// Reference to the pawn possesses the controller
 	UPROPERTY(VisibleDefaultsOnly)
 	class AEnemyBase* EnemyPawn;
 public:
 	uint8 GetEnemyKeyID() const { return EnemyKeyID; }
+	uint8 GetTargetInSightInfoID() const { return TargetInSightInfoID; }
 	
+	AEnemyBase* GetEnemyPawn() const { return EnemyPawn; };
 };

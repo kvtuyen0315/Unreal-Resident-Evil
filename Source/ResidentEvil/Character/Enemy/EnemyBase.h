@@ -39,7 +39,9 @@ protected:
 	class UAISenseConfig_Sight* AISightConfig;
 	UPROPERTY(EditAnywhere)
 	class UAISenseConfig_Hearing* AIHearingConfig;
-	
+	UPROPERTY(VisibleDefaultsOnly)
+	class UTargetInSightInfo* TargetInSightInfo;
 public:
 	UBehaviorTree* GetAIBehaviorTree() const { return AIBehaviorTree; }
+	UTargetInSightInfo* GetTargetInSightInfo() const { return TargetInSightInfo; }
 };

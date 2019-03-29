@@ -8,6 +8,8 @@
 #include "BehaviorTree/Blackboard/BlackboardKeyAllTypes.h"
 #include "GameFramework/Character.h"
 #include "Engine.h"
+#include "EnemyBase.h"
+#include "TargetInSightInfo.h"
 
 UBTServiceCheckPlayer::UBTServiceCheckPlayer()
 {
@@ -26,16 +28,17 @@ void UBTServiceCheckPlayer::OnGameplayTaskDeactivated(UGameplayTask& Task)
 
 void UBTServiceCheckPlayer::TickNode(UBehaviorTreeComponent & OwnerComp, uint8 * NodeMemory, float DeltaSeconds)
 {
-	AEnemyAIController* EnemyPC = Cast<AEnemyAIController>(OwnerComp.GetAIOwner());
+	AEnemyAIController* AIController = Cast<AEnemyAIController>(OwnerComp.GetAIOwner());
 
-	if (EnemyPC)
+	if (AIController)
 	{
 		ACharacter* Enemy = Cast<ACharacter>(GetWorld()->GetFirstPlayerController()->GetPawn());
-
+		
 		if (Enemy)
 		{
-			OwnerComp.GetBlackboardComponent()->SetValue<UBlackboardKeyType_Object>(EnemyPC->GetEnemyKeyID(), Enemy);
-			//GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, "Enemy Is here");
+			UBlackboardComponent* BlackboardComponent = OwnerComp.GetBlackboardComponent();
+			BlackboardComponent->SetValue<UBlackboardKeyType_Object>(AIController->GetEnemyKeyID(), Enemy);
+			BlackboardComponent->SetValue<UBlackboardKeyType_Object>(AIController->GetTargetInSightInfoID(), AIController->GetEnemyPawn()->GetTargetInSightInfo());
 		}
 	}
 }

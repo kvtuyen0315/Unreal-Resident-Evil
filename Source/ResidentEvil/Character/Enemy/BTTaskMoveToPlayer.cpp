@@ -22,19 +22,16 @@ void UBTTaskMoveToPlayer::OnGameplayTaskDeactivated(UGameplayTask& Task)
 
 EBTNodeResult::Type UBTTaskMoveToPlayer::ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory)
 {
-	AEnemyAIController* CharPC = Cast<AEnemyAIController>(OwnerComp.GetAIOwner());
-	ACharacter* Enemy = Cast<ACharacter>(OwnerComp.GetBlackboardComponent()->GetValue<UBlackboardKeyType_Object>(CharPC->GetEnemyKeyID()));
+	AEnemyAIController* AIController = Cast<AEnemyAIController>(OwnerComp.GetAIOwner());
+	// enemy of this actor
+	ACharacter* Enemy = Cast<ACharacter>(OwnerComp.GetBlackboardComponent()->GetValue<UBlackboardKeyType_Object>(AIController->GetEnemyKeyID()));
 
 	if (Enemy)
 	{
-		//CharPC->MoveToActor(Enemy, 5.f, true, true, true, 0, true);
+		AIController->MoveToActor(Enemy, 5.f, true, true, true, 0, true);
 		//GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, "Chasing Player");
 		return EBTNodeResult::Succeeded;
 	}
 
 	return EBTNodeResult::Failed;
 }
-
-
-
-

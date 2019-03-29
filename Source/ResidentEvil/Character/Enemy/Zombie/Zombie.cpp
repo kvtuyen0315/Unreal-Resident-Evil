@@ -14,6 +14,7 @@
 #include "Perception/AISenseConfig_Sight.h"
 #include "Perception/AISenseConfig_Hearing.h"
 #include "Runtime/Core/Public/Containers/Array.h"
+#include "Character/Enemy/TargetInSightInfo.h"
 
 
 AZombie::AZombie(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)
@@ -51,7 +52,6 @@ void AZombie::SetupEnemySensingComponent()
 	// Set Sigh Config
 	AISightConfig = CreateDefaultSubobject<UAISenseConfig_Sight>(TEXT("Sight Config"));
 	AIPereptionComp->ConfigureSense(*AISightConfig);
-	//AIPereptionComp->SetDominantSense(AISightConfig->GetSenseImplementation());
 	// set Hearing Config
 	AIHearingConfig = CreateDefaultSubobject<UAISenseConfig_Hearing>(TEXT("Hearing Config"));
 	AIPereptionComp->ConfigureSense(*AIHearingConfig);
@@ -81,23 +81,21 @@ void AZombie::OnUpdatedSenseActor(AActor * UpdatedActor, FAIStimulus Stimulus)
 	{
 		if (Stimulus.WasSuccessfullySensed())
 		{
-			FString Name = this->AISightConfig->GetName();
-			FString Name2 = this->AISightConfig->GetSenseName();
-			FAISenseID SenseID = this->AISightConfig->GetSenseID();
-			FString Name3 = this->AIHearingConfig->GetName();
-			FString Name4 = this->AIHearingConfig->GetSenseName();
-			FAISenseID SenseID2 = this->AIHearingConfig->GetSenseID();
-			if (Stimulus.Type == SenseID)
+			if (Stimulus.Type == this->AISightConfig->GetSenseID())
 			{
 				GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, TEXT("AZombie see Player"));
+				this->TargetInSightInfo->SetIsTargetInSight(true);
+				this->TargetInSightInfo->SetLastKnowLocation(Stimulus.StimulusLocation);
 			}
-			else if (Stimulus.Type == SenseID2)
+			else if (Stimulus.Type == this->AIHearingConfig->GetSenseID())
 			{
-				GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, TEXT("AZombie hear player"));
+				//GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, TEXT("AZombie hear player"));
 			}
 		}
 		else
 		{
+			this->TargetInSightInfo->SetIsTargetInSight(false);
+			this->TargetInSightInfo->SetLastKnowLocation(Stimulus.StimulusLocation);
 			GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, "AZombie lose sigh of Player");
 		}
 	}
