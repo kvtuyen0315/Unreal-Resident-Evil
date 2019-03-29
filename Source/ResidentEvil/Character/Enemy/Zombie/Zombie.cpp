@@ -15,6 +15,7 @@
 #include "Perception/AISenseConfig_Hearing.h"
 #include "Runtime/Core/Public/Containers/Array.h"
 #include "Character/Enemy/TargetInSightInfo.h"
+#include "Character/Enemy/TargetHearingInfo.h"
 
 
 AZombie::AZombie(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)
@@ -79,24 +80,47 @@ void AZombie::OnUpdatedSenseActor(AActor * UpdatedActor, FAIStimulus Stimulus)
 	AHunk* Hunk = Cast<AHunk>(UpdatedActor);
 	if (Hunk)
 	{
+		if (Stimulus.Type == this->AISightConfig->GetSenseID())
+		{
+			if (Stimulus.WasSuccessfullySensed())
+			{
+				if (this->TargetInSightInfo)
+				{
+					this->TargetInSightInfo->SetIsTargetInSight(true);
+					this->TargetInSightInfo->SetLastKnowLocation(Stimulus.StimulusLocation);
+					GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, TEXT("AZombie see Player"));
+				}
+			}
+			else
+			{
+				if (this->TargetInSightInfo)
+				{
+					this->TargetInSightInfo->SetIsTargetInSight(false);
+					this->TargetInSightInfo->SetLastKnowLocation(Stimulus.StimulusLocation);
+					GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, "AZombie lose sigh of Player");
+				}
+			}
+		}
+	}
+
+	if (Stimulus.Type == this->AIHearingConfig->GetSenseID())
+	{
 		if (Stimulus.WasSuccessfullySensed())
 		{
-			if (Stimulus.Type == this->AISightConfig->GetSenseID())
+			//GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, TEXT("AZombie hear player"));
+			if (this->TargetHearingInfo)
 			{
-				GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, TEXT("AZombie see Player"));
-				this->TargetInSightInfo->SetIsTargetInSight(true);
-				this->TargetInSightInfo->SetLastKnowLocation(Stimulus.StimulusLocation);
-			}
-			else if (Stimulus.Type == this->AIHearingConfig->GetSenseID())
-			{
-				//GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, TEXT("AZombie hear player"));
+				this->TargetHearingInfo->SetIsHearingTargetSound(true);
+				this->TargetHearingInfo->SetLastKnowLocation(Stimulus.StimulusLocation);
 			}
 		}
 		else
 		{
-			this->TargetInSightInfo->SetIsTargetInSight(false);
-			this->TargetInSightInfo->SetLastKnowLocation(Stimulus.StimulusLocation);
-			GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, "AZombie lose sigh of Player");
+			if (this->TargetHearingInfo)
+			{
+				this->TargetHearingInfo->SetIsHearingTargetSound(false);
+				this->TargetHearingInfo->SetLastKnowLocation(Stimulus.StimulusLocation);
+			}
 		}
 	}
 	UE_LOG(LogTemp, Warning, TEXT("AZombie SenseStuff"));

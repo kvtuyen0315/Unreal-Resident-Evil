@@ -10,6 +10,7 @@
 #include "Engine.h"
 #include "EnemyBase.h"
 #include "TargetInSightInfo.h"
+#include "TargetHearingInfo.h"
 
 UBTServiceCheckPlayer::UBTServiceCheckPlayer()
 {
@@ -39,6 +40,7 @@ void UBTServiceCheckPlayer::TickNode(UBehaviorTreeComponent & OwnerComp, uint8 *
 			UBlackboardComponent* BlackboardComponent = OwnerComp.GetBlackboardComponent();
 			BlackboardComponent->SetValue<UBlackboardKeyType_Object>(AIController->GetEnemyKeyID(), Enemy);
 			BlackboardComponent->SetValue<UBlackboardKeyType_Object>(AIController->GetTargetInSightInfoID(), AIController->GetEnemyPawn()->GetTargetInSightInfo());
+			BlackboardComponent->SetValue<UBlackboardKeyType_Object>(AIController->GetHearingTargetInfoID(), AIController->GetEnemyPawn()->GetTargetHearingInfo());
 		}
 	}
 }

@@ -5,6 +5,7 @@
 #include "EnemyAIController.h"
 #include "Perception/AIPerceptionComponent.h"
 #include "TargetInSightInfo.h"
+#include "TargetHearingInfo.h"
 
 // Sets default values
 AEnemyBase::AEnemyBase()
@@ -19,6 +20,7 @@ AEnemyBase::AEnemyBase(const FObjectInitializer& ObjectInitializer) : Super(Obje
 	// Set Default AI Controller Class. You can custom it by inherit AEnemyAIController Class
 	this->AIControllerClass = AEnemyAIController::StaticClass();
 	this->TargetInSightInfo = CreateDefaultSubobject<UTargetInSightInfo>(TEXT("Target Sight Info"));
+	this->TargetHearingInfo = CreateDefaultSubobject<UTargetHearingInfo>(TEXT("Target Hearing Info"));
 }
 
 // Called when the game starts or when spawned

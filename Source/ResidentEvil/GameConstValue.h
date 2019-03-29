@@ -31,6 +31,10 @@
 #define MAX_WALK_SPRINT_SPEED (400.0f)
 #define MAX_WALK_CROUCH_SPEED (100.0f)
 
+// Zombie Speed
+#define ZOMBIE_WALK_SPEED (50.f)
+// end
+
 /*LookPicth & LookYaw*/
 #define LOOKRATE (45.0f)
 
