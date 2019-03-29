@@ -16,10 +16,12 @@ UBTServiceCheckPlayer::UBTServiceCheckPlayer()
 
 void UBTServiceCheckPlayer::OnGameplayTaskActivated(UGameplayTask& Task)
 {
+	UE_LOG(LogTemp, Warning, TEXT("UBTServiceCheckPlayer OnGameplayTaskActivated"));
 }
 
 void UBTServiceCheckPlayer::OnGameplayTaskDeactivated(UGameplayTask& Task)
 {
+	UE_LOG(LogTemp, Warning, TEXT("UBTServiceCheckPlayer OnGameplayTaskDeactivated"));
 }
 
 void UBTServiceCheckPlayer::TickNode(UBehaviorTreeComponent & OwnerComp, uint8 * NodeMemory, float DeltaSeconds)
@@ -33,7 +35,7 @@ void UBTServiceCheckPlayer::TickNode(UBehaviorTreeComponent & OwnerComp, uint8 *
 		if (Enemy)
 		{
 			OwnerComp.GetBlackboardComponent()->SetValue<UBlackboardKeyType_Object>(EnemyPC->GetEnemyKeyID(), Enemy);
-			GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, "Enemy Is here");
+			//GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, "Enemy Is here");
 		}
 	}
 }

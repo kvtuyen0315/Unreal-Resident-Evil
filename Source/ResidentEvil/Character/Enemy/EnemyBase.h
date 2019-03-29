@@ -1,4 +1,5 @@
 // Fill out your copyright notice in the Description page of Project Settings.
+// Created by Danny Lam, 03/28/2019
 
 #pragma once
 
@@ -20,6 +21,7 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	virtual void PostInitializeComponents() override;
 protected:
 	// Reference to target, will be set on begin play function
 	ACharacter* CharacterTarget;
@@ -31,6 +33,13 @@ public:
 protected:
 	UPROPERTY(EditAnywhere, Category = Behavior)
 	class UBehaviorTree* AIBehaviorTree;
+	UPROPERTY(EditAnywhere)
+	class UAIPerceptionComponent* AIPereptionComp;
+	UPROPERTY(EditAnywhere)
+	class UAISenseConfig_Sight* AISightConfig;
+	UPROPERTY(EditAnywhere)
+	class UAISenseConfig_Hearing* AIHearingConfig;
+	
 public:
 	UBehaviorTree* GetAIBehaviorTree() const { return AIBehaviorTree; }
 };

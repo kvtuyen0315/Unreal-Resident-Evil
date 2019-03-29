@@ -27,8 +27,8 @@ EBTNodeResult::Type UBTTaskMoveToPlayer::ExecuteTask(UBehaviorTreeComponent& Own
 
 	if (Enemy)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, "Chasing Player");
-		CharPC->MoveToActor(Enemy, 5.f, true, true, true, 0, true);
+		//CharPC->MoveToActor(Enemy, 5.f, true, true, true, 0, true);
+		//GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, "Chasing Player");
 		return EBTNodeResult::Succeeded;
 	}
 

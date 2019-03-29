@@ -17,14 +17,14 @@ void AEnemyAIController::Possess(APawn* AIPawn)
 {
 	Super::Possess(AIPawn);
 
-	AEnemyBase* Char = Cast<AEnemyBase>(AIPawn);
+	EnemyPawn = Cast<AEnemyBase>(AIPawn);
 
-	if (Char && Char->GetAIBehaviorTree())
+	if (EnemyPawn && EnemyPawn->GetAIBehaviorTree())
 	{
-		BlackboardComp->InitializeBlackboard(*Char->GetAIBehaviorTree()->BlackboardAsset);
+		BlackboardComp->InitializeBlackboard(*EnemyPawn->GetAIBehaviorTree()->BlackboardAsset);
 
 		EnemyKeyID = BlackboardComp->GetKeyID("Target");
 
-		BehaviorComp->StartTree(*Char->GetAIBehaviorTree());
+		BehaviorComp->StartTree(*EnemyPawn->GetAIBehaviorTree());
 	}
 }

@@ -1,4 +1,5 @@
 // Fill out your copyright notice in the Description page of Project Settings.
+// Created by Danny Lam, 03/28/2019
 
 #pragma once
 
@@ -26,6 +27,10 @@ public:
 	virtual void Possess(APawn* AIPawn) override;
 protected:
 	uint8 EnemyKeyID;
+
+	// Reference to the pawn possesses the controller
+	UPROPERTY(VisibleDefaultsOnly)
+	class AEnemyBase* EnemyPawn;
 public:
 	uint8 GetEnemyKeyID() const { return EnemyKeyID; }
 	
