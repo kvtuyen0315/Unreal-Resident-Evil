@@ -1,0 +1,25 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-ResidentEvil-2570.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Cai Dat\UE4\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\UE4Editor\Development\ResidentEvil\GameConstValue.cpp.obj"
+"D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\UE4Editor\Development\ResidentEvil\ResidentEvil.cpp.obj"
+"D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\UE4Editor\Development\ResidentEvil\ResidentEvilGameModeBase.cpp.obj"
+"D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\UE4Editor\Development\ResidentEvil\Hunk.cpp.obj"
+"D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\UE4Editor\Development\ResidentEvil\MyGameInstance.cpp.obj"
+"D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\UE4Editor\Development\ResidentEvil\MyGameModeBase.cpp.obj"
+"D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\UE4Editor\Development\ResidentEvil\HunkAnimInstance.cpp.obj"
+"D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\UE4Editor\Development\ResidentEvil\Hunk.gen.cpp.obj"
+"D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\UE4Editor\Development\ResidentEvil\HunkAnimInstance.gen.cpp.obj"
+"D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\UE4Editor\Development\ResidentEvil\MyGameInstance.gen.cpp.obj"
+"D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\UE4Editor\Development\ResidentEvil\MyGameModeBase.gen.cpp.obj"
+"D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\UE4Editor\Development\ResidentEvil\ResidentEvil.init.gen.cpp.obj"
+"D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\UE4Editor\Development\ResidentEvil\ResidentEvilGameModeBase.gen.cpp.obj"
+"D:\Cai Dat\UE4\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ResidentEvil\PCLaunch.rc.res"
+"D:\Cai Dat\UE4\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ResidentEvil-2570.lib"

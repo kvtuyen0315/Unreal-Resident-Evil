@@ -17,22 +17,26 @@ class RESIDENTEVIL_API UHunkAnimInstance : public UAnimInstance
 //Tuyển.
 #pragma region Variable.
 protected:
-	// Float.
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Speed")
-		float _speed;
+		float Speed;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Direction")
-		float _direction;
+		float Direction;
 
-	// Bool.
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Is Sprint")
-		bool _isSprint;
+		bool IsSprint;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Is Crouch")
-		bool _isCrouch;
+		bool IsCrouch;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Is Falling")
-		bool _isFalling;
+		bool IsFalling;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Is Rifle")
+		bool IsRifle;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Is Aim")
+		bool IsAim;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Is Aim")
+		bool IsFiring;
 
-	// Class.
-	class AHunk *_hunk;
+protected:
+	class AHunk *Hunk;
 
 #pragma endregion
 

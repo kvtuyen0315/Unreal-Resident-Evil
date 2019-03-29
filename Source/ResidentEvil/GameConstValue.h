@@ -21,10 +21,13 @@
 
 /*SetCameraFollowToHunk*/
 #define TARGET_ARM_LENGTH (130.0f)
-#define LOCATION_CAMERA FVector(_Fzero, 20.0f, 60.0f)
+#define SOCKET_OFFSET_Y (45.0f)
+#define SOCKET_OFFSET_Z (10.0f)
+#define LOCATION_CAMERA FVector(_Fzero, _Fzero, 60.0f)
 
 /*SetCharacterMovement*/
 #define MAX_WALK_SPEED (150.0f)
+#define MAX_WALK_RIFLE_SPEED (200.0)
 #define MAX_WALK_SPRINT_SPEED (400.0f)
 #define MAX_WALK_CROUCH_SPEED (100.0f)
 
