@@ -153,7 +153,10 @@ void AHunk::Tick(float DeltaTime)
 	IsCrouch = CharacterMovementHunk->IsCrouching();
 
 	// Danny test noise
-	UAISense_Hearing::ReportNoiseEvent(this, GetActorLocation(), 1.0, this);
+	if (IsSprint && this->GetVelocity().SizeSquared() > 0)
+	{
+		UAISense_Hearing::ReportNoiseEvent(this, GetActorLocation(), 1.0, this);
+	}
 }
 
 // Called to bind functionality to input

@@ -23,27 +23,19 @@ private:
 	// The location last saw the target
 	UPROPERTY(VisibleDefaultsOnly)
 	FVector LastKnowLocation;
+	// The time that AI heard sound, when heard the sound, reset to 0
+	float TimeHeardSound;
 public:
 	UFUNCTION()
-	void SetIsHearingTargetSound(bool Flag)
-	{
-		bIsHearingTargetSound = Flag;
-	}
+	void SetIsHearingTargetSound(bool Flag);
 	UFUNCTION()
-	bool IsHearingTargetSound() const
-	{
-		return bIsHearingTargetSound;
-	}
+	bool IsHearingTargetSound() const;
 	UFUNCTION()
-	void SetLastKnowLocation(const FVector& Location)
-	{
-		LastKnowLocation = Location;
-	}
+	void SetLastKnowLocation(const FVector& Location);
 	UFUNCTION()
-	FVector GetLastKnownLocation()
-	{
-		return LastKnowLocation;
-	}
-	
-	
+	FVector GetLastKnownLocation() const;
+	UFUNCTION()
+	void SetTimeHeardSound(float Timestamp);
+	UFUNCTION()
+	float GetTimeHeardSound() const;
 };

@@ -7,7 +7,6 @@
 #include "BehaviorTree/Blackboard/BlackboardKeyAllTypes.h"
 #include "EnemyBase.h"
 #include "GameFramework/CharacterMovementComponent.h"
-#include "GameConstValue.h"
 
 #define KEY_ID_TARGET "Target"
 #define KEY_ID_TARGET_SIGHT_INFO "TargetInSightInfo"
@@ -24,8 +23,6 @@ void AEnemyAIController::Possess(APawn* AIPawn)
 	Super::Possess(AIPawn);
 
 	EnemyPawn = Cast<AEnemyBase>(AIPawn);
-
-	this->GetCharacter()->GetCharacterMovement()->MaxWalkSpeed = ZOMBIE_WALK_SPEED;
 
 	if (EnemyPawn && EnemyPawn->GetAIBehaviorTree())
 	{

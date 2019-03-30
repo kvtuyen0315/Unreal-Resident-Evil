@@ -16,11 +16,16 @@
 #include "Runtime/Core/Public/Containers/Array.h"
 #include "Character/Enemy/TargetInSightInfo.h"
 #include "Character/Enemy/TargetHearingInfo.h"
+#include "GameConstValue.h"
 
 
 AZombie::AZombie(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)
 {
 	UE_LOG(LogTemp, Warning, TEXT("Zombie Constructor called"));
+	this->AttackRange = ZOMBIE_ATTACK_RANGE;
+	this->GetCharacterMovement()->MaxWalkSpeed = ZOMBIE_WALK_SPEED;
+	this->TimeFollowLastSound = ZOMBIE_TIME_FOLLOW_SOUND;
+
 	USkeletalMeshComponent* SkeletalMeshComponent = this->GetMesh();
 	static ConstructorHelpers::FObjectFinder<USkeletalMesh> SkeletalMeshAsset(TEXT("/Game/MyAssets/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.SK_Mannequin"));
 	SkeletalMeshComponent->SetSkeletalMesh(SkeletalMeshAsset.Object);
@@ -88,7 +93,7 @@ void AZombie::OnUpdatedSenseActor(AActor * UpdatedActor, FAIStimulus Stimulus)
 				{
 					this->TargetInSightInfo->SetIsTargetInSight(true);
 					this->TargetInSightInfo->SetLastKnowLocation(Stimulus.StimulusLocation);
-					GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, TEXT("AZombie see Player"));
+					GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Red, TEXT("AZombie see Player"));
 				}
 			}
 			else
@@ -97,7 +102,7 @@ void AZombie::OnUpdatedSenseActor(AActor * UpdatedActor, FAIStimulus Stimulus)
 				{
 					this->TargetInSightInfo->SetIsTargetInSight(false);
 					this->TargetInSightInfo->SetLastKnowLocation(Stimulus.StimulusLocation);
-					GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, "AZombie lose sigh of Player");
+					GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Emerald, "AZombie lose sigh of Player");
 				}
 			}
 		}
@@ -107,19 +112,12 @@ void AZombie::OnUpdatedSenseActor(AActor * UpdatedActor, FAIStimulus Stimulus)
 	{
 		if (Stimulus.WasSuccessfullySensed())
 		{
-			//GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, TEXT("AZombie hear player"));
 			if (this->TargetHearingInfo)
 			{
+				GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, TEXT("AZombie hear player"));
 				this->TargetHearingInfo->SetIsHearingTargetSound(true);
 				this->TargetHearingInfo->SetLastKnowLocation(Stimulus.StimulusLocation);
-			}
-		}
-		else
-		{
-			if (this->TargetHearingInfo)
-			{
-				this->TargetHearingInfo->SetIsHearingTargetSound(false);
-				this->TargetHearingInfo->SetLastKnowLocation(Stimulus.StimulusLocation);
+				this->TargetHearingInfo->SetTimeHeardSound(0.f);
 			}
 		}
 	}
@@ -129,6 +127,20 @@ void AZombie::OnUpdatedSenseActor(AActor * UpdatedActor, FAIStimulus Stimulus)
 void AZombie::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	
+	if (TargetHearingInfo && TargetHearingInfo->IsHearingTargetSound())
+	{
+		float NewTime = TargetHearingInfo->GetTimeHeardSound() + DeltaTime; // Increase time we heard
+		if (NewTime > TimeFollowLastSound) // if it exceed the time, reset it to 0 and set hearing = false
+		{
+			TargetHearingInfo->SetIsHearingTargetSound(false);
+			TargetHearingInfo->SetTimeHeardSound(0.f);
+		}
+		else
+		{
+			TargetHearingInfo->SetTimeHeardSound(NewTime);
+		}
+	}
 }
 
 void AZombie::PostInitializeComponents()

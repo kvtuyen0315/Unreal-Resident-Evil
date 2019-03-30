@@ -7,4 +7,33 @@ UTargetHearingInfo::UTargetHearingInfo() : bIsHearingTargetSound(false), LastKno
 
 }
 
+void UTargetHearingInfo::SetIsHearingTargetSound(bool Flag)
+{
+	bIsHearingTargetSound = Flag;
+}
+
+bool UTargetHearingInfo::IsHearingTargetSound() const
+{
+	return bIsHearingTargetSound;
+}
+
+void UTargetHearingInfo::SetLastKnowLocation(const FVector& Location)
+{
+	LastKnowLocation = Location;
+}
+
+FVector UTargetHearingInfo::GetLastKnownLocation() const
+{
+	return LastKnowLocation;
+}
+
+void UTargetHearingInfo::SetTimeHeardSound(float Timestamp)
+{
+	TimeHeardSound = Timestamp;
+}
+
+float UTargetHearingInfo::GetTimeHeardSound() const
+{
+	return TimeHeardSound;
+}
 

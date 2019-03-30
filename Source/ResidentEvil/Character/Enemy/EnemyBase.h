@@ -39,12 +39,18 @@ protected:
 	class UAISenseConfig_Sight* AISightConfig;
 	UPROPERTY(EditAnywhere)
 	class UAISenseConfig_Hearing* AIHearingConfig;
+	UPROPERTY(EditAnywhere)
+	float AttackRange;
 	UPROPERTY(VisibleDefaultsOnly)
 	class UTargetInSightInfo* TargetInSightInfo;
 	UPROPERTY(VisibleDefaultsOnly)
 	class UTargetHearingInfo* TargetHearingInfo;
+	UPROPERTY(EditAnywhere)
+	// Time follow the sound, after this time, the AI won't go to the location of the last known sound.
+	float TimeFollowLastSound;
 public:
 	UBehaviorTree* GetAIBehaviorTree() const { return AIBehaviorTree; }
 	UTargetInSightInfo* GetTargetInSightInfo() const { return TargetInSightInfo; }
 	UTargetHearingInfo* GetTargetHearingInfo() const { return TargetHearingInfo; }
+	float GetAttackRange() const { return AttackRange; };
 };
