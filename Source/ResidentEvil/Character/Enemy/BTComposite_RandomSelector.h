@@ -21,6 +21,8 @@ class RESIDENTEVIL_API UBTComposite_RandomSelector : public UBTCompositeNode
 #endif
 
 public:
+	// if you want to have 3 tasks that have 50%, 20%, 30% each, you should set 50, 20, 30
+	// The chance of each element order is from left to right
 	UPROPERTY(EditAnywhere)
 	TArray<float> ArrayChance;
 
@@ -32,8 +34,12 @@ public:
 	bool bIsEqualChance;
 protected:
 	UFUNCTION()
-	int32 GetNextChildIndex();
-
+	int32 RandomNextChildIndex();
 	UPROPERTY()
 	bool bIsInitialArrayChildIndex;
+	UPROPERTY()
+	int32 NextChildIdx;
+	// The temp array that used to calculate percentage
+	UPROPERTY()
+	TMap<int32, float> MapChildChanceTemp;
 };
