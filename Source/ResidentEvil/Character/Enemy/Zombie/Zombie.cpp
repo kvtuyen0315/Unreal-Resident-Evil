@@ -17,7 +17,11 @@
 #include "Character/Enemy/TargetInSightInfo.h"
 #include "Character/Enemy/TargetHearingInfo.h"
 #include "GameConstValue.h"
+#include "Animation/AnimBlueprint.h"
 
+#define ASSET_PATH_SKELETAL_MESH "SkeletalMesh'/Game/MyCharacter/Enemy/Zombie1/Zombie_1_SkeletalMesh.Zombie_1_SkeletalMesh'"
+#define ASSET_PATH_ANIM_BLUEPRINT "AnimBlueprint'/Game/MyCharacter/Enemy/Zombie1/Zombie.Zombie'"
+#define ASSET_PATH_BEHAVIOR_TREE "BehaviorTree'/Game/AI/ZombieBT.ZombieBT'"
 
 AZombie::AZombie(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)
 {
@@ -26,45 +30,38 @@ AZombie::AZombie(const FObjectInitializer& ObjectInitializer) : Super(ObjectInit
 	this->GetCharacterMovement()->MaxWalkSpeed = ZOMBIE_WALK_SPEED;
 	this->TimeFollowLastSound = ZOMBIE_TIME_FOLLOW_SOUND;
 
-	USkeletalMeshComponent* SkeletalMeshComponent = this->GetMesh();
-	static ConstructorHelpers::FObjectFinder<USkeletalMesh> SkeletalMeshAsset(TEXT("/Game/MyAssets/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.SK_Mannequin"));
-	SkeletalMeshComponent->SetSkeletalMesh(SkeletalMeshAsset.Object);
-	SkeletalMeshComponent->SetRelativeLocation(FVector(0.f, 0.f, -90.f));
+	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	PrimaryActorTick.bCanEverTick = true;
+	// Set Default AI Controller Class. You can custom it by inherit AEnemyAIController Class
+	this->AIControllerClass = AEnemyAIController::StaticClass();
 
-	static ConstructorHelpers::FObjectFinder<UBehaviorTree> BehaviorTreeAsset(TEXT("BehaviorTree'/Game/AI/ZombieBT.ZombieBT'"));
-	AIBehaviorTree = BehaviorTreeAsset.Object;
-
-	static ConstructorHelpers::FObjectFinder<UAnimSequence> AnimSequenceAsset(TEXT("AnimSequence'/Game/MyAssets/AnimStarterPack/Idle_Pistol.Idle_Pistol'"));
-	Anim = AnimSequenceAsset.Object;
-
+	// Create and setup sensing comonent
 	SetupEnemySensingComponent();
+
+	InitializeSkeletaMesh(ASSET_PATH_SKELETAL_MESH);
+	InitializeBehaviorTree(ASSET_PATH_BEHAVIOR_TREE);
+	InitializeAnimationBluePrint(ASSET_PATH_ANIM_BLUEPRINT);
+	//USkeletalMeshComponent* SkeletalMeshComponent = this->GetMesh();
+	//static ConstructorHelpers::FObjectFinder<USkeletalMesh> SkeletalMeshAsset(TEXT(ASSET_PATH_SKELETAL_MESH));
+	//SkeletalMeshComponent->SetSkeletalMesh(SkeletalMeshAsset.Object);
+
+	//static ConstructorHelpers::FObjectFinder<UBehaviorTree> BehaviorTreeAsset(TEXT(ASSET_PATH_BEHAVIOR_TREE));
+	//AIBehaviorTree = BehaviorTreeAsset.Object;
+
+	//auto SkeletalMeshComponent = GetMesh();
+	//static ConstructorHelpers::FObjectFinder<UAnimBlueprint> AnimationBlueprint(TEXT(ASSET_PATH_ANIM_BLUEPRINT));
+	//SkeletalMeshComponent->SetAnimationMode(EAnimationMode::AnimationBlueprint);
+	//SkeletalMeshComponent->SetAnimInstanceClass(AnimationBlueprint.Object->GetAnimBlueprintGeneratedClass());
 }
 
 void AZombie::BeginPlay()
 {
 	UE_LOG(LogTemp, Warning, TEXT("Zombie BeginPlay called"));
 	Super::BeginPlay();
-	// play default animation
-	GetMesh()->PlayAnimation(Anim, true);
 
 	// register events for AI such as sight and hearing
 	UAIPerceptionSystem::RegisterPerceptionStimuliSource(this, AISightConfig->GetSenseImplementation(), this);
 	UAIPerceptionSystem::RegisterPerceptionStimuliSource(this, AIHearingConfig->GetSenseImplementation(), this);
-}
-
-void AZombie::SetupEnemySensingComponent()
-{
-	AIPereptionComp = CreateDefaultSubobject<UAIPerceptionComponent>(TEXT("AIPerception Component"));
-	// Set Sigh Config
-	AISightConfig = CreateDefaultSubobject<UAISenseConfig_Sight>(TEXT("Sight Config"));
-	AIPereptionComp->ConfigureSense(*AISightConfig);
-	// set Hearing Config
-	AIHearingConfig = CreateDefaultSubobject<UAISenseConfig_Hearing>(TEXT("Hearing Config"));
-	AIPereptionComp->ConfigureSense(*AIHearingConfig);
-	AIPereptionComp->SetDominantSense(AIHearingConfig->GetSenseImplementation());
-	// Register event when sense actor
-	AIPereptionComp->OnPerceptionUpdated.AddDynamic(this, &AZombie::OnSenseActors);
-	AIPereptionComp->OnTargetPerceptionUpdated.AddDynamic(this, &AZombie::OnUpdatedSenseActor);
 }
 
 void AZombie::OnSenseActors(const TArray<AActor*>& TestActors)
@@ -141,15 +138,37 @@ void AZombie::Tick(float DeltaTime)
 			TargetHearingInfo->SetTimeHeardSound(NewTime);
 		}
 	}
+
+	CalculateVelocity(DeltaTime);
+}
+
+void AZombie::SetupEnemySensingComponent()
+{
+	AIPereptionComp = CreateDefaultSubobject<UAIPerceptionComponent>(TEXT("AIPerception Component"));
+	// Set Sigh Config
+	this->TargetInSightInfo = CreateDefaultSubobject<UTargetInSightInfo>(TEXT("Target Sight Info"));
+	AISightConfig = CreateDefaultSubobject<UAISenseConfig_Sight>(TEXT("Sight Config"));
+	AIPereptionComp->ConfigureSense(*AISightConfig);
+	// set Hearing Config
+	this->TargetHearingInfo = CreateDefaultSubobject<UTargetHearingInfo>(TEXT("Target Hearing Info"));
+	AIHearingConfig = CreateDefaultSubobject<UAISenseConfig_Hearing>(TEXT("Hearing Config"));
+	AIPereptionComp->ConfigureSense(*AIHearingConfig);
+	AIPereptionComp->SetDominantSense(AIHearingConfig->GetSenseImplementation());
+	// Register event when sense actor
+	AIPereptionComp->OnPerceptionUpdated.AddDynamic(this, &AZombie::OnSenseActors);
+	AIPereptionComp->OnTargetPerceptionUpdated.AddDynamic(this, &AZombie::OnUpdatedSenseActor);
 }
 
 void AZombie::PostInitializeComponents()
 {
 	Super::PostInitializeComponents();
 	USkeletalMeshComponent* SkeletalMeshComponent = this->GetMesh();
+	SkeletalMeshComponent->SetRelativeLocation(FVector(0.f, 0.f, -90.f));
 	FRotator SkeletalMeshRotation = SkeletalMeshComponent->RelativeRotation;
 	SkeletalMeshRotation.Add(0.f, -90.f, 0.f);
 	SkeletalMeshComponent->SetRelativeRotation(SkeletalMeshRotation);
+	// Scale 2.5 to match the capsule
+	SkeletalMeshComponent->SetRelativeScale3D(FVector(2.5f));
 
 	if (AISightConfig)
 	{

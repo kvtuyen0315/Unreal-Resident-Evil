@@ -14,40 +14,60 @@ class RESIDENTEVIL_API AEnemyBase : public ACharacter
 
 public:
 	// Sets default values for this character's properties
-	AEnemyBase();
 	AEnemyBase(const FObjectInitializer& ObjectInitializer);
-	void SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) override {};
 protected:
+	// Functions in constructor
+	virtual void InitializeSkeletaMesh(const char* Path);
+	virtual void InitializeBehaviorTree(const char* Path);
+	virtual void InitializeAnimationBluePrint(const char* Path);
+
+	// Default interface of ACharacter, not used
+	void SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) override {};
+
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
 	virtual void PostInitializeComponents() override;
-protected:
-	// Reference to target, will be set on begin play function
-	ACharacter* CharacterTarget;
 
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+protected:
+	// Calculate Velocity Every frame for Animation to use
+	virtual void CalculateVelocity(float DeltaTime);
 
 protected:
+	// The Behavior Tree for AI's decision
 	UPROPERTY(EditAnywhere, Category = Behavior)
 	class UBehaviorTree* AIBehaviorTree;
+
+	// The Component help AI can sense player around
 	UPROPERTY(EditAnywhere)
 	class UAIPerceptionComponent* AIPereptionComp;
+
+	// The config fpr the specific Senses
 	UPROPERTY(EditAnywhere)
 	class UAISenseConfig_Sight* AISightConfig;
 	UPROPERTY(EditAnywhere)
 	class UAISenseConfig_Hearing* AIHearingConfig;
-	UPROPERTY(EditAnywhere)
-	float AttackRange;
+
+	// The custom classes store the sense information
 	UPROPERTY(VisibleDefaultsOnly)
 	class UTargetInSightInfo* TargetInSightInfo;
 	UPROPERTY(VisibleDefaultsOnly)
 	class UTargetHearingInfo* TargetHearingInfo;
-	UPROPERTY(EditAnywhere)
+
 	// Time follow the sound, after this time, the AI won't go to the location of the last known sound.
+	UPROPERTY(EditAnywhere)
 	float TimeFollowLastSound;
+
+	// The Attack Range, in this range AI can attack
+	UPROPERTY(EditAnywhere)
+	float AttackRange;
+
+	// The custom class derived from AnimInstance
+	UPROPERTY(VisibleDefaultsOnly)
+	class UEnemyAnimInstance* AnimInstance;
 public:
 	UBehaviorTree* GetAIBehaviorTree() const { return AIBehaviorTree; }
 	UTargetInSightInfo* GetTargetInSightInfo() const { return TargetInSightInfo; }

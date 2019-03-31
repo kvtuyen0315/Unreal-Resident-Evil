@@ -2,32 +2,56 @@
 
 #include "EnemyBase.h"
 #include "Kismet/GameplayStatics.h"
-#include "EnemyAIController.h"
-#include "Perception/AIPerceptionComponent.h"
-#include "TargetInSightInfo.h"
-#include "TargetHearingInfo.h"
+#include "Components/SkeletalMeshComponent.h"
+#include "UObject/ConstructorHelpers.h"
+#include "Animation/AnimBlueprint.h"
+#include "BehaviorTree/BehaviorTree.h"
+#include "Engine.h"
+#include "EnemyAnimInstance.h"
 
-// Sets default values
-AEnemyBase::AEnemyBase()
+AEnemyBase::AEnemyBase(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)
 {
 
 }
 
-AEnemyBase::AEnemyBase(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)
+
+void AEnemyBase::InitializeSkeletaMesh(const char* Path)
 {
-	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
-	// Set Default AI Controller Class. You can custom it by inherit AEnemyAIController Class
-	this->AIControllerClass = AEnemyAIController::StaticClass();
-	this->TargetInSightInfo = CreateDefaultSubobject<UTargetInSightInfo>(TEXT("Target Sight Info"));
-	this->TargetHearingInfo = CreateDefaultSubobject<UTargetHearingInfo>(TEXT("Target Hearing Info"));
+	USkeletalMeshComponent* SkeletalMeshComponent = this->GetMesh();
+	static ConstructorHelpers::FObjectFinder<USkeletalMesh> SkeletalMeshAsset(ANSI_TO_TCHAR(Path));
+	if (SkeletalMeshAsset.Succeeded())
+	{
+		SkeletalMeshComponent->SetSkeletalMesh(SkeletalMeshAsset.Object);
+		SkeletalMeshComponent->SetRelativeLocation(FVector(0.f, 0.f, -90.f));
+	}
+}
+
+void AEnemyBase::InitializeBehaviorTree(const char * Path)
+{
+	static ConstructorHelpers::FObjectFinder<UBehaviorTree> BehaviorTreeAsset(ANSI_TO_TCHAR(Path));
+	if (BehaviorTreeAsset.Succeeded())
+	{
+		AIBehaviorTree = BehaviorTreeAsset.Object;
+	}
+}
+
+void AEnemyBase::InitializeAnimationBluePrint(const char * Path)
+{
+	USkeletalMeshComponent* SkeletalMeshComponent = GetMesh();
+	static ConstructorHelpers::FObjectFinder<UAnimBlueprint> AnimationBlueprint(ANSI_TO_TCHAR(Path));
+	if (AnimationBlueprint.Succeeded())
+	{
+		SkeletalMeshComponent->SetAnimationMode(EAnimationMode::AnimationBlueprint);
+		SkeletalMeshComponent->SetAnimInstanceClass(AnimationBlueprint.Object->GetAnimBlueprintGeneratedClass());
+	}
 }
 
 // Called when the game starts or when spawned
 void AEnemyBase::BeginPlay()
 {
 	Super::BeginPlay();
-	CharacterTarget = UGameplayStatics::GetPlayerCharacter(this, 0);
+	// Cache reference for later use
+	AnimInstance = Cast<UEnemyAnimInstance>(this->GetMesh()->GetAnimInstance());
 }
 
 void AEnemyBase::PostInitializeComponents()
@@ -39,5 +63,15 @@ void AEnemyBase::PostInitializeComponents()
 void AEnemyBase::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+}
+
+void AEnemyBase::CalculateVelocity(float DeltaTime)
+{
+	FVector Velocity = this->GetVelocity();
+	float Speed = Velocity.Size();
+	if (AnimInstance)
+	{
+		AnimInstance->SetSpeed(Speed);
+	}
 }
 

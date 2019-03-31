@@ -32,10 +32,10 @@
 #define MAX_WALK_CROUCH_SPEED (100.0f)
 
 // Zombie Configuration
-// 0.05m/s
-#define ZOMBIE_WALK_SPEED (50.f)
-// 0.1m
-#define ZOMBIE_ATTACK_RANGE (100.f)
+// 0.1m/s
+#define ZOMBIE_WALK_SPEED (100.f)
+// 0.08m
+#define ZOMBIE_ATTACK_RANGE (80.f)
 // In second
 #define ZOMBIE_TIME_FOLLOW_SOUND (3.f)
 // end

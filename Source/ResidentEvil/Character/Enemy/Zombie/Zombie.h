@@ -23,11 +23,9 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	virtual void PostInitializeComponents() override;
-
-	// Override default setup sensing
-	UFUNCTION()
 	virtual void SetupEnemySensingComponent();
+
+	virtual void PostInitializeComponents() override;
 
 	// Delaget events, called when see actor and called again when lose sigh of it too
 	UFUNCTION()
@@ -35,9 +33,6 @@ protected:
 	UFUNCTION()
 	virtual void OnUpdatedSenseActor(AActor* UpdatedActor, FAIStimulus Stimulus);
 
-
-protected:
-	UAnimSequence *Anim;
 public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;

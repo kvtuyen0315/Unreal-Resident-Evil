@@ -1,0 +1,17 @@
+When player's not in sigh:
+	If hear a sound of player
+		- Move slowly to that location
+	If not 
+		- Idle for nothing
+		or
+		- Run around random location, 5m around him
+
+
+When player's in sight
+- When it close enough
+	attack every 5s
+		if hit doaction hit
+		if not, idle
+- When not close enough
+	Run to close enough
+		
