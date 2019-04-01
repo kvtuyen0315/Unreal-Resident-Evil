@@ -2,7 +2,7 @@
 
 #include "TargetHearingInfo.h"
 
-UTargetHearingInfo::UTargetHearingInfo() : bIsHearingTargetSound(false), LastKnowLocation(FVector::ZeroVector)
+UTargetHearingInfo::UTargetHearingInfo() : bIsHearingTargetSound(false), LastKnowLocation(FVector::ZeroVector), TimeHeardSound(0.f)
 {
 
 }

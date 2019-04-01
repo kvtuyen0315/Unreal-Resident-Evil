@@ -11,4 +11,14 @@ float UEnemyAnimInstance::GetSpeed() const
 	return Speed;
 }
 
+void UEnemyAnimInstance::SetDirection(float Value)
+{
+	Direction = Value;
+}
+
+float UEnemyAnimInstance::GetDirection() const
+{
+	return Direction;
+}
+
 

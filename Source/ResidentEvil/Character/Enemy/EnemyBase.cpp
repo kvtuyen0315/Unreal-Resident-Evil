@@ -65,13 +65,15 @@ void AEnemyBase::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 }
 
-void AEnemyBase::CalculateVelocity(float DeltaTime)
+void AEnemyBase::CalculateVariableForAnimation(float DeltaTime)
 {
 	FVector Velocity = this->GetVelocity();
 	float Speed = Velocity.Size();
 	if (AnimInstance)
 	{
 		AnimInstance->SetSpeed(Speed);
+		float Direction = this->AnimInstance->CalculateDirection(Velocity, this->GetActorRotation());
+		this->AnimInstance->SetDirection(Direction);
 	}
 }
 

@@ -34,7 +34,7 @@ public:
 	virtual void Tick(float DeltaTime) override;
 protected:
 	// Calculate Velocity Every frame for Animation to use
-	virtual void CalculateVelocity(float DeltaTime);
+	virtual void CalculateVariableForAnimation(float DeltaTime);
 
 protected:
 	// The Behavior Tree for AI's decision

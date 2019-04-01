@@ -41,17 +41,6 @@ AZombie::AZombie(const FObjectInitializer& ObjectInitializer) : Super(ObjectInit
 	InitializeSkeletaMesh(ASSET_PATH_SKELETAL_MESH);
 	InitializeBehaviorTree(ASSET_PATH_BEHAVIOR_TREE);
 	InitializeAnimationBluePrint(ASSET_PATH_ANIM_BLUEPRINT);
-	//USkeletalMeshComponent* SkeletalMeshComponent = this->GetMesh();
-	//static ConstructorHelpers::FObjectFinder<USkeletalMesh> SkeletalMeshAsset(TEXT(ASSET_PATH_SKELETAL_MESH));
-	//SkeletalMeshComponent->SetSkeletalMesh(SkeletalMeshAsset.Object);
-
-	//static ConstructorHelpers::FObjectFinder<UBehaviorTree> BehaviorTreeAsset(TEXT(ASSET_PATH_BEHAVIOR_TREE));
-	//AIBehaviorTree = BehaviorTreeAsset.Object;
-
-	//auto SkeletalMeshComponent = GetMesh();
-	//static ConstructorHelpers::FObjectFinder<UAnimBlueprint> AnimationBlueprint(TEXT(ASSET_PATH_ANIM_BLUEPRINT));
-	//SkeletalMeshComponent->SetAnimationMode(EAnimationMode::AnimationBlueprint);
-	//SkeletalMeshComponent->SetAnimInstanceClass(AnimationBlueprint.Object->GetAnimBlueprintGeneratedClass());
 }
 
 void AZombie::BeginPlay()
@@ -90,6 +79,7 @@ void AZombie::OnUpdatedSenseActor(AActor * UpdatedActor, FAIStimulus Stimulus)
 				{
 					this->TargetInSightInfo->SetIsTargetInSight(true);
 					this->TargetInSightInfo->SetLastKnowLocation(Stimulus.StimulusLocation);
+					this->TargetInSightInfo->SetShouldChaseTarget(true);
 					GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Red, TEXT("AZombie see Player"));
 				}
 			}
@@ -139,7 +129,7 @@ void AZombie::Tick(float DeltaTime)
 		}
 	}
 
-	CalculateVelocity(DeltaTime);
+	CalculateVariableForAnimation(DeltaTime);
 }
 
 void AZombie::SetupEnemySensingComponent()

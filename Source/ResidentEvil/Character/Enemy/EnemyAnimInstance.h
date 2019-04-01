@@ -20,9 +20,17 @@ protected:
 	// Actor Speed
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	float Speed;
+	// The Actor Direction
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	float Direction;
 public:
-	UFUNCTION(BlueprintCallable)
+	UFUNCTION()
 	void SetSpeed(float Value);
 	UFUNCTION(BlueprintCallable)
 	float GetSpeed() const;
+
+	UFUNCTION()
+	void SetDirection(float Value);
+	UFUNCTION(BlueprintCallable)
+	float GetDirection() const;
 };

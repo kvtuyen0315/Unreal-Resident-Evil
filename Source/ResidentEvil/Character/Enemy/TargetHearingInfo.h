@@ -18,13 +18,17 @@ public:
 	UTargetHearingInfo();
 private:
 	// Is seeing target?
-	UPROPERTY(VisibleDefaultsOnly)
+	UPROPERTY(VisibleAnywhere)
 	bool bIsHearingTargetSound;
+
 	// The location last saw the target
-	UPROPERTY(VisibleDefaultsOnly)
+	UPROPERTY(VisibleAnywhere)
 	FVector LastKnowLocation;
+
 	// The time that AI heard sound, when heard the sound, reset to 0
+	UPROPERTY(VisibleAnywhere)
 	float TimeHeardSound;
+
 public:
 	UFUNCTION()
 	void SetIsHearingTargetSound(bool Flag);
