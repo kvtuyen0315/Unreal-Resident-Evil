@@ -11,9 +11,8 @@
 
 AEnemyBase::AEnemyBase(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)
 {
-
+	bReplicates = true;
 }
-
 
 void AEnemyBase::InitializeSkeletaMesh(const char* Path)
 {

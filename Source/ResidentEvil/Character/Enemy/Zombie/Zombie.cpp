@@ -41,6 +41,8 @@ AZombie::AZombie(const FObjectInitializer& ObjectInitializer) : Super(ObjectInit
 	InitializeSkeletaMesh(ASSET_PATH_SKELETAL_MESH);
 	InitializeBehaviorTree(ASSET_PATH_BEHAVIOR_TREE);
 	InitializeAnimationBluePrint(ASSET_PATH_ANIM_BLUEPRINT);
+
+	AutoPossessAI = EAutoPossessAI::Spawned;
 }
 
 void AZombie::BeginPlay()

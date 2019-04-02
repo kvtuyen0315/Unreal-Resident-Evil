@@ -14,7 +14,7 @@
 
 UBTServiceCheckPlayer::UBTServiceCheckPlayer()
 {
-	this->bCreateNodeInstance = true;
+	//this->bCreateNodeInstance = true;
 }
 
 void UBTServiceCheckPlayer::OnGameplayTaskActivated(UGameplayTask& Task)

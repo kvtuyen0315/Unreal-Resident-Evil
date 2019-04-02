@@ -6,6 +6,7 @@
 #include "BehaviorTree/Blackboard/BlackboardKeyAllTypes.h"
 #include "TargetInSightInfo.h"
 #include "TargetHearingInfo.h"
+#include "Engine.h"
 
 UBTDecoratorCanBeIdle::UBTDecoratorCanBeIdle(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)
 {
@@ -46,6 +47,7 @@ void UBTDecoratorCanBeIdle::TickNode(UBehaviorTreeComponent& OwnerComp, uint8* N
 		if (SightInfo->IsTargetInSight() || HearingInfo->IsHearingTargetSound())
 		{
 			OwnerComp.RequestExecution(this);
+			GEngine->AddOnScreenDebugMessage(-3, 2.f, FColor::Red, TEXT("BTDecoratorCanBeIdle Execution"), true);
 		}
 	}
 }
