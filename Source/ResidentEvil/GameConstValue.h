@@ -37,7 +37,7 @@
 // 0.08m
 #define ZOMBIE_ATTACK_RANGE (80.f)
 // In second
-#define ZOMBIE_TIME_FOLLOW_SOUND (3.f)
+#define ZOMBIE_TIME_FOLLOW_SOUND (10.f)
 // end
 
 /*LookPicth & LookYaw*/

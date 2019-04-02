@@ -7,7 +7,7 @@
 #include "BehaviorTree/Blackboard/BlackboardKeyAllTypes.h"
 #include "GameFramework/Character.h"
 
-#define ACCEPTANCE_RADIUS -5.f
+#define ACCEPTANCE_RADIUS 50.f
 
 /** Notify called after GameplayTask changes state to Active (initial activation or resuming) */
 void UBTTaskMoveToLastSeenLocation::OnGameplayTaskActivated(UGameplayTask& Task)

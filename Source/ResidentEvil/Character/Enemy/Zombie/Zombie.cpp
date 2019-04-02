@@ -117,7 +117,7 @@ void AZombie::Tick(float DeltaTime)
 	
 	if (TargetHearingInfo && TargetHearingInfo->IsHearingTargetSound())
 	{
-		float NewTime = TargetHearingInfo->GetTimeHeardSound() + DeltaTime; // Increase time we heard
+		float NewTime = TargetHearingInfo->GetTimeHeardSound() + DeltaTime; // Increase time we had heard
 		if (NewTime > TimeFollowLastSound) // if it exceed the time, reset it to 0 and set hearing = false
 		{
 			TargetHearingInfo->SetIsHearingTargetSound(false);
