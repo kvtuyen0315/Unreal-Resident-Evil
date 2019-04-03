@@ -1,0 +1,1855 @@
+﻿Log file open, 03/30/19 15:33:11
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: ResidentEvil
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1090500850) SRandInit(1090500850).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.245719
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +7:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.123s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Binaries/Win64/UE4Editor-ResidentEvil.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am DESKTOP-151KF17 (192.168.0.104:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: D:/Cai Dat/UE4/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.03.30-08.33.13:746][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.30-08.33.13:746][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.30-08.33.13:760][  0]LogInit: Computer: DESKTOP-151KF17
+[2019.03.30-08.33.13:761][  0]LogInit: User: kvtuy
+[2019.03.30-08.33.13:761][  0]LogInit: CPU Page size=4096, Cores=2
+[2019.03.30-08.33.13:761][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.03.30-08.33.13:761][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.03.30-08.33.13:761][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.30-08.33.13:761][  0]LogMemory: Process Physical Memory: 273.85 MB used, 273.86 MB peak
+[2019.03.30-08.33.13:761][  0]LogMemory: Process Virtual Memory: 265.79 MB used, 265.79 MB peak
+[2019.03.30-08.33.13:761][  0]LogMemory: Physical Memory: 7462.77 MB used,  8810.22 MB free, 16272.99 MB total
+[2019.03.30-08.33.13:761][  0]LogMemory: Virtual Memory: 4780.70 MB used,  8810.22 MB free, 134217728.00 MB total
+[2019.03.30-08.33.13:786][  0]LogInit: Using OS detected language (en-US).
+[2019.03.30-08.33.13:786][  0]LogInit: Using OS detected locale (en-US).
+[2019.03.30-08.33.13:791][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.03.30-08.33.14:464][  0]LogStreaming: Display: Took  0.679s to EndInitTextLocalization.
+[2019.03.30-08.33.14:465][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.30-08.33.14:498][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.30-08.33.14:498][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.30-08.33.14:874][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.30-08.33.14:981][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950M' (Feature Level 11_0)
+[2019.03.30-08.33.14:981][  0]LogD3D11RHI:       4055/0/8136 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.30-08.33.14:990][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2019.03.30-08.33.14:990][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.03.30-08.33.14:993][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.30-08.33.14:993][  0]LogD3D11RHI:       0/0/8136 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.30-08.33.14:993][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.30-08.33.15:035][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.30-08.33.15:035][  0]LogD3D11RHI:     GPU DeviceId: 0x139a (for the marketing name, search the web for "GPU Device Id")
+[2019.03.30-08.33.15:035][  0]LogWindows: EnumDisplayDevices:
+[2019.03.30-08.33.15:035][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2019.03.30-08.33.15:035][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2019.03.30-08.33.15:036][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2019.03.30-08.33.15:036][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.03.30-08.33.15:036][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
+[2019.03.30-08.33.15:036][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.03.30-08.33.15:036][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.03.30-08.33.15:036][  0]LogRHI: Texture pool is 2839 MB (70% of 4055 MB)
+[2019.03.30-08.33.15:121][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.03.30-08.33.15:121][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.03.30-08.33.15:121][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.30-08.33.15:146][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.03.30-08.33.15:147][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Intermediate/Shaders/WorkingDirectory/604/).
+[2019.03.30-08.33.15:148][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kvtuy/AppData/Local/Temp/UnrealShaderWorkingDir/A6782B30432FA745ACB0E79CC94B5299/'.
+[2019.03.30-08.33.15:625][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.30-08.33.15:647][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.30-08.33.15:672][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.30-08.33.15:699][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.30-08.33.15:724][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.30-08.33.15:746][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.30-08.33.15:769][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.30-08.33.15:796][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.30-08.33.15:807][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.30-08.33.15:831][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2019.03.30-08.33.15:857][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2019.03.30-08.33.15:876][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2019.03.30-08.33.15:900][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2019.03.30-08.33.15:920][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2019.03.30-08.33.15:940][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2019.03.30-08.33.15:988][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2019.03.30-08.33.15:988][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.03.30-08.33.16:010][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.30-08.33.16:013][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.30-08.33.16:067][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.30-08.33.16:091][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.30-08.33.16:115][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.30-08.33.16:141][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.30-08.33.16:165][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.30-08.33.16:190][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.30-08.33.16:190][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.30-08.33.16:348][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.30-08.33.16:348][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.30-08.33.16:348][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.30-08.33.17:855][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.30-08.33.18:099][  0]LogDerivedDataCache: Loaded boot cache 0.24s 156MB C:/Users/kvtuy/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.03.30-08.33.18:099][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kvtuy/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2019.03.30-08.33.18:099][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.30-08.33.18:099][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.30-08.33.18:099][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.30-08.33.18:099][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.30-08.33.18:134][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.30-08.33.18:147][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kvtuy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.30-08.33.18:147][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.30-08.33.18:147][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.30-08.33.18:171][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.30-08.33.18:172][  0]LogSlate: Using Freetype 2.6.0
+[2019.03.30-08.33.18:173][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.30-08.33.18:173][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.30-08.33.18:359][  0]LogAssetRegistry: FAssetRegistry took 0.0327 seconds to start up
+[2019.03.30-08.33.19:091][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.30-08.33.19:400][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.30-08.33.19:404][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.30-08.33.19:404][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.30-08.33.19:404][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.30-08.33.19:404][  0]LogMeshReduction: No automatic mesh merging module available
+[2019.03.30-08.33.19:404][  0]LogMeshMerging: No automatic mesh merging module available
+[2019.03.30-08.33.19:461][  0]LogNetVersion: ResidentEvil , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3990793033)
+[2019.03.30-08.33.20:303][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.097979 seconds
+[2019.03.30-08.33.20:313][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2019.03.30-08.33.20:313][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2019.03.30-08.33.20:313][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.30-08.33.23:138][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.30-08.33.23:174][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.30-08.33.23:546][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [1.242500ms] /Game/MyAssets/MilitaryWeapSilver/Weapons/Assault_Rifle_A.Assault_Rifle_A
+[2019.03.30-08.33.23:655][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [10.015900ms] /Game/MyCharacter/Hero/genAssault.genAssault
+[2019.03.30-08.33.23:859][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023a275ba260, Size=96, Default__HunkAnimation_C Function /Game/MyCharacter/Hero/HunkAnimation.HunkAnimation_C:ExecuteUbergraph_HunkAnimation
+[2019.03.30-08.33.23:975][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023a275ba260, Size=96
+[2019.03.30-08.33.23:975][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023a2913e4a0, Size=96, Default__HunkAnimation_C Function /Engine/Transient.REINST_HunkAnimation_C_0:ExecuteUbergraph_HunkAnimation
+[2019.03.30-08.33.24:126][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023a29cebfa0, Size=96, Default__HunkAnimation_C Function /Game/MyCharacter/Hero/HunkAnimation.HunkAnimation_C:ExecuteUbergraph_HunkAnimation
+[2019.03.30-08.33.24:281][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.400400ms] /Game/MyAssets/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A
+[2019.03.30-08.33.24:308][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.622500ms] /Game/MyAssets/MilitaryWeapSilver/Weapons/Shotgun_A.Shotgun_A
+[2019.03.30-08.33.24:520][  0]SourceControl: Source control is disabled
+[2019.03.30-08.33.24:521][  0]SourceControl: Source control is disabled
+[2019.03.30-08.33.24:550][  0]SourceControl: Source control is disabled
+[2019.03.30-08.33.24:574][  0]SourceControl: Source control is disabled
+[2019.03.30-08.33.25:315][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.30-08.33.25:608][  0]LogOcInput: OculusInput pre-init called
+[2019.03.30-08.33.25:807][  0]LogEngine: Initializing Engine...
+[2019.03.30-08.33.25:809][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.30-08.33.25:813][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.30-08.33.25:813][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.30-08.33.26:277][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.30-08.33.26:313][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.30-08.33.26:369][  0]LogInit: FAudioDevice initialized.
+[2019.03.30-08.33.26:535][  0]LogDerivedDataCache: Saved boot cache 0.17s 156MB C:/Users/kvtuy/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.03.30-08.33.26:556][  0]LogInit: Texture streaming: Enabled
+[2019.03.30-08.33.26:581][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.30-08.33.26:581][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={402691CF-4728-C9BB-12B3-919000010738}
+[2019.03.30-08.33.26:598][  0]LogInit: Transaction tracking system initialized
+[2019.03.30-08.33.26:626][  0]BlueprintLog: New page: Editor Load
+[2019.03.30-08.33.26:804][  0]LocalizationService: Localization service is disabled
+[2019.03.30-08.33.26:923][  0]LogConsoleResponse: Display: 
+[2019.03.30-08.33.27:207][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.30-08.33.27:207][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.30-08.33.27:207][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.30-08.33.27:207][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.30-08.33.27:207][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.30-08.33.27:767][  0]LogFileCache: Scanning file cache for directory 'D:/KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/' took 0.02s
+[2019.03.30-08.33.27:767][  0]SourceControl: Source control is disabled
+[2019.03.30-08.33.27:767][  0]Cmd: MAP LOAD FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.30-08.33.27:768][  0]LightingResults: New page: Lighting Build
+[2019.03.30-08.33.27:771][  0]MapCheck: New page: Map Check
+[2019.03.30-08.33.27:771][  0]LightingResults: New page: Lighting Build
+[2019.03.30-08.33.27:831][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023a2913e4a0, Size=96
+[2019.03.30-08.33.28:335][  0]LogAIModule: Creating AISystem for world Map01
+[2019.03.30-08.33.28:344][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.30-08.33.28:386][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.30-08.33.28:486][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 99.165ms to complete.
+[2019.03.30-08.33.28:486][  0]LogFileHelpers: Loading map 'Map01' took 0.719
+[2019.03.30-08.33.28:709][  0]LogCollectionManager: Loaded 0 collections in 0.002827 seconds
+[2019.03.30-08.33.28:751][  0]LogFileCache: Scanning file cache for directory 'D:/KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Collections/' took 0.01s
+[2019.03.30-08.33.28:751][  0]LogFileCache: Scanning file cache for directory 'D:/KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/Developers/kvtuy/Collections/' took 0.02s
+[2019.03.30-08.33.28:751][  0]LogFileCache: Scanning file cache for directory 'D:/KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/Collections/' took 0.00s
+[2019.03.30-08.33.28:751][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.03.30-08.33.28:782][  0]LogContentBrowser: Native class hierarchy populated in 0.0305 seconds. Added 2461 classes and 569 folders.
+[2019.03.30-08.33.28:802][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0077 seconds. Added 0 classes and 0 folders.
+[2019.03.30-08.33.28:900][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0138 seconds. Added 0 classes and 0 folders.
+[2019.03.30-08.33.28:915][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0086 seconds. Added 1 classes and 2 folders.
+[2019.03.30-08.33.28:963][  0]LogSlate: Took 0.000283 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.30-08.33.28:967][  0]LogSlate: Took 0.000318 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.30-08.33.28:984][  0]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.30-08.33.29:216][  0]LogRenderer: Reallocating scene render targets to support 856x380 Format 10 NumSamples 1 (Frame:1).
+[2019.03.30-08.33.30:006][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.30-08.33.30:039][  0]LogSlate: Window 'Tutorials' being destroyed
+[2019.03.30-08.33.30:112][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0088 seconds. Added 0 classes and 0 folders.
+[2019.03.30-08.33.30:112][  0]LogLoad: (Engine Initialization) Total time: 20.17 seconds
+[2019.03.30-08.33.30:112][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.30-08.33.30:491][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.30-08.33.30:585][  0]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.30-08.33.31:580][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.03.30-08.33.31:664][  5]LogAssetRegistry: Asset discovery search completed in 13.3286 seconds
+[2019.03.30-08.33.31:669][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000008 seconds (updated 0 objects)
+[2019.03.30-08.33.38:772][157]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.30-08.33.40:877][279]LogLinker: Warning: Can't find file '/Game/MyCharacter/Zombie/Zombie_diffuse'
+[2019.03.30-08.33.40:877][279]LogLinker: Warning: Can't find file for asset '/Game/MyCharacter/Zombie/Zombie_diffuse' while loading ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/Zombi.uasset.
+[2019.03.30-08.33.40:878][279]LoadErrors: Error: /Game/MyCharacter/Zombie/Zombi : Can't find file for asset. /Game/MyCharacter/Zombie/Zombie_diffuse
+[2019.03.30-08.33.40:878][279]LogLinker: Warning: Can't find file '/Game/MyCharacter/Zombie/Zombie_diffusePSD'
+[2019.03.30-08.33.40:878][279]LogLinker: Warning: Can't find file for asset '/Game/MyCharacter/Zombie/Zombie_diffusePSD' while loading ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/Zombi.uasset.
+[2019.03.30-08.33.40:878][279]LoadErrors: Error: /Game/MyCharacter/Zombie/Zombi : Can't find file for asset. /Game/MyCharacter/Zombie/Zombie_diffusePSD
+[2019.03.30-08.33.40:878][279]LogLinker: Warning: Can't find file '/Game/MyCharacter/Zombie/Zombie_normals'
+[2019.03.30-08.33.40:878][279]LogLinker: Warning: Can't find file for asset '/Game/MyCharacter/Zombie/Zombie_normals' while loading ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/Zombi.uasset.
+[2019.03.30-08.33.40:878][279]LoadErrors: Error: /Game/MyCharacter/Zombie/Zombi : Can't find file for asset. /Game/MyCharacter/Zombie/Zombie_normals
+[2019.03.30-08.33.40:878][279]LogLinker: Warning: Can't find file '/Game/MyCharacter/Zombie/Zombie_specular'
+[2019.03.30-08.33.40:878][279]LogLinker: Warning: Can't find file for asset '/Game/MyCharacter/Zombie/Zombie_specular' while loading ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/Zombi.uasset.
+[2019.03.30-08.33.40:879][279]LoadErrors: Error: /Game/MyCharacter/Zombie/Zombi : Can't find file for asset. /Game/MyCharacter/Zombie/Zombie_specular
+[2019.03.30-08.33.40:879][279]LogLinker: Warning: Can't find file '/Game/MyCharacter/Zombie/Zombie_diffuse'
+[2019.03.30-08.33.40:879][279]LogLinker: Warning: Can't find file for asset '/Game/MyCharacter/Zombie/Zombie_diffuse' while loading ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/Zombi.uasset.
+[2019.03.30-08.33.40:879][279]LogLinker: Warning: Can't find file '/Game/MyCharacter/Zombie/Zombie_diffusePSD'
+[2019.03.30-08.33.40:879][279]LogLinker: Warning: Can't find file for asset '/Game/MyCharacter/Zombie/Zombie_diffusePSD' while loading ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/Zombi.uasset.
+[2019.03.30-08.33.40:880][279]LogLinker: Warning: Can't find file '/Game/MyCharacter/Zombie/Zombie_normals'
+[2019.03.30-08.33.40:880][279]LogLinker: Warning: Can't find file for asset '/Game/MyCharacter/Zombie/Zombie_normals' while loading ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/Zombi.uasset.
+[2019.03.30-08.33.40:880][279]LogLinker: Warning: Can't find file '/Game/MyCharacter/Zombie/Zombie_specular'
+[2019.03.30-08.33.40:880][279]LogLinker: Warning: Can't find file for asset '/Game/MyCharacter/Zombie/Zombie_specular' while loading ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/Zombi.uasset.
+[2019.03.30-08.33.40:881][279]LogLinker: Warning: Can't find file '/Game/MyCharacter/Zombie/Zombie_diffuse'
+[2019.03.30-08.33.40:881][279]LoadErrors: Failed to load /Game/MyCharacter/Zombie/Zombie_diffuse.Zombie_diffuse Referenced by MaterialExpressionTextureSample_1
+[2019.03.30-08.33.40:881][279]LogLinker: Warning: Can't find file for asset '/Game/MyCharacter/Zombie/Zombie_diffuse' while loading NULL.
+[2019.03.30-08.33.40:881][279]LogLinker: Warning: Can't find file '/Game/MyCharacter/Zombie/Zombie_diffusePSD'
+[2019.03.30-08.33.40:882][279]LoadErrors: Failed to load /Game/MyCharacter/Zombie/Zombie_diffusePSD.Zombie_diffusePSD Referenced by MaterialExpressionTextureSample_2
+[2019.03.30-08.33.40:882][279]LogLinker: Warning: Can't find file for asset '/Game/MyCharacter/Zombie/Zombie_diffusePSD' while loading NULL.
+[2019.03.30-08.33.40:882][279]LogLinker: Warning: Can't find file '/Game/MyCharacter/Zombie/Zombie_specular'
+[2019.03.30-08.33.40:882][279]LoadErrors: Failed to load /Game/MyCharacter/Zombie/Zombie_specular.Zombie_specular Referenced by MaterialExpressionTextureSample_3
+[2019.03.30-08.33.40:882][279]LogLinker: Warning: Can't find file for asset '/Game/MyCharacter/Zombie/Zombie_specular' while loading NULL.
+[2019.03.30-08.33.40:882][279]LogLinker: Warning: Can't find file '/Game/MyCharacter/Zombie/Zombie_normals'
+[2019.03.30-08.33.40:882][279]LoadErrors: Failed to load /Game/MyCharacter/Zombie/Zombie_normals.Zombie_normals Referenced by MaterialExpressionTextureSample_4
+[2019.03.30-08.33.40:883][279]LogLinker: Warning: Can't find file for asset '/Game/MyCharacter/Zombie/Zombie_normals' while loading NULL.
+[2019.03.30-08.33.40:885][279]LogMaterial: Missing cached shader map for material Zombi, compiling. 
+[2019.03.30-08.33.40:886][279]LogMaterial: Warning: D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Content\MyCharacter\Zombie\Zombi.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.30-08.33.40:886][279]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.03.30-08.33.40:891][279]LogSlate: Took 0.000385 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.30-08.33.40:909][279]LogMaterial: Missing cached shader map for material Zombi, compiling. 
+[2019.03.30-08.33.40:910][279]LogMaterial: Warning: /Engine/Transient.Zombi (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.30-08.33.40:910][279]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.03.30-08.33.41:313][279]LogMaterial: Missing cached shader map for material Zombi, compiling. 
+[2019.03.30-08.33.41:313][279]LogMaterial: Warning: /Engine/Transient.Zombi (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.30-08.33.41:314][279]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.03.30-08.33.41:317][279]LogMaterial: Missing cached shader map for material Zombi, compiling. 
+[2019.03.30-08.33.41:318][279]LogMaterial: Warning: /Engine/Transient.Zombi (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.30-08.33.41:318][279]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.03.30-08.33.41:352][279]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.03.30-08.33.41:355][279]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2019.03.30-08.33.41:356][279]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2019.03.30-08.33.41:358][279]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2019.03.30-08.33.41:363][279]MaterialEditorStats: Error: [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2019.03.30-08.33.41:372][279]LogSlate: Took 0.000286 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.30-08.33.43:235][363]LogSlate: Window 'Zombi' being destroyed
+[2019.03.30-08.33.43:243][363]LogSlate: Window 'Zombi' being destroyed
+[2019.03.30-08.33.52:845][798]LogSlate: Window 'Delete Assets' being destroyed
+[2019.03.30-08.34.37:429][402]LogAssetTools: Warning: Failed to import 'D:\KVT\Unity\Text\Zombie\Model 1\texture/backsword_diffuse.mat'. Unknown extension 'mat'.
+[2019.03.30-08.34.37:445][402]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\KVT\Unity\Text\Zombie\Model 1\texture/backsword_diffuse.tga)
+[2019.03.30-08.34.37:477][402]LogTexture: Display: Building textures: backsword_diffuse (AutoDXT, 1024X1024)
+[2019.03.30-08.34.38:514][402]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\KVT\Unity\Text\Zombie\Model 1\texture/backsword_normals.tga)
+[2019.03.30-08.34.38:554][402]LogTexture: Display: Building textures: backsword_normals (BC5, 1024X1024)
+[2019.03.30-08.34.38:754][402]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\KVT\Unity\Text\Zombie\Model 1\texture/backsword_specular.tga)
+[2019.03.30-08.34.38:782][402]LogTexture: Display: Building textures: backsword_specular (AutoDXT, 1024X1024)
+[2019.03.30-08.34.39:403][402]LogAssetTools: Warning: Failed to import 'D:\KVT\Unity\Text\Zombie\Model 1\texture/Zombie_diffuse.mat'. Unknown extension 'mat'.
+[2019.03.30-08.34.39:454][402]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\KVT\Unity\Text\Zombie\Model 1\texture/Zombie_diffuse.tga)
+[2019.03.30-08.34.39:587][402]LogTexture: Display: Building textures: Zombie_diffuse (AutoDXT, 2048X2048)
+[2019.03.30-08.34.44:414][402]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\KVT\Unity\Text\Zombie\Model 1\texture/Zombie_diffusePSD.psd)
+[2019.03.30-08.34.44:601][402]LogTexture: Display: Building textures: Zombie_diffusePSD (AutoDXT, 2048X2048)
+[2019.03.30-08.34.49:168][402]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\KVT\Unity\Text\Zombie\Model 1\texture/Zombie_normals.tga)
+[2019.03.30-08.34.49:316][402]LogTexture: Display: Building textures: Zombie_normals (BC5, 2048X2048)
+[2019.03.30-08.34.50:214][402]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\KVT\Unity\Text\Zombie\Model 1\texture/Zombie_specular.tga)
+[2019.03.30-08.34.50:333][402]LogTexture: Display: Building textures: Zombie_specular (AutoDXT, 2048X2048)
+[2019.03.30-08.35.03:459][688]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\KVT\Unity\Text\Zombie\Model 1\Zombie@Attack(1).FBX)
+[2019.03.30-08.35.03:473][688]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2019.03.30-08.35.03:473][688]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2019.03.30-08.35.03:473][688]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2019.03.30-08.35.03:473][688]LogFbx: ItemName: Model, ItemCount : 66
+[2019.03.30-08.35.03:474][688]LogFbx: ItemName: NodeAttribute, ItemCount : 62
+[2019.03.30-08.35.03:474][688]LogFbx: ItemName: Geometry, ItemCount : 4
+[2019.03.30-08.35.03:474][688]LogFbx: ItemName: Material, ItemCount : 2
+[2019.03.30-08.35.03:474][688]LogFbx: ItemName: Texture, ItemCount : 4
+[2019.03.30-08.35.03:474][688]LogFbx: ItemName: CollectionExclusive, ItemCount : 3
+[2019.03.30-08.35.03:474][688]LogFbx: ItemName: AnimationCurve, ItemCount : 549
+[2019.03.30-08.35.03:474][688]LogFbx: ItemName: AnimationCurveNode, ItemCount : 183
+[2019.03.30-08.35.03:474][688]LogFbx: ItemName: Deformer, ItemCount : 64
+[2019.03.30-08.35.03:474][688]LogFbx: ItemName: Pose, ItemCount : 1
+[2019.03.30-08.35.03:474][688]LogFbx: ItemName: Video, ItemCount : 4
+[2019.03.30-08.35.03:480][688]LogFbx: Loading FBX Scene from D:\KVT\Unity\Text\Zombie\Model 1\Zombie@Attack(1).FBX
+[2019.03.30-08.35.03:576][688]LogFbx: FBX Scene Loaded Succesfully
+[2019.03.30-08.35.35:903][688]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.03.30-08.35.35:965][688]LogFbx: Loading FBX Scene from D:\KVT\Unity\Text\Zombie\Model 1\Zombie@Attack(1).FBX
+[2019.03.30-08.35.36:062][688]LogFbx: FBX Scene Loaded Succesfully
+[2019.03.30-08.35.36:064][688]LogFbx: =================================================
+[2019.03.30-08.35.36:064][688]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.35.36:064][688]LogFbx: 	Total Deformer Count 890931936.
+[2019.03.30-08.35.36:064][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:064][688]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.35.36:064][688]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.35.36:064][688]LogFbx: =================================================
+[2019.03.30-08.35.36:064][688]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.35.36:064][688]LogFbx: 	Total Deformer Count 890932176.
+[2019.03.30-08.35.36:064][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:064][688]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.35.36:064][688]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.35.36:064][688]LogFbx: =================================================
+[2019.03.30-08.35.36:065][688]LogFbx: Dumping Node START [Body_mesh] 
+[2019.03.30-08.35.36:065][688]LogFbx: 	Total Deformer Count 1109467072.
+[2019.03.30-08.35.36:065][688]LogFbx: 		[Node 1]  (Type Skin).
+[2019.03.30-08.35.36:065][688]LogFbx: =================================================
+[2019.03.30-08.35.36:065][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:065][688]LogFbx: 		[Node Attribute Child 1] Body_mesh (Type Mesh).
+[2019.03.30-08.35.36:065][688]LogFbx: Dumping Node END [Body_mesh]
+[2019.03.30-08.35.36:065][688]LogFbx: =================================================
+[2019.03.30-08.35.36:065][688]LogFbx: Dumping Node START [jaw_mesh] 
+[2019.03.30-08.35.36:065][688]LogFbx: 	Total Deformer Count 888808560.
+[2019.03.30-08.35.36:065][688]LogFbx: 		[Node 1]  (Type Skin).
+[2019.03.30-08.35.36:065][688]LogFbx: =================================================
+[2019.03.30-08.35.36:065][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:065][688]LogFbx: 		[Node Attribute Child 1] jaw_mesh (Type Mesh).
+[2019.03.30-08.35.36:065][688]LogFbx: Dumping Node END [jaw_mesh]
+[2019.03.30-08.35.36:065][688]LogFbx: =================================================
+[2019.03.30-08.35.36:065][688]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.35.36:065][688]LogFbx: 	Total Deformer Count 890945056.
+[2019.03.30-08.35.36:065][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:065][688]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.35.36:065][688]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.35.36:065][688]LogFbx: =================================================
+[2019.03.30-08.35.36:065][688]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.35.36:065][688]LogFbx: 	Total Deformer Count 890940096.
+[2019.03.30-08.35.36:065][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:066][688]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.35.36:066][688]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.35.36:066][688]LogFbx: =================================================
+[2019.03.30-08.35.36:066][688]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.35.36:066][688]LogFbx: 	Total Deformer Count 890945296.
+[2019.03.30-08.35.36:066][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:066][688]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.35.36:066][688]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.35.36:066][688]LogFbx: =================================================
+[2019.03.30-08.35.36:066][688]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.35.36:066][688]LogFbx: 	Total Deformer Count 890932896.
+[2019.03.30-08.35.36:066][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:066][688]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.35.36:066][688]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.35.36:066][688]LogFbx: =================================================
+[2019.03.30-08.35.36:066][688]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.35.36:066][688]LogFbx: 	Total Deformer Count 890945296.
+[2019.03.30-08.35.36:066][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:066][688]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.35.36:066][688]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.35.36:067][688]LogFbx: =================================================
+[2019.03.30-08.35.36:067][688]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.35.36:067][688]LogFbx: 	Total Deformer Count 890942096.
+[2019.03.30-08.35.36:067][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:067][688]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.35.36:067][688]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.35.36:067][688]LogFbx: =================================================
+[2019.03.30-08.35.36:067][688]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.35.36:067][688]LogFbx: 	Total Deformer Count 890930656.
+[2019.03.30-08.35.36:067][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:067][688]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.35.36:067][688]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.35.36:067][688]LogFbx: =================================================
+[2019.03.30-08.35.36:067][688]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.35.36:067][688]LogFbx: 	Total Deformer Count 890936576.
+[2019.03.30-08.35.36:067][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:067][688]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.35.36:067][688]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.35.36:067][688]LogFbx: =================================================
+[2019.03.30-08.35.36:067][688]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.35.36:067][688]LogFbx: 	Total Deformer Count 890942016.
+[2019.03.30-08.35.36:068][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:068][688]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.35.36:068][688]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.35.36:068][688]LogFbx: =================================================
+[2019.03.30-08.35.36:068][688]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.35.36:068][688]LogFbx: 	Total Deformer Count 890939216.
+[2019.03.30-08.35.36:068][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:068][688]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.35.36:068][688]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.35.36:068][688]LogFbx: =================================================
+[2019.03.30-08.35.36:068][688]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.35.36:068][688]LogFbx: 	Total Deformer Count 890939776.
+[2019.03.30-08.35.36:068][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:068][688]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.35.36:068][688]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.35.36:068][688]LogFbx: =================================================
+[2019.03.30-08.35.36:068][688]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.35.36:068][688]LogFbx: 	Total Deformer Count 890939776.
+[2019.03.30-08.35.36:068][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:068][688]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.35.36:068][688]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.35.36:068][688]LogFbx: =================================================
+[2019.03.30-08.35.36:068][688]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.35.36:069][688]LogFbx: 	Total Deformer Count 890930016.
+[2019.03.30-08.35.36:069][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:069][688]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.35.36:069][688]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.35.36:069][688]LogFbx: =================================================
+[2019.03.30-08.35.36:069][688]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.35.36:069][688]LogFbx: 	Total Deformer Count 890938496.
+[2019.03.30-08.35.36:069][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:069][688]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.35.36:069][688]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.35.36:070][688]LogFbx: =================================================
+[2019.03.30-08.35.36:070][688]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.35.36:070][688]LogFbx: 	Total Deformer Count 890938496.
+[2019.03.30-08.35.36:070][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:070][688]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.35.36:070][688]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.35.36:070][688]LogFbx: =================================================
+[2019.03.30-08.35.36:070][688]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.35.36:070][688]LogFbx: 	Total Deformer Count 890938496.
+[2019.03.30-08.35.36:070][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:070][688]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.35.36:070][688]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.35.36:070][688]LogFbx: =================================================
+[2019.03.30-08.35.36:070][688]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.35.36:070][688]LogFbx: 	Total Deformer Count 890944816.
+[2019.03.30-08.35.36:070][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:070][688]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.35.36:070][688]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.35.36:070][688]LogFbx: =================================================
+[2019.03.30-08.35.36:070][688]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.35.36:070][688]LogFbx: 	Total Deformer Count 890936096.
+[2019.03.30-08.35.36:070][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:070][688]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.35.36:070][688]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.35.36:070][688]LogFbx: =================================================
+[2019.03.30-08.35.36:070][688]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.35.36:070][688]LogFbx: 	Total Deformer Count 890930016.
+[2019.03.30-08.35.36:070][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:070][688]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.35.36:070][688]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.35.36:070][688]LogFbx: =================================================
+[2019.03.30-08.35.36:071][688]LogFbx: Dumping Node START [Body_mesh] 
+[2019.03.30-08.35.36:071][688]LogFbx: 	Total Deformer Count 1109884800.
+[2019.03.30-08.35.36:071][688]LogFbx: 		[Node 1]  (Type Skin).
+[2019.03.30-08.35.36:071][688]LogFbx: =================================================
+[2019.03.30-08.35.36:071][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:071][688]LogFbx: 		[Node Attribute Child 1] Body_mesh (Type Mesh).
+[2019.03.30-08.35.36:071][688]LogFbx: Dumping Node END [Body_mesh]
+[2019.03.30-08.35.36:071][688]LogFbx: =================================================
+[2019.03.30-08.35.36:071][688]LogFbx: Dumping Node START [jaw_mesh] 
+[2019.03.30-08.35.36:071][688]LogFbx: 	Total Deformer Count 888814496.
+[2019.03.30-08.35.36:071][688]LogFbx: 		[Node 1]  (Type Skin).
+[2019.03.30-08.35.36:071][688]LogFbx: =================================================
+[2019.03.30-08.35.36:071][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:071][688]LogFbx: 		[Node Attribute Child 1] jaw_mesh (Type Mesh).
+[2019.03.30-08.35.36:071][688]LogFbx: Dumping Node END [jaw_mesh]
+[2019.03.30-08.35.36:071][688]LogFbx: =================================================
+[2019.03.30-08.35.36:071][688]LogFbx: Dumping Node START [Body_mesh] 
+[2019.03.30-08.35.36:071][688]LogFbx: 	Total Deformer Count 1109872832.
+[2019.03.30-08.35.36:071][688]LogFbx: 		[Node 1]  (Type Skin).
+[2019.03.30-08.35.36:071][688]LogFbx: =================================================
+[2019.03.30-08.35.36:071][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:071][688]LogFbx: 		[Node Attribute Child 1] Body_mesh (Type Mesh).
+[2019.03.30-08.35.36:071][688]LogFbx: Dumping Node END [Body_mesh]
+[2019.03.30-08.35.36:071][688]LogFbx: =================================================
+[2019.03.30-08.35.36:071][688]LogFbx: Dumping Node START [jaw_mesh] 
+[2019.03.30-08.35.36:071][688]LogFbx: 	Total Deformer Count 888814496.
+[2019.03.30-08.35.36:071][688]LogFbx: 		[Node 1]  (Type Skin).
+[2019.03.30-08.35.36:072][688]LogFbx: =================================================
+[2019.03.30-08.35.36:072][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:072][688]LogFbx: 		[Node Attribute Child 1] jaw_mesh (Type Mesh).
+[2019.03.30-08.35.36:072][688]LogFbx: Dumping Node END [jaw_mesh]
+[2019.03.30-08.35.36:072][688]LogFbx: Valid bind pose for Pose (BIND_POSES) - Body_mesh
+[2019.03.30-08.35.36:077][688]LogMaterial: Warning: Material /Game/MyCharacter/Zombie/Zombi.Zombi needed to have new flag set bUsedWithSkeletalMesh !
+[2019.03.30-08.35.36:080][688]LogMaterial: Missing cached shader map for material Zombi, compiling. 
+[2019.03.30-08.35.36:142][688]LogLinker: Can't find file '/Game/MyCharacter/Zombie/Zombie_diffuse'
+[2019.03.30-08.35.36:142][688]LogLinker: Can't find file '/Game/MyCharacter/Zombie/Zombie_diffuse'
+[2019.03.30-08.35.36:147][688]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.03.30-08.35.36:147][688]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.03.30-08.35.36:147][688]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.03.30-08.35.36:147][688]LogFbxMaterialImport: Warning: Unable to find Texture file E:\ГОТОВЫЕ  ТЕКСТУРНЫЕ КАРТЫ\персонаж зомби\Zombie_diffuse.tga
+[2019.03.30-08.35.36:148][688]LogLinker: Can't find file '/Game/MyCharacter/Zombie/Zombie_normals'
+[2019.03.30-08.35.36:149][688]LogLinker: Can't find file '/Game/MyCharacter/Zombie/Zombie_normals'
+[2019.03.30-08.35.36:152][688]LogFbxMaterialImport: Warning: Unable to find Texture file E:\ГОТОВЫЕ  ТЕКСТУРНЫЕ КАРТЫ\персонаж зомби\Zombie_normals.tga
+[2019.03.30-08.35.36:156][688]LogMaterial: Missing cached shader map for material Zombi, compiling. 
+[2019.03.30-08.35.36:198][688]LogMaterial: Warning: Material /Game/MyCharacter/Zombie/backsword.backsword needed to have new flag set bUsedWithSkeletalMesh !
+[2019.03.30-08.35.36:202][688]LogMaterial: Missing cached shader map for material backsword, compiling. 
+[2019.03.30-08.35.36:270][688]LogLinker: Can't find file '/Game/MyCharacter/Zombie/backsword_diffuse'
+[2019.03.30-08.35.36:270][688]LogLinker: Can't find file '/Game/MyCharacter/Zombie/backsword_diffuse'
+[2019.03.30-08.35.36:274][688]LogFbxMaterialImport: Warning: Unable to find Texture file E:\ГОТОВЫЕ  ТЕКСТУРНЫЕ КАРТЫ\оружие зомби\backsword_diffuse.tga
+[2019.03.30-08.35.36:275][688]LogLinker: Can't find file '/Game/MyCharacter/Zombie/backsword_normals'
+[2019.03.30-08.35.36:275][688]LogLinker: Can't find file '/Game/MyCharacter/Zombie/backsword_normals'
+[2019.03.30-08.35.36:279][688]LogFbxMaterialImport: Warning: Unable to find Texture file E:\ГОТОВЫЕ  ТЕКСТУРНЫЕ КАРТЫ\оружие зомби\backsword_normals.tga
+[2019.03.30-08.35.36:284][688]LogMaterial: Missing cached shader map for material backsword, compiling. 
+[2019.03.30-08.35.36:346][688]LogFbx: Warning: Bones digested - 60  Depth of hierarchy - 13
+[2019.03.30-08.35.36:560][688]LogSkeletalMesh: Section 0: 2179 vertices, 58 active bones
+[2019.03.30-08.35.36:560][688]LogSkeletalMesh: Section 1: 77 vertices, 1 active bones
+[2019.03.30-08.35.36:581][688]LogSkeletalMesh: Section 0: Material=0, 3454 triangles
+[2019.03.30-08.35.36:581][688]LogSkeletalMesh: Section 1: Material=1, 100 triangles
+[2019.03.30-08.35.36:582][688]LogSkeletalMesh: Building Skeletal Mesh Zombie_Attack_1_...
+[2019.03.30-08.35.36:593][688]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/MyCharacter/Zombie/Zombie_Attack_1_.Zombie_Attack_1_
+[2019.03.30-08.35.36:596][688]LogLinker: Can't find file '/Game/MyCharacter/Zombie/Zombie_Attack_1__Skeleton'
+[2019.03.30-08.35.36:596][688]LogLinker: Can't find file '/Game/MyCharacter/Zombie/Zombie_Attack_1__Skeleton'
+[2019.03.30-08.35.36:598][688]LogLinker: Can't find file '/Game/MyCharacter/Zombie/Zombie_Attack_1__PhysicsAsset'
+[2019.03.30-08.35.36:598][688]LogLinker: Can't find file '/Game/MyCharacter/Zombie/Zombie_Attack_1__PhysicsAsset'
+[2019.03.30-08.35.36:607][688]LogFbx: =================================================
+[2019.03.30-08.35.36:607][688]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.35.36:607][688]LogFbx: 	Total Deformer Count 1619081744.
+[2019.03.30-08.35.36:607][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:607][688]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.35.36:607][688]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.35.36:607][688]LogFbx: =================================================
+[2019.03.30-08.35.36:607][688]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.35.36:607][688]LogFbx: 	Total Deformer Count 1619079744.
+[2019.03.30-08.35.36:607][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:607][688]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.35.36:607][688]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.35.36:607][688]LogFbx: =================================================
+[2019.03.30-08.35.36:607][688]LogFbx: Dumping Node START [Body_mesh] 
+[2019.03.30-08.35.36:608][688]LogFbx: 	Total Deformer Count 491934720.
+[2019.03.30-08.35.36:608][688]LogFbx: 		[Node 1]  (Type Skin).
+[2019.03.30-08.35.36:608][688]LogFbx: =================================================
+[2019.03.30-08.35.36:608][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:608][688]LogFbx: 		[Node Attribute Child 1] Body_mesh (Type Mesh).
+[2019.03.30-08.35.36:608][688]LogFbx: Dumping Node END [Body_mesh]
+[2019.03.30-08.35.36:608][688]LogFbx: =================================================
+[2019.03.30-08.35.36:608][688]LogFbx: Dumping Node START [jaw_mesh] 
+[2019.03.30-08.35.36:608][688]LogFbx: 	Total Deformer Count 1618030992.
+[2019.03.30-08.35.36:608][688]LogFbx: 		[Node 1]  (Type Skin).
+[2019.03.30-08.35.36:608][688]LogFbx: =================================================
+[2019.03.30-08.35.36:608][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:608][688]LogFbx: 		[Node Attribute Child 1] jaw_mesh (Type Mesh).
+[2019.03.30-08.35.36:608][688]LogFbx: Dumping Node END [jaw_mesh]
+[2019.03.30-08.35.36:609][688]LogFbx: =================================================
+[2019.03.30-08.35.36:609][688]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.35.36:609][688]LogFbx: 	Total Deformer Count 1619079184.
+[2019.03.30-08.35.36:609][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:609][688]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.35.36:609][688]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.35.36:610][688]LogFbx: =================================================
+[2019.03.30-08.35.36:610][688]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.35.36:610][688]LogFbx: 	Total Deformer Count 1619078864.
+[2019.03.30-08.35.36:610][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:610][688]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.35.36:610][688]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.35.36:611][688]LogFbx: =================================================
+[2019.03.30-08.35.36:611][688]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.35.36:611][688]LogFbx: 	Total Deformer Count 1619079264.
+[2019.03.30-08.35.36:611][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:611][688]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.35.36:611][688]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.35.36:611][688]LogFbx: =================================================
+[2019.03.30-08.35.36:611][688]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.35.36:611][688]LogFbx: 	Total Deformer Count 1619078704.
+[2019.03.30-08.35.36:611][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:611][688]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.35.36:612][688]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.35.36:612][688]LogFbx: =================================================
+[2019.03.30-08.35.36:612][688]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.35.36:612][688]LogFbx: 	Total Deformer Count 1619079264.
+[2019.03.30-08.35.36:612][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:612][688]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.35.36:612][688]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.35.36:612][688]LogFbx: =================================================
+[2019.03.30-08.35.36:613][688]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.35.36:613][688]LogFbx: 	Total Deformer Count 1619078464.
+[2019.03.30-08.35.36:614][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:614][688]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.35.36:614][688]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.35.36:614][688]LogFbx: =================================================
+[2019.03.30-08.35.36:614][688]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.35.36:614][688]LogFbx: 	Total Deformer Count 1619079344.
+[2019.03.30-08.35.36:614][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:614][688]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.35.36:614][688]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.35.36:614][688]LogFbx: =================================================
+[2019.03.30-08.35.36:614][688]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.35.36:614][688]LogFbx: 	Total Deformer Count 1619078304.
+[2019.03.30-08.35.36:614][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:614][688]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.35.36:614][688]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.35.36:614][688]LogFbx: =================================================
+[2019.03.30-08.35.36:615][688]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.35.36:615][688]LogFbx: 	Total Deformer Count 1619079424.
+[2019.03.30-08.35.36:615][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:615][688]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.35.36:615][688]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.35.36:615][688]LogFbx: =================================================
+[2019.03.30-08.35.36:615][688]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.35.36:615][688]LogFbx: 	Total Deformer Count 1619078144.
+[2019.03.30-08.35.36:615][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:615][688]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.35.36:615][688]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.35.36:615][688]LogFbx: =================================================
+[2019.03.30-08.35.36:615][688]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.35.36:615][688]LogFbx: 	Total Deformer Count 1619079504.
+[2019.03.30-08.35.36:615][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:615][688]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.35.36:615][688]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.35.36:615][688]LogFbx: =================================================
+[2019.03.30-08.35.36:615][688]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.35.36:615][688]LogFbx: 	Total Deformer Count 1619079504.
+[2019.03.30-08.35.36:615][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:615][688]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.35.36:615][688]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.35.36:615][688]LogFbx: =================================================
+[2019.03.30-08.35.36:615][688]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.35.36:615][688]LogFbx: 	Total Deformer Count 1619081664.
+[2019.03.30-08.35.36:615][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:615][688]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.35.36:616][688]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.35.36:616][688]LogFbx: =================================================
+[2019.03.30-08.35.36:616][688]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.35.36:616][688]LogFbx: 	Total Deformer Count 1619077664.
+[2019.03.30-08.35.36:616][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:616][688]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.35.36:616][688]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.35.36:616][688]LogFbx: =================================================
+[2019.03.30-08.35.36:617][688]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.35.36:617][688]LogFbx: 	Total Deformer Count 1619077664.
+[2019.03.30-08.35.36:617][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:617][688]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.35.36:617][688]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.35.36:617][688]LogFbx: =================================================
+[2019.03.30-08.35.36:617][688]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.35.36:617][688]LogFbx: 	Total Deformer Count 1619077664.
+[2019.03.30-08.35.36:617][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:617][688]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.35.36:617][688]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.35.36:617][688]LogFbx: =================================================
+[2019.03.30-08.35.36:617][688]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.35.36:617][688]LogFbx: 	Total Deformer Count 1619077744.
+[2019.03.30-08.35.36:617][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:617][688]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.35.36:617][688]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.35.36:617][688]LogFbx: =================================================
+[2019.03.30-08.35.36:617][688]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.35.36:617][688]LogFbx: 	Total Deformer Count 1619077824.
+[2019.03.30-08.35.36:617][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:618][688]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.35.36:618][688]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.35.36:618][688]LogFbx: =================================================
+[2019.03.30-08.35.36:618][688]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.35.36:618][688]LogFbx: 	Total Deformer Count 1619081664.
+[2019.03.30-08.35.36:618][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:618][688]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.35.36:618][688]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.35.36:618][688]LogFbx: =================================================
+[2019.03.30-08.35.36:618][688]LogFbx: Dumping Node START [Body_mesh] 
+[2019.03.30-08.35.36:618][688]LogFbx: 	Total Deformer Count 491945280.
+[2019.03.30-08.35.36:618][688]LogFbx: 		[Node 1]  (Type Skin).
+[2019.03.30-08.35.36:618][688]LogFbx: =================================================
+[2019.03.30-08.35.36:618][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:618][688]LogFbx: 		[Node Attribute Child 1] Body_mesh (Type Mesh).
+[2019.03.30-08.35.36:618][688]LogFbx: Dumping Node END [Body_mesh]
+[2019.03.30-08.35.36:618][688]LogFbx: =================================================
+[2019.03.30-08.35.36:618][688]LogFbx: Dumping Node START [jaw_mesh] 
+[2019.03.30-08.35.36:619][688]LogFbx: 	Total Deformer Count 1618030712.
+[2019.03.30-08.35.36:619][688]LogFbx: 		[Node 1]  (Type Skin).
+[2019.03.30-08.35.36:619][688]LogFbx: =================================================
+[2019.03.30-08.35.36:619][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:619][688]LogFbx: 		[Node Attribute Child 1] jaw_mesh (Type Mesh).
+[2019.03.30-08.35.36:619][688]LogFbx: Dumping Node END [jaw_mesh]
+[2019.03.30-08.35.36:619][688]LogFbx: =================================================
+[2019.03.30-08.35.36:619][688]LogFbx: Dumping Node START [Body_mesh] 
+[2019.03.30-08.35.36:619][688]LogFbx: 	Total Deformer Count 491938880.
+[2019.03.30-08.35.36:619][688]LogFbx: 		[Node 1]  (Type Skin).
+[2019.03.30-08.35.36:619][688]LogFbx: =================================================
+[2019.03.30-08.35.36:619][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:619][688]LogFbx: 		[Node Attribute Child 1] Body_mesh (Type Mesh).
+[2019.03.30-08.35.36:619][688]LogFbx: Dumping Node END [Body_mesh]
+[2019.03.30-08.35.36:619][688]LogFbx: =================================================
+[2019.03.30-08.35.36:619][688]LogFbx: Dumping Node START [jaw_mesh] 
+[2019.03.30-08.35.36:619][688]LogFbx: 	Total Deformer Count 1618030712.
+[2019.03.30-08.35.36:619][688]LogFbx: 		[Node 1]  (Type Skin).
+[2019.03.30-08.35.36:619][688]LogFbx: =================================================
+[2019.03.30-08.35.36:619][688]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.35.36:619][688]LogFbx: 		[Node Attribute Child 1] jaw_mesh (Type Mesh).
+[2019.03.30-08.35.36:619][688]LogFbx: Dumping Node END [jaw_mesh]
+[2019.03.30-08.35.36:620][688]LogFbx: SortedLinks :(0) CATRigHub001
+[2019.03.30-08.35.36:620][688]LogFbx: SortedLinks :(1) CATRigLLeg1
+[2019.03.30-08.35.36:620][688]LogFbx: SortedLinks :(2) CATRigLLeg2
+[2019.03.30-08.35.36:620][688]LogFbx: SortedLinks :(3) CATRigLLegAnkle
+[2019.03.30-08.35.36:620][688]LogFbx: SortedLinks :(4) CATRigLLegDigit11
+[2019.03.30-08.35.36:620][688]LogFbx: SortedLinks :(5) CATRigRLeg1
+[2019.03.30-08.35.36:620][688]LogFbx: SortedLinks :(6) CATRigRLeg2
+[2019.03.30-08.35.36:620][688]LogFbx: SortedLinks :(7) CATRigRLegAnkle
+[2019.03.30-08.35.36:620][688]LogFbx: SortedLinks :(8) CATRigRLegDigit11
+[2019.03.30-08.35.36:620][688]LogFbx: SortedLinks :(9) CATRigHub001Bone001
+[2019.03.30-08.35.36:620][688]LogFbx: SortedLinks :(10) CATRigSpine1
+[2019.03.30-08.35.36:620][688]LogFbx: SortedLinks :(11) CATRigSpine2
+[2019.03.30-08.35.36:620][688]LogFbx: SortedLinks :(12) CATRigHub002
+[2019.03.30-08.35.36:620][688]LogFbx: SortedLinks :(13) CATRigSpine
+[2019.03.30-08.35.36:620][688]LogFbx: SortedLinks :(14) CATRigHub003
+[2019.03.30-08.35.36:620][688]LogFbx: SortedLinks :(15) CATRigHub003Bone001
+[2019.03.30-08.35.36:620][688]LogFbx: SortedLinks :(16) CATRigHub003Bone002
+[2019.03.30-08.35.36:620][688]LogFbx: SortedLinks :(17) CATRigHub003Bone003
+[2019.03.30-08.35.36:620][688]LogFbx: SortedLinks :(18) eyes_mesh001
+[2019.03.30-08.35.36:620][688]LogFbx: SortedLinks :(19) CATRigLArmCollarbone
+[2019.03.30-08.35.36:620][688]LogFbx: SortedLinks :(20) CATRigLArm1
+[2019.03.30-08.35.36:620][688]LogFbx: SortedLinks :(21) CATRigLArm21
+[2019.03.30-08.35.36:620][688]LogFbx: SortedLinks :(22) CATRigLArm22
+[2019.03.30-08.35.36:620][688]LogFbx: SortedLinks :(23) CATRigLArmPalm
+[2019.03.30-08.35.36:620][688]LogFbx: SortedLinks :(24) CATRigLArmDigit11
+[2019.03.30-08.35.36:620][688]LogFbx: SortedLinks :(25) CATRigLArmDigit12
+[2019.03.30-08.35.36:620][688]LogFbx: SortedLinks :(26) CATRigLArmDigit13
+[2019.03.30-08.35.36:620][688]LogFbx: SortedLinks :(27) CATRigLArmDigit21
+[2019.03.30-08.35.36:620][688]LogFbx: SortedLinks :(28) CATRigLArmDigit22
+[2019.03.30-08.35.36:620][688]LogFbx: SortedLinks :(29) CATRigLArmDigit23
+[2019.03.30-08.35.36:620][688]LogFbx: SortedLinks :(30) CATRigLArmDigit31
+[2019.03.30-08.35.36:620][688]LogFbx: SortedLinks :(31) CATRigLArmDigit32
+[2019.03.30-08.35.36:621][688]LogFbx: SortedLinks :(32) CATRigLArmDigit33
+[2019.03.30-08.35.36:621][688]LogFbx: SortedLinks :(33) CATRigLArmDigit41
+[2019.03.30-08.35.36:621][688]LogFbx: SortedLinks :(34) CATRigLArmDigit42
+[2019.03.30-08.35.36:621][688]LogFbx: SortedLinks :(35) CATRigLArmDigit43
+[2019.03.30-08.35.36:621][688]LogFbx: SortedLinks :(36) CATRigLArmDigit51
+[2019.03.30-08.35.36:621][688]LogFbx: SortedLinks :(37) CATRigLArmDigit52
+[2019.03.30-08.35.36:621][688]LogFbx: SortedLinks :(38) CATRigLArmDigit53
+[2019.03.30-08.35.36:621][688]LogFbx: SortedLinks :(39) CATRigRArmCollarbone
+[2019.03.30-08.35.36:621][688]LogFbx: SortedLinks :(40) CATRigRArm1
+[2019.03.30-08.35.36:621][688]LogFbx: SortedLinks :(41) CATRigRArm21
+[2019.03.30-08.35.36:621][688]LogFbx: SortedLinks :(42) CATRigRArm22
+[2019.03.30-08.35.36:621][688]LogFbx: SortedLinks :(43) CATRigRArmPalm
+[2019.03.30-08.35.36:621][688]LogFbx: SortedLinks :(44) CATRigRArmDigit11
+[2019.03.30-08.35.36:622][688]LogFbx: SortedLinks :(45) CATRigRArmDigit12
+[2019.03.30-08.35.36:622][688]LogFbx: SortedLinks :(46) CATRigRArmDigit13
+[2019.03.30-08.35.36:622][688]LogFbx: SortedLinks :(47) CATRigRArmDigit21
+[2019.03.30-08.35.36:622][688]LogFbx: SortedLinks :(48) CATRigRArmDigit22
+[2019.03.30-08.35.36:622][688]LogFbx: SortedLinks :(49) CATRigRArmDigit23
+[2019.03.30-08.35.36:622][688]LogFbx: SortedLinks :(50) CATRigRArmDigit31
+[2019.03.30-08.35.36:622][688]LogFbx: SortedLinks :(51) CATRigRArmDigit32
+[2019.03.30-08.35.36:622][688]LogFbx: SortedLinks :(52) CATRigRArmDigit33
+[2019.03.30-08.35.36:622][688]LogFbx: SortedLinks :(53) CATRigRArmDigit41
+[2019.03.30-08.35.36:622][688]LogFbx: SortedLinks :(54) CATRigRArmDigit42
+[2019.03.30-08.35.36:622][688]LogFbx: SortedLinks :(55) CATRigRArmDigit43
+[2019.03.30-08.35.36:622][688]LogFbx: SortedLinks :(56) CATRigRArmDigit51
+[2019.03.30-08.35.36:622][688]LogFbx: SortedLinks :(57) CATRigRArmDigit52
+[2019.03.30-08.35.36:622][688]LogFbx: SortedLinks :(58) CATRigRArmDigit53
+[2019.03.30-08.35.36:622][688]LogFbx: SortedLinks :(59) backsword_mesh
+[2019.03.30-08.35.36:626][688]LogFbx: Parsing AnimStack Take 001
+[2019.03.30-08.35.36:633][688]LogLinker: Can't find file '/Game/MyCharacter/Zombie/Zombie_Attack_1__Anim'
+[2019.03.30-08.35.36:633][688]LogLinker: Can't find file '/Game/MyCharacter/Zombie/Zombie_Attack_1__Anim'
+[2019.03.30-08.35.37:629][688]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Zombie/Zombie_Attack_1__Anim.Zombie_Attack_1__Anim
+[2019.03.30-08.35.37:631][688]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Zombie_Attack_1__Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.35.37:675][688]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.03.30-08.35.37:675][688]FBXImport: Warning: The following bones are missing from the bind pose:
+CATRigHub001Bone001  
+CATRigSpine1  
+CATRigSpine2  
+CATRigHub002  
+CATRigSpine  
+CATRigHub003  
+CATRigHub003Bone001  
+CATRigHub003Bone002  
+CATRigHub003Bone003  
+eyes_mesh001  
+CATRigLArmCollarbone  
+CATRigLArm1  
+CATRigLArm21  
+CATRigLArm22  
+CATRigLArmPalm  
+CATRigLArmDigit11  
+CATRigLArmDigit12  
+CATRigLArmDigit13  
+CATRigLArmDigit21  
+CATRigLArmDigit22  
+CATRigLArmDigit23  
+CATRigLArmDigit31  
+CATRigLArmDigit32  
+CATRigLArmDigit33  
+CATRigLArmDigit41  
+CATRigLArmDigit42  
+CATRigLArmDigit43  
+CATRigLArmDigit51  
+CATRigLArmDigit52  
+CATRigLArmDigit53  
+CATRigRArmCollarbone  
+CATRigRArm1  
+CATRigRArm21  
+CATRigRArm22  
+CATRigRArmPalm  
+CATRigRArmDigit11  
+CATRigRArmDigit12  
+CATRigRArmDigit13  
+CATRigRArmDigit21  
+CATRigRArmDigit22  
+CATRigRArmDigit23  
+CATRigRArmDigit31  
+CATRigRArmDigit32  
+CATRigRArmDigit33  
+CATRigRArmDigit41  
+CATRigRArmDigit42  
+CATRigRArmDigit43  
+CATRigRArmDigit51  
+CATRigRArmDigit52  
+CATRigRArmDigit53  
+backsword_mesh  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2019.03.30-08.35.37:687][688]LogSkeletalMesh: Building Skeletal Mesh Zombie_Attack_1_...
+[2019.03.30-08.35.37:696][688]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/MyCharacter/Zombie/Zombie_Attack_1_.Zombie_Attack_1_
+[2019.03.30-08.35.40:032][784]LogSlate: Window 'Message Log' being destroyed
+[2019.03.30-08.35.40:039][784]LogSlate: Window 'Message Log' being destroyed
+[2019.03.30-08.35.49:864][213]LogMaterial: Missing cached shader map for material Zombi, compiling. 
+[2019.03.30-08.35.50:015][213]LogMaterial: Missing cached shader map for material Zombi, compiling. 
+[2019.03.30-08.35.50:063][213]LogMaterial: Missing cached shader map for material Zombi, compiling. 
+[2019.03.30-08.35.50:139][213]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.03.30-08.35.50:384][214]LogSlate: Took 0.000284 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.30-08.36.01:140][681]LogMaterial: Missing cached shader map for material Zombi, compiling. 
+[2019.03.30-08.36.01:185][681]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.03.30-08.36.01:224][681]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.03.30-08.36.01:232][681]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.03.30-08.36.01:263][681]LogMaterial: Missing cached shader map for material Zombi, compiling. 
+[2019.03.30-08.36.01:309][681]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.03.30-08.36.01:343][681]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.03.30-08.36.01:352][681]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.03.30-08.36.01:361][681]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.03.30-08.36.01:394][681]LogMaterial: Missing cached shader map for material Zombi, compiling. 
+[2019.03.30-08.36.01:442][681]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2019.03.30-08.36.01:478][681]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.03.30-08.36.01:484][681]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.03.30-08.36.01:492][681]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.03.30-08.36.01:500][681]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2019.03.30-08.36.01:530][681]LogMaterial: Missing cached shader map for material Zombi, compiling. 
+[2019.03.30-08.36.01:581][681]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2019.03.30-08.36.01:620][681]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.03.30-08.36.01:627][681]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.03.30-08.36.01:634][681]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.03.30-08.36.01:641][681]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2019.03.30-08.36.01:649][681]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2019.03.30-08.36.11:826][114]LogMaterial: Missing cached shader map for material Zombi, compiling. 
+[2019.03.30-08.36.16:229][306]LogMaterial: Missing cached shader map for material Zombi, compiling. 
+[2019.03.30-08.36.16:271][306]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.03.30-08.36.22:875][600]LogMaterial: Missing cached shader map for material Zombi, compiling. 
+[2019.03.30-08.36.22:925][600]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.03.30-08.36.28:322][836]LogMaterial: Missing cached shader map for material Zombi, compiling. 
+[2019.03.30-08.36.28:364][836]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2019.03.30-08.36.35:623][164]LogMaterial: Missing cached shader map for material Zombi, compiling. 
+[2019.03.30-08.36.35:674][164]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2019.03.30-08.36.38:416][285]LogMaterialEditor: Applying material Zombi
+[2019.03.30-08.36.39:678][285]LogMaterial: Missing cached shader map for material Zombi, compiling. 
+[2019.03.30-08.36.39:816][285]LogMaterial: Missing cached shader map for material Zombi, compiling. 
+[2019.03.30-08.36.39:902][285]LogMaterial: Missing cached shader map for material Zombi, compiling. 
+[2019.03.30-08.36.39:989][285]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Zombi, compiling. 
+[2019.03.30-08.37.20:784][285]LogShaderCompilers: Display: Shaders left to compile 239
+[2019.03.30-08.37.20:784][285]LogShaderCompilers: Display: Shaders left to compile 238
+[2019.03.30-08.37.20:784][285]LogShaderCompilers: Display: Shaders left to compile 237
+[2019.03.30-08.37.20:784][285]LogShaderCompilers: Display: Shaders left to compile 236
+[2019.03.30-08.37.20:784][285]LogShaderCompilers: Display: Shaders left to compile 235
+[2019.03.30-08.37.20:784][285]LogShaderCompilers: Display: Shaders left to compile 234
+[2019.03.30-08.37.20:784][285]LogShaderCompilers: Display: Shaders left to compile 233
+[2019.03.30-08.37.20:784][285]LogShaderCompilers: Display: Shaders left to compile 232
+[2019.03.30-08.37.20:784][285]LogShaderCompilers: Display: Shaders left to compile 231
+[2019.03.30-08.37.20:784][285]LogShaderCompilers: Display: Shaders left to compile 230
+[2019.03.30-08.37.20:784][285]LogShaderCompilers: Display: Shaders left to compile 229
+[2019.03.30-08.37.20:784][285]LogShaderCompilers: Display: Shaders left to compile 228
+[2019.03.30-08.37.20:784][285]LogShaderCompilers: Display: Shaders left to compile 227
+[2019.03.30-08.37.20:784][285]LogShaderCompilers: Display: Shaders left to compile 226
+[2019.03.30-08.37.20:784][285]LogShaderCompilers: Display: Shaders left to compile 225
+[2019.03.30-08.37.20:784][285]LogShaderCompilers: Display: Shaders left to compile 224
+[2019.03.30-08.37.20:784][285]LogShaderCompilers: Display: Shaders left to compile 223
+[2019.03.30-08.37.20:784][285]LogShaderCompilers: Display: Shaders left to compile 222
+[2019.03.30-08.37.20:785][285]LogShaderCompilers: Display: Shaders left to compile 221
+[2019.03.30-08.37.20:785][285]LogShaderCompilers: Display: Shaders left to compile 220
+[2019.03.30-08.37.20:785][285]LogShaderCompilers: Display: Shaders left to compile 219
+[2019.03.30-08.37.20:785][285]LogShaderCompilers: Display: Shaders left to compile 218
+[2019.03.30-08.37.20:785][285]LogShaderCompilers: Display: Shaders left to compile 217
+[2019.03.30-08.37.20:785][285]LogShaderCompilers: Display: Shaders left to compile 216
+[2019.03.30-08.37.20:785][285]LogShaderCompilers: Display: Shaders left to compile 215
+[2019.03.30-08.37.20:785][285]LogShaderCompilers: Display: Shaders left to compile 214
+[2019.03.30-08.37.20:785][285]LogShaderCompilers: Display: Shaders left to compile 213
+[2019.03.30-08.37.20:785][285]LogShaderCompilers: Display: Shaders left to compile 212
+[2019.03.30-08.37.20:785][285]LogShaderCompilers: Display: Shaders left to compile 211
+[2019.03.30-08.37.20:785][285]LogShaderCompilers: Display: Shaders left to compile 210
+[2019.03.30-08.37.20:785][285]LogShaderCompilers: Display: Shaders left to compile 209
+[2019.03.30-08.37.20:785][285]LogShaderCompilers: Display: Shaders left to compile 208
+[2019.03.30-08.37.20:785][285]LogShaderCompilers: Display: Shaders left to compile 207
+[2019.03.30-08.37.20:785][285]LogShaderCompilers: Display: Shaders left to compile 206
+[2019.03.30-08.37.20:785][285]LogShaderCompilers: Display: Shaders left to compile 205
+[2019.03.30-08.37.20:785][285]LogShaderCompilers: Display: Shaders left to compile 204
+[2019.03.30-08.37.20:785][285]LogShaderCompilers: Display: Shaders left to compile 203
+[2019.03.30-08.37.20:785][285]LogShaderCompilers: Display: Shaders left to compile 202
+[2019.03.30-08.37.20:785][285]LogShaderCompilers: Display: Shaders left to compile 201
+[2019.03.30-08.37.20:785][285]LogShaderCompilers: Display: Shaders left to compile 200
+[2019.03.30-08.37.20:785][285]LogShaderCompilers: Display: Shaders left to compile 199
+[2019.03.30-08.37.20:785][285]LogShaderCompilers: Display: Shaders left to compile 198
+[2019.03.30-08.37.20:785][285]LogShaderCompilers: Display: Shaders left to compile 197
+[2019.03.30-08.37.20:785][285]LogShaderCompilers: Display: Shaders left to compile 196
+[2019.03.30-08.37.20:785][285]LogShaderCompilers: Display: Shaders left to compile 195
+[2019.03.30-08.37.20:785][285]LogShaderCompilers: Display: Shaders left to compile 194
+[2019.03.30-08.37.20:785][285]LogShaderCompilers: Display: Shaders left to compile 193
+[2019.03.30-08.37.20:785][285]LogShaderCompilers: Display: Shaders left to compile 192
+[2019.03.30-08.37.20:785][285]LogShaderCompilers: Display: Shaders left to compile 191
+[2019.03.30-08.37.20:785][285]LogShaderCompilers: Display: Shaders left to compile 190
+[2019.03.30-08.37.20:785][285]LogShaderCompilers: Display: Shaders left to compile 189
+[2019.03.30-08.37.20:786][285]LogShaderCompilers: Display: Shaders left to compile 188
+[2019.03.30-08.37.20:786][285]LogShaderCompilers: Display: Shaders left to compile 187
+[2019.03.30-08.37.20:786][285]LogShaderCompilers: Display: Shaders left to compile 186
+[2019.03.30-08.37.20:786][285]LogShaderCompilers: Display: Shaders left to compile 185
+[2019.03.30-08.37.20:786][285]LogShaderCompilers: Display: Shaders left to compile 184
+[2019.03.30-08.37.20:786][285]LogShaderCompilers: Display: Shaders left to compile 183
+[2019.03.30-08.37.20:786][285]LogShaderCompilers: Display: Shaders left to compile 182
+[2019.03.30-08.37.20:786][285]LogShaderCompilers: Display: Shaders left to compile 181
+[2019.03.30-08.37.20:786][285]LogShaderCompilers: Display: Shaders left to compile 180
+[2019.03.30-08.37.20:786][285]LogShaderCompilers: Display: Shaders left to compile 170
+[2019.03.30-08.37.20:786][285]LogShaderCompilers: Display: Shaders left to compile 160
+[2019.03.30-08.37.21:051][285]TextureStreamingBuild: Display: Compiling optional shaders took 41.073 seconds.
+[2019.03.30-08.37.34:408][641]LogMaterialEditor: Saving and Compiling material Zombi
+[2019.03.30-08.38.51:803][641]LogShaderCompilers: Display: Shaders left to compile 150
+[2019.03.30-08.38.51:803][641]LogShaderCompilers: Display: Shaders left to compile 140
+[2019.03.30-08.38.51:803][641]LogShaderCompilers: Display: Shaders left to compile 130
+[2019.03.30-08.38.51:803][641]LogShaderCompilers: Display: Shaders left to compile 120
+[2019.03.30-08.38.51:804][641]LogShaderCompilers: Display: Shaders left to compile 110
+[2019.03.30-08.38.51:804][641]LogShaderCompilers: Display: Shaders left to compile 100
+[2019.03.30-08.38.51:804][641]LogShaderCompilers: Display: Shaders left to compile 90
+[2019.03.30-08.38.51:804][641]LogShaderCompilers: Display: Shaders left to compile 80
+[2019.03.30-08.38.51:804][641]LogShaderCompilers: Display: Shaders left to compile 70
+[2019.03.30-08.38.51:804][641]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.03.30-08.38.51:804][641]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.03.30-08.38.51:804][641]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.03.30-08.38.51:804][641]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.03.30-08.38.51:804][641]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.30-08.38.51:804][641]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.30-08.38.52:142][641]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Zombie/Zombi" FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/Zombi.uasset" SILENT=true
+[2019.03.30-08.38.52:167][641]LogSavePackage: Save=20.96ms
+[2019.03.30-08.38.52:167][641]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Zombi3B2F3A504B8B3A69A0BA1D8DC4ADCF8D.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/Zombi.uasset'
+[2019.03.30-08.38.52:169][641]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/Zombi.uasset
+[2019.03.30-08.38.52:180][641]MaterialEditorStats: Base pass shader: 117 instructions
+[2019.03.30-08.38.52:180][641]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2019.03.30-08.38.52:180][641]MaterialEditorStats: Vertex shader: 38 instructions
+[2019.03.30-08.38.52:180][641]MaterialEditorStats: Texture samplers: 7/16
+[2019.03.30-08.38.52:180][641]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.03.30-08.38.56:023][837]LogSlate: Window 'Zombi' being destroyed
+[2019.03.30-08.38.56:027][837]LogSlate: Window 'Zombi' being destroyed
+[2019.03.30-08.38.59:718][966]LogSlate: Window 'Save Content' being destroyed
+[2019.03.30-08.38.59:806][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Zombie/backsword" FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/backsword.uasset" SILENT=true
+[2019.03.30-08.38.59:820][966]LogSavePackage: Save=12.96ms
+[2019.03.30-08.38.59:820][966]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/backswordC4EFA1BA4F6004498DCF24B5F09FAF99.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/backsword.uasset'
+[2019.03.30-08.38.59:822][966]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/backsword.uasset
+[2019.03.30-08.39.00:093][966]LogSavePackage: Save=244.03ms
+[2019.03.30-08.39.00:093][966]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/backsword_diffuseA045625F43B2CF87949D11868C699320.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/texture/backsword_diffuse.uasset'
+[2019.03.30-08.39.00:095][966]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/texture/backsword_diffuse.uasset
+[2019.03.30-08.39.00:236][966]LogSavePackage: Save=113.81ms
+[2019.03.30-08.39.00:236][966]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/backsword_normals3B7653214BEB67E925179FBFF5D0C6F9.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/texture/backsword_normals.uasset'
+[2019.03.30-08.39.00:238][966]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/texture/backsword_normals.uasset
+[2019.03.30-08.39.00:386][966]LogSavePackage: Save=124.57ms
+[2019.03.30-08.39.00:386][966]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/backsword_specular3D4EB881412B6A40BE0244AC8429248F.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/texture/backsword_specular.uasset'
+[2019.03.30-08.39.00:388][966]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/texture/backsword_specular.uasset
+[2019.03.30-08.39.01:067][966]LogSavePackage: Save=657.75ms
+[2019.03.30-08.39.01:067][966]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Zombie_diffuseD32B0C04405B8AD4B67C07A00516BDED.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/texture/Zombie_diffuse.uasset'
+[2019.03.30-08.39.01:068][966]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/texture/Zombie_diffuse.uasset
+[2019.03.30-08.39.01:752][966]LogSavePackage: Save=658.53ms
+[2019.03.30-08.39.01:752][966]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Zombie_diffusePSD6FB182E34205C3845FEAA3937CAA9864.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/texture/Zombie_diffusePSD.uasset'
+[2019.03.30-08.39.01:754][966]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/texture/Zombie_diffusePSD.uasset
+[2019.03.30-08.39.02:484][966]LogSavePackage: Save=709.35ms
+[2019.03.30-08.39.02:484][966]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Zombie_normals66B5425F42C1320A8E5CE9BDC30C82FE.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/texture/Zombie_normals.uasset'
+[2019.03.30-08.39.02:486][966]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/texture/Zombie_normals.uasset
+[2019.03.30-08.39.03:008][966]LogSavePackage: Save=507.99ms
+[2019.03.30-08.39.03:008][966]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Zombie_specular5603E1A64A10E30B732A21A087F419E9.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/texture/Zombie_specular.uasset'
+[2019.03.30-08.39.03:010][966]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/texture/Zombie_specular.uasset
+[2019.03.30-08.39.03:101][966]LogSavePackage: Save=22.62ms
+[2019.03.30-08.39.03:101][966]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Zombie_Attack_1_DB2AECF640DA0C37E6FB9C94F3C15680.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/Zombie_Attack_1_.uasset'
+[2019.03.30-08.39.03:103][966]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/Zombie_Attack_1_.uasset
+[2019.03.30-08.39.03:177][966]LogSavePackage: Save=17.03ms
+[2019.03.30-08.39.03:177][966]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Zombie_Attack_1__Anim64587C09492FB4B49C50E4A3A27402A1.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/Zombie_Attack_1__Anim.uasset'
+[2019.03.30-08.39.03:178][966]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/Zombie_Attack_1__Anim.uasset
+[2019.03.30-08.39.03:248][966]LogSavePackage: Save=20.57ms
+[2019.03.30-08.39.03:248][966]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Zombie_Attack_1__PhysicsAsset19254F93444066C1AE2F5488891F1476.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/Zombie_Attack_1__PhysicsAsset.uasset'
+[2019.03.30-08.39.03:250][966]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/Zombie_Attack_1__PhysicsAsset.uasset
+[2019.03.30-08.39.03:257][966]LogSavePackage: Save=2.25ms
+[2019.03.30-08.39.03:258][966]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Zombie_Attack_1__Skeleton0BA7931E491A928EAA49D79352B6012C.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/Zombie_Attack_1__Skeleton.uasset'
+[2019.03.30-08.39.03:259][966]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/Zombie_Attack_1__Skeleton.uasset
+[2019.03.30-08.39.09:949][280]LogMaterial: Missing cached shader map for material backsword, compiling. 
+[2019.03.30-08.39.10:092][280]LogMaterial: Missing cached shader map for material backsword, compiling. 
+[2019.03.30-08.39.10:122][280]LogMaterial: Missing cached shader map for material backsword, compiling. 
+[2019.03.30-08.39.10:150][280]LogShaderCompilers: Display: Shaders left to compile 48
+[2019.03.30-08.39.10:151][280]LogShaderCompilers: Display: Shaders left to compile 47
+[2019.03.30-08.39.10:151][280]LogShaderCompilers: Display: Shaders left to compile 46
+[2019.03.30-08.39.10:176][280]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.03.30-08.39.16:151][544]LogMaterial: Missing cached shader map for material backsword, compiling. 
+[2019.03.30-08.39.16:202][544]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2019.03.30-08.39.16:240][544]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.03.30-08.39.16:247][544]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2019.03.30-08.39.16:283][544]LogMaterial: Missing cached shader map for material backsword, compiling. 
+[2019.03.30-08.39.16:323][544]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2019.03.30-08.39.16:359][544]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.03.30-08.39.16:366][544]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2019.03.30-08.39.16:374][544]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2019.03.30-08.39.16:402][544]LogMaterial: Missing cached shader map for material backsword, compiling. 
+[2019.03.30-08.39.16:450][544]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2019.03.30-08.39.16:484][544]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.03.30-08.39.16:490][544]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2019.03.30-08.39.16:499][544]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2019.03.30-08.39.16:508][544]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2019.03.30-08.39.21:539][774]LogShaderCompilers: Display: Shaders left to compile 56
+[2019.03.30-08.39.22:769][835]LogMaterial: Missing cached shader map for material backsword, compiling. 
+[2019.03.30-08.39.26:767][ 20]LogMaterial: Missing cached shader map for material backsword, compiling. 
+[2019.03.30-08.39.26:814][ 20]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2019.03.30-08.39.28:960][120]LogShaderCompilers: Display: Shaders left to compile 56
+[2019.03.30-08.39.37:126][516]LogShaderCompilers: Display: Shaders left to compile 55
+[2019.03.30-08.39.37:297][523]LogMaterial: Missing cached shader map for material backsword, compiling. 
+[2019.03.30-08.39.37:346][523]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2019.03.30-08.39.44:886][881]LogMaterial: Missing cached shader map for material backsword, compiling. 
+[2019.03.30-08.39.44:929][881]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2019.03.30-08.39.48:814][ 61]LogMaterialEditor: Applying material backsword
+[2019.03.30-08.39.50:098][ 61]LogShaderCompilers: Display: Shaders left to compile 54
+[2019.03.30-08.39.50:130][ 61]LogMaterial: Missing cached shader map for material backsword, compiling. 
+[2019.03.30-08.39.50:254][ 61]LogMaterial: Missing cached shader map for material backsword, compiling. 
+[2019.03.30-08.39.50:334][ 61]LogMaterial: Missing cached shader map for material backsword, compiling. 
+[2019.03.30-08.39.50:419][ 61]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy backsword, compiling. 
+[2019.03.30-08.40.18:883][ 61]LogShaderCompilers: Display: Shaders left to compile 114
+[2019.03.30-08.40.18:883][ 61]LogShaderCompilers: Display: Shaders left to compile 113
+[2019.03.30-08.40.18:883][ 61]LogShaderCompilers: Display: Shaders left to compile 112
+[2019.03.30-08.40.18:883][ 61]LogShaderCompilers: Display: Shaders left to compile 111
+[2019.03.30-08.40.18:883][ 61]LogShaderCompilers: Display: Shaders left to compile 110
+[2019.03.30-08.40.18:883][ 61]LogShaderCompilers: Display: Shaders left to compile 109
+[2019.03.30-08.40.18:883][ 61]LogShaderCompilers: Display: Shaders left to compile 108
+[2019.03.30-08.40.18:883][ 61]LogShaderCompilers: Display: Shaders left to compile 107
+[2019.03.30-08.40.18:883][ 61]LogShaderCompilers: Display: Shaders left to compile 106
+[2019.03.30-08.40.18:883][ 61]LogShaderCompilers: Display: Shaders left to compile 105
+[2019.03.30-08.40.18:883][ 61]LogShaderCompilers: Display: Shaders left to compile 104
+[2019.03.30-08.40.18:883][ 61]LogShaderCompilers: Display: Shaders left to compile 103
+[2019.03.30-08.40.18:883][ 61]LogShaderCompilers: Display: Shaders left to compile 102
+[2019.03.30-08.40.18:883][ 61]LogShaderCompilers: Display: Shaders left to compile 101
+[2019.03.30-08.40.18:883][ 61]LogShaderCompilers: Display: Shaders left to compile 100
+[2019.03.30-08.40.18:883][ 61]LogShaderCompilers: Display: Shaders left to compile 99
+[2019.03.30-08.40.18:883][ 61]LogShaderCompilers: Display: Shaders left to compile 98
+[2019.03.30-08.40.18:883][ 61]LogShaderCompilers: Display: Shaders left to compile 97
+[2019.03.30-08.40.18:883][ 61]LogShaderCompilers: Display: Shaders left to compile 96
+[2019.03.30-08.40.18:883][ 61]LogShaderCompilers: Display: Shaders left to compile 95
+[2019.03.30-08.40.18:883][ 61]LogShaderCompilers: Display: Shaders left to compile 94
+[2019.03.30-08.40.18:883][ 61]LogShaderCompilers: Display: Shaders left to compile 93
+[2019.03.30-08.40.18:883][ 61]LogShaderCompilers: Display: Shaders left to compile 92
+[2019.03.30-08.40.18:883][ 61]LogShaderCompilers: Display: Shaders left to compile 91
+[2019.03.30-08.40.18:883][ 61]LogShaderCompilers: Display: Shaders left to compile 90
+[2019.03.30-08.40.18:883][ 61]LogShaderCompilers: Display: Shaders left to compile 89
+[2019.03.30-08.40.18:883][ 61]LogShaderCompilers: Display: Shaders left to compile 88
+[2019.03.30-08.40.18:883][ 61]LogShaderCompilers: Display: Shaders left to compile 87
+[2019.03.30-08.40.18:883][ 61]LogShaderCompilers: Display: Shaders left to compile 86
+[2019.03.30-08.40.18:883][ 61]LogShaderCompilers: Display: Shaders left to compile 85
+[2019.03.30-08.40.18:883][ 61]LogShaderCompilers: Display: Shaders left to compile 84
+[2019.03.30-08.40.18:883][ 61]LogShaderCompilers: Display: Shaders left to compile 83
+[2019.03.30-08.40.18:883][ 61]LogShaderCompilers: Display: Shaders left to compile 82
+[2019.03.30-08.40.18:884][ 61]LogShaderCompilers: Display: Shaders left to compile 81
+[2019.03.30-08.40.18:884][ 61]LogShaderCompilers: Display: Shaders left to compile 80
+[2019.03.30-08.40.18:884][ 61]LogShaderCompilers: Display: Shaders left to compile 79
+[2019.03.30-08.40.18:884][ 61]LogShaderCompilers: Display: Shaders left to compile 78
+[2019.03.30-08.40.18:884][ 61]LogShaderCompilers: Display: Shaders left to compile 77
+[2019.03.30-08.40.18:884][ 61]LogShaderCompilers: Display: Shaders left to compile 76
+[2019.03.30-08.40.18:884][ 61]LogShaderCompilers: Display: Shaders left to compile 75
+[2019.03.30-08.40.18:884][ 61]LogShaderCompilers: Display: Shaders left to compile 74
+[2019.03.30-08.40.18:884][ 61]LogShaderCompilers: Display: Shaders left to compile 73
+[2019.03.30-08.40.18:884][ 61]LogShaderCompilers: Display: Shaders left to compile 72
+[2019.03.30-08.40.18:884][ 61]LogShaderCompilers: Display: Shaders left to compile 71
+[2019.03.30-08.40.18:884][ 61]LogShaderCompilers: Display: Shaders left to compile 70
+[2019.03.30-08.40.18:884][ 61]LogShaderCompilers: Display: Shaders left to compile 69
+[2019.03.30-08.40.18:884][ 61]LogShaderCompilers: Display: Shaders left to compile 68
+[2019.03.30-08.40.18:884][ 61]LogShaderCompilers: Display: Shaders left to compile 67
+[2019.03.30-08.40.18:884][ 61]LogShaderCompilers: Display: Shaders left to compile 66
+[2019.03.30-08.40.18:884][ 61]LogShaderCompilers: Display: Shaders left to compile 65
+[2019.03.30-08.40.18:884][ 61]LogShaderCompilers: Display: Shaders left to compile 64
+[2019.03.30-08.40.18:884][ 61]LogShaderCompilers: Display: Shaders left to compile 63
+[2019.03.30-08.40.18:884][ 61]LogShaderCompilers: Display: Shaders left to compile 62
+[2019.03.30-08.40.18:884][ 61]LogShaderCompilers: Display: Shaders left to compile 61
+[2019.03.30-08.40.18:884][ 61]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.03.30-08.40.18:884][ 61]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.03.30-08.40.18:884][ 61]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.03.30-08.40.19:162][ 61]TextureStreamingBuild: Display: Compiling optional shaders took 28.752 seconds.
+[2019.03.30-08.40.20:835][132]LogMaterialEditor: Saving and Compiling material backsword
+[2019.03.30-08.40.48:026][132]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.03.30-08.40.48:026][132]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.30-08.40.48:026][132]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.30-08.40.48:322][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Zombie/backsword" FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/backsword.uasset" SILENT=true
+[2019.03.30-08.40.48:408][132]LogSavePackage: Save=15.24ms
+[2019.03.30-08.40.48:408][132]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/backswordDD370DC945DCEA2B6A32D3938B7F1890.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/backsword.uasset'
+[2019.03.30-08.40.48:410][132]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/backsword.uasset
+[2019.03.30-08.40.48:418][132]MaterialEditorStats: Base pass shader: 114 instructions
+[2019.03.30-08.40.48:418][132]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 188 instructions
+[2019.03.30-08.40.48:419][132]MaterialEditorStats: Vertex shader: 38 instructions
+[2019.03.30-08.40.48:419][132]MaterialEditorStats: Texture samplers: 6/16
+[2019.03.30-08.40.48:419][132]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.03.30-08.40.50:724][255]LogSlate: Window 'backsword' being destroyed
+[2019.03.30-08.40.50:729][255]LogSlate: Window 'backsword' being destroyed
+[2019.03.30-08.40.59:010][674]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.30-08.40.59:196][682]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0084 seconds. Added 1 classes and 2 folders.
+[2019.03.30-08.40.59:211][682]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.30-08.40.59:221][682]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0071 seconds. Added 1 classes and 0 folders.
+[2019.03.30-08.40.59:288][682]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.03.30-08.40.59:926][682]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0074 seconds. Added 1 classes and 0 folders.
+[2019.03.30-08.40.59:964][682]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.03.30-08.41.05:687][995]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.30-08.41.09:588][185]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.30-08.41.10:311][221]LogSlate: Window 'Zombie_Attack_1__Anim' being destroyed
+[2019.03.30-08.41.11:502][290]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_1.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.30-08.41.11:535][290]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.Actor_1.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2019.03.30-08.41.12:144][291]LogRenderer: Reallocating scene render targets to support 856x584 Format 10 NumSamples 1 (Frame:1).
+[2019.03.30-08.41.21:815][849]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.30-08.41.34:058][128]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\KVT\Unity\Text\Zombie\Model 1\Zombie@Attack(2).FBX)
+[2019.03.30-08.41.34:070][128]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2019.03.30-08.41.34:070][128]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2019.03.30-08.41.34:070][128]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2019.03.30-08.41.34:070][128]LogFbx: ItemName: Model, ItemCount : 66
+[2019.03.30-08.41.34:070][128]LogFbx: ItemName: NodeAttribute, ItemCount : 62
+[2019.03.30-08.41.34:070][128]LogFbx: ItemName: Geometry, ItemCount : 4
+[2019.03.30-08.41.34:070][128]LogFbx: ItemName: Material, ItemCount : 2
+[2019.03.30-08.41.34:070][128]LogFbx: ItemName: Texture, ItemCount : 4
+[2019.03.30-08.41.34:070][128]LogFbx: ItemName: CollectionExclusive, ItemCount : 3
+[2019.03.30-08.41.34:070][128]LogFbx: ItemName: AnimationCurve, ItemCount : 549
+[2019.03.30-08.41.34:070][128]LogFbx: ItemName: AnimationCurveNode, ItemCount : 183
+[2019.03.30-08.41.34:070][128]LogFbx: ItemName: Deformer, ItemCount : 64
+[2019.03.30-08.41.34:070][128]LogFbx: ItemName: Pose, ItemCount : 1
+[2019.03.30-08.41.34:070][128]LogFbx: ItemName: Video, ItemCount : 4
+[2019.03.30-08.41.34:078][128]LogFbx: Loading FBX Scene from D:\KVT\Unity\Text\Zombie\Model 1\Zombie@Attack(2).FBX
+[2019.03.30-08.41.34:179][128]LogFbx: FBX Scene Loaded Succesfully
+[2019.03.30-08.42.07:712][128]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.03.30-08.42.07:785][128]LogFbx: Loading FBX Scene from D:\KVT\Unity\Text\Zombie\Model 1\Zombie@Attack(2).FBX
+[2019.03.30-08.42.07:900][128]LogFbx: FBX Scene Loaded Succesfully
+[2019.03.30-08.42.07:902][128]LogFbx: =================================================
+[2019.03.30-08.42.07:902][128]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.42.07:902][128]LogFbx: 	Total Deformer Count -1701408720.
+[2019.03.30-08.42.07:902][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.07:902][128]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.42.07:902][128]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.42.07:902][128]LogFbx: =================================================
+[2019.03.30-08.42.07:902][128]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.42.07:902][128]LogFbx: 	Total Deformer Count -1701412080.
+[2019.03.30-08.42.07:902][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.07:902][128]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.42.07:902][128]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.42.07:902][128]LogFbx: =================================================
+[2019.03.30-08.42.07:902][128]LogFbx: Dumping Node START [Body_mesh] 
+[2019.03.30-08.42.07:902][128]LogFbx: 	Total Deformer Count -1617981120.
+[2019.03.30-08.42.07:902][128]LogFbx: 		[Node 1]  (Type Skin).
+[2019.03.30-08.42.07:902][128]LogFbx: =================================================
+[2019.03.30-08.42.07:902][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.07:902][128]LogFbx: 		[Node Attribute Child 1] Body_mesh (Type Mesh).
+[2019.03.30-08.42.07:902][128]LogFbx: Dumping Node END [Body_mesh]
+[2019.03.30-08.42.07:902][128]LogFbx: =================================================
+[2019.03.30-08.42.07:902][128]LogFbx: Dumping Node START [jaw_mesh] 
+[2019.03.30-08.42.07:902][128]LogFbx: 	Total Deformer Count -1711852608.
+[2019.03.30-08.42.07:902][128]LogFbx: 		[Node 1]  (Type Skin).
+[2019.03.30-08.42.07:902][128]LogFbx: =================================================
+[2019.03.30-08.42.07:902][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.07:902][128]LogFbx: 		[Node Attribute Child 1] jaw_mesh (Type Mesh).
+[2019.03.30-08.42.07:903][128]LogFbx: Dumping Node END [jaw_mesh]
+[2019.03.30-08.42.07:903][128]LogFbx: =================================================
+[2019.03.30-08.42.07:903][128]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.42.07:903][128]LogFbx: 	Total Deformer Count -1701409440.
+[2019.03.30-08.42.07:903][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.07:903][128]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.42.07:903][128]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.42.07:903][128]LogFbx: =================================================
+[2019.03.30-08.42.07:903][128]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.42.07:903][128]LogFbx: 	Total Deformer Count -1701410400.
+[2019.03.30-08.42.07:903][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.07:903][128]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.42.07:903][128]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.42.07:903][128]LogFbx: =================================================
+[2019.03.30-08.42.07:903][128]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.42.07:903][128]LogFbx: 	Total Deformer Count -1701411200.
+[2019.03.30-08.42.07:903][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.07:903][128]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.42.07:903][128]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.42.07:903][128]LogFbx: =================================================
+[2019.03.30-08.42.07:903][128]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.42.07:903][128]LogFbx: 	Total Deformer Count -1701409600.
+[2019.03.30-08.42.07:903][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.07:903][128]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.42.07:903][128]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.42.07:903][128]LogFbx: =================================================
+[2019.03.30-08.42.07:903][128]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.42.07:903][128]LogFbx: 	Total Deformer Count -1701411200.
+[2019.03.30-08.42.07:903][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.07:903][128]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.42.07:903][128]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.42.07:904][128]LogFbx: =================================================
+[2019.03.30-08.42.07:904][128]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.42.07:904][128]LogFbx: 	Total Deformer Count -1701407280.
+[2019.03.30-08.42.07:904][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.07:904][128]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.42.07:904][128]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.42.07:904][128]LogFbx: =================================================
+[2019.03.30-08.42.07:904][128]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.42.07:904][128]LogFbx: 	Total Deformer Count -1701409120.
+[2019.03.30-08.42.07:904][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.07:904][128]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.42.07:904][128]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.42.07:904][128]LogFbx: =================================================
+[2019.03.30-08.42.07:904][128]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.42.07:904][128]LogFbx: 	Total Deformer Count -1701410640.
+[2019.03.30-08.42.07:904][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.07:904][128]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.42.07:904][128]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.42.07:904][128]LogFbx: =================================================
+[2019.03.30-08.42.07:904][128]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.42.07:904][128]LogFbx: 	Total Deformer Count -1701409360.
+[2019.03.30-08.42.07:904][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.07:904][128]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.42.07:904][128]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.42.07:905][128]LogFbx: =================================================
+[2019.03.30-08.42.07:905][128]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.42.07:905][128]LogFbx: 	Total Deformer Count -1701408800.
+[2019.03.30-08.42.07:905][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.07:905][128]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.42.07:905][128]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.42.07:905][128]LogFbx: =================================================
+[2019.03.30-08.42.07:905][128]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.42.07:905][128]LogFbx: 	Total Deformer Count -1701406640.
+[2019.03.30-08.42.07:905][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.07:905][128]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.42.07:905][128]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.42.07:905][128]LogFbx: =================================================
+[2019.03.30-08.42.07:905][128]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.42.07:905][128]LogFbx: 	Total Deformer Count -1701406640.
+[2019.03.30-08.42.07:905][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.07:905][128]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.42.07:905][128]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.42.07:905][128]LogFbx: =================================================
+[2019.03.30-08.42.07:905][128]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.42.07:905][128]LogFbx: 	Total Deformer Count -1701411760.
+[2019.03.30-08.42.07:905][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.07:905][128]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.42.07:905][128]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.42.07:906][128]LogFbx: =================================================
+[2019.03.30-08.42.07:906][128]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.42.07:906][128]LogFbx: 	Total Deformer Count -1701410080.
+[2019.03.30-08.42.07:906][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.07:906][128]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.42.07:906][128]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.42.07:906][128]LogFbx: =================================================
+[2019.03.30-08.42.07:906][128]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.42.07:906][128]LogFbx: 	Total Deformer Count -1701410080.
+[2019.03.30-08.42.07:906][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.07:907][128]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.42.07:907][128]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.42.07:907][128]LogFbx: =================================================
+[2019.03.30-08.42.07:907][128]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.42.07:907][128]LogFbx: 	Total Deformer Count -1701410080.
+[2019.03.30-08.42.07:907][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.07:907][128]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.42.07:907][128]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.42.07:907][128]LogFbx: =================================================
+[2019.03.30-08.42.07:907][128]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.42.07:907][128]LogFbx: 	Total Deformer Count -1701411600.
+[2019.03.30-08.42.07:907][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.07:907][128]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.42.07:907][128]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.42.07:907][128]LogFbx: =================================================
+[2019.03.30-08.42.07:907][128]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.42.07:907][128]LogFbx: 	Total Deformer Count -1701412720.
+[2019.03.30-08.42.07:907][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.07:907][128]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.42.07:907][128]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.42.07:908][128]LogFbx: =================================================
+[2019.03.30-08.42.07:908][128]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.42.07:908][128]LogFbx: 	Total Deformer Count -1701411760.
+[2019.03.30-08.42.07:908][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.07:908][128]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.42.07:908][128]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.42.07:908][128]LogFbx: =================================================
+[2019.03.30-08.42.07:908][128]LogFbx: Dumping Node START [Body_mesh] 
+[2019.03.30-08.42.07:908][128]LogFbx: 	Total Deformer Count -1605838592.
+[2019.03.30-08.42.07:908][128]LogFbx: 		[Node 1]  (Type Skin).
+[2019.03.30-08.42.07:908][128]LogFbx: =================================================
+[2019.03.30-08.42.07:908][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.07:909][128]LogFbx: 		[Node Attribute Child 1] Body_mesh (Type Mesh).
+[2019.03.30-08.42.07:909][128]LogFbx: Dumping Node END [Body_mesh]
+[2019.03.30-08.42.07:909][128]LogFbx: =================================================
+[2019.03.30-08.42.07:909][128]LogFbx: Dumping Node START [jaw_mesh] 
+[2019.03.30-08.42.07:909][128]LogFbx: 	Total Deformer Count -1711854512.
+[2019.03.30-08.42.07:909][128]LogFbx: 		[Node 1]  (Type Skin).
+[2019.03.30-08.42.07:909][128]LogFbx: =================================================
+[2019.03.30-08.42.07:909][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.07:909][128]LogFbx: 		[Node Attribute Child 1] jaw_mesh (Type Mesh).
+[2019.03.30-08.42.07:909][128]LogFbx: Dumping Node END [jaw_mesh]
+[2019.03.30-08.42.07:909][128]LogFbx: =================================================
+[2019.03.30-08.42.07:909][128]LogFbx: Dumping Node START [Body_mesh] 
+[2019.03.30-08.42.07:909][128]LogFbx: 	Total Deformer Count -1605830528.
+[2019.03.30-08.42.07:909][128]LogFbx: 		[Node 1]  (Type Skin).
+[2019.03.30-08.42.07:909][128]LogFbx: =================================================
+[2019.03.30-08.42.07:909][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.07:909][128]LogFbx: 		[Node Attribute Child 1] Body_mesh (Type Mesh).
+[2019.03.30-08.42.07:909][128]LogFbx: Dumping Node END [Body_mesh]
+[2019.03.30-08.42.07:909][128]LogFbx: =================================================
+[2019.03.30-08.42.07:909][128]LogFbx: Dumping Node START [jaw_mesh] 
+[2019.03.30-08.42.07:909][128]LogFbx: 	Total Deformer Count -1711854512.
+[2019.03.30-08.42.07:909][128]LogFbx: 		[Node 1]  (Type Skin).
+[2019.03.30-08.42.07:909][128]LogFbx: =================================================
+[2019.03.30-08.42.07:909][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.07:909][128]LogFbx: 		[Node Attribute Child 1] jaw_mesh (Type Mesh).
+[2019.03.30-08.42.07:909][128]LogFbx: Dumping Node END [jaw_mesh]
+[2019.03.30-08.42.07:910][128]LogFbx: Valid bind pose for Pose (BIND_POSES) - Body_mesh
+[2019.03.30-08.42.07:913][128]LogMaterial: Warning: Material /Game/MyCharacter/Zombie/Zombi1.Zombi1 needed to have new flag set bUsedWithSkeletalMesh !
+[2019.03.30-08.42.07:916][128]LogMaterial: Missing cached shader map for material Zombi1, compiling. 
+[2019.03.30-08.42.07:950][128]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.03.30-08.42.07:950][128]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.03.30-08.42.07:950][128]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.03.30-08.42.07:950][128]LogFbxMaterialImport: Warning: Unable to find Texture file E:\ГОТОВЫЕ  ТЕКСТУРНЫЕ КАРТЫ\персонаж зомби\Zombie_diffuse.tga
+[2019.03.30-08.42.07:954][128]LogFbxMaterialImport: Warning: Unable to find Texture file E:\ГОТОВЫЕ  ТЕКСТУРНЫЕ КАРТЫ\персонаж зомби\Zombie_normals.tga
+[2019.03.30-08.42.07:956][128]LogMaterial: Missing cached shader map for material Zombi1, compiling. 
+[2019.03.30-08.42.08:002][128]LogMaterial: Warning: Material /Game/MyCharacter/Zombie/backsword1.backsword1 needed to have new flag set bUsedWithSkeletalMesh !
+[2019.03.30-08.42.08:005][128]LogMaterial: Missing cached shader map for material backsword1, compiling. 
+[2019.03.30-08.42.08:060][128]LogFbxMaterialImport: Warning: Unable to find Texture file E:\ГОТОВЫЕ  ТЕКСТУРНЫЕ КАРТЫ\оружие зомби\backsword_diffuse.tga
+[2019.03.30-08.42.08:063][128]LogFbxMaterialImport: Warning: Unable to find Texture file E:\ГОТОВЫЕ  ТЕКСТУРНЫЕ КАРТЫ\оружие зомби\backsword_normals.tga
+[2019.03.30-08.42.08:066][128]LogMaterial: Missing cached shader map for material backsword1, compiling. 
+[2019.03.30-08.42.08:124][128]LogFbx: Warning: Bones digested - 60  Depth of hierarchy - 13
+[2019.03.30-08.42.08:302][128]LogSkeletalMesh: Section 0: 2179 vertices, 58 active bones
+[2019.03.30-08.42.08:303][128]LogSkeletalMesh: Section 1: 77 vertices, 1 active bones
+[2019.03.30-08.42.08:317][128]LogSkeletalMesh: Section 0: Material=0, 3454 triangles
+[2019.03.30-08.42.08:317][128]LogSkeletalMesh: Section 1: Material=1, 100 triangles
+[2019.03.30-08.42.08:317][128]LogSkeletalMesh: Building Skeletal Mesh Zombie_Attack_2_...
+[2019.03.30-08.42.08:329][128]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/MyCharacter/Zombie/Zombie_Attack_2_.Zombie_Attack_2_
+[2019.03.30-08.42.08:331][128]LogLinker: Can't find file '/Game/MyCharacter/Zombie/Zombie_Attack_2__PhysicsAsset'
+[2019.03.30-08.42.08:332][128]LogLinker: Can't find file '/Game/MyCharacter/Zombie/Zombie_Attack_2__PhysicsAsset'
+[2019.03.30-08.42.08:342][128]LogFbx: =================================================
+[2019.03.30-08.42.08:342][128]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.42.08:342][128]LogFbx: 	Total Deformer Count -1599834784.
+[2019.03.30-08.42.08:342][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.08:342][128]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.42.08:342][128]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.42.08:342][128]LogFbx: =================================================
+[2019.03.30-08.42.08:342][128]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.42.08:342][128]LogFbx: 	Total Deformer Count -1599836704.
+[2019.03.30-08.42.08:342][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.08:342][128]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.42.08:342][128]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.42.08:342][128]LogFbx: =================================================
+[2019.03.30-08.42.08:342][128]LogFbx: Dumping Node START [Body_mesh] 
+[2019.03.30-08.42.08:343][128]LogFbx: 	Total Deformer Count -1619949056.
+[2019.03.30-08.42.08:343][128]LogFbx: 		[Node 1]  (Type Skin).
+[2019.03.30-08.42.08:343][128]LogFbx: =================================================
+[2019.03.30-08.42.08:343][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.08:343][128]LogFbx: 		[Node Attribute Child 1] Body_mesh (Type Mesh).
+[2019.03.30-08.42.08:343][128]LogFbx: Dumping Node END [Body_mesh]
+[2019.03.30-08.42.08:343][128]LogFbx: =================================================
+[2019.03.30-08.42.08:343][128]LogFbx: Dumping Node START [jaw_mesh] 
+[2019.03.30-08.42.08:343][128]LogFbx: 	Total Deformer Count -1623641264.
+[2019.03.30-08.42.08:343][128]LogFbx: 		[Node 1]  (Type Skin).
+[2019.03.30-08.42.08:343][128]LogFbx: =================================================
+[2019.03.30-08.42.08:343][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.08:343][128]LogFbx: 		[Node Attribute Child 1] jaw_mesh (Type Mesh).
+[2019.03.30-08.42.08:343][128]LogFbx: Dumping Node END [jaw_mesh]
+[2019.03.30-08.42.08:344][128]LogFbx: =================================================
+[2019.03.30-08.42.08:344][128]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.42.08:344][128]LogFbx: 	Total Deformer Count -1599847904.
+[2019.03.30-08.42.08:344][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.08:344][128]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.42.08:344][128]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.42.08:344][128]LogFbx: =================================================
+[2019.03.30-08.42.08:344][128]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.42.08:344][128]LogFbx: 	Total Deformer Count -1599832144.
+[2019.03.30-08.42.08:344][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.08:344][128]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.42.08:344][128]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.42.08:345][128]LogFbx: =================================================
+[2019.03.30-08.42.08:345][128]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.42.08:345][128]LogFbx: 	Total Deformer Count -1599847104.
+[2019.03.30-08.42.08:345][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.08:345][128]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.42.08:345][128]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.42.08:345][128]LogFbx: =================================================
+[2019.03.30-08.42.08:345][128]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.42.08:345][128]LogFbx: 	Total Deformer Count -1599847664.
+[2019.03.30-08.42.08:345][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.08:345][128]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.42.08:345][128]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.42.08:345][128]LogFbx: =================================================
+[2019.03.30-08.42.08:345][128]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.42.08:345][128]LogFbx: 	Total Deformer Count -1599847104.
+[2019.03.30-08.42.08:346][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.08:346][128]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.42.08:346][128]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.42.08:346][128]LogFbx: =================================================
+[2019.03.30-08.42.08:346][128]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.42.08:346][128]LogFbx: 	Total Deformer Count -1599832464.
+[2019.03.30-08.42.08:346][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.08:347][128]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.42.08:347][128]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.42.08:347][128]LogFbx: =================================================
+[2019.03.30-08.42.08:347][128]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.42.08:347][128]LogFbx: 	Total Deformer Count -1599841664.
+[2019.03.30-08.42.08:347][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.08:347][128]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.42.08:347][128]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.42.08:348][128]LogFbx: =================================================
+[2019.03.30-08.42.08:348][128]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.42.08:348][128]LogFbx: 	Total Deformer Count -1599846544.
+[2019.03.30-08.42.08:348][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.08:348][128]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.42.08:348][128]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.42.08:348][128]LogFbx: =================================================
+[2019.03.30-08.42.08:348][128]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.42.08:348][128]LogFbx: 	Total Deformer Count -1599836624.
+[2019.03.30-08.42.08:348][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.08:348][128]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.42.08:348][128]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.42.08:348][128]LogFbx: =================================================
+[2019.03.30-08.42.08:348][128]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.42.08:348][128]LogFbx: 	Total Deformer Count -1599846864.
+[2019.03.30-08.42.08:348][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.08:348][128]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.42.08:348][128]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.42.08:348][128]LogFbx: =================================================
+[2019.03.30-08.42.08:349][128]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.42.08:349][128]LogFbx: 	Total Deformer Count -1599832704.
+[2019.03.30-08.42.08:349][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.08:349][128]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.42.08:349][128]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.42.08:349][128]LogFbx: =================================================
+[2019.03.30-08.42.08:349][128]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.42.08:349][128]LogFbx: 	Total Deformer Count -1599832704.
+[2019.03.30-08.42.08:349][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.08:349][128]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.42.08:349][128]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.42.08:349][128]LogFbx: =================================================
+[2019.03.30-08.42.08:349][128]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.42.08:349][128]LogFbx: 	Total Deformer Count -1599844704.
+[2019.03.30-08.42.08:349][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.08:349][128]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.42.08:349][128]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.42.08:350][128]LogFbx: =================================================
+[2019.03.30-08.42.08:350][128]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.42.08:350][128]LogFbx: 	Total Deformer Count -1599841504.
+[2019.03.30-08.42.08:350][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.08:350][128]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.42.08:350][128]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.42.08:350][128]LogFbx: =================================================
+[2019.03.30-08.42.08:350][128]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.42.08:350][128]LogFbx: 	Total Deformer Count -1599841504.
+[2019.03.30-08.42.08:350][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.08:350][128]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.42.08:350][128]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.42.08:351][128]LogFbx: =================================================
+[2019.03.30-08.42.08:351][128]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.42.08:351][128]LogFbx: 	Total Deformer Count -1599841504.
+[2019.03.30-08.42.08:351][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.08:351][128]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.42.08:351][128]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.42.08:352][128]LogFbx: =================================================
+[2019.03.30-08.42.08:352][128]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.42.08:352][128]LogFbx: 	Total Deformer Count -1599845904.
+[2019.03.30-08.42.08:352][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.08:352][128]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.42.08:352][128]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.42.08:352][128]LogFbx: =================================================
+[2019.03.30-08.42.08:352][128]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.42.08:352][128]LogFbx: 	Total Deformer Count -1599836304.
+[2019.03.30-08.42.08:352][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.08:352][128]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.42.08:353][128]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.42.08:353][128]LogFbx: =================================================
+[2019.03.30-08.42.08:353][128]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.42.08:353][128]LogFbx: 	Total Deformer Count -1599844704.
+[2019.03.30-08.42.08:353][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.08:353][128]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.42.08:353][128]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.42.08:353][128]LogFbx: =================================================
+[2019.03.30-08.42.08:353][128]LogFbx: Dumping Node START [Body_mesh] 
+[2019.03.30-08.42.08:353][128]LogFbx: 	Total Deformer Count -1607176768.
+[2019.03.30-08.42.08:353][128]LogFbx: 		[Node 1]  (Type Skin).
+[2019.03.30-08.42.08:353][128]LogFbx: =================================================
+[2019.03.30-08.42.08:353][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.08:354][128]LogFbx: 		[Node Attribute Child 1] Body_mesh (Type Mesh).
+[2019.03.30-08.42.08:354][128]LogFbx: Dumping Node END [Body_mesh]
+[2019.03.30-08.42.08:354][128]LogFbx: =================================================
+[2019.03.30-08.42.08:354][128]LogFbx: Dumping Node START [jaw_mesh] 
+[2019.03.30-08.42.08:354][128]LogFbx: 	Total Deformer Count -1623641208.
+[2019.03.30-08.42.08:354][128]LogFbx: 		[Node 1]  (Type Skin).
+[2019.03.30-08.42.08:354][128]LogFbx: =================================================
+[2019.03.30-08.42.08:354][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.08:354][128]LogFbx: 		[Node Attribute Child 1] jaw_mesh (Type Mesh).
+[2019.03.30-08.42.08:354][128]LogFbx: Dumping Node END [jaw_mesh]
+[2019.03.30-08.42.08:354][128]LogFbx: =================================================
+[2019.03.30-08.42.08:354][128]LogFbx: Dumping Node START [Body_mesh] 
+[2019.03.30-08.42.08:354][128]LogFbx: 	Total Deformer Count -1607180672.
+[2019.03.30-08.42.08:354][128]LogFbx: 		[Node 1]  (Type Skin).
+[2019.03.30-08.42.08:354][128]LogFbx: =================================================
+[2019.03.30-08.42.08:355][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.08:355][128]LogFbx: 		[Node Attribute Child 1] Body_mesh (Type Mesh).
+[2019.03.30-08.42.08:355][128]LogFbx: Dumping Node END [Body_mesh]
+[2019.03.30-08.42.08:355][128]LogFbx: =================================================
+[2019.03.30-08.42.08:355][128]LogFbx: Dumping Node START [jaw_mesh] 
+[2019.03.30-08.42.08:355][128]LogFbx: 	Total Deformer Count -1623641208.
+[2019.03.30-08.42.08:355][128]LogFbx: 		[Node 1]  (Type Skin).
+[2019.03.30-08.42.08:355][128]LogFbx: =================================================
+[2019.03.30-08.42.08:355][128]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.42.08:355][128]LogFbx: 		[Node Attribute Child 1] jaw_mesh (Type Mesh).
+[2019.03.30-08.42.08:355][128]LogFbx: Dumping Node END [jaw_mesh]
+[2019.03.30-08.42.08:355][128]LogFbx: SortedLinks :(0) CATRigHub001
+[2019.03.30-08.42.08:355][128]LogFbx: SortedLinks :(1) CATRigLLeg1
+[2019.03.30-08.42.08:355][128]LogFbx: SortedLinks :(2) CATRigLLeg2
+[2019.03.30-08.42.08:355][128]LogFbx: SortedLinks :(3) CATRigLLegAnkle
+[2019.03.30-08.42.08:355][128]LogFbx: SortedLinks :(4) CATRigLLegDigit11
+[2019.03.30-08.42.08:355][128]LogFbx: SortedLinks :(5) CATRigRLeg1
+[2019.03.30-08.42.08:355][128]LogFbx: SortedLinks :(6) CATRigRLeg2
+[2019.03.30-08.42.08:355][128]LogFbx: SortedLinks :(7) CATRigRLegAnkle
+[2019.03.30-08.42.08:356][128]LogFbx: SortedLinks :(8) CATRigRLegDigit11
+[2019.03.30-08.42.08:356][128]LogFbx: SortedLinks :(9) CATRigHub001Bone001
+[2019.03.30-08.42.08:356][128]LogFbx: SortedLinks :(10) CATRigSpine1
+[2019.03.30-08.42.08:356][128]LogFbx: SortedLinks :(11) CATRigSpine2
+[2019.03.30-08.42.08:356][128]LogFbx: SortedLinks :(12) CATRigHub002
+[2019.03.30-08.42.08:356][128]LogFbx: SortedLinks :(13) CATRigSpine
+[2019.03.30-08.42.08:356][128]LogFbx: SortedLinks :(14) CATRigHub003
+[2019.03.30-08.42.08:356][128]LogFbx: SortedLinks :(15) CATRigHub003Bone001
+[2019.03.30-08.42.08:356][128]LogFbx: SortedLinks :(16) CATRigHub003Bone002
+[2019.03.30-08.42.08:356][128]LogFbx: SortedLinks :(17) CATRigHub003Bone003
+[2019.03.30-08.42.08:356][128]LogFbx: SortedLinks :(18) eyes_mesh001
+[2019.03.30-08.42.08:356][128]LogFbx: SortedLinks :(19) CATRigLArmCollarbone
+[2019.03.30-08.42.08:356][128]LogFbx: SortedLinks :(20) CATRigLArm1
+[2019.03.30-08.42.08:356][128]LogFbx: SortedLinks :(21) CATRigLArm21
+[2019.03.30-08.42.08:356][128]LogFbx: SortedLinks :(22) CATRigLArm22
+[2019.03.30-08.42.08:356][128]LogFbx: SortedLinks :(23) CATRigLArmPalm
+[2019.03.30-08.42.08:356][128]LogFbx: SortedLinks :(24) CATRigLArmDigit11
+[2019.03.30-08.42.08:356][128]LogFbx: SortedLinks :(25) CATRigLArmDigit12
+[2019.03.30-08.42.08:356][128]LogFbx: SortedLinks :(26) CATRigLArmDigit13
+[2019.03.30-08.42.08:356][128]LogFbx: SortedLinks :(27) CATRigLArmDigit21
+[2019.03.30-08.42.08:356][128]LogFbx: SortedLinks :(28) CATRigLArmDigit22
+[2019.03.30-08.42.08:356][128]LogFbx: SortedLinks :(29) CATRigLArmDigit23
+[2019.03.30-08.42.08:356][128]LogFbx: SortedLinks :(30) CATRigLArmDigit31
+[2019.03.30-08.42.08:356][128]LogFbx: SortedLinks :(31) CATRigLArmDigit32
+[2019.03.30-08.42.08:356][128]LogFbx: SortedLinks :(32) CATRigLArmDigit33
+[2019.03.30-08.42.08:356][128]LogFbx: SortedLinks :(33) CATRigLArmDigit41
+[2019.03.30-08.42.08:356][128]LogFbx: SortedLinks :(34) CATRigLArmDigit42
+[2019.03.30-08.42.08:357][128]LogFbx: SortedLinks :(35) CATRigLArmDigit43
+[2019.03.30-08.42.08:357][128]LogFbx: SortedLinks :(36) CATRigLArmDigit51
+[2019.03.30-08.42.08:357][128]LogFbx: SortedLinks :(37) CATRigLArmDigit52
+[2019.03.30-08.42.08:357][128]LogFbx: SortedLinks :(38) CATRigLArmDigit53
+[2019.03.30-08.42.08:357][128]LogFbx: SortedLinks :(39) CATRigRArmCollarbone
+[2019.03.30-08.42.08:357][128]LogFbx: SortedLinks :(40) CATRigRArm1
+[2019.03.30-08.42.08:357][128]LogFbx: SortedLinks :(41) CATRigRArm21
+[2019.03.30-08.42.08:357][128]LogFbx: SortedLinks :(42) CATRigRArm22
+[2019.03.30-08.42.08:357][128]LogFbx: SortedLinks :(43) CATRigRArmPalm
+[2019.03.30-08.42.08:357][128]LogFbx: SortedLinks :(44) CATRigRArmDigit11
+[2019.03.30-08.42.08:357][128]LogFbx: SortedLinks :(45) CATRigRArmDigit12
+[2019.03.30-08.42.08:357][128]LogFbx: SortedLinks :(46) CATRigRArmDigit13
+[2019.03.30-08.42.08:357][128]LogFbx: SortedLinks :(47) CATRigRArmDigit21
+[2019.03.30-08.42.08:357][128]LogFbx: SortedLinks :(48) CATRigRArmDigit22
+[2019.03.30-08.42.08:357][128]LogFbx: SortedLinks :(49) CATRigRArmDigit23
+[2019.03.30-08.42.08:357][128]LogFbx: SortedLinks :(50) CATRigRArmDigit31
+[2019.03.30-08.42.08:357][128]LogFbx: SortedLinks :(51) CATRigRArmDigit32
+[2019.03.30-08.42.08:357][128]LogFbx: SortedLinks :(52) CATRigRArmDigit33
+[2019.03.30-08.42.08:357][128]LogFbx: SortedLinks :(53) CATRigRArmDigit41
+[2019.03.30-08.42.08:357][128]LogFbx: SortedLinks :(54) CATRigRArmDigit42
+[2019.03.30-08.42.08:357][128]LogFbx: SortedLinks :(55) CATRigRArmDigit43
+[2019.03.30-08.42.08:357][128]LogFbx: SortedLinks :(56) CATRigRArmDigit51
+[2019.03.30-08.42.08:357][128]LogFbx: SortedLinks :(57) CATRigRArmDigit52
+[2019.03.30-08.42.08:357][128]LogFbx: SortedLinks :(58) CATRigRArmDigit53
+[2019.03.30-08.42.08:358][128]LogFbx: SortedLinks :(59) backsword_mesh
+[2019.03.30-08.42.08:362][128]LogFbx: Parsing AnimStack Take 001
+[2019.03.30-08.42.08:370][128]LogLinker: Can't find file '/Game/MyCharacter/Zombie/Zombie_Attack_2__Anim'
+[2019.03.30-08.42.08:371][128]LogLinker: Can't find file '/Game/MyCharacter/Zombie/Zombie_Attack_2__Anim'
+[2019.03.30-08.42.09:184][128]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Zombie/Zombie_Attack_2__Anim.Zombie_Attack_2__Anim
+[2019.03.30-08.42.09:185][128]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Zombie_Attack_2__Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.42.09:216][128]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.03.30-08.42.09:216][128]FBXImport: Warning: The following bones are missing from the bind pose:
+CATRigHub001Bone001  
+CATRigSpine1  
+CATRigSpine2  
+CATRigHub002  
+CATRigSpine  
+CATRigHub003  
+CATRigHub003Bone001  
+CATRigHub003Bone002  
+CATRigHub003Bone003  
+eyes_mesh001  
+CATRigLArmCollarbone  
+CATRigLArm1  
+CATRigLArm21  
+CATRigLArm22  
+CATRigLArmPalm  
+CATRigLArmDigit11  
+CATRigLArmDigit12  
+CATRigLArmDigit13  
+CATRigLArmDigit21  
+CATRigLArmDigit22  
+CATRigLArmDigit23  
+CATRigLArmDigit31  
+CATRigLArmDigit32  
+CATRigLArmDigit33  
+CATRigLArmDigit41  
+CATRigLArmDigit42  
+CATRigLArmDigit43  
+CATRigLArmDigit51  
+CATRigLArmDigit52  
+CATRigLArmDigit53  
+CATRigRArmCollarbone  
+CATRigRArm1  
+CATRigRArm21  
+CATRigRArm22  
+CATRigRArmPalm  
+CATRigRArmDigit11  
+CATRigRArmDigit12  
+CATRigRArmDigit13  
+CATRigRArmDigit21  
+CATRigRArmDigit22  
+CATRigRArmDigit23  
+CATRigRArmDigit31  
+CATRigRArmDigit32  
+CATRigRArmDigit33  
+CATRigRArmDigit41  
+CATRigRArmDigit42  
+CATRigRArmDigit43  
+CATRigRArmDigit51  
+CATRigRArmDigit52  
+CATRigRArmDigit53  
+backsword_mesh  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2019.03.30-08.42.09:242][128]LogSkeletalMesh: Building Skeletal Mesh Zombie_Attack_2_...
+[2019.03.30-08.42.09:256][128]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/MyCharacter/Zombie/Zombie_Attack_2_.Zombie_Attack_2_
+[2019.03.30-08.42.11:963][242]LogSlate: Window 'Message Log' being destroyed
+[2019.03.30-08.42.11:966][242]LogSlate: Window 'Message Log' being destroyed
+[2019.03.30-08.42.19:922][523]LogSlate: Window 'Delete Assets' being destroyed
+[2019.03.30-08.42.21:490][523]LogSkeletalMesh: Building Skeletal Mesh Zombie_Attack_2_...
+[2019.03.30-08.42.21:500][523]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/MyCharacter/Zombie/Zombie_Attack_2_.Zombie_Attack_2_
+[2019.03.30-08.42.24:064][573]LogSlate: Window 'Delete Assets' being destroyed
+[2019.03.30-08.42.24:262][573]LogSkeletalMesh: Building Skeletal Mesh Zombie_Attack_2_...
+[2019.03.30-08.42.24:270][573]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/MyCharacter/Zombie/Zombie_Attack_2_.Zombie_Attack_2_
+[2019.03.30-08.42.35:056][573]LogShaderCompilers: Display: Shaders left to compile 120
+[2019.03.30-08.42.36:470][573]LogD3D11RHI: Error: Direct3DDevice->CreateTexture2D(TextureDesc,SubResourceData,OutTexture2D) failed 
+ at D:\Build\++UE4+Release-4.19+Compile\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Texture.cpp:471 
+ with error E_OUTOFMEMORY, 
+ Size=6144x2048x1 Format=(0x00000035), NumMips=1, Flags=D3D11_BIND_DEPTH_STENCIL D3D11_BIND_SHADER_RESOURCE 
+[2019.03.30-08.42.38:134][573]LogShaderCompilers: Display: Shaders left to compile 110
+[2019.03.30-08.42.39:687][573]LogConsoleResponse:     54 = 3906 KB (2D 856x584 PF_FloatRGBA RT UAV VRam) SceneColor VRamInKB(Start/Size):<NONE>
+[2019.03.30-08.42.39:687][573]LogConsoleResponse:     40 = 3906 KB (2D 856x584 PF_FloatRGBA RT UAV) LightAccumulation
+[2019.03.30-08.42.39:687][573]LogConsoleResponse:     67 = 3906 KB (2D 856x584 PF_FloatRGBA RT VRam) TemporalAA VRamInKB(Start/Size):<NONE>
+[2019.03.30-08.42.39:687][573]LogConsoleResponse:     66 = 3906 KB (2D 856x584 PF_FloatRGBA RT) TemporalAA
+[2019.03.30-08.42.39:687][573]LogConsoleResponse:     33 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolume0
+[2019.03.30-08.42.39:687][573]LogConsoleResponse:     35 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolume1
+[2019.03.30-08.42.39:687][573]LogConsoleResponse:     38 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolume2
+[2019.03.30-08.42.39:687][573]LogConsoleResponse:     34 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolumeDir0
+[2019.03.30-08.42.39:687][573]LogConsoleResponse:     36 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolumeDir1
+[2019.03.30-08.42.39:687][573]LogConsoleResponse:     39 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolumeDir2
+[2019.03.30-08.42.39:687][573]LogConsoleResponse:     37 = 2048 KB (Cube[2] 128 PF_FloatRGBA) ReflectionEnvs
+[2019.03.30-08.42.39:687][573]LogConsoleResponse:     30 = 1953 KB (2D 856x584 PF_DepthStencil VRam) SceneDepthZ VRamInKB(Start/Size):<NONE>
+[2019.03.30-08.42.39:687][573]LogConsoleResponse:     31 = 977 KB (2D 428x292 PF_DepthStencil) SmallDepthZ
+[2019.03.30-08.42.39:687][573]LogConsoleResponse:     41 = 977 KB (2D 856x292 PF_R32_UINT RT UAV) QuadOverdrawBuffer
+[2019.03.30-08.42.39:687][573]LogConsoleResponse:     32 = 489 KB (2D 856x584 PF_G8 RT UAV) ScreenSpaceAO
+[2019.03.30-08.42.39:687][573]LogConsoleResponse:      3 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2019.03.30-08.42.39:687][573]LogConsoleResponse:      2 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2019.03.30-08.42.39:687][573]LogConsoleResponse:      1 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2019.03.30-08.42.39:687][573]LogConsoleResponse:      4 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2019.03.30-08.42.39:688][573]LogConsoleResponse:     55 = 128 KB (3D 32x32x32 PF_A2B10G10R10 RT) CombineLUTs
+[2019.03.30-08.42.39:688][573]LogConsoleResponse:     10 = 64 KB (2D 128x128 PF_B8G8R8A8) PerlinNoiseGradient
+[2019.03.30-08.42.39:688][573]LogConsoleResponse:     16 = 16 KB (2D 128x32 PF_G16R16) PreintegratedGF
+[2019.03.30-08.42.39:688][573]LogConsoleResponse:     14 = 16 KB (3D 16x16x16 PF_B8G8R8A8) PerlinNoise3D
+[2019.03.30-08.42.39:688][573]LogConsoleResponse:     15 = 8 KB (2D 64x64 PF_R8G8) SSAORandomization
+[2019.03.30-08.42.39:688][573]LogConsoleResponse:      7 = 1 KB (2D 1x1 PF_B8G8R8A8 RT) BlackAlphaOneDummy
+[2019.03.30-08.42.39:688][573]LogConsoleResponse:      6 = 1 KB (2D 1x1 PF_B8G8R8A8 RT) BlackDummy
+[2019.03.30-08.42.39:688][573]LogConsoleResponse:      9 = 1 KB (2D 1x1 PF_B8G8R8A8 RT) DefaultNormal8Bit
+[2019.03.30-08.42.39:688][573]LogConsoleResponse:      8 = 1 KB (2D 1x1 PF_B8G8R8A8 RT) GreenDummy
+[2019.03.30-08.42.39:688][573]LogConsoleResponse:      5 = 1 KB (2D 1x1 PF_B8G8R8A8 RT) WhiteDummy
+[2019.03.30-08.42.39:688][573]LogConsoleResponse:     13 = 1 KB (2D 1x1 PF_DepthStencil) DepthDummy
+[2019.03.30-08.42.39:688][573]LogConsoleResponse:     12 = 1 KB (2D 1x1 PF_FloatRGBA RT) MaxFP16Depth
+[2019.03.30-08.42.39:688][573]LogConsoleResponse:     53 = 1 KB (2D 1x1 PF_G32R32F RT UAV) EyeAdaptation
+[2019.03.30-08.42.39:688][573]LogConsoleResponse:     52 = 1 KB (2D 1x1 PF_G32R32F RT UAV) EyeAdaptation
+[2019.03.30-08.42.39:688][573]LogConsoleResponse:     11 = 1 KB (2D 32x16 PF_R16_UINT) SobolSampling
+[2019.03.30-08.42.39:688][573]LogConsoleResponse:     75 = 0 KB (2D 6144x2048 PF_ShadowDepth) UnknownTexture2D
+[2019.03.30-08.42.39:688][573]LogConsoleResponse: 
+[2019.03.30-08.42.39:688][573]LogConsoleResponse: Pool: 31/35 MB (referenced/allocated)
+[2019.03.30-08.42.39:688][573]LogWindows: FPlatformMisc::RequestExit(1)
+[2019.03.30-08.42.39:688][573]Log file closed, 03/30/19 15:42:39

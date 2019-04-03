@@ -1,0 +1,670 @@
+﻿Log file open, 04/01/19 16:26:49
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: ResidentEvil
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1635511591) SRandInit(-1635511590).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.163033
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +7:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.082s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Binaries/Win64/UE4Editor-ResidentEvil.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am DESKTOP-151KF17 (192.168.0.82:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: D:/Cai Dat/UE4/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.003s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.04.01-09.26.51:117][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.01-09.26.51:117][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.01-09.26.51:131][  0]LogInit: Computer: DESKTOP-151KF17
+[2019.04.01-09.26.51:131][  0]LogInit: User: kvtuy
+[2019.04.01-09.26.51:131][  0]LogInit: CPU Page size=4096, Cores=2
+[2019.04.01-09.26.51:131][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.04.01-09.26.51:131][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.04.01-09.26.51:131][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.01-09.26.51:131][  0]LogMemory: Process Physical Memory: 273.71 MB used, 273.72 MB peak
+[2019.04.01-09.26.51:131][  0]LogMemory: Process Virtual Memory: 269.87 MB used, 269.87 MB peak
+[2019.04.01-09.26.51:131][  0]LogMemory: Physical Memory: 3375.11 MB used,  12897.88 MB free, 16272.99 MB total
+[2019.04.01-09.26.51:131][  0]LogMemory: Virtual Memory: 4784.82 MB used,  12897.88 MB free, 134217728.00 MB total
+[2019.04.01-09.26.51:150][  0]LogInit: Using OS detected language (en-US).
+[2019.04.01-09.26.51:150][  0]LogInit: Using OS detected locale (en-US).
+[2019.04.01-09.26.51:154][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.04.01-09.26.51:731][  0]LogStreaming: Display: Took  0.581s to EndInitTextLocalization.
+[2019.04.01-09.26.51:731][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.01-09.26.51:778][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.01-09.26.51:778][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.01-09.26.52:056][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.01-09.26.52:537][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950M' (Feature Level 11_0)
+[2019.04.01-09.26.52:537][  0]LogD3D11RHI:       4055/0/8136 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.04.01-09.26.52:543][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2019.04.01-09.26.52:543][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.04.01-09.26.52:546][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.01-09.26.52:546][  0]LogD3D11RHI:       0/0/8136 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.01-09.26.52:546][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.01-09.26.52:582][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.01-09.26.52:582][  0]LogD3D11RHI:     GPU DeviceId: 0x139a (for the marketing name, search the web for "GPU Device Id")
+[2019.04.01-09.26.52:582][  0]LogWindows: EnumDisplayDevices:
+[2019.04.01-09.26.52:582][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2019.04.01-09.26.52:582][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2019.04.01-09.26.52:583][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2019.04.01-09.26.52:583][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.04.01-09.26.52:583][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
+[2019.04.01-09.26.52:583][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.04.01-09.26.52:583][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.04.01-09.26.52:583][  0]LogRHI: Texture pool is 2839 MB (70% of 4055 MB)
+[2019.04.01-09.26.52:654][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.04.01-09.26.52:654][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.04.01-09.26.52:654][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.01-09.26.52:677][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.04.01-09.26.52:678][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Intermediate/Shaders/WorkingDirectory/10860/).
+[2019.04.01-09.26.52:678][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kvtuy/AppData/Local/Temp/UnrealShaderWorkingDir/6B0641BC48C05A8A8B27248363AFBA58/'.
+[2019.04.01-09.26.52:964][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.01-09.26.52:978][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.01-09.26.52:993][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.01-09.26.53:006][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.01-09.26.53:021][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.01-09.26.53:034][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.01-09.26.53:049][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.01-09.26.53:063][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.01-09.26.53:069][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.01-09.26.53:082][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2019.04.01-09.26.53:095][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2019.04.01-09.26.53:107][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2019.04.01-09.26.53:120][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2019.04.01-09.26.53:133][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2019.04.01-09.26.53:145][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2019.04.01-09.26.53:171][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2019.04.01-09.26.53:171][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.04.01-09.26.53:184][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.01-09.26.53:186][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.01-09.26.53:223][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.01-09.26.53:235][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.01-09.26.53:248][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.01-09.26.53:261][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.01-09.26.53:273][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.01-09.26.53:286][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.01-09.26.53:286][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.01-09.26.53:391][  0]LogXGEController: Cleaning working directory: C:/Users/kvtuy/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.04.01-09.26.53:391][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.01-09.26.53:391][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.01-09.26.53:391][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.01-09.26.54:261][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.01-09.26.54:435][  0]LogDerivedDataCache: Loaded boot cache 0.17s 156MB C:/Users/kvtuy/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.04.01-09.26.54:435][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kvtuy/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2019.04.01-09.26.54:435][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.01-09.26.54:435][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.01-09.26.54:435][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.01-09.26.54:436][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.01-09.26.54:456][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.01-09.26.54:469][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kvtuy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.01-09.26.54:469][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.01-09.26.54:469][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.01-09.26.54:482][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.01-09.26.54:482][  0]LogSlate: Using Freetype 2.6.0
+[2019.04.01-09.26.54:483][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.01-09.26.54:483][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.01-09.26.54:618][  0]LogAssetRegistry: FAssetRegistry took 0.0268 seconds to start up
+[2019.04.01-09.26.55:027][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.01-09.26.55:197][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.01-09.26.55:200][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.01-09.26.55:200][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.01-09.26.55:200][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.01-09.26.55:200][  0]LogMeshReduction: No automatic mesh merging module available
+[2019.04.01-09.26.55:200][  0]LogMeshMerging: No automatic mesh merging module available
+[2019.04.01-09.26.55:234][  0]LogNetVersion: ResidentEvil , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3990793033)
+[2019.04.01-09.26.55:750][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.063961 seconds
+[2019.04.01-09.26.55:758][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2019.04.01-09.26.55:759][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2019.04.01-09.26.55:759][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.01-09.26.57:653][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.01-09.26.57:683][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.01-09.26.57:683][  0]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1
+[2019.04.01-09.26.57:683][  0]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2019.04.01-09.26.57:683][  0]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2019.04.01-09.26.57:923][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.791500ms] /Game/MyAssets/MilitaryWeapSilver/Weapons/Assault_Rifle_A.Assault_Rifle_A
+[2019.04.01-09.26.57:980][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [4.177300ms] /Game/MyCharacter/Hero/genAssault.genAssault
+[2019.04.01-09.26.58:133][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002bac161fec0, Size=272, Default__HunkAnimation_C Function /Game/MyCharacter/Hero/HunkAnimation.HunkAnimation_C:ExecuteUbergraph_HunkAnimation
+[2019.04.01-09.26.58:331][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002bac161fec0, Size=272
+[2019.04.01-09.26.58:331][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002bac161fec0, Size=272, Default__HunkAnimation_C Function /Engine/Transient.REINST_HunkAnimation_C_0:ExecuteUbergraph_HunkAnimation
+[2019.04.01-09.26.58:512][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002bad067c7c0, Size=272, Default__HunkAnimation_C Function /Game/MyCharacter/Hero/HunkAnimation.HunkAnimation_C:ExecuteUbergraph_HunkAnimation
+[2019.04.01-09.26.58:572][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Down_2.Aim_Down_2
+[2019.04.01-09.26.58:573][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Down_2.Aim_Down_2) using current/default (AnimCompress_BitwiseCompressOnly_317) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:574][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Down_1.Aim_Down_1
+[2019.04.01-09.26.58:574][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Down_1.Aim_Down_1) using current/default (AnimCompress_BitwiseCompressOnly_76) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:576][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Idle_Rifle_Ironsights_Fix.Idle_Rifle_Ironsights_Fix
+[2019.04.01-09.26.58:576][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Idle_Rifle_Ironsights_Fix.Idle_Rifle_Ironsights_Fix) using current/default (AnimCompress_BitwiseCompressOnly_92) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:585][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_CC.Aim_CC
+[2019.04.01-09.26.58:585][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_CC.Aim_CC) using current/default (AnimCompress_BitwiseCompressOnly_315) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:595][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Down_3.Aim_Down_3
+[2019.04.01-09.26.58:596][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Down_3.Aim_Down_3) using current/default (AnimCompress_BitwiseCompressOnly_75) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:596][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Left.Aim_Left
+[2019.04.01-09.26.58:597][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Left.Aim_Left) using current/default (AnimCompress_BitwiseCompressOnly_319) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:598][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Crouch_Up_3.Aim_Crouch_Up_3
+[2019.04.01-09.26.58:599][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Crouch_Up_3.Aim_Crouch_Up_3) using current/default (AnimCompress_BitwiseCompressOnly_64) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:600][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Crouch_Up_2.Aim_Crouch_Up_2
+[2019.04.01-09.26.58:601][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Crouch_Up_2.Aim_Crouch_Up_2) using current/default (AnimCompress_BitwiseCompressOnly_61) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:602][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Crouch_Up.Aim_Crouch_Up
+[2019.04.01-09.26.58:603][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Crouch_Up.Aim_Crouch_Up) using current/default (AnimCompress_BitwiseCompressOnly_58) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:604][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Crouch_Down_3.Aim_Crouch_Down_3
+[2019.04.01-09.26.58:604][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Crouch_Down_3.Aim_Crouch_Down_3) using current/default (AnimCompress_BitwiseCompressOnly_70) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:605][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Crouch_Down_2.Aim_Crouch_Down_2
+[2019.04.01-09.26.58:606][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Crouch_Down_2.Aim_Crouch_Down_2) using current/default (AnimCompress_BitwiseCompressOnly_69) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:607][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Crouch_Down.Aim_Crouch_Down
+[2019.04.01-09.26.58:607][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Crouch_Down.Aim_Crouch_Down) using current/default (AnimCompress_BitwiseCompressOnly_68) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:608][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_Idle_Rifle_Ironsights_Fix.Crouch_Idle_Rifle_Ironsights_Fix
+[2019.04.01-09.26.58:608][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_Idle_Rifle_Ironsights_Fix.Crouch_Idle_Rifle_Ironsights_Fix) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:614][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Crouch_CC.Aim_Crouch_CC
+[2019.04.01-09.26.58:615][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Crouch_CC.Aim_Crouch_CC) using current/default (AnimCompress_BitwiseCompressOnly_46) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:615][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Up_3.Aim_Up_3
+[2019.04.01-09.26.58:616][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Up_3.Aim_Up_3) using current/default (AnimCompress_BitwiseCompressOnly_78) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:616][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Up_2.Aim_Up_2
+[2019.04.01-09.26.58:617][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Up_2.Aim_Up_2) using current/default (AnimCompress_BitwiseCompressOnly_341) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:617][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Up.Aim_Up
+[2019.04.01-09.26.58:617][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Up.Aim_Up) using current/default (AnimCompress_BitwiseCompressOnly_77) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:618][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Right_Up.Aim_Right_Up
+[2019.04.01-09.26.58:618][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Right_Up.Aim_Right_Up) using current/default (AnimCompress_BitwiseCompressOnly_324) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:619][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Right_Down.Aim_Right_Down
+[2019.04.01-09.26.58:619][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Right_Down.Aim_Right_Down) using current/default (AnimCompress_BitwiseCompressOnly_323) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:620][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Right.Aim_Right
+[2019.04.01-09.26.58:620][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Right.Aim_Right) using current/default (AnimCompress_BitwiseCompressOnly_322) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:621][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Left_Up.Aim_Left_Up
+[2019.04.01-09.26.58:621][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Left_Up.Aim_Left_Up) using current/default (AnimCompress_BitwiseCompressOnly_321) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:622][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Left_Down.Aim_Left_Down
+[2019.04.01-09.26.58:622][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Left_Down.Aim_Left_Down) using current/default (AnimCompress_BitwiseCompressOnly_320) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:623][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/MOB1_Walk_F_IPC.MOB1_Walk_F_IPC
+[2019.04.01-09.26.58:623][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/MOB1_Walk_F_IPC.MOB1_Walk_F_IPC) using current/default (AnimCompress_BitwiseCompressOnly_296) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:625][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/MOB1_Run_F_IPC.MOB1_Run_F_IPC
+[2019.04.01-09.26.58:626][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/MOB1_Run_F_IPC.MOB1_Run_F_IPC) using current/default (AnimCompress_BitwiseCompressOnly_295) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:627][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Sprint_Fwd_Rifle.Sprint_Fwd_Rifle
+[2019.04.01-09.26.58:627][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Sprint_Fwd_Rifle.Sprint_Fwd_Rifle) using current/default (AnimCompress_BitwiseCompressOnly_337) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:630][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/MOB1_CrouchWalk_F_IPC.MOB1_CrouchWalk_F_IPC
+[2019.04.01-09.26.58:630][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/MOB1_CrouchWalk_F_IPC.MOB1_CrouchWalk_F_IPC) using current/default (AnimCompress_BitwiseCompressOnly_293) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:632][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Jog_Rt_Rifle.Jog_Rt_Rifle
+[2019.04.01-09.26.58:633][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Jog_Rt_Rifle.Jog_Rt_Rifle) using current/default (AnimCompress_BitwiseCompressOnly_115) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:635][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Jog_Lt_Rifle.Jog_Lt_Rifle
+[2019.04.01-09.26.58:635][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Jog_Lt_Rifle.Jog_Lt_Rifle) using current/default (AnimCompress_BitwiseCompressOnly_114) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:638][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Jog_Fwd_Rifle.Jog_Fwd_Rifle
+[2019.04.01-09.26.58:638][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Jog_Fwd_Rifle.Jog_Fwd_Rifle) using current/default (AnimCompress_BitwiseCompressOnly_69) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:642][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Jog_Bwd_Rifle.Jog_Bwd_Rifle
+[2019.04.01-09.26.58:642][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Jog_Bwd_Rifle.Jog_Bwd_Rifle) using current/default (AnimCompress_BitwiseCompressOnly_113) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:645][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_Walk_Rt_Rifle_Hip.Crouch_Walk_Rt_Rifle_Hip
+[2019.04.01-09.26.58:645][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_Walk_Rt_Rifle_Hip.Crouch_Walk_Rt_Rifle_Hip) using current/default (AnimCompress_BitwiseCompressOnly_269) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:649][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_Walk_Lt_Rifle_Hip.Crouch_Walk_Lt_Rifle_Hip
+[2019.04.01-09.26.58:649][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_Walk_Lt_Rifle_Hip.Crouch_Walk_Lt_Rifle_Hip) using current/default (AnimCompress_BitwiseCompressOnly_267) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:652][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_Walk_Fwd_Rifle_Hip.Crouch_Walk_Fwd_Rifle_Hip
+[2019.04.01-09.26.58:652][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_Walk_Fwd_Rifle_Hip.Crouch_Walk_Fwd_Rifle_Hip) using current/default (AnimCompress_BitwiseCompressOnly_265) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:656][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_Walk_Bwd_Rifle_Hip.Crouch_Walk_Bwd_Rifle_Hip
+[2019.04.01-09.26.58:656][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_Walk_Bwd_Rifle_Hip.Crouch_Walk_Bwd_Rifle_Hip) using current/default (AnimCompress_BitwiseCompressOnly_263) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:659][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_Walk_Rt_Rifle_Ironsights.Crouch_Walk_Rt_Rifle_Ironsights
+[2019.04.01-09.26.58:659][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_Walk_Rt_Rifle_Ironsights.Crouch_Walk_Rt_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_270) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:663][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_Walk_Lt_Rifle_Ironsights.Crouch_Walk_Lt_Rifle_Ironsights
+[2019.04.01-09.26.58:663][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_Walk_Lt_Rifle_Ironsights.Crouch_Walk_Lt_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_268) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:666][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_Walk_Fwd_Rifle_Ironsights.Crouch_Walk_Fwd_Rifle_Ironsights
+[2019.04.01-09.26.58:666][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_Walk_Fwd_Rifle_Ironsights.Crouch_Walk_Fwd_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_266) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:670][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_Walk_Bwd_Rifle_Ironsights.Crouch_Walk_Bwd_Rifle_Ironsights
+[2019.04.01-09.26.58:670][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_Walk_Bwd_Rifle_Ironsights.Crouch_Walk_Bwd_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_264) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:673][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Rt_Rifle_Ironsights.Walk_Rt_Rifle_Ironsights
+[2019.04.01-09.26.58:674][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Rt_Rifle_Ironsights.Walk_Rt_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_88) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:677][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Lt_Rifle_Ironsights.Walk_Lt_Rifle_Ironsights
+[2019.04.01-09.26.58:677][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Lt_Rifle_Ironsights.Walk_Lt_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_87) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:680][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Fwd_Rifle_Ironsights.Walk_Fwd_Rifle_Ironsights
+[2019.04.01-09.26.58:680][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Fwd_Rifle_Ironsights.Walk_Fwd_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_86) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:684][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Bwd_Rifle_Ironsights.Walk_Bwd_Rifle_Ironsights
+[2019.04.01-09.26.58:684][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Bwd_Rifle_Ironsights.Walk_Bwd_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_85) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:687][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/MOB1_Stand_Relaxed_Idle_v2.MOB1_Stand_Relaxed_Idle_v2
+[2019.04.01-09.26.58:687][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/MOB1_Stand_Relaxed_Idle_v2.MOB1_Stand_Relaxed_Idle_v2) using current/default (AnimCompress_BitwiseCompressOnly_300) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:692][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/MOB1_Jog_F_to_Stand_Relaxed_RU_IPC.MOB1_Jog_F_to_Stand_Relaxed_RU_IPC
+[2019.04.01-09.26.58:692][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/MOB1_Jog_F_to_Stand_Relaxed_RU_IPC.MOB1_Jog_F_to_Stand_Relaxed_RU_IPC) using current/default (AnimCompress_BitwiseCompressOnly_294) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:695][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/MOB1_Crouch_Idle_V2_IPC.MOB1_Crouch_Idle_V2_IPC
+[2019.04.01-09.26.58:695][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/MOB1_Crouch_Idle_V2_IPC.MOB1_Crouch_Idle_V2_IPC) using current/default (AnimCompress_BitwiseCompressOnly_292) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:701][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Stand_to_Crouch_Rifle_Ironsights.Stand_to_Crouch_Rifle_Ironsights
+[2019.04.01-09.26.58:701][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Stand_to_Crouch_Rifle_Ironsights.Stand_to_Crouch_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_272) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:703][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Stand_to_Crouch_Rifle_Hip.Stand_to_Crouch_Rifle_Hip
+[2019.04.01-09.26.58:703][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Stand_to_Crouch_Rifle_Hip.Stand_to_Crouch_Rifle_Hip) using current/default (AnimCompress_BitwiseCompressOnly_271) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:705][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Reload_Shotgun_Hip.Reload_Shotgun_Hip
+[2019.04.01-09.26.58:705][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Reload_Shotgun_Hip.Reload_Shotgun_Hip) using current/default (AnimCompress_BitwiseCompressOnly_28) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:712][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Reload_Rifle_Hip.Reload_Rifle_Hip
+[2019.04.01-09.26.58:712][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Reload_Rifle_Hip.Reload_Rifle_Hip) using current/default (AnimCompress_BitwiseCompressOnly_17) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:715][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Idle_Rifle_Hip_Fix.Idle_Rifle_Hip_Fix
+[2019.04.01-09.26.58:715][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Idle_Rifle_Hip_Fix.Idle_Rifle_Hip_Fix) using current/default (AnimCompress_BitwiseCompressOnly_72) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:722][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Fire_Rifle_Ironsights.Fire_Rifle_Ironsights
+[2019.04.01-09.26.58:723][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Fire_Rifle_Ironsights.Fire_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_100) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:723][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Equip_Rifle_Standing.Equip_Rifle_Standing
+[2019.04.01-09.26.58:724][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Equip_Rifle_Standing.Equip_Rifle_Standing) using current/default (AnimCompress_BitwiseCompressOnly_198) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:726][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_to_Stand_Rifle_Ironsights.Crouch_to_Stand_Rifle_Ironsights
+[2019.04.01-09.26.58:726][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_to_Stand_Rifle_Ironsights.Crouch_to_Stand_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_262) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:728][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_to_Stand_Rifle_Hip.Crouch_to_Stand_Rifle_Hip
+[2019.04.01-09.26.58:728][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_to_Stand_Rifle_Hip.Crouch_to_Stand_Rifle_Hip) using current/default (AnimCompress_BitwiseCompressOnly_261) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:730][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_Idle_Rifle_Hip.Crouch_Idle_Rifle_Hip
+[2019.04.01-09.26.58:730][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_Idle_Rifle_Hip.Crouch_Idle_Rifle_Hip) using current/default (AnimCompress_BitwiseCompressOnly_259) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.26.58:754][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.347900ms] /Game/MyAssets/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A
+[2019.04.01-09.26.58:771][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.375700ms] /Game/MyAssets/MilitaryWeapSilver/Weapons/Shotgun_A.Shotgun_A
+[2019.04.01-09.26.58:903][  0]SourceControl: Source control is disabled
+[2019.04.01-09.26.58:904][  0]SourceControl: Source control is disabled
+[2019.04.01-09.26.58:919][  0]SourceControl: Source control is disabled
+[2019.04.01-09.26.58:934][  0]SourceControl: Source control is disabled
+[2019.04.01-09.26.59:399][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.01-09.26.59:553][  0]LogOcInput: OculusInput pre-init called
+[2019.04.01-09.26.59:656][  0]LogEngine: Initializing Engine...
+[2019.04.01-09.26.59:657][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.01-09.26.59:659][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.01-09.26.59:659][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.01-09.26.59:931][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.01-09.26.59:940][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.01-09.27.00:014][  0]LogInit: FAudioDevice initialized.
+[2019.04.01-09.27.00:145][  0]LogDerivedDataCache: Saved boot cache 0.13s 160MB C:/Users/kvtuy/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.04.01-09.27.00:158][  0]LogInit: Texture streaming: Enabled
+[2019.04.01-09.27.00:172][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.01-09.27.00:197][  0]LogInit: Transaction tracking system initialized
+[2019.04.01-09.27.00:220][  0]BlueprintLog: New page: Editor Load
+[2019.04.01-09.27.00:408][  0]LocalizationService: Localization service is disabled
+[2019.04.01-09.27.00:493][  0]LogConsoleResponse: Display: 
+[2019.04.01-09.27.00:683][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.01-09.27.00:683][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.01-09.27.00:683][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.01-09.27.00:683][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.01-09.27.00:684][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.01-09.27.01:019][  0]LogFileCache: Scanning file cache for directory 'D:/KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/' took 0.02s
+[2019.04.01-09.27.01:075][  0]SourceControl: Source control is disabled
+[2019.04.01-09.27.01:075][  0]Cmd: MAP LOAD FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.01-09.27.01:075][  0]LightingResults: New page: Lighting Build
+[2019.04.01-09.27.01:077][  0]MapCheck: New page: Map Check
+[2019.04.01-09.27.01:077][  0]LightingResults: New page: Lighting Build
+[2019.04.01-09.27.01:092][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002bac161fec0, Size=272
+[2019.04.01-09.27.01:354][  0]LogAIModule: Creating AISystem for world Map01
+[2019.04.01-09.27.01:361][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.01-09.27.01:375][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.01-09.27.01:439][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 63.502ms to complete.
+[2019.04.01-09.27.01:439][  0]LogFileHelpers: Loading map 'Map01' took 0.364
+[2019.04.01-09.27.01:607][  0]LogCollectionManager: Loaded 0 collections in 0.001404 seconds
+[2019.04.01-09.27.01:669][  0]LogFileCache: Scanning file cache for directory 'D:/KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Collections/' took 0.01s
+[2019.04.01-09.27.01:669][  0]LogFileCache: Scanning file cache for directory 'D:/KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/Developers/kvtuy/Collections/' took 0.01s
+[2019.04.01-09.27.01:669][  0]LogFileCache: Scanning file cache for directory 'D:/KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/Collections/' took 0.01s
+[2019.04.01-09.27.01:669][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.04.01-09.27.01:706][  0]LogContentBrowser: Native class hierarchy populated in 0.0358 seconds. Added 2461 classes and 569 folders.
+[2019.04.01-09.27.01:720][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0067 seconds. Added 0 classes and 0 folders.
+[2019.04.01-09.27.01:782][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0063 seconds. Added 0 classes and 0 folders.
+[2019.04.01-09.27.01:791][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0052 seconds. Added 1 classes and 2 folders.
+[2019.04.01-09.27.01:812][  0]LogSlate: Took 0.000345 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.01-09.27.01:817][  0]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.01-09.27.01:830][  0]LogSlate: Took 0.000373 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.01-09.27.01:950][  0]LogRenderer: Reallocating scene render targets to support 856x380 Format 10 NumSamples 1 (Frame:1).
+[2019.04.01-09.27.02:109][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0053 seconds. Added 0 classes and 0 folders.
+[2019.04.01-09.27.02:109][  0]LogLoad: (Engine Initialization) Total time: 13.72 seconds
+[2019.04.01-09.27.02:109][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.01-09.27.02:145][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.04.01-09.27.02:174][  0]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.01-09.27.02:620][  3]LogAssetRegistry: Asset discovery search completed in 8.0240 seconds
+[2019.04.01-09.27.02:626][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.04.01-09.27.02:627][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000320 seconds (updated 0 objects)
+[2019.04.01-09.27.03:185][ 16]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.01-09.27.14:122][567]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-09.27.14:243][569]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0081 seconds. Added 1 classes and 2 folders.
+[2019.04.01-09.27.14:596][569]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.04.01-09.27.14:608][569]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0079 seconds. Added 1 classes and 0 folders.
+[2019.04.01-09.27.14:681][569]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_2:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.04.01-09.27.15:352][569]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0073 seconds. Added 1 classes and 0 folders.
+[2019.04.01-09.27.15:393][569]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.04.01-09.27.19:497][778]LogSlate: Window 'Reload_Pistol' being destroyed
+[2019.04.01-09.27.20:664][848]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-09.27.23:981][ 45]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.01-09.28.18:880][878]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-09.28.19:304][897]LogSavePackage: Save=23.17ms
+[2019.04.01-09.28.19:304][897]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Reload_Pistol6766E82E44C70C39D04949A5EF714AF4.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Reload_Pistol.uasset'
+[2019.04.01-09.28.19:305][897]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Reload_Pistol.uasset
+[2019.04.01-09.28.19:833][924]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-09.28.28:940][337]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-09.28.33:185][578]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Fwd_Shotgun_Ironsights.Walk_Fwd_Shotgun_Ironsights
+[2019.04.01-09.28.33:186][578]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Fwd_Shotgun_Ironsights.Walk_Fwd_Shotgun_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_25) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.28.33:188][578]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Idle_Shotgun_Hip.Idle_Shotgun_Hip
+[2019.04.01-09.28.33:188][578]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Idle_Shotgun_Hip.Idle_Shotgun_Hip) using current/default (AnimCompress_BitwiseCompressOnly_31) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.28.44:623][251]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-09.29.06:210][541]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Jog_Fwd_Shotgun.Jog_Fwd_Shotgun
+[2019.04.01-09.29.06:210][541]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Jog_Fwd_Shotgun.Jog_Fwd_Shotgun) using current/default (AnimCompress_BitwiseCompressOnly_34) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.29.18:797][295]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-09.29.29:276][918]LogSavePackage: Save=11.93ms
+[2019.04.01-09.29.29:276][918]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Walking_ShotgunE278C1E3481A4C8227C18B9D2B9BDFDC.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Walking_Shotgun.uasset'
+[2019.04.01-09.29.29:278][918]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Walking_Shotgun.uasset
+[2019.04.01-09.29.29:640][940]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-09.29.31:859][ 70]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-09.29.50:168][802]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-09.30.53:909][541]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-09.31.05:515][996]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Pistol_CC.Aim_Pistol_CC
+[2019.04.01-09.31.05:518][996]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Aim_Pistol_CC) using current/default (AnimCompress_BitwiseCompressOnly_88) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.31.05:549][996]LogSavePackage: Save=35.32ms
+[2019.04.01-09.31.05:549][996]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Aim_Pistol_CCB5F750BF45C4513B652A85B8593E1486.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Aim_Pistol_CC.uasset'
+[2019.04.01-09.31.05:551][996]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Aim_Pistol_CC.uasset
+[2019.04.01-09.31.15:521][556]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Pistol_CC.Aim_Pistol_CC
+[2019.04.01-09.31.15:523][556]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_0) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.31.17:789][692]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Pistol_CC.Aim_Pistol_CC
+[2019.04.01-09.31.17:791][692]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_1) using current/default (AnimCompress_BitwiseCompressOnly_2) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-09.31.20:850][872]LogSavePackage: Save=8.77ms
+[2019.04.01-09.31.20:850][872]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Aim_Pistol_CCB717BBFA40118A6A91D369801AB8C7D8.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Aim_Pistol_CC.uasset'
+[2019.04.01-09.31.20:852][872]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Aim_Pistol_CC.uasset
+[2019.04.01-09.31.31:899][340]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.801 s
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: === Handled ensure: ===
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: 
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: Ensure condition failed: RawTrack.PosKeys.Num() == NumFrames [File:D:\Build\++UE4+Release-4.19+Compile\Sync\Engine\Source\Runtime\Engine\Private\Animation\AnimSequence.cpp] [Line: 4418]
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: 
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: Stack: 
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000EE9DB706 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000EE73AE3A UE4Editor-Core.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000EE74ECD6 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000EB72D6A0 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000EB765143 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000EE25BDE7 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000EE244540 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000E9795264 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000E9795C85 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000E97D66DC UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000E97D3148 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000EA050489 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000E9ACE107 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000E9ACCA27 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000E9AF5462 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000D94B276B UE4Editor-AssetTools.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000D947EE12 UE4Editor-AssetTools.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000D94BFA74 UE4Editor-AssetTools.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000D78290D6 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000D78A8305 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000D78E607D UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000D78EE86D UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000D7801F51 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000D77DD977 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000D77E4EB7 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000EB07F7BE UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000EB05B4D7 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000EB05C017 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000EB0650C9 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000EB066319 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000EAFECB6B UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000EAE14D61 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000EADE6D2D UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000EADE88F6 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000EAE663CA UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000EAE599C8 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000034BE3DA UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000034B1B78 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000034C052C UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000034AD679 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x000000003209CA66 USER32.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x000000003209C582 USER32.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000034C1666 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x000000005BCB5475 UE4Editor.exe!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x000000005BCC6BD0 UE4Editor.exe!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x000000005BCC6C4A UE4Editor.exe!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x000000005BCD4177 UE4Editor.exe!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x000000005BCD5B87 UE4Editor.exe!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000306081F4 KERNEL32.DLL!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: [Callstack] 0x00000000322FA251 ntdll.dll!UnknownFunction []
+[2019.04.01-09.31.31:899][340]LogOutputDevice: Error: 
+[2019.04.01-09.31.31:902][340]LogStats:                SubmitErrorReport -  0.000 s
+[2019.04.01-09.31.32:375][340]LogStats:                    SendNewReport -  0.474 s
+[2019.04.01-09.31.32:375][340]LogStats:             FDebug::EnsureFailed -  1.278 s
+[2019.04.01-09.31.32:376][340]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.002 s
+[2019.04.01-09.31.32:376][340]LogOutputDevice: Error: === Handled ensure: ===
+[2019.04.01-09.31.32:376][340]LogOutputDevice: Error: 
+[2019.04.01-09.31.32:376][340]LogOutputDevice: Error: Ensure condition failed: RawTrack.RotKeys.Num() == NumFrames [File:D:\Build\++UE4+Release-4.19+Compile\Sync\Engine\Source\Runtime\Engine\Private\Animation\AnimSequence.cpp] [Line: 4428]
+[2019.04.01-09.31.32:377][340]LogOutputDevice: Error: 
+[2019.04.01-09.31.32:377][340]LogOutputDevice: Error: Stack: 
+[2019.04.01-09.31.32:377][340]LogOutputDevice: Error: [Callstack] 0x00000000EE9DB706 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.01-09.31.32:377][340]LogOutputDevice: Error: [Callstack] 0x00000000EE73AE3A UE4Editor-Core.dll!UnknownFunction []
+[2019.04.01-09.31.32:377][340]LogOutputDevice: Error: [Callstack] 0x00000000EE74ECD6 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.01-09.31.32:377][340]LogOutputDevice: Error: [Callstack] 0x00000000EB72D80F UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.01-09.31.32:377][340]LogOutputDevice: Error: [Callstack] 0x00000000EB765143 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.01-09.31.32:377][340]LogOutputDevice: Error: [Callstack] 0x00000000EE25BDE7 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.04.01-09.31.32:377][340]LogOutputDevice: Error: [Callstack] 0x00000000EE244540 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.04.01-09.31.32:377][340]LogOutputDevice: Error: [Callstack] 0x00000000E9795264 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.01-09.31.32:377][340]LogOutputDevice: Error: [Callstack] 0x00000000E9795C85 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.01-09.31.32:377][340]LogOutputDevice: Error: [Callstack] 0x00000000E97D66DC UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.01-09.31.32:377][340]LogOutputDevice: Error: [Callstack] 0x00000000E97D3148 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.01-09.31.32:377][340]LogOutputDevice: Error: [Callstack] 0x00000000EA050489 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.01-09.31.32:377][340]LogOutputDevice: Error: [Callstack] 0x00000000E9ACE107 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.01-09.31.32:377][340]LogOutputDevice: Error: [Callstack] 0x00000000E9ACCA27 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.01-09.31.32:377][340]LogOutputDevice: Error: [Callstack] 0x00000000E9AF5462 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.01-09.31.32:377][340]LogOutputDevice: Error: [Callstack] 0x00000000D94B276B UE4Editor-AssetTools.dll!UnknownFunction []
+[2019.04.01-09.31.32:377][340]LogOutputDevice: Error: [Callstack] 0x00000000D947EE12 UE4Editor-AssetTools.dll!UnknownFunction []
+[2019.04.01-09.31.32:377][340]LogOutputDevice: Error: [Callstack] 0x00000000D94BFA74 UE4Editor-AssetTools.dll!UnknownFunction []
+[2019.04.01-09.31.32:377][340]LogOutputDevice: Error: [Callstack] 0x00000000D78290D6 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.01-09.31.32:377][340]LogOutputDevice: Error: [Callstack] 0x00000000D78A8305 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.01-09.31.32:377][340]LogOutputDevice: Error: [Callstack] 0x00000000D78E607D UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.01-09.31.32:377][340]LogOutputDevice: Error: [Callstack] 0x00000000D78EE86D UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.01-09.31.32:377][340]LogOutputDevice: Error: [Callstack] 0x00000000D7801F51 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.01-09.31.32:377][340]LogOutputDevice: Error: [Callstack] 0x00000000D77DD977 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.01-09.31.32:377][340]LogOutputDevice: Error: [Callstack] 0x00000000D77E4EB7 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.01-09.31.32:377][340]LogOutputDevice: Error: [Callstack] 0x00000000EB07F7BE UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-09.31.32:377][340]LogOutputDevice: Error: [Callstack] 0x00000000EB05B4D7 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-09.31.32:377][340]LogOutputDevice: Error: [Callstack] 0x00000000EB05C017 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-09.31.32:377][340]LogOutputDevice: Error: [Callstack] 0x00000000EB0650C9 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-09.31.32:377][340]LogOutputDevice: Error: [Callstack] 0x00000000EB066319 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-09.31.32:377][340]LogOutputDevice: Error: [Callstack] 0x00000000EAFECB6B UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-09.31.32:377][340]LogOutputDevice: Error: [Callstack] 0x00000000EAE14D61 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-09.31.32:377][340]LogOutputDevice: Error: [Callstack] 0x00000000EADE6D2D UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-09.31.32:378][340]LogOutputDevice: Error: [Callstack] 0x00000000EADE88F6 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-09.31.32:378][340]LogOutputDevice: Error: [Callstack] 0x00000000EAE663CA UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-09.31.32:378][340]LogOutputDevice: Error: [Callstack] 0x00000000EAE599C8 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-09.31.32:378][340]LogOutputDevice: Error: [Callstack] 0x00000000034BE3DA UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.01-09.31.32:378][340]LogOutputDevice: Error: [Callstack] 0x00000000034B1B78 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.01-09.31.32:378][340]LogOutputDevice: Error: [Callstack] 0x00000000034C052C UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.01-09.31.32:378][340]LogOutputDevice: Error: [Callstack] 0x00000000034AD679 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.01-09.31.32:378][340]LogOutputDevice: Error: [Callstack] 0x000000003209CA66 USER32.dll!UnknownFunction []
+[2019.04.01-09.31.32:378][340]LogOutputDevice: Error: [Callstack] 0x000000003209C582 USER32.dll!UnknownFunction []
+[2019.04.01-09.31.32:378][340]LogOutputDevice: Error: [Callstack] 0x00000000034C1666 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.01-09.31.32:378][340]LogOutputDevice: Error: [Callstack] 0x000000005BCB5475 UE4Editor.exe!UnknownFunction []
+[2019.04.01-09.31.32:378][340]LogOutputDevice: Error: [Callstack] 0x000000005BCC6BD0 UE4Editor.exe!UnknownFunction []
+[2019.04.01-09.31.32:378][340]LogOutputDevice: Error: [Callstack] 0x000000005BCC6C4A UE4Editor.exe!UnknownFunction []
+[2019.04.01-09.31.32:378][340]LogOutputDevice: Error: [Callstack] 0x000000005BCD4177 UE4Editor.exe!UnknownFunction []
+[2019.04.01-09.31.32:378][340]LogOutputDevice: Error: [Callstack] 0x000000005BCD5B87 UE4Editor.exe!UnknownFunction []
+[2019.04.01-09.31.32:378][340]LogOutputDevice: Error: [Callstack] 0x00000000306081F4 KERNEL32.DLL!UnknownFunction []
+[2019.04.01-09.31.32:378][340]LogOutputDevice: Error: [Callstack] 0x00000000322FA251 ntdll.dll!UnknownFunction []
+[2019.04.01-09.31.32:378][340]LogOutputDevice: Error: 
+[2019.04.01-09.31.32:384][340]LogStats:                SubmitErrorReport -  0.000 s

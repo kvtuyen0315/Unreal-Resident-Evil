@@ -1,0 +1,1223 @@
+﻿Log file open, 04/01/19 12:47:20
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: ResidentEvil
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-187970625) SRandInit(-187970625).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.554932
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +7:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.107s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Binaries/Win64/UE4Editor-ResidentEvil.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am DESKTOP-151KF17 (192.168.0.104:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: D:/Cai Dat/UE4/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.003s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.04.01-05.47.22:041][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.01-05.47.22:041][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.01-05.47.22:054][  0]LogInit: Computer: DESKTOP-151KF17
+[2019.04.01-05.47.22:054][  0]LogInit: User: kvtuy
+[2019.04.01-05.47.22:054][  0]LogInit: CPU Page size=4096, Cores=2
+[2019.04.01-05.47.22:054][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.04.01-05.47.22:055][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.04.01-05.47.22:055][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.01-05.47.22:055][  0]LogMemory: Process Physical Memory: 273.51 MB used, 273.52 MB peak
+[2019.04.01-05.47.22:055][  0]LogMemory: Process Virtual Memory: 269.89 MB used, 269.89 MB peak
+[2019.04.01-05.47.22:055][  0]LogMemory: Physical Memory: 3772.21 MB used,  12500.78 MB free, 16272.99 MB total
+[2019.04.01-05.47.22:055][  0]LogMemory: Virtual Memory: 4784.82 MB used,  12500.78 MB free, 134217728.00 MB total
+[2019.04.01-05.47.22:142][  0]LogInit: Using OS detected language (en-US).
+[2019.04.01-05.47.22:142][  0]LogInit: Using OS detected locale (en-US).
+[2019.04.01-05.47.22:149][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.04.01-05.47.22:632][  0]LogStreaming: Display: Took  0.487s to EndInitTextLocalization.
+[2019.04.01-05.47.22:633][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.01-05.47.22:722][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.01-05.47.22:722][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.01-05.47.23:120][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.01-05.47.23:746][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950M' (Feature Level 11_0)
+[2019.04.01-05.47.23:746][  0]LogD3D11RHI:       4055/0/8136 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.04.01-05.47.23:753][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2019.04.01-05.47.23:753][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.04.01-05.47.23:755][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.01-05.47.23:755][  0]LogD3D11RHI:       0/0/8136 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.01-05.47.23:755][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.01-05.47.23:786][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.01-05.47.23:786][  0]LogD3D11RHI:     GPU DeviceId: 0x139a (for the marketing name, search the web for "GPU Device Id")
+[2019.04.01-05.47.23:786][  0]LogWindows: EnumDisplayDevices:
+[2019.04.01-05.47.23:786][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2019.04.01-05.47.23:787][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2019.04.01-05.47.23:787][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2019.04.01-05.47.23:787][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.04.01-05.47.23:787][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
+[2019.04.01-05.47.23:787][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.04.01-05.47.23:787][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.04.01-05.47.23:787][  0]LogRHI: Texture pool is 2839 MB (70% of 4055 MB)
+[2019.04.01-05.47.23:852][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.04.01-05.47.23:852][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.04.01-05.47.23:852][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.01-05.47.23:887][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.04.01-05.47.23:892][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Intermediate/Shaders/WorkingDirectory/4916/).
+[2019.04.01-05.47.23:892][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kvtuy/AppData/Local/Temp/UnrealShaderWorkingDir/B7738DC0445899C8BB25EE85B1EDC76F/'.
+[2019.04.01-05.47.24:248][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.01-05.47.24:262][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.01-05.47.24:278][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.01-05.47.24:293][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.01-05.47.24:309][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.01-05.47.24:325][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.01-05.47.24:340][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.01-05.47.24:357][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.01-05.47.24:365][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.01-05.47.24:380][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2019.04.01-05.47.24:395][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2019.04.01-05.47.24:410][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2019.04.01-05.47.24:426][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2019.04.01-05.47.24:441][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2019.04.01-05.47.24:456][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2019.04.01-05.47.24:486][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2019.04.01-05.47.24:486][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.04.01-05.47.24:501][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.01-05.47.24:504][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.01-05.47.24:549][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.01-05.47.24:562][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.01-05.47.24:577][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.01-05.47.24:591][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.01-05.47.24:606][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.01-05.47.24:622][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.01-05.47.24:622][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.01-05.47.24:788][  0]LogXGEController: Cleaning working directory: C:/Users/kvtuy/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.04.01-05.47.24:788][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.01-05.47.24:789][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.01-05.47.24:789][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.01-05.47.25:787][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.01-05.47.26:096][  0]LogDerivedDataCache: Loaded boot cache 0.31s 74MB C:/Users/kvtuy/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.04.01-05.47.26:096][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kvtuy/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2019.04.01-05.47.26:096][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.01-05.47.26:096][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.01-05.47.26:097][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.01-05.47.26:097][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.01-05.47.26:119][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.01-05.47.26:132][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kvtuy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.01-05.47.26:132][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.01-05.47.26:132][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.01-05.47.26:148][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.01-05.47.26:152][  0]LogSlate: Using Freetype 2.6.0
+[2019.04.01-05.47.26:156][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.01-05.47.26:156][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.01-05.47.26:496][  0]LogAssetRegistry: FAssetRegistry took 0.0285 seconds to start up
+[2019.04.01-05.47.26:955][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.01-05.47.27:205][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.01-05.47.27:210][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.01-05.47.27:211][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.01-05.47.27:211][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.01-05.47.27:211][  0]LogMeshReduction: No automatic mesh merging module available
+[2019.04.01-05.47.27:211][  0]LogMeshMerging: No automatic mesh merging module available
+[2019.04.01-05.47.27:261][  0]LogNetVersion: ResidentEvil , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3990793033)
+[2019.04.01-05.47.28:016][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.066572 seconds
+[2019.04.01-05.47.28:023][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2019.04.01-05.47.28:023][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2019.04.01-05.47.28:023][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.01-05.47.31:001][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.01-05.47.31:031][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.01-05.47.31:355][  0]LogSkeletalMesh: Building Skeletal Mesh Assault_Rifle_A...
+[2019.04.01-05.47.31:372][  0]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/MyAssets/MilitaryWeapSilver/Weapons/Assault_Rifle_A.Assault_Rifle_A
+[2019.04.01-05.47.32:315][  0]LogTexture: Display: Building textures: Assault_Rifle_A_Norm (BC5, 2048X2048)
+[2019.04.01-05.47.32:315][  0]LogTexture: Display: Building textures: Assault_Rifle_A_masks (AutoDXT, 2048X2048)
+[2019.04.01-05.47.35:957][  0]LogTexture: Display: Building textures: Assault_Rifle_A_Diff (AutoDXT, 2048X2048)
+[2019.04.01-05.47.37:419][  0]LogMaterial: Missing cached shader map for material M_WeaponMaster_01, compiling. 
+[2019.04.01-05.47.37:631][  0]LogShaderCompilers: Display: Shaders left to compile 69
+[2019.04.01-05.47.37:631][  0]LogShaderCompilers: Display: Shaders left to compile 59
+[2019.04.01-05.47.37:631][  0]LogShaderCompilers: Display: Shaders left to compile 49
+[2019.04.01-05.47.37:631][  0]LogSkeletalMesh: Building Skeletal Mesh genAssault...
+[2019.04.01-05.47.37:767][  0]LogSkeletalMesh: Built Skeletal Mesh [0.14s] /Game/MyCharacter/Hero/genAssault.genAssault
+[2019.04.01-05.48.02:852][  0]LogTexture: Display: Building textures: genAssault_arctic_sg (AutoDXT, 4096X4096)
+[2019.04.01-05.48.02:852][  0]LogTexture: Display: Building textures: genAssault_MERC_d (AutoDXT, 4096X4096)
+[2019.04.01-05.48.02:852][  0]LogTexture: Display: Building textures: genAssault_GreenArmyMan_nm (BC5, 4096X4096)
+[2019.04.01-05.48.02:852][  0]LogShaderCompilers: Display: Shaders left to compile 39
+[2019.04.01-05.48.02:852][  0]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.04.01-05.48.02:853][  0]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.04.01-05.48.02:853][  0]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.04.01-05.48.02:853][  0]LogMaterial: Missing cached shader map for material genAssault_arctic_mat, compiling. 
+[2019.04.01-05.48.03:491][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017f15778680, Size=272, Default__HunkAnimation_C Function /Game/MyCharacter/Hero/HunkAnimation.HunkAnimation_C:ExecuteUbergraph_HunkAnimation
+[2019.04.01-05.48.03:966][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017f15778680, Size=272
+[2019.04.01-05.48.03:966][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017f1d087ec0, Size=272, Default__HunkAnimation_C Function /Engine/Transient.REINST_HunkAnimation_C_0:ExecuteUbergraph_HunkAnimation
+[2019.04.01-05.48.04:282][  0]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.04.01-05.48.04:282][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017f1d6487c0, Size=272, Default__HunkAnimation_C Function /Game/MyCharacter/Hero/HunkAnimation.HunkAnimation_C:ExecuteUbergraph_HunkAnimation
+[2019.04.01-05.48.04:397][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Stand_to_Crouch_Rifle_Ironsights.Stand_to_Crouch_Rifle_Ironsights
+[2019.04.01-05.48.04:398][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Stand_to_Crouch_Rifle_Ironsights.Stand_to_Crouch_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_272) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:401][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Stand_to_Crouch_Rifle_Hip.Stand_to_Crouch_Rifle_Hip
+[2019.04.01-05.48.04:402][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Stand_to_Crouch_Rifle_Hip.Stand_to_Crouch_Rifle_Hip) using current/default (AnimCompress_BitwiseCompressOnly_271) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:404][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Reload_Shotgun_Hip.Reload_Shotgun_Hip
+[2019.04.01-05.48.04:405][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Reload_Shotgun_Hip.Reload_Shotgun_Hip) using current/default (AnimCompress_BitwiseCompressOnly_28) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:413][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Reload_Rifle_Hip.Reload_Rifle_Hip
+[2019.04.01-05.48.04:413][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Reload_Rifle_Hip.Reload_Rifle_Hip) using current/default (AnimCompress_BitwiseCompressOnly_17) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:419][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Idle_Rifle_Hip_Fix.Idle_Rifle_Hip_Fix
+[2019.04.01-05.48.04:419][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Idle_Rifle_Hip_Fix.Idle_Rifle_Hip_Fix) using current/default (AnimCompress_BitwiseCompressOnly_72) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:434][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Fire_Rifle_Ironsights.Fire_Rifle_Ironsights
+[2019.04.01-05.48.04:434][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Fire_Rifle_Ironsights.Fire_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_100) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:436][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Crouch_Up_2.Aim_Crouch_Up_2
+[2019.04.01-05.48.04:437][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Crouch_Up_2.Aim_Crouch_Up_2) using current/default (AnimCompress_BitwiseCompressOnly_61) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:438][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Crouch_Up.Aim_Crouch_Up
+[2019.04.01-05.48.04:439][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Crouch_Up.Aim_Crouch_Up) using current/default (AnimCompress_BitwiseCompressOnly_58) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:439][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Crouch_Down_3.Aim_Crouch_Down_3
+[2019.04.01-05.48.04:440][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Crouch_Down_3.Aim_Crouch_Down_3) using current/default (AnimCompress_BitwiseCompressOnly_70) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:441][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Crouch_Down_2.Aim_Crouch_Down_2
+[2019.04.01-05.48.04:441][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Crouch_Down_2.Aim_Crouch_Down_2) using current/default (AnimCompress_BitwiseCompressOnly_69) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:442][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Crouch_Down.Aim_Crouch_Down
+[2019.04.01-05.48.04:443][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Crouch_Down.Aim_Crouch_Down) using current/default (AnimCompress_BitwiseCompressOnly_68) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:443][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_Idle_Rifle_Ironsights_Fix.Crouch_Idle_Rifle_Ironsights_Fix
+[2019.04.01-05.48.04:444][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_Idle_Rifle_Ironsights_Fix.Crouch_Idle_Rifle_Ironsights_Fix) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:454][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Crouch_CC.Aim_Crouch_CC
+[2019.04.01-05.48.04:455][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Crouch_CC.Aim_Crouch_CC) using current/default (AnimCompress_BitwiseCompressOnly_46) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:456][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Up_3.Aim_Up_3
+[2019.04.01-05.48.04:457][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Up_3.Aim_Up_3) using current/default (AnimCompress_BitwiseCompressOnly_339) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:459][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Up_2.Aim_Up_2
+[2019.04.01-05.48.04:459][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Up_2.Aim_Up_2) using current/default (AnimCompress_BitwiseCompressOnly_341) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:461][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Up.Aim_Up
+[2019.04.01-05.48.04:462][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Up.Aim_Up) using current/default (AnimCompress_BitwiseCompressOnly_344) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:463][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Right_Up.Aim_Right_Up
+[2019.04.01-05.48.04:464][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Right_Up.Aim_Right_Up) using current/default (AnimCompress_BitwiseCompressOnly_324) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:465][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Right_Down.Aim_Right_Down
+[2019.04.01-05.48.04:466][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Right_Down.Aim_Right_Down) using current/default (AnimCompress_BitwiseCompressOnly_323) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:467][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Right.Aim_Right
+[2019.04.01-05.48.04:467][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Right.Aim_Right) using current/default (AnimCompress_BitwiseCompressOnly_322) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:468][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Left_Up.Aim_Left_Up
+[2019.04.01-05.48.04:469][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Left_Up.Aim_Left_Up) using current/default (AnimCompress_BitwiseCompressOnly_321) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:469][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Left_Down.Aim_Left_Down
+[2019.04.01-05.48.04:470][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Left_Down.Aim_Left_Down) using current/default (AnimCompress_BitwiseCompressOnly_320) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:471][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Left.Aim_Left
+[2019.04.01-05.48.04:471][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Left.Aim_Left) using current/default (AnimCompress_BitwiseCompressOnly_319) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:472][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Down_3.Aim_Down_3
+[2019.04.01-05.48.04:472][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Down_3.Aim_Down_3) using current/default (AnimCompress_BitwiseCompressOnly_318) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:474][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Down_2.Aim_Down_2
+[2019.04.01-05.48.04:474][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Down_2.Aim_Down_2) using current/default (AnimCompress_BitwiseCompressOnly_317) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:475][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Down.Aim_Down
+[2019.04.01-05.48.04:475][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Down.Aim_Down) using current/default (AnimCompress_BitwiseCompressOnly_345) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:476][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Idle_Rifle_Ironsights_Fix.Idle_Rifle_Ironsights_Fix
+[2019.04.01-05.48.04:476][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Idle_Rifle_Ironsights_Fix.Idle_Rifle_Ironsights_Fix) using current/default (AnimCompress_BitwiseCompressOnly_92) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:489][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_CC.Aim_CC
+[2019.04.01-05.48.04:490][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_CC.Aim_CC) using current/default (AnimCompress_BitwiseCompressOnly_315) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:503][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/MOB1_Walk_F_IPC.MOB1_Walk_F_IPC
+[2019.04.01-05.48.04:503][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/MOB1_Walk_F_IPC.MOB1_Walk_F_IPC) using current/default (AnimCompress_BitwiseCompressOnly_296) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:505][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/MOB1_Run_F_IPC.MOB1_Run_F_IPC
+[2019.04.01-05.48.04:505][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/MOB1_Run_F_IPC.MOB1_Run_F_IPC) using current/default (AnimCompress_BitwiseCompressOnly_295) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:507][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Sprint_Fwd_Rifle.Sprint_Fwd_Rifle
+[2019.04.01-05.48.04:507][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Sprint_Fwd_Rifle.Sprint_Fwd_Rifle) using current/default (AnimCompress_BitwiseCompressOnly_337) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:511][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/MOB1_CrouchWalk_F_IPC.MOB1_CrouchWalk_F_IPC
+[2019.04.01-05.48.04:511][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/MOB1_CrouchWalk_F_IPC.MOB1_CrouchWalk_F_IPC) using current/default (AnimCompress_BitwiseCompressOnly_293) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:514][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Jog_Rt_Rifle.Jog_Rt_Rifle
+[2019.04.01-05.48.04:514][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Jog_Rt_Rifle.Jog_Rt_Rifle) using current/default (AnimCompress_BitwiseCompressOnly_115) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:518][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Jog_Lt_Rifle.Jog_Lt_Rifle
+[2019.04.01-05.48.04:518][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Jog_Lt_Rifle.Jog_Lt_Rifle) using current/default (AnimCompress_BitwiseCompressOnly_114) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:521][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Jog_Fwd_Rifle.Jog_Fwd_Rifle
+[2019.04.01-05.48.04:521][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Jog_Fwd_Rifle.Jog_Fwd_Rifle) using current/default (AnimCompress_BitwiseCompressOnly_69) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:527][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Jog_Bwd_Rifle.Jog_Bwd_Rifle
+[2019.04.01-05.48.04:527][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Jog_Bwd_Rifle.Jog_Bwd_Rifle) using current/default (AnimCompress_BitwiseCompressOnly_113) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:532][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_Walk_Rt_Rifle_Hip.Crouch_Walk_Rt_Rifle_Hip
+[2019.04.01-05.48.04:533][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_Walk_Rt_Rifle_Hip.Crouch_Walk_Rt_Rifle_Hip) using current/default (AnimCompress_BitwiseCompressOnly_269) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:539][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_Walk_Lt_Rifle_Hip.Crouch_Walk_Lt_Rifle_Hip
+[2019.04.01-05.48.04:539][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_Walk_Lt_Rifle_Hip.Crouch_Walk_Lt_Rifle_Hip) using current/default (AnimCompress_BitwiseCompressOnly_267) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:544][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_Walk_Fwd_Rifle_Hip.Crouch_Walk_Fwd_Rifle_Hip
+[2019.04.01-05.48.04:544][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_Walk_Fwd_Rifle_Hip.Crouch_Walk_Fwd_Rifle_Hip) using current/default (AnimCompress_BitwiseCompressOnly_265) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:548][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_Walk_Bwd_Rifle_Hip.Crouch_Walk_Bwd_Rifle_Hip
+[2019.04.01-05.48.04:549][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_Walk_Bwd_Rifle_Hip.Crouch_Walk_Bwd_Rifle_Hip) using current/default (AnimCompress_BitwiseCompressOnly_263) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:553][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_Walk_Rt_Rifle_Ironsights.Crouch_Walk_Rt_Rifle_Ironsights
+[2019.04.01-05.48.04:554][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_Walk_Rt_Rifle_Ironsights.Crouch_Walk_Rt_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_270) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:559][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_Walk_Lt_Rifle_Ironsights.Crouch_Walk_Lt_Rifle_Ironsights
+[2019.04.01-05.48.04:560][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_Walk_Lt_Rifle_Ironsights.Crouch_Walk_Lt_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_268) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:564][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_Walk_Fwd_Rifle_Ironsights.Crouch_Walk_Fwd_Rifle_Ironsights
+[2019.04.01-05.48.04:564][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_Walk_Fwd_Rifle_Ironsights.Crouch_Walk_Fwd_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_266) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:569][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_Walk_Bwd_Rifle_Ironsights.Crouch_Walk_Bwd_Rifle_Ironsights
+[2019.04.01-05.48.04:570][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_Walk_Bwd_Rifle_Ironsights.Crouch_Walk_Bwd_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_264) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:574][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Rt_Rifle_Ironsights.Walk_Rt_Rifle_Ironsights
+[2019.04.01-05.48.04:574][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Rt_Rifle_Ironsights.Walk_Rt_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_88) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:578][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Lt_Rifle_Ironsights.Walk_Lt_Rifle_Ironsights
+[2019.04.01-05.48.04:579][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Lt_Rifle_Ironsights.Walk_Lt_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_87) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:584][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Fwd_Rifle_Ironsights.Walk_Fwd_Rifle_Ironsights
+[2019.04.01-05.48.04:584][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Fwd_Rifle_Ironsights.Walk_Fwd_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_86) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:588][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Bwd_Rifle_Ironsights.Walk_Bwd_Rifle_Ironsights
+[2019.04.01-05.48.04:588][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Bwd_Rifle_Ironsights.Walk_Bwd_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_85) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:593][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/MOB1_Stand_Relaxed_Idle_v2.MOB1_Stand_Relaxed_Idle_v2
+[2019.04.01-05.48.04:594][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/MOB1_Stand_Relaxed_Idle_v2.MOB1_Stand_Relaxed_Idle_v2) using current/default (AnimCompress_BitwiseCompressOnly_300) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:602][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/MOB1_Jog_F_to_Stand_Relaxed_RU_IPC.MOB1_Jog_F_to_Stand_Relaxed_RU_IPC
+[2019.04.01-05.48.04:602][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/MOB1_Jog_F_to_Stand_Relaxed_RU_IPC.MOB1_Jog_F_to_Stand_Relaxed_RU_IPC) using current/default (AnimCompress_BitwiseCompressOnly_294) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:606][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/MOB1_Crouch_Idle_V2_IPC.MOB1_Crouch_Idle_V2_IPC
+[2019.04.01-05.48.04:607][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/MOB1_Crouch_Idle_V2_IPC.MOB1_Crouch_Idle_V2_IPC) using current/default (AnimCompress_BitwiseCompressOnly_292) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:614][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Equip_Rifle_Standing.Equip_Rifle_Standing
+[2019.04.01-05.48.04:614][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Equip_Rifle_Standing.Equip_Rifle_Standing) using current/default (AnimCompress_BitwiseCompressOnly_198) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:618][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_to_Stand_Rifle_Ironsights.Crouch_to_Stand_Rifle_Ironsights
+[2019.04.01-05.48.04:619][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_to_Stand_Rifle_Ironsights.Crouch_to_Stand_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_262) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:621][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_to_Stand_Rifle_Hip.Crouch_to_Stand_Rifle_Hip
+[2019.04.01-05.48.04:622][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_to_Stand_Rifle_Hip.Crouch_to_Stand_Rifle_Hip) using current/default (AnimCompress_BitwiseCompressOnly_261) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:624][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_Idle_Rifle_Hip.Crouch_Idle_Rifle_Hip
+[2019.04.01-05.48.04:624][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Crouch_Idle_Rifle_Hip.Crouch_Idle_Rifle_Hip) using current/default (AnimCompress_BitwiseCompressOnly_259) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.04:635][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Crouch_Up_3.Aim_Crouch_Up_3
+[2019.04.01-05.48.04:636][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Crouch_Up_3.Aim_Crouch_Up_3) using current/default (AnimCompress_BitwiseCompressOnly_64) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.48.06:105][  0]LogTexture: Display: Building textures: Pistols_A_Norm (BC5, 2048X2048)
+[2019.04.01-05.48.06:105][  0]LogTexture: Display: Building textures: Pistols_A_Masks (AutoDXT, 2048X2048)
+[2019.04.01-05.48.09:743][  0]LogTexture: Display: Building textures: Pistols_A_Diff (AutoDXT, 2048X2048)
+[2019.04.01-05.48.09:743][  0]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.04.01-05.48.12:879][  0]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.04.01-05.48.12:880][  0]LogSkeletalMesh: Building Skeletal Mesh Pistols_A...
+[2019.04.01-05.48.12:896][  0]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/MyAssets/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A
+[2019.04.01-05.48.13:667][  0]LogTexture: Display: Building textures: Shotgun_A_Norm (BC5, 2048X2048)
+[2019.04.01-05.48.13:667][  0]LogTexture: Display: Building textures: Shotgun_A_Masks (AutoDXT, 2048X2048)
+[2019.04.01-05.48.13:667][  0]LogTexture: Display: Building textures: Shotgun_A_Diff (AutoDXT, 2048X2048)
+[2019.04.01-05.48.19:300][  0]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.04.01-05.48.19:302][  0]LogSkeletalMesh: Building Skeletal Mesh Shotgun_A...
+[2019.04.01-05.48.19:402][  0]LogSkeletalMesh: Built Skeletal Mesh [0.10s] /Game/MyAssets/MilitaryWeapSilver/Weapons/Shotgun_A.Shotgun_A
+[2019.04.01-05.48.19:659][  0]SourceControl: Source control is disabled
+[2019.04.01-05.48.19:659][  0]SourceControl: Source control is disabled
+[2019.04.01-05.48.19:691][  0]SourceControl: Source control is disabled
+[2019.04.01-05.48.19:720][  0]SourceControl: Source control is disabled
+[2019.04.01-05.48.20:447][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.01-05.48.20:688][  0]LogOcInput: OculusInput pre-init called
+[2019.04.01-05.48.20:936][  0]LogEngine: Initializing Engine...
+[2019.04.01-05.48.20:940][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.01-05.48.20:944][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.01-05.48.20:945][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.01-05.48.21:482][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.01-05.48.21:502][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.01-05.48.21:600][  0]LogInit: FAudioDevice initialized.
+[2019.04.01-05.48.21:759][  0]LogDerivedDataCache: Saved boot cache 0.16s 156MB C:/Users/kvtuy/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.04.01-05.48.21:795][  0]LogInit: Texture streaming: Enabled
+[2019.04.01-05.48.21:830][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.01-05.48.22:068][  0]LogInit: Transaction tracking system initialized
+[2019.04.01-05.48.22:295][  0]BlueprintLog: New page: Editor Load
+[2019.04.01-05.48.22:923][  0]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.04.01-05.48.22:923][  0]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.04.01-05.48.22:923][  0]LocalizationService: Localization service is disabled
+[2019.04.01-05.48.23:135][  0]LogConsoleResponse: Display: 
+[2019.04.01-05.48.23:676][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.01-05.48.23:676][  0]LogFileCache: Scanning file cache for directory 'D:/KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/' took 0.02s
+[2019.04.01-05.48.23:677][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.01-05.48.23:677][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.01-05.48.23:677][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.01-05.48.23:677][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.01-05.48.24:512][  0]SourceControl: Source control is disabled
+[2019.04.01-05.48.24:513][  0]Cmd: MAP LOAD FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.01-05.48.24:520][  0]LightingResults: New page: Lighting Build
+[2019.04.01-05.48.24:543][  0]MapCheck: New page: Map Check
+[2019.04.01-05.48.24:543][  0]LightingResults: New page: Lighting Build
+[2019.04.01-05.48.24:595][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017f1d087ec0, Size=272
+[2019.04.01-05.48.25:261][  0]LogAIModule: Creating AISystem for world Map01
+[2019.04.01-05.48.25:341][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.01-05.48.25:364][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.01-05.48.25:459][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 95.322ms to complete.
+[2019.04.01-05.48.25:459][  0]LogFileHelpers: Loading map 'Map01' took 0.947
+[2019.04.01-05.48.25:724][  0]LogCollectionManager: Loaded 0 collections in 0.002529 seconds
+[2019.04.01-05.48.25:788][  0]LogFileCache: Scanning file cache for directory 'D:/KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Collections/' took 0.01s
+[2019.04.01-05.48.25:788][  0]LogFileCache: Scanning file cache for directory 'D:/KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/Developers/kvtuy/Collections/' took 0.01s
+[2019.04.01-05.48.25:788][  0]LogFileCache: Scanning file cache for directory 'D:/KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/Collections/' took 0.01s
+[2019.04.01-05.48.25:788][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.04.01-05.48.25:817][  0]LogContentBrowser: Native class hierarchy populated in 0.0278 seconds. Added 2461 classes and 569 folders.
+[2019.04.01-05.48.25:840][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0077 seconds. Added 0 classes and 0 folders.
+[2019.04.01-05.48.26:036][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0083 seconds. Added 0 classes and 0 folders.
+[2019.04.01-05.48.26:059][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0078 seconds. Added 1 classes and 2 folders.
+[2019.04.01-05.48.26:163][  0]LogSlate: Took 0.001776 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.01-05.48.26:175][  0]LogSlate: Took 0.009403 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.01-05.48.26:193][  0]LogSlate: Took 0.001648 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.01-05.48.26:446][  0]LogRenderer: Reallocating scene render targets to support 856x380 Format 10 NumSamples 1 (Frame:1).
+[2019.04.01-05.48.27:001][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.01-05.48.27:052][  0]LogSlate: Window 'Tutorials' being destroyed
+[2019.04.01-05.48.27:102][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0084 seconds. Added 0 classes and 0 folders.
+[2019.04.01-05.48.27:102][  0]LogLoad: (Engine Initialization) Total time: 68.72 seconds
+[2019.04.01-05.48.27:102][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.01-05.48.27:145][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.04.01-05.48.27:207][  0]LogSlate: Took 0.001309 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.01-05.48.27:651][  4]LogAssetRegistry: Asset discovery search completed in 61.1780 seconds
+[2019.04.01-05.48.27:657][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.04.01-05.48.27:657][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000118 seconds (updated 0 objects)
+[2019.04.01-05.50.11:520][183]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-05.50.43:343][430]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.01-05.50.43:386][430]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0085 seconds. Added 1 classes and 2 folders.
+[2019.04.01-05.50.43:750][430]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.04.01-05.50.43:762][430]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0063 seconds. Added 1 classes and 0 folders.
+[2019.04.01-05.50.43:838][430]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_2:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.04.01-05.50.44:411][430]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0058 seconds. Added 1 classes and 0 folders.
+[2019.04.01-05.50.44:438][430]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.04.01-05.50.46:119][514]LogSlate: Window 'Aim_Walking_Shotgun' being destroyed
+[2019.04.01-05.50.48:227][640]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-05.50.53:191][937]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-05.50.54:613][ 12]LogAudioDerivedData: Display: Building compressed audio format OGG wave Shotgun_AmmoPickup...
+[2019.04.01-05.50.54:668][ 12]LogAudioDerivedData: Display: Building compressed audio format OGG wave Shotgun_ImpactBody04...
+[2019.04.01-05.50.54:687][ 12]LogAudioDerivedData: Display: Building compressed audio format OGG wave Shotgun_ImpactBody03...
+[2019.04.01-05.50.54:706][ 12]LogAudioDerivedData: Display: Building compressed audio format OGG wave Shotgun_ImpactBody02...
+[2019.04.01-05.50.54:726][ 12]LogAudioDerivedData: Display: Building compressed audio format OGG wave Shotgun_ImpactBody01...
+[2019.04.01-05.50.54:763][ 12]LogAudioDerivedData: Display: Building compressed audio format OGG wave Shotgun_ImpactSurface04...
+[2019.04.01-05.50.54:772][ 12]LogAudioDerivedData: Display: Building compressed audio format OGG wave Shotgun_ImpactSurface03...
+[2019.04.01-05.50.54:780][ 12]LogAudioDerivedData: Display: Building compressed audio format OGG wave Shotgun_ImpactSurface02...
+[2019.04.01-05.50.54:793][ 12]LogAudioDerivedData: Display: Building compressed audio format OGG wave Shotgun_ImpactSurface01...
+[2019.04.01-05.51.23:022][686]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Fire_Shotgun_Ironsights.Fire_Shotgun_Ironsights
+[2019.04.01-05.51.23:023][686]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Fire_Shotgun_Ironsights.Fire_Shotgun_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_22) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.51.33:642][320]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-05.51.56:150][662]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-05.51.56:295][669]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_1.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.04.01-05.51.56:324][669]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.Actor_1.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2019.04.01-05.51.56:611][669]LogSlate: Took 0.001393 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.04.01-05.51.56:658][670]LogRenderer: Reallocating scene render targets to support 856x584 Format 10 NumSamples 1 (Frame:1).
+[2019.04.01-05.51.58:992][797]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2019.04.01-05.51.59:019][797]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2019.04.01-05.52.16:143][739]LogSavePackage: Save=7.06ms
+[2019.04.01-05.52.16:143][739]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/genAssault_Skeleton22AE0BA24353ADF68C15E1B47967F72F.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault_Skeleton.uasset'
+[2019.04.01-05.52.16:146][739]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault_Skeleton.uasset
+[2019.04.01-05.52.18:765][885]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.01-05.52.24:179][209]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-05.52.26:733][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Hero/genAssault" FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault.uasset" SILENT=true
+[2019.04.01-05.52.26:825][360]LogSavePackage: Save=55.04ms
+[2019.04.01-05.52.26:825][360]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/genAssault35C1C23B416B00E6AEC3A280ACC2669B.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault.uasset'
+[2019.04.01-05.52.26:828][360]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault.uasset
+[2019.04.01-05.52.28:973][478]LogSavePackage: Save=5.81ms
+[2019.04.01-05.52.28:973][478]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/genAssault_Skeleton61F3A18A4D97BFBEE771DF9B2E407C64.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault_Skeleton.uasset'
+[2019.04.01-05.52.28:974][478]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault_Skeleton.uasset
+[2019.04.01-05.52.31:155][609]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-05.52.43:658][344]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyAssets/AnimStarterPack/Fire_Shotgun_Ironsights.Fire_Shotgun_Ironsights
+[2019.04.01-05.52.43:658][344]LogAnimationCompression: Recompressing (AnimSequence /Game/MyAssets/AnimStarterPack/Fire_Shotgun_Ironsights.Fire_Shotgun_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.52.45:250][344]LogTexture: Display: Building textures: T_ML_Rubber_Blue_01_N (BC5, 512X512)
+[2019.04.01-05.52.45:250][344]LogTexture: Display: Building textures: UE4Man_Logo_N (BC5, 512X512)
+[2019.04.01-05.52.45:250][344]LogTexture: Display: Building textures: T_ML_Rubber_Blue_01_D (DXT1, 512X512)
+[2019.04.01-05.52.45:250][344]LogTexture: Display: Building textures: T_ML_Aluminum01_N (BC5, 512X512)
+[2019.04.01-05.52.45:250][344]LogTexture: Display: Building textures: T_ML_Aluminum01 (DXT1, 512X512)
+[2019.04.01-05.52.45:250][344]LogTexture: Display: Building textures: UE4_Mannequin_MAT_MASKA (AutoDXT, 1024X1024)
+[2019.04.01-05.52.45:250][344]LogTexture: Display: Building textures: UE4_Mannequin__normals (BC5, 2048X2048)
+[2019.04.01-05.52.45:250][344]LogTexture: Display: Building textures: UE4_Mannequin_occlusion_Mobile (DXT1, 512X512)
+[2019.04.01-05.52.45:250][344]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2019.04.01-05.52.45:318][344]LogSkeletalMesh: Building Skeletal Mesh SK_Mannequin...
+[2019.04.01-05.52.45:465][344]LogShaderCompilers: Display: Shaders left to compile 128
+[2019.04.01-05.52.45:466][344]LogShaderCompilers: Display: Shaders left to compile 118
+[2019.04.01-05.52.45:466][344]LogShaderCompilers: Display: Shaders left to compile 108
+[2019.04.01-05.52.45:466][344]LogSkeletalMesh: Built Skeletal Mesh [0.15s] /Game/MyAssets/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.SK_Mannequin
+[2019.04.01-05.52.45:479][344]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2019.04.01-05.52.48:183][475]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2019.04.01-05.52.49:547][530]LogSkeletalMesh: Building Skeletal Mesh SK_Mannequin...
+[2019.04.01-05.52.49:682][530]LogTexture: Display: Building textures: UE4_Mannequin_MAT_MASKA (AutoDXT, 1024X1024)
+[2019.04.01-05.52.49:682][530]LogTexture: Display: Building textures: UE4_Mannequin_occlusion (AutoDXT, 512X512)
+[2019.04.01-05.52.49:682][530]LogSkeletalMesh: Built Skeletal Mesh [0.14s] /Game/MyAssets/MCO_Mocap_Basics/Character/Mesh/SK_Mannequin.SK_Mannequin
+[2019.04.01-05.52.52:238][530]LogTexture: Display: Building textures: T_ML_Aluminum01 (AutoDXT, 512X512)
+[2019.04.01-05.52.52:238][530]LogTexture: Display: Building textures: UE4Man_Logo_N (BC5, 512X512)
+[2019.04.01-05.52.52:238][530]LogTexture: Display: Building textures: T_ML_Rubber_Blue_01_D (AutoDXT, 512X512)
+[2019.04.01-05.52.52:238][530]LogTexture: Display: Building textures: T_ML_Rubber_Blue_01_N (BC5, 512X512)
+[2019.04.01-05.52.52:238][530]LogTexture: Display: Building textures: T_ML_Aluminum01_N (BC5, 512X512)
+[2019.04.01-05.52.52:238][530]LogTexture: Display: Building textures: UE4_Mannequin__normals (BC5, 2048X2048)
+[2019.04.01-05.52.52:238][530]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2019.04.01-05.52.52:338][530]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2019.04.01-05.52.53:127][563]LogShaderCompilers: Display: Shaders left to compile 482
+[2019.04.01-05.52.55:174][675]LogShaderCompilers: Display: Shaders left to compile 472
+[2019.04.01-05.52.55:859][713]LogShaderCompilers: Display: Shaders left to compile 462
+[2019.04.01-05.53.01:594][845]LogShaderCompilers: Display: Shaders left to compile 452
+[2019.04.01-05.53.02:378][845]LogShaderCompilers: Display: Shaders left to compile 442
+[2019.04.01-05.53.02:941][845]LogShaderCompilers: Display: Shaders left to compile 432
+[2019.04.01-05.53.04:891][845]LogSlate: Window 'Create New Animation Object' being destroyed
+[2019.04.01-05.53.06:806][950]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Fire_Shotgun_Ironsights1.Fire_Shotgun_Ironsights1
+[2019.04.01-05.53.06:808][950]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Fire_Shotgun_Ironsights1) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.53.06:811][950]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Fire_Shotgun_Ironsights1.Fire_Shotgun_Ironsights1
+[2019.04.01-05.53.06:813][950]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_0) using current/default (AnimCompress_BitwiseCompressOnly_2) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.53.06:834][950]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Fire_Shotgun_Ironsights1.Fire_Shotgun_Ironsights1
+[2019.04.01-05.53.06:835][950]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_1) using current/default (AnimCompress_BitwiseCompressOnly_3) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-05.53.06:846][950]LogSlate: Window 'Select Skeleton' being destroyed
+[2019.04.01-05.53.07:736][965]LogShaderCompilers: Display: Shaders left to compile 422
+[2019.04.01-05.53.15:727][375]LogShaderCompilers: Display: Shaders left to compile 412
+[2019.04.01-05.53.15:827][381]LogShaderCompilers: Display: Shaders left to compile 402
+[2019.04.01-05.53.17:319][469]LogShaderCompilers: Display: Shaders left to compile 392
+[2019.04.01-05.53.24:083][868]LogShaderCompilers: Display: Shaders left to compile 382
+[2019.04.01-05.53.28:322][118]LogShaderCompilers: Display: Shaders left to compile 372
+[2019.04.01-05.53.28:609][135]LogShaderCompilers: Display: Shaders left to compile 362
+[2019.04.01-05.53.31:019][275]LogShaderCompilers: Display: Shaders left to compile 352
+[2019.04.01-05.53.33:778][319]LogShaderCompilers: Display: Shaders left to compile 342
+[2019.04.01-05.53.33:779][319]LogShaderCompilers: Display: Shaders left to compile 332
+[2019.04.01-05.53.39:478][652]LogShaderCompilers: Display: Shaders left to compile 322
+[2019.04.01-05.53.42:384][824]LogShaderCompilers: Display: Shaders left to compile 312
+[2019.04.01-05.53.42:981][859]LogShaderCompilers: Display: Shaders left to compile 302
+[2019.04.01-05.53.48:428][181]LogShaderCompilers: Display: Shaders left to compile 292
+[2019.04.01-05.53.52:899][445]LogShaderCompilers: Display: Shaders left to compile 282
+[2019.04.01-05.53.55:203][581]LogShaderCompilers: Display: Shaders left to compile 272
+[2019.04.01-05.53.55:639][607]LogShaderCompilers: Display: Shaders left to compile 262
+[2019.04.01-05.54.00:812][912]LogShaderCompilers: Display: Shaders left to compile 252
+[2019.04.01-05.54.05:356][180]LogShaderCompilers: Display: Shaders left to compile 242
+[2019.04.01-05.54.07:881][329]LogShaderCompilers: Display: Shaders left to compile 232
+[2019.04.01-05.54.08:001][334]LogShaderCompilers: Display: Shaders left to compile 222
+[2019.04.01-05.54.10:535][364]LogShaderCompilers: Display: Shaders left to compile 212
+[2019.04.01-05.54.14:066][569]LogShaderCompilers: Display: Shaders left to compile 202
+[2019.04.01-05.54.18:356][822]LogShaderCompilers: Display: Shaders left to compile 192
+[2019.04.01-05.54.18:356][822]LogShaderCompilers: Display: Shaders left to compile 182
+[2019.04.01-05.54.23:742][140]LogShaderCompilers: Display: Shaders left to compile 172
+[2019.04.01-05.54.27:372][354]LogShaderCompilers: Display: Shaders left to compile 162
+[2019.04.01-05.54.31:873][620]LogShaderCompilers: Display: Shaders left to compile 152
+[2019.04.01-05.54.32:417][652]LogShaderCompilers: Display: Shaders left to compile 142
+[2019.04.01-05.54.34:684][786]LogShaderCompilers: Display: Shaders left to compile 132
+[2019.04.01-05.54.40:930][155]LogShaderCompilers: Display: Shaders left to compile 122
+[2019.04.01-05.54.43:984][335]LogShaderCompilers: Display: Shaders left to compile 112
+[2019.04.01-05.54.44:338][356]LogShaderCompilers: Display: Shaders left to compile 102
+[2019.04.01-05.54.47:975][569]LogShaderCompilers: Display: Shaders left to compile 92
+[2019.04.01-05.54.51:997][807]LogShaderCompilers: Display: Shaders left to compile 82
+[2019.04.01-05.54.53:780][912]LogShaderCompilers: Display: Shaders left to compile 72
+[2019.04.01-05.54.59:436][245]LogShaderCompilers: Display: Shaders left to compile 62
+[2019.04.01-05.54.59:689][260]LogShaderCompilers: Display: Shaders left to compile 52
+[2019.04.01-05.55.03:006][456]LogShaderCompilers: Display: Shaders left to compile 42
+[2019.04.01-05.55.09:223][823]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.04.01-05.55.09:613][846]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.04.01-05.55.12:986][ 45]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.04.01-05.55.17:699][323]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.04.01-05.55.29:654][986]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_3.DebugSkelMeshComponent_7) Already registered. Aborting.
+[2019.04.01-05.55.29:701][986]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.Actor_3.DebugSkelMeshComponent_7) - call TermArticulated first.
+[2019.04.01-05.55.30:330][986]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.04.01-05.55.32:890][112]LogSlate: Window 'Fire_Shotgun_Ironsights1*' being destroyed
+[2019.04.01-05.55.39:211][461]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-05.55.46:588][903]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-05.55.50:341][127]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-05.56.03:106][875]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-05.56.06:855][ 95]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-05.56.30:018][457]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-05.56.35:985][808]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-05.57.51:373][276]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-05.58.13:495][584]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-05.58.25:589][277]Cmd: TRANSACTION UNDO
+[2019.04.01-05.58.25:589][277]LogEditorTransaction: Undo Rotate Bone
+[2019.04.01-05.58.25:719][277]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_3.DebugSkelMeshComponent_7) Already registered. Aborting.
+[2019.04.01-05.58.34:988][816]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-05.58.38:877][ 45]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-05.58.57:855][161]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-05.59.44:963][945]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-05.59.52:759][407]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.00.06:447][223]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Fire_Shotgun_Ironsights1.Fire_Shotgun_Ironsights1
+[2019.04.01-06.00.06:448][223]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_2) using current/default (AnimCompress_BitwiseCompressOnly_4) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.00.12:597][587]LogSavePackage: Save=17.53ms
+[2019.04.01-06.00.12:597][587]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Fire_Shotgun_Ironsights1CD9C6D754FD55634681B519E806754A2.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Fire_Shotgun_Ironsights1.uasset'
+[2019.04.01-06.00.12:599][587]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Fire_Shotgun_Ironsights1.uasset
+[2019.04.01-06.02.06:785][111]LogSlate: Window 'Delete Assets' being destroyed
+[2019.04.01-06.02.08:696][129]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.Actor_4.DebugSkelMeshComponent_10) Already registered. Aborting.
+[2019.04.01-06.02.08:737][129]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_16:PersistentLevel.Actor_4.DebugSkelMeshComponent_10) - call TermArticulated first.
+[2019.04.01-06.02.09:170][129]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.04.01-06.02.11:091][227]LogSlate: Window 'Fire_Shotgun_Ironsights1' being destroyed
+[2019.04.01-06.02.29:101][305]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.02.45:775][288]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.02.45:825][291]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.04.01-06.02.45:842][291]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.01-06.02.45:843][291]PIE: New page: PIE session: Map01 (Apr 1, 2019, 8:02:45 PM)
+[2019.04.01-06.02.45:843][291]LogPlayLevel: Creating play world package: /Game/MyMap/UEDPIE_0_Map01
+[2019.04.01-06.02.45:846][291]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002351s)
+[2019.04.01-06.02.45:847][291]LogAIModule: Creating AISystem for world Map01
+[2019.04.01-06.02.45:847][291]LogPlayLevel: PIE: World Init took: (0.001015s)
+[2019.04.01-06.02.45:847][291]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMap/Map01.Map01 to /Game/MyMap/UEDPIE_0_Map01.Map01 (0.003539s)
+[2019.04.01-06.02.45:866][291]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.01-06.02.45:897][291]LogInit: FAudioDevice initialized.
+[2019.04.01-06.02.45:961][291]LogLoad: Game class is 'MyGameModeBase'
+[2019.04.01-06.02.45:962][291]LogWorld: Bringing World /Game/MyMap/UEDPIE_0_Map01.Map01 up for play (max tick rate 60) at 2019.04.01-13.02.45
+[2019.04.01-06.02.45:962][291]LogWorld: Bringing up level for play took: 0.000745
+[2019.04.01-06.02.45:977][291]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0070 seconds. Added 11 classes and 0 folders.
+[2019.04.01-06.02.45:982][291]LogActor: Warning: Assault_Rifle /Game/MyMap/UEDPIE_0_Map01.Map01:PersistentLevel.Assault_Rifle_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.01-06.02.45:982][291]LogActor: Warning: Shotgun /Game/MyMap/UEDPIE_0_Map01.Map01:PersistentLevel.Shotgun_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.01-06.02.45:982][291]LogActor: Warning: Pistol /Game/MyMap/UEDPIE_0_Map01.Map01:PersistentLevel.Pistol_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.04.01-06.02.45:986][291]PIE: Play in editor start time for /Game/MyMap/UEDPIE_0_Map01 -0.185
+[2019.04.01-06.02.46:059][291]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2019.04.01-06.03.27:493][771]LogSlate: Window 'ResidentEvil Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.04.01-06.03.39:889][504]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.03.45:426][712]LogSavePackage: Save=19.42ms
+[2019.04.01-06.03.45:426][712]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Fire_Shotgun_IronsightsBFC734CC474785F87723C8A5CEE2EB02.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Fire_Shotgun_Ironsights.uasset'
+[2019.04.01-06.03.45:428][712]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Fire_Shotgun_Ironsights.uasset
+[2019.04.01-06.03.46:709][755]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Idle_Rifle_Ironsights_Shotgun.Idle_Rifle_Ironsights_Shotgun
+[2019.04.01-06.03.46:709][755]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Idle_Rifle_Ironsights_Shotgun.Idle_Rifle_Ironsights_Shotgun) using current/default (AnimCompress_BitwiseCompressOnly_21) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.04.01:882][653]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.05.45:656][568]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Reload_Shotgun_Ironsights.Reload_Shotgun_Ironsights
+[2019.04.01-06.05.45:656][568]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Reload_Shotgun_Ironsights.Reload_Shotgun_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_4) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.05.45:669][568]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Bwd_Shotgun_Ironsights.Walk_Bwd_Shotgun_Ironsights
+[2019.04.01-06.05.45:669][568]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Bwd_Shotgun_Ironsights.Walk_Bwd_Shotgun_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_37) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.05.45:678][568]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Fwd_Shotgun_Ironsights.Walk_Fwd_Shotgun_Ironsights
+[2019.04.01-06.05.45:678][568]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Fwd_Shotgun_Ironsights.Walk_Fwd_Shotgun_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_38) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.05.45:684][568]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Lt_Shotgun_Ironsights.Walk_Lt_Shotgun_Ironsights
+[2019.04.01-06.05.45:685][568]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Lt_Shotgun_Ironsights.Walk_Lt_Shotgun_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_39) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.05.45:690][568]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Rt_Shotgun_Ironsights.Walk_Rt_Shotgun_Ironsights
+[2019.04.01-06.05.45:691][568]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Rt_Shotgun_Ironsights.Walk_Rt_Shotgun_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_40) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.05.47:184][568]LogSlate: Window 'Delete Assets' being destroyed
+[2019.04.01-06.05.54:690][879]LogAudioDerivedData: Display: Building compressed audio format OGG wave Shotgun_Lower...
+[2019.04.01-06.05.54:717][879]LogAudioDerivedData: Display: Building compressed audio format OGG wave Shotgun_Raise...
+[2019.04.01-06.05.54:750][879]LogAudioDerivedData: Display: Building compressed audio format OGG wave Shotgun_Reload01...
+[2019.04.01-06.05.54:763][879]LogAudioDerivedData: Display: Building compressed audio format OGG wave Shotgun_Reload03...
+[2019.04.01-06.05.54:782][879]LogAudioDerivedData: Display: Building compressed audio format OGG wave Shotgun_Reload02...
+[2019.04.01-06.05.54:811][879]LogAudioDerivedData: Display: Building compressed audio format OGG wave Shotgun_Reload_In01...
+[2019.04.01-06.05.54:826][879]LogAudioDerivedData: Display: Building compressed audio format OGG wave Shotgun_Reload_In02...
+[2019.04.01-06.05.54:838][879]LogAudioDerivedData: Display: Building compressed audio format OGG wave Shotgun_Reload_In03...
+[2019.04.01-06.05.54:869][879]LogAudioDerivedData: Display: Building compressed audio format OGG wave Shotgun_Reload_Out03...
+[2019.04.01-06.05.54:884][879]LogAudioDerivedData: Display: Building compressed audio format OGG wave Shotgun_Reload_Out01...
+[2019.04.01-06.05.54:894][879]LogAudioDerivedData: Display: Building compressed audio format OGG wave Shotgun_Reload_Out02...
+[2019.04.01-06.06.24:827][661]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyAssets/AnimStarterPack/Jog_Fwd_Rifle.Jog_Fwd_Rifle
+[2019.04.01-06.06.24:828][661]LogAnimationCompression: Recompressing (AnimSequence /Game/MyAssets/AnimStarterPack/Jog_Fwd_Rifle.Jog_Fwd_Rifle) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.06.24:855][661]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.Actor_5.DebugSkelMeshComponent_16) Already registered. Aborting.
+[2019.04.01-06.06.24:883][661]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_22:PersistentLevel.Actor_5.DebugSkelMeshComponent_16) - call TermArticulated first.
+[2019.04.01-06.06.25:308][661]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.04.01-06.06.36:288][318]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.06.44:995][755]LogSavePackage: Save=11.92ms
+[2019.04.01-06.06.44:995][755]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Jog_Fwd_Shotgun93C416114F3E7F8CDFD57A86CAC20083.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/AnimStarterPack/Jog_Fwd_Shotgun.uasset'
+[2019.04.01-06.06.44:997][755]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/AnimStarterPack/Jog_Fwd_Shotgun.uasset
+[2019.04.01-06.06.46:251][809]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_25:PersistentLevel.Actor_6.DebugSkelMeshComponent_19) Already registered. Aborting.
+[2019.04.01-06.06.46:292][809]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_25:PersistentLevel.Actor_6.DebugSkelMeshComponent_19) - call TermArticulated first.
+[2019.04.01-06.06.46:689][809]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.04.01-06.06.48:442][897]LogSlate: Window 'Jog_Fwd_Shotgun' being destroyed
+[2019.04.01-06.06.54:794][278]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.07.02:139][674]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2019.04.01-06.07.10:076][812]LogSlate: Window 'Create New Animation Object' being destroyed
+[2019.04.01-06.07.11:125][867]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Jog_Fwd_Shotgun.Jog_Fwd_Shotgun
+[2019.04.01-06.07.11:125][867]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Jog_Fwd_Shotgun) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.07.11:126][867]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Jog_Fwd_Shotgun.Jog_Fwd_Shotgun
+[2019.04.01-06.07.11:126][867]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_3) using current/default (AnimCompress_BitwiseCompressOnly_6) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.07.11:133][867]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Jog_Fwd_Shotgun.Jog_Fwd_Shotgun
+[2019.04.01-06.07.11:134][867]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_4) using current/default (AnimCompress_BitwiseCompressOnly_7) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.07.11:142][867]LogSlate: Window 'Select Skeleton' being destroyed
+[2019.04.01-06.07.21:458][393]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyAssets/AnimStarterPack/Idle_Rifle_Hip.Idle_Rifle_Hip
+[2019.04.01-06.07.21:458][393]LogAnimationCompression: Recompressing (AnimSequence /Game/MyAssets/AnimStarterPack/Idle_Rifle_Hip.Idle_Rifle_Hip) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.07.33:668][ 10]LogSavePackage: Save=13.46ms
+[2019.04.01-06.07.33:668][ 10]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Idle_Shotgun_Hip81AC1347480B055C5BF110A31BE2401C.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/AnimStarterPack/Idle_Shotgun_Hip.uasset'
+[2019.04.01-06.07.33:670][ 10]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/AnimStarterPack/Idle_Shotgun_Hip.uasset
+[2019.04.01-06.07.34:538][ 38]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_30:PersistentLevel.Actor_7.DebugSkelMeshComponent_24) Already registered. Aborting.
+[2019.04.01-06.07.34:586][ 38]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_30:PersistentLevel.Actor_7.DebugSkelMeshComponent_24) - call TermArticulated first.
+[2019.04.01-06.07.34:988][ 38]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.04.01-06.07.36:184][ 96]LogSlate: Window 'Idle_Shotgun_Hip' being destroyed
+[2019.04.01-06.07.36:188][ 96]LogSlate: Window 'Idle_Shotgun_Hip' being destroyed
+[2019.04.01-06.07.38:908][232]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2019.04.01-06.07.44:278][373]LogSlate: Window 'Create New Animation Object' being destroyed
+[2019.04.01-06.07.45:306][432]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Idle_Shotgun_Hip.Idle_Shotgun_Hip
+[2019.04.01-06.07.45:307][432]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Idle_Shotgun_Hip) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.07.45:313][432]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Idle_Shotgun_Hip.Idle_Shotgun_Hip
+[2019.04.01-06.07.45:315][432]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_5) using current/default (AnimCompress_BitwiseCompressOnly_9) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.07.45:329][432]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Idle_Shotgun_Hip.Idle_Shotgun_Hip
+[2019.04.01-06.07.45:330][432]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_6) using current/default (AnimCompress_BitwiseCompressOnly_10) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.07.45:342][432]LogSlate: Window 'Select Skeleton' being destroyed
+[2019.04.01-06.08.02:364][118]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyAssets/AnimStarterPack/Walk_Bwd_Rifle_Ironsights.Walk_Bwd_Rifle_Ironsights
+[2019.04.01-06.08.02:364][118]LogAnimationCompression: Recompressing (AnimSequence /Game/MyAssets/AnimStarterPack/Walk_Bwd_Rifle_Ironsights.Walk_Bwd_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.08.02:367][118]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyAssets/AnimStarterPack/Walk_Fwd_Rifle_Ironsights.Walk_Fwd_Rifle_Ironsights
+[2019.04.01-06.08.02:367][118]LogAnimationCompression: Recompressing (AnimSequence /Game/MyAssets/AnimStarterPack/Walk_Fwd_Rifle_Ironsights.Walk_Fwd_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.08.02:371][118]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyAssets/AnimStarterPack/Walk_Lt_Rifle_Ironsights.Walk_Lt_Rifle_Ironsights
+[2019.04.01-06.08.02:371][118]LogAnimationCompression: Recompressing (AnimSequence /Game/MyAssets/AnimStarterPack/Walk_Lt_Rifle_Ironsights.Walk_Lt_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.08.02:374][118]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyAssets/AnimStarterPack/Walk_Rt_Rifle_Ironsights.Walk_Rt_Rifle_Ironsights
+[2019.04.01-06.08.02:374][118]LogAnimationCompression: Recompressing (AnimSequence /Game/MyAssets/AnimStarterPack/Walk_Rt_Rifle_Ironsights.Walk_Rt_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.08.19:224][865]LogSavePackage: Save=14.37ms
+[2019.04.01-06.08.19:224][865]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Walk_Bwd_Shotgun_Ironsights084C1E444F85F464EE9C40A586471EE5.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/AnimStarterPack/Walk_Bwd_Shotgun_Ironsights.uasset'
+[2019.04.01-06.08.19:226][865]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/AnimStarterPack/Walk_Bwd_Shotgun_Ironsights.uasset
+[2019.04.01-06.08.35:332][614]LogSavePackage: Save=14.66ms
+[2019.04.01-06.08.35:333][614]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Walk_Fwd_Shotgun_Ironsights623CE82A4682B7E2CA9838A0175D8B77.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/AnimStarterPack/Walk_Fwd_Shotgun_Ironsights.uasset'
+[2019.04.01-06.08.35:335][614]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/AnimStarterPack/Walk_Fwd_Shotgun_Ironsights.uasset
+[2019.04.01-06.08.46:962][166]LogSavePackage: Save=15.46ms
+[2019.04.01-06.08.46:962][166]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Walk_Lt_Shotgun_Ironsights27E2FFF24B6380A54F6C8B9C9DBD0D66.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/AnimStarterPack/Walk_Lt_Shotgun_Ironsights.uasset'
+[2019.04.01-06.08.46:964][166]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/AnimStarterPack/Walk_Lt_Shotgun_Ironsights.uasset
+[2019.04.01-06.08.58:640][755]LogSavePackage: Save=11.75ms
+[2019.04.01-06.08.58:640][755]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Walk_Rt_Shotgun_IronsightsA0C5DCA04C772DABE79CC998ADB17A69.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/AnimStarterPack/Walk_Rt_Shotgun_Ironsights.uasset'
+[2019.04.01-06.08.58:641][755]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/AnimStarterPack/Walk_Rt_Shotgun_Ironsights.uasset
+[2019.04.01-06.09.08:890][193]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2019.04.01-06.09.15:562][349]LogSlate: Window 'Create New Animation Object' being destroyed
+[2019.04.01-06.09.16:487][402]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Rt_Shotgun_Ironsights.Walk_Rt_Shotgun_Ironsights
+[2019.04.01-06.09.16:488][402]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Walk_Rt_Shotgun_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.09.16:491][402]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Rt_Shotgun_Ironsights.Walk_Rt_Shotgun_Ironsights
+[2019.04.01-06.09.16:493][402]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_7) using current/default (AnimCompress_BitwiseCompressOnly_12) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.09.16:501][402]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Rt_Shotgun_Ironsights.Walk_Rt_Shotgun_Ironsights
+[2019.04.01-06.09.16:501][402]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_8) using current/default (AnimCompress_BitwiseCompressOnly_13) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.09.16:511][402]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Bwd_Shotgun_Ironsights.Walk_Bwd_Shotgun_Ironsights
+[2019.04.01-06.09.16:512][402]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Walk_Bwd_Shotgun_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.09.16:514][402]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Bwd_Shotgun_Ironsights.Walk_Bwd_Shotgun_Ironsights
+[2019.04.01-06.09.16:515][402]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_9) using current/default (AnimCompress_BitwiseCompressOnly_15) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.09.16:524][402]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Bwd_Shotgun_Ironsights.Walk_Bwd_Shotgun_Ironsights
+[2019.04.01-06.09.16:525][402]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_10) using current/default (AnimCompress_BitwiseCompressOnly_16) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.09.16:534][402]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Fwd_Shotgun_Ironsights.Walk_Fwd_Shotgun_Ironsights
+[2019.04.01-06.09.16:534][402]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Walk_Fwd_Shotgun_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.09.16:536][402]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Fwd_Shotgun_Ironsights.Walk_Fwd_Shotgun_Ironsights
+[2019.04.01-06.09.16:538][402]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_11) using current/default (AnimCompress_BitwiseCompressOnly_18) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.09.16:547][402]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Fwd_Shotgun_Ironsights.Walk_Fwd_Shotgun_Ironsights
+[2019.04.01-06.09.16:548][402]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_12) using current/default (AnimCompress_BitwiseCompressOnly_19) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.09.16:558][402]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Lt_Shotgun_Ironsights.Walk_Lt_Shotgun_Ironsights
+[2019.04.01-06.09.16:558][402]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Walk_Lt_Shotgun_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.09.16:561][402]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Lt_Shotgun_Ironsights.Walk_Lt_Shotgun_Ironsights
+[2019.04.01-06.09.16:562][402]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_13) using current/default (AnimCompress_BitwiseCompressOnly_21) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.09.16:569][402]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Lt_Shotgun_Ironsights.Walk_Lt_Shotgun_Ironsights
+[2019.04.01-06.09.16:570][402]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_14) using current/default (AnimCompress_BitwiseCompressOnly_22) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.09.16:577][402]LogSlate: Window 'Select Skeleton' being destroyed
+[2019.04.01-06.09.23:728][654]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.Actor_8.DebugSkelMeshComponent_31) Already registered. Aborting.
+[2019.04.01-06.09.23:779][654]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_37:PersistentLevel.Actor_8.DebugSkelMeshComponent_31) - call TermArticulated first.
+[2019.04.01-06.09.24:317][654]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.04.01-06.09.25:929][742]LogSlate: Window 'Walk_Bwd_Shotgun_Ironsights*' being destroyed
+[2019.04.01-06.09.44:635][861]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.01-06.10.02:883][951]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.10.47:280][582]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.10.53:032][924]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.11.01:739][435]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.11.05:126][634]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.11.30:218][116]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.11.51:071][353]Cmd: TRANSACTION UNDO
+[2019.04.01-06.11.51:071][353]LogEditorTransaction: Undo Rotate Bone
+[2019.04.01-06.11.51:209][353]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.Actor_8.DebugSkelMeshComponent_31) Already registered. Aborting.
+[2019.04.01-06.11.51:667][366]Cmd: TRANSACTION UNDO
+[2019.04.01-06.11.51:667][366]LogEditorTransaction: Undo Set Key
+[2019.04.01-06.11.51:807][366]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.Actor_8.DebugSkelMeshComponent_31) Already registered. Aborting.
+[2019.04.01-06.11.52:724][412]Cmd: TRANSACTION UNDO
+[2019.04.01-06.11.52:724][412]LogEditorTransaction: Undo Rotate Bone
+[2019.04.01-06.11.52:865][412]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.Actor_8.DebugSkelMeshComponent_31) Already registered. Aborting.
+[2019.04.01-06.11.56:205][602]Cmd: TRANSACTION UNDO
+[2019.04.01-06.11.56:205][602]LogEditorTransaction: Undo Rotate Bone
+[2019.04.01-06.11.56:343][602]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.Actor_8.DebugSkelMeshComponent_31) Already registered. Aborting.
+[2019.04.01-06.12.01:175][869]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.12.05:934][152]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.12.29:956][576]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.12.42:430][321]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.12.47:723][635]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Bwd_Shotgun_Ironsights.Walk_Bwd_Shotgun_Ironsights
+[2019.04.01-06.12.47:724][635]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_15) using current/default (AnimCompress_BitwiseCompressOnly_17) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.13.08:453][872]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.13.08:579][876]LogSavePackage: Save=18.79ms
+[2019.04.01-06.13.08:579][876]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Walk_Bwd_Shotgun_IronsightsF4BD90C94ED4911DE864E1876D3BB910.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Walk_Bwd_Shotgun_Ironsights.uasset'
+[2019.04.01-06.13.08:581][876]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Walk_Bwd_Shotgun_Ironsights.uasset
+[2019.04.01-06.13.10:143][969]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.13.17:022][377]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.13.39:278][689]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.13.43:249][923]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.14.09:240][465]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.14.19:518][ 69]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.14.28:094][570]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.14.43:914][509]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.14.52:350][  9]Cmd: TRANSACTION UNDO
+[2019.04.01-06.14.52:350][  9]LogEditorTransaction: Undo Translate Bone
+[2019.04.01-06.14.52:491][  9]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.Actor_8.DebugSkelMeshComponent_31) Already registered. Aborting.
+[2019.04.01-06.14.58:610][360]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.15.08:707][948]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.15.14:956][321]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Fwd_Shotgun_Ironsights.Walk_Fwd_Shotgun_Ironsights
+[2019.04.01-06.15.14:957][321]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_16) using current/default (AnimCompress_BitwiseCompressOnly_20) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.15.35:327][536]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.15.35:436][539]LogSavePackage: Save=17.67ms
+[2019.04.01-06.15.35:436][539]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Walk_Fwd_Shotgun_Ironsights5012811D4F3FAE9BBBE89ABFF84AD78E.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Walk_Fwd_Shotgun_Ironsights.uasset'
+[2019.04.01-06.15.35:437][539]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Walk_Fwd_Shotgun_Ironsights.uasset
+[2019.04.01-06.15.35:948][567]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.01-06.15.36:001][567]LogSavePackage: Save=7.92ms
+[2019.04.01-06.15.36:002][567]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Walk_Fwd_Shotgun_Ironsights4648000542BFF690B6C8AFB0CCE80D7A.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Walk_Fwd_Shotgun_Ironsights.uasset'
+[2019.04.01-06.15.36:003][567]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Walk_Fwd_Shotgun_Ironsights.uasset
+[2019.04.01-06.15.37:696][668]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.16.06:368][372]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.16.39:252][325]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.16.51:183][ 19]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.17.00:977][576]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.17.08:245][  7]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.17.26:744][ 95]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.17.45:447][182]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.17.54:891][741]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.17.59:904][ 41]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Lt_Shotgun_Ironsights.Walk_Lt_Shotgun_Ironsights
+[2019.04.01-06.17.59:906][ 41]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_17) using current/default (AnimCompress_BitwiseCompressOnly_23) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.18.04:979][339]LogSavePackage: Save=17.19ms
+[2019.04.01-06.18.04:980][339]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Walk_Lt_Shotgun_Ironsights015055C24551736E080C1783A792D929.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Walk_Lt_Shotgun_Ironsights.uasset'
+[2019.04.01-06.18.04:981][339]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Walk_Lt_Shotgun_Ironsights.uasset
+[2019.04.01-06.18.06:042][402]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.18.11:342][716]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.18.40:826][450]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.18.59:933][573]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.19.18:005][643]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.19.40:857][977]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.19.45:745][268]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Walk_Rt_Shotgun_Ironsights.Walk_Rt_Shotgun_Ironsights
+[2019.04.01-06.19.45:746][268]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_18) using current/default (AnimCompress_BitwiseCompressOnly_14) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.19.48:480][428]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.19.48:588][431]LogSavePackage: Save=17.67ms
+[2019.04.01-06.19.48:588][431]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Walk_Rt_Shotgun_Ironsights2ECC9C774FB09D115931B69265AAFB77.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Walk_Rt_Shotgun_Ironsights.uasset'
+[2019.04.01-06.19.48:590][431]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Walk_Rt_Shotgun_Ironsights.uasset
+[2019.04.01-06.19.51:567][609]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.20.09:710][568]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_40:PersistentLevel.Actor_9.DebugSkelMeshComponent_34) Already registered. Aborting.
+[2019.04.01-06.20.09:735][568]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_40:PersistentLevel.Actor_9.DebugSkelMeshComponent_34) - call TermArticulated first.
+[2019.04.01-06.20.10:147][568]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.04.01-06.20.27:565][482]LogSlate: Window 'Delete Assets' being destroyed
+[2019.04.01-06.20.31:368][666]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2019.04.01-06.20.41:330][839]LogSlate: Window 'Create New Animation Object' being destroyed
+[2019.04.01-06.20.43:030][933]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Fire_Shotgun_Ironsights.Fire_Shotgun_Ironsights
+[2019.04.01-06.20.43:031][933]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Fire_Shotgun_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.20.43:038][933]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Fire_Shotgun_Ironsights.Fire_Shotgun_Ironsights
+[2019.04.01-06.20.43:039][933]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_19) using current/default (AnimCompress_BitwiseCompressOnly_28) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.20.43:047][933]LogSlate: Window 'Select Skeleton' being destroyed
+[2019.04.01-06.20.44:667][973]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_45:PersistentLevel.Actor_10.DebugSkelMeshComponent_39) Already registered. Aborting.
+[2019.04.01-06.20.44:685][973]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_45:PersistentLevel.Actor_10.DebugSkelMeshComponent_39) - call TermArticulated first.
+[2019.04.01-06.20.45:137][973]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.04.01-06.20.54:479][529]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.01-06.21.04:546][132]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.21.43:573][443]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.22.00:025][394]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.22.02:442][536]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.22.10:426][  7]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.22.26:275][943]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.22.45:734][ 72]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.23.03:049][105]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Fire_Shotgun_Ironsights.Fire_Shotgun_Ironsights
+[2019.04.01-06.23.03:051][105]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_20) using current/default (AnimCompress_BitwiseCompressOnly_29) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.23.09:402][479]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.23.12:343][650]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.23.12:485][655]LogSavePackage: Save=17.45ms
+[2019.04.01-06.23.12:485][655]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Fire_Shotgun_Ironsights930D148C44A5C387B2A1928618F3ADD9.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Fire_Shotgun_Ironsights.uasset'
+[2019.04.01-06.23.12:486][655]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Fire_Shotgun_Ironsights.uasset
+[2019.04.01-06.23.13:017][687]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.23.31:377][733]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.23.34:157][888]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.23.38:469][144]Cmd: TRANSACTION UNDO
+[2019.04.01-06.23.38:469][144]LogEditorTransaction: Undo Rotate Bone
+[2019.04.01-06.23.38:589][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_45:PersistentLevel.Actor_10.DebugSkelMeshComponent_39) Already registered. Aborting.
+[2019.04.01-06.23.48:999][745]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.24.10:727][ 30]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.24.47:686][229]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.24.54:435][628]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.24.57:702][823]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Idle_Shotgun_Hip.Idle_Shotgun_Hip
+[2019.04.01-06.24.57:705][823]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Idle_Shotgun_Hip) using current/default (AnimCompress_BitwiseCompressOnly_11) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.25.03:495][164]LogSavePackage: Save=22.05ms
+[2019.04.01-06.25.03:495][164]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Idle_Shotgun_Hip20F1616F4D296D9C860A74AA3E80D0AB.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Idle_Shotgun_Hip.uasset'
+[2019.04.01-06.25.03:497][164]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Idle_Shotgun_Hip.uasset
+[2019.04.01-06.25.05:401][273]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.01-06.25.05:462][273]LogSavePackage: Save=13.87ms
+[2019.04.01-06.25.05:462][273]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Idle_Shotgun_HipDA70E4EB4C41887575523D908DA060CA.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Idle_Shotgun_Hip.uasset'
+[2019.04.01-06.25.05:463][273]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Idle_Shotgun_Hip.uasset
+[2019.04.01-06.25.08:116][428]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.25.20:759][176]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.25.22:675][285]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.25.27:574][574]Cmd: TRANSACTION UNDO
+[2019.04.01-06.25.27:575][574]LogEditorTransaction: Undo Rotate Bone
+[2019.04.01-06.25.27:700][574]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_45:PersistentLevel.Actor_10.DebugSkelMeshComponent_39) Already registered. Aborting.
+[2019.04.01-06.25.45:435][611]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.25.54:900][161]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.26.05:118][763]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.26.20:917][706]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.26.37:987][726]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.26.48:005][324]Cmd: TRANSACTION UNDO
+[2019.04.01-06.26.48:005][324]LogEditorTransaction: Undo Set Key
+[2019.04.01-06.26.48:127][324]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_45:PersistentLevel.Actor_10.DebugSkelMeshComponent_39) Already registered. Aborting.
+[2019.04.01-06.26.49:225][381]Cmd: TRANSACTION UNDO
+[2019.04.01-06.26.49:225][381]LogEditorTransaction: Undo Rotate Bone
+[2019.04.01-06.26.49:346][381]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_45:PersistentLevel.Actor_10.DebugSkelMeshComponent_39) Already registered. Aborting.
+[2019.04.01-06.27.26:922][601]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.27.41:888][311]LogSlate: Window 'Delete Assets' being destroyed
+[2019.04.01-06.28.19:056][ 80]LogSlate: Window 'Delete Assets' being destroyed
+[2019.04.01-06.28.22:465][239]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2019.04.01-06.28.31:274][432]LogSlate: Window 'Create New Animation Object' being destroyed
+[2019.04.01-06.28.33:046][531]LogSlate: Window 'Select Skeleton' being destroyed
+[2019.04.01-06.28.43:835][ 56]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2019.04.01-06.28.50:377][204]LogSlate: Window 'Create New Animation Object' being destroyed
+[2019.04.01-06.28.51:902][293]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Jog_Fwd_Shotgun.Jog_Fwd_Shotgun
+[2019.04.01-06.28.51:902][293]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Jog_Fwd_Shotgun) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.28.51:910][293]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Jog_Fwd_Shotgun.Jog_Fwd_Shotgun
+[2019.04.01-06.28.51:910][293]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_21) using current/default (AnimCompress_BitwiseCompressOnly_32) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.28.51:918][293]LogSlate: Window 'Select Skeleton' being destroyed
+[2019.04.01-06.28.53:631][337]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_51:PersistentLevel.Actor_11.DebugSkelMeshComponent_45) Already registered. Aborting.
+[2019.04.01-06.28.53:673][337]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_51:PersistentLevel.Actor_11.DebugSkelMeshComponent_45) - call TermArticulated first.
+[2019.04.01-06.28.54:053][337]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.04.01-06.28.55:664][422]LogSlate: Window 'Jog_Fwd_Shotgun*' being destroyed
+[2019.04.01-06.29.06:050][ 44]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.29.17:442][715]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.29.35:738][797]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.29.44:942][346]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.30.00:117][235]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.30.04:351][488]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.30.07:981][700]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.30.31:213][ 77]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.30.33:498][210]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.31.00:592][805]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.31.06:455][152]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.31.39:456][118]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.31.44:410][412]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.32.05:121][645]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.32.16:846][340]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.32.50:871][363]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.33.02:294][ 40]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.33.04:185][153]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Jog_Fwd_Shotgun.Jog_Fwd_Shotgun
+[2019.04.01-06.33.04:186][153]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_22) using current/default (AnimCompress_BitwiseCompressOnly_33) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.33.15:598][832]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.33.24:384][355]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.33.24:512][359]LogSavePackage: Save=16.77ms
+[2019.04.01-06.33.24:512][359]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Jog_Fwd_ShotgunFBA7A83B4C444210B8BFA395A07FDE49.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Jog_Fwd_Shotgun.uasset'
+[2019.04.01-06.33.24:514][359]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Jog_Fwd_Shotgun.uasset
+[2019.04.01-06.33.45:396][418]LogContentBrowser: Verbose: The majority of assets in the view are of type: None
+[2019.04.01-06.33.46:008][455]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.04.01-06.34.51:527][380]LogSavePackage: Save=11.86ms
+[2019.04.01-06.34.51:527][380]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Aim_Walking_ShotgunECF4329446D909EFAF08AE9AF278CB64.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Aim_Walking_Shotgun.uasset'
+[2019.04.01-06.34.51:529][380]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Aim_Walking_Shotgun.uasset
+[2019.04.01-06.35.14:387][599]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.36.20:587][450]LogSavePackage: Save=12.14ms
+[2019.04.01-06.36.20:587][450]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Aim_Walking_Shotgun4D05AC3242CB9F6AB4B49581588A17C0.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Aim_Walking_Shotgun.uasset'
+[2019.04.01-06.36.20:589][450]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Aim_Walking_Shotgun.uasset
+[2019.04.01-06.37.30:716][342]LogSavePackage: Save=11.80ms
+[2019.04.01-06.37.30:716][342]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Aim_Walking_Shotgun7794A40B4CF2AC3D82D0C3A945E23351.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Aim_Walking_Shotgun.uasset'
+[2019.04.01-06.37.30:718][342]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Aim_Walking_Shotgun.uasset
+[2019.04.01-06.37.59:123][736]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyAssets/AnimStarterPack/Idle_Rifle_Ironsights.Idle_Rifle_Ironsights
+[2019.04.01-06.37.59:123][736]LogAnimationCompression: Recompressing (AnimSequence /Game/MyAssets/AnimStarterPack/Idle_Rifle_Ironsights.Idle_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.38.01:294][862]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2019.04.01-06.38.11:591][ 60]LogSlate: Window 'Create New Animation Object' being destroyed
+[2019.04.01-06.38.12:834][130]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Idle_Rifle_Ironsights.Idle_Rifle_Ironsights
+[2019.04.01-06.38.12:835][130]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Idle_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.38.12:841][130]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Idle_Rifle_Ironsights.Idle_Rifle_Ironsights
+[2019.04.01-06.38.12:842][130]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_23) using current/default (AnimCompress_BitwiseCompressOnly_35) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.38.12:858][130]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Idle_Rifle_Ironsights.Idle_Rifle_Ironsights
+[2019.04.01-06.38.12:859][130]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_24) using current/default (AnimCompress_BitwiseCompressOnly_36) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.38.12:873][130]LogSlate: Window 'Select Skeleton' being destroyed
+[2019.04.01-06.38.26:922][625]LogSavePackage: Save=16.22ms
+[2019.04.01-06.38.26:923][625]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Idle_Shotgun_Ironsights7DB9A308448EF6BC69A74DB0C4D20746.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Idle_Shotgun_Ironsights.uasset'
+[2019.04.01-06.38.26:924][625]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Idle_Shotgun_Ironsights.uasset
+[2019.04.01-06.38.31:055][818]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.38.40:020][352]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.39.14:675][409]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.39.26:001][931]LogSlate: Window 'Delete Assets' being destroyed
+[2019.04.01-06.39.51:614][ 33]LogSavePackage: Save=12.70ms
+[2019.04.01-06.39.51:614][ 33]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Idle_Shotgun_Ironsights053384E148AEB00C654E6EA174B177AF.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/AnimStarterPack/Idle_Shotgun_Ironsights.uasset'
+[2019.04.01-06.39.51:616][ 33]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyAssets/AnimStarterPack/Idle_Shotgun_Ironsights.uasset
+[2019.04.01-06.39.52:000][ 45]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_58:PersistentLevel.Actor_12.DebugSkelMeshComponent_52) Already registered. Aborting.
+[2019.04.01-06.39.52:043][ 45]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_58:PersistentLevel.Actor_12.DebugSkelMeshComponent_52) - call TermArticulated first.
+[2019.04.01-06.39.52:479][ 45]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.04.01-06.39.53:735][109]LogSlate: Window 'Idle_Shotgun_Ironsights' being destroyed
+[2019.04.01-06.39.53:739][109]LogSlate: Window 'Idle_Shotgun_Ironsights' being destroyed
+[2019.04.01-06.39.59:056][399]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2019.04.01-06.40.05:831][550]LogSlate: Window 'Create New Animation Object' being destroyed
+[2019.04.01-06.40.06:816][602]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Idle_Shotgun_Ironsights.Idle_Shotgun_Ironsights
+[2019.04.01-06.40.06:817][602]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Idle_Shotgun_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.40.06:832][602]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Idle_Shotgun_Ironsights.Idle_Shotgun_Ironsights
+[2019.04.01-06.40.06:834][602]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_25) using current/default (AnimCompress_BitwiseCompressOnly_38) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.40.06:846][602]LogSlate: Window 'Select Skeleton' being destroyed
+[2019.04.01-06.40.09:848][697]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_62:PersistentLevel.Actor_13.DebugSkelMeshComponent_56) Already registered. Aborting.
+[2019.04.01-06.40.09:878][697]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_62:PersistentLevel.Actor_13.DebugSkelMeshComponent_56) - call TermArticulated first.
+[2019.04.01-06.40.10:307][697]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.04.01-06.40.17:911][139]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.01-06.40.34:354][125]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.40.56:789][444]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.41.10:412][244]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.41.38:292][880]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.41.52:480][703]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.42.03:689][365]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.42.12:683][899]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.42.12:767][904]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Idle_Shotgun_Ironsights.Idle_Shotgun_Ironsights
+[2019.04.01-06.42.12:772][904]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_26) using current/default (AnimCompress_BitwiseCompressOnly_39) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.42.15:195][ 42]LogSavePackage: Save=21.66ms
+[2019.04.01-06.42.15:195][ 42]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Idle_Shotgun_Ironsights9353C7F541ECC20A0D27E5868DEE0643.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Idle_Shotgun_Ironsights.uasset'
+[2019.04.01-06.42.15:197][ 42]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Idle_Shotgun_Ironsights.uasset
+[2019.04.01-06.42.26:140][696]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.01-06.42.46:642][462]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Shotgun_Up.Aim_Shotgun_Up
+[2019.04.01-06.42.46:645][462]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Aim_Shotgun_Up) using current/default (AnimCompress_BitwiseCompressOnly_40) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.42.46:672][462]LogSavePackage: Save=31.74ms
+[2019.04.01-06.42.46:672][462]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Aim_Shotgun_UpE1807B3D4239E64CE5359DADE9B83D02.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Aim_Shotgun_Up.uasset'
+[2019.04.01-06.42.46:674][462]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Aim_Shotgun_Up.uasset
+[2019.04.01-06.43.04:536][ 60]LogSavePackage: Save=23.65ms
+[2019.04.01-06.43.04:536][ 60]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Aim_Shotgun_CC9BE5C9BD47E433F0D7DEB18B6E484472.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Aim_Shotgun_CC.uasset'
+[2019.04.01-06.43.04:538][ 60]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Aim_Shotgun_CC.uasset
+[2019.04.01-06.43.08:958][273]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Shotgun_CC.Aim_Shotgun_CC
+[2019.04.01-06.43.08:959][273]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Aim_Shotgun_CC) using current/default (AnimCompress_BitwiseCompressOnly_41) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.43.15:279][652]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/FixAnimation/Aim_Shotgun_CC.Aim_Shotgun_CC
+[2019.04.01-06.43.15:281][652]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_27) using current/default (AnimCompress_BitwiseCompressOnly_42) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.01-06.43.19:692][910]LogSavePackage: Save=12.86ms
+[2019.04.01-06.43.19:692][910]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Aim_Shotgun_CCB920CDA548209809BF606B93678D036B.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Aim_Shotgun_CC.uasset'
+[2019.04.01-06.43.19:695][910]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/FixAnimation/Aim_Shotgun_CC.uasset
+[2019.04.01-06.43.32:667][403]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.859 s
+[2019.04.01-06.43.32:667][403]LogOutputDevice: Error: === Handled ensure: ===
+[2019.04.01-06.43.32:667][403]LogOutputDevice: Error: 
+[2019.04.01-06.43.32:667][403]LogOutputDevice: Error: Ensure condition failed: RawTrack.PosKeys.Num() == NumFrames [File:D:\Build\++UE4+Release-4.19+Compile\Sync\Engine\Source\Runtime\Engine\Private\Animation\AnimSequence.cpp] [Line: 4418]
+[2019.04.01-06.43.32:667][403]LogOutputDevice: Error: 
+[2019.04.01-06.43.32:667][403]LogOutputDevice: Error: Stack: 
+[2019.04.01-06.43.32:667][403]LogOutputDevice: Error: [Callstack] 0x00000000EE9DB706 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.01-06.43.32:667][403]LogOutputDevice: Error: [Callstack] 0x00000000EE73AE3A UE4Editor-Core.dll!UnknownFunction []
+[2019.04.01-06.43.32:667][403]LogOutputDevice: Error: [Callstack] 0x00000000EE74ECD6 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.01-06.43.32:667][403]LogOutputDevice: Error: [Callstack] 0x00000000EB72D6A0 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.01-06.43.32:667][403]LogOutputDevice: Error: [Callstack] 0x00000000EB765143 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.01-06.43.32:667][403]LogOutputDevice: Error: [Callstack] 0x00000000EE25BDE7 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.04.01-06.43.32:667][403]LogOutputDevice: Error: [Callstack] 0x00000000EE244540 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x00000000E9CD5264 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x00000000E9CD5C85 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x00000000E9D166DC UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x00000000E9D13148 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x00000000EA590489 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x00000000EA00E107 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x00000000EA00CA27 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x00000000EA035462 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x00000000D974276B UE4Editor-AssetTools.dll!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x00000000D970EE12 UE4Editor-AssetTools.dll!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x00000000D974FA74 UE4Editor-AssetTools.dll!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x00000000D7A890D6 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x00000000D7B08305 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x00000000D7B4607D UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x00000000D7B4E86D UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x00000000D7A61F51 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x00000000D7A3D977 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x00000000D7A44EB7 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x00000000EFD0F7BE UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x00000000EFCEB4D7 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x00000000EFCEC017 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x00000000EFCF50C9 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x00000000EFCF6319 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x00000000EFC7CB6B UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x00000000EFAA4D61 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x00000000EFA76D2D UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x00000000EFA788F6 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x00000000EFAF63CA UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x00000000EFAE99C8 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x000000000283E3DA UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x0000000002831B78 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x000000000284052C UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x000000000282D679 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x000000003209CA66 USER32.dll!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x000000003209C582 USER32.dll!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x0000000002841666 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x000000005BCB5475 UE4Editor.exe!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x000000005BCC6BD0 UE4Editor.exe!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x000000005BCC6C4A UE4Editor.exe!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x000000005BCD4177 UE4Editor.exe!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x000000005BCD5B87 UE4Editor.exe!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x00000000306081F4 KERNEL32.DLL!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: [Callstack] 0x00000000322FA251 ntdll.dll!UnknownFunction []
+[2019.04.01-06.43.32:668][403]LogOutputDevice: Error: 
+[2019.04.01-06.43.32:676][403]LogStats:                SubmitErrorReport -  0.000 s
+[2019.04.01-06.43.33:359][403]LogStats:                    SendNewReport -  0.684 s
+[2019.04.01-06.43.33:359][403]LogStats:             FDebug::EnsureFailed -  1.552 s
+[2019.04.01-06.43.33:361][403]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.001 s
+[2019.04.01-06.43.33:361][403]LogOutputDevice: Error: === Handled ensure: ===
+[2019.04.01-06.43.33:361][403]LogOutputDevice: Error: 
+[2019.04.01-06.43.33:361][403]LogOutputDevice: Error: Ensure condition failed: RawTrack.RotKeys.Num() == NumFrames [File:D:\Build\++UE4+Release-4.19+Compile\Sync\Engine\Source\Runtime\Engine\Private\Animation\AnimSequence.cpp] [Line: 4428]
+[2019.04.01-06.43.33:361][403]LogOutputDevice: Error: 
+[2019.04.01-06.43.33:361][403]LogOutputDevice: Error: Stack: 
+[2019.04.01-06.43.33:361][403]LogOutputDevice: Error: [Callstack] 0x00000000EE9DB706 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.01-06.43.33:361][403]LogOutputDevice: Error: [Callstack] 0x00000000EE73AE3A UE4Editor-Core.dll!UnknownFunction []
+[2019.04.01-06.43.33:361][403]LogOutputDevice: Error: [Callstack] 0x00000000EE74ECD6 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.01-06.43.33:361][403]LogOutputDevice: Error: [Callstack] 0x00000000EB72D80F UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.01-06.43.33:361][403]LogOutputDevice: Error: [Callstack] 0x00000000EB765143 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.01-06.43.33:361][403]LogOutputDevice: Error: [Callstack] 0x00000000EE25BDE7 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.04.01-06.43.33:361][403]LogOutputDevice: Error: [Callstack] 0x00000000EE244540 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.04.01-06.43.33:361][403]LogOutputDevice: Error: [Callstack] 0x00000000E9CD5264 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.01-06.43.33:361][403]LogOutputDevice: Error: [Callstack] 0x00000000E9CD5C85 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.01-06.43.33:361][403]LogOutputDevice: Error: [Callstack] 0x00000000E9D166DC UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.01-06.43.33:361][403]LogOutputDevice: Error: [Callstack] 0x00000000E9D13148 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.01-06.43.33:361][403]LogOutputDevice: Error: [Callstack] 0x00000000EA590489 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.01-06.43.33:361][403]LogOutputDevice: Error: [Callstack] 0x00000000EA00E107 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.01-06.43.33:361][403]LogOutputDevice: Error: [Callstack] 0x00000000EA00CA27 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.01-06.43.33:361][403]LogOutputDevice: Error: [Callstack] 0x00000000EA035462 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.01-06.43.33:361][403]LogOutputDevice: Error: [Callstack] 0x00000000D974276B UE4Editor-AssetTools.dll!UnknownFunction []
+[2019.04.01-06.43.33:361][403]LogOutputDevice: Error: [Callstack] 0x00000000D970EE12 UE4Editor-AssetTools.dll!UnknownFunction []
+[2019.04.01-06.43.33:361][403]LogOutputDevice: Error: [Callstack] 0x00000000D974FA74 UE4Editor-AssetTools.dll!UnknownFunction []
+[2019.04.01-06.43.33:361][403]LogOutputDevice: Error: [Callstack] 0x00000000D7A890D6 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.01-06.43.33:361][403]LogOutputDevice: Error: [Callstack] 0x00000000D7B08305 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.01-06.43.33:361][403]LogOutputDevice: Error: [Callstack] 0x00000000D7B4607D UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.01-06.43.33:361][403]LogOutputDevice: Error: [Callstack] 0x00000000D7B4E86D UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.01-06.43.33:361][403]LogOutputDevice: Error: [Callstack] 0x00000000D7A61F51 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.01-06.43.33:361][403]LogOutputDevice: Error: [Callstack] 0x00000000D7A3D977 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.01-06.43.33:361][403]LogOutputDevice: Error: [Callstack] 0x00000000D7A44EB7 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.04.01-06.43.33:361][403]LogOutputDevice: Error: [Callstack] 0x00000000EFD0F7BE UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-06.43.33:361][403]LogOutputDevice: Error: [Callstack] 0x00000000EFCEB4D7 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-06.43.33:361][403]LogOutputDevice: Error: [Callstack] 0x00000000EFCEC017 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-06.43.33:361][403]LogOutputDevice: Error: [Callstack] 0x00000000EFCF50C9 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-06.43.33:361][403]LogOutputDevice: Error: [Callstack] 0x00000000EFCF6319 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-06.43.33:361][403]LogOutputDevice: Error: [Callstack] 0x00000000EFC7CB6B UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-06.43.33:361][403]LogOutputDevice: Error: [Callstack] 0x00000000EFAA4D61 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-06.43.33:361][403]LogOutputDevice: Error: [Callstack] 0x00000000EFA76D2D UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-06.43.33:361][403]LogOutputDevice: Error: [Callstack] 0x00000000EFA788F6 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-06.43.33:361][403]LogOutputDevice: Error: [Callstack] 0x00000000EFAF63CA UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-06.43.33:361][403]LogOutputDevice: Error: [Callstack] 0x00000000EFAE99C8 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.01-06.43.33:362][403]LogOutputDevice: Error: [Callstack] 0x000000000283E3DA UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.01-06.43.33:362][403]LogOutputDevice: Error: [Callstack] 0x0000000002831B78 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.01-06.43.33:362][403]LogOutputDevice: Error: [Callstack] 0x000000000284052C UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.01-06.43.33:362][403]LogOutputDevice: Error: [Callstack] 0x000000000282D679 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.01-06.43.33:362][403]LogOutputDevice: Error: [Callstack] 0x000000003209CA66 USER32.dll!UnknownFunction []
+[2019.04.01-06.43.33:362][403]LogOutputDevice: Error: [Callstack] 0x000000003209C582 USER32.dll!UnknownFunction []
+[2019.04.01-06.43.33:362][403]LogOutputDevice: Error: [Callstack] 0x0000000002841666 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.01-06.43.33:362][403]LogOutputDevice: Error: [Callstack] 0x000000005BCB5475 UE4Editor.exe!UnknownFunction []
+[2019.04.01-06.43.33:362][403]LogOutputDevice: Error: [Callstack] 0x000000005BCC6BD0 UE4Editor.exe!UnknownFunction []
+[2019.04.01-06.43.33:362][403]LogOutputDevice: Error: [Callstack] 0x000000005BCC6C4A UE4Editor.exe!UnknownFunction []
+[2019.04.01-06.43.33:362][403]LogOutputDevice: Error: [Callstack] 0x000000005BCD4177 UE4Editor.exe!UnknownFunction []
+[2019.04.01-06.43.33:362][403]LogOutputDevice: Error: [Callstack] 0x000000005BCD5B87 UE4Editor.exe!UnknownFunction []
+[2019.04.01-06.43.33:362][403]LogOutputDevice: Error: [Callstack] 0x00000000306081F4 KERNEL32.DLL!UnknownFunction []
+[2019.04.01-06.43.33:362][403]LogOutputDevice: Error: [Callstack] 0x00000000322FA251 ntdll.dll!UnknownFunction []
+[2019.04.01-06.43.33:362][403]LogOutputDevice: Error: 
+[2019.04.01-06.43.33:373][403]LogStats:                SubmitErrorReport -  0.000 s

@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "ResidentEvil/GameConstValue.h"
 #include "Hunk.generated.h"
 
 UCLASS()
@@ -16,11 +17,10 @@ private:
 	float SpeedWalk;
 
 	bool IsSprint;
-	bool IsCrouch;
 	bool IsFalling;
-	bool IsRifle;
 	bool IsAim;
 	bool IsFiring;
+	bool IsReload;
 
 private:
 	FVector LocationSkeletalHunk;
@@ -31,13 +31,29 @@ private:
 	FRotator RotationHunk;
 	FRotator YawRotationHunk;
 
-	UCapsuleComponent *CapsuleCollisionHunk;
-	USkeletalMesh *SkeletalMeshHunk;
-	USkeletalMeshComponent *MeshHunk;
-	UCharacterMovementComponent *CharacterMovementHunk;
+	FAttachmentTransformRules* AttachRules;
 
-	class USpringArmComponent *SpaceCameraToHunk;
-	class UCameraComponent *FollowCamera;
+	UCapsuleComponent* CapsuleCollisionHunk;
+	USkeletalMesh* SkeletalMeshHunk;
+	USkeletalMeshComponent* MeshHunk;
+	UCharacterMovementComponent* CharacterMovementHunk;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camera", meta = (AllowPrivateAccess = "true"))
+	class USpringArmComponent* SpaceCameraToHunk;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camera", meta = (AllowPrivateAccess = "true"))
+	class UCameraComponent* FollowCamera;
+
+	TSubclassOf<class AAssault_Rifle> AssaultRifle;
+	class AAssault_Rifle* SpawnAssaultRifle;
+
+	TSubclassOf<class AShotgun> Shotgun;
+	class AShotgun* SpawnShotgun;
+
+	TSubclassOf<class APistol> Pistol;
+	class APistol* SpawnPistol;
+
+private:
+	EWeaponts eWeaponts;
 
 #pragma endregion
 
@@ -54,22 +70,33 @@ private:
 	void SetSkeletalMeshHunk();
 	void SetCameraFollowToHunk();
 	void SetCharacterMovement();
+	void SetCameraArmLengthNormal(float DeltaTime);
+	void SetCameraArmLengthToAim(float DeltaTime);
+	void SetAssaultRifle();
+	void SetShotgun();
+	void SetPistol();
 #pragma endregion
 
 #pragma region Get Functions.
 public:
 	bool GetIsSprint();
-	bool GetIsCrouch();
 	bool GetIsFalling();
-	bool GetIsRifle();
 	bool GetIsAim();
 	bool GetIsFire();
+	bool GetIsReload();
+	EWeaponts GetEWeaponts();
 #pragma endregion
-
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+#pragma region Spawn weaponts.
+private:
+	void SpawnGunAssaultRifle();
+	void SpawnGunShotgun();
+	void SpawnGunPistol();
+#pragma endregion
 
 public:
 	// Called every frame
@@ -90,9 +117,6 @@ private:
 	void PressedSprint();
 	void ReleasedSprint();
 
-	void PressedCrouch();
-	void ReleasedCrouch();
-
 	void PressedEquipOrUnEquipWeapont();
 
 	void PressedAim();
@@ -100,6 +124,12 @@ private:
 
 	void PressedFire();
 	void ReleasedFire();
+
+	void PressedReload();
+
+	void PressedNumber1();
+	void PressedNumber2();
+	void PressedNumber3();
 #pragma endregion
 
 #pragma endregion

@@ -1,0 +1,1003 @@
+﻿Log file open, 03/29/19 18:41:35
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: ResidentEvil
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1682077594) SRandInit(1682077595).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.176589
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +7:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.102s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Binaries/Win64/UE4Editor-ResidentEvil-7741.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am DESKTOP-151KF17 (192.168.0.104:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: D:/Cai Dat/UE4/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.003s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.03.29-11.41.37:668][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.29-11.41.37:668][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.29-11.41.37:681][  0]LogInit: Computer: DESKTOP-151KF17
+[2019.03.29-11.41.37:681][  0]LogInit: User: kvtuy
+[2019.03.29-11.41.37:681][  0]LogInit: CPU Page size=4096, Cores=2
+[2019.03.29-11.41.37:681][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.03.29-11.41.37:681][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.03.29-11.41.37:681][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.29-11.41.37:681][  0]LogMemory: Process Physical Memory: 273.56 MB used, 273.57 MB peak
+[2019.03.29-11.41.37:681][  0]LogMemory: Process Virtual Memory: 265.75 MB used, 265.75 MB peak
+[2019.03.29-11.41.37:681][  0]LogMemory: Physical Memory: 5886.81 MB used,  10386.18 MB free, 16272.99 MB total
+[2019.03.29-11.41.37:681][  0]LogMemory: Virtual Memory: 4780.70 MB used,  10386.18 MB free, 134217728.00 MB total
+[2019.03.29-11.41.37:713][  0]LogInit: Using OS detected language (en-US).
+[2019.03.29-11.41.37:713][  0]LogInit: Using OS detected locale (en-US).
+[2019.03.29-11.41.37:720][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.03.29-11.41.38:203][  0]LogStreaming: Display: Took  0.491s to EndInitTextLocalization.
+[2019.03.29-11.41.38:203][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.29-11.41.38:250][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.29-11.41.38:250][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.29-11.41.38:616][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.29-11.41.38:690][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950M' (Feature Level 11_0)
+[2019.03.29-11.41.38:690][  0]LogD3D11RHI:       4055/0/8136 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.29-11.41.38:697][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2019.03.29-11.41.38:698][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.03.29-11.41.38:700][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.29-11.41.38:700][  0]LogD3D11RHI:       0/0/8136 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.29-11.41.38:700][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.29-11.41.38:731][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.29-11.41.38:731][  0]LogD3D11RHI:     GPU DeviceId: 0x139a (for the marketing name, search the web for "GPU Device Id")
+[2019.03.29-11.41.38:731][  0]LogWindows: EnumDisplayDevices:
+[2019.03.29-11.41.38:731][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2019.03.29-11.41.38:731][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2019.03.29-11.41.38:731][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2019.03.29-11.41.38:732][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.03.29-11.41.38:732][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
+[2019.03.29-11.41.38:732][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.03.29-11.41.38:732][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.03.29-11.41.38:732][  0]LogRHI: Texture pool is 2839 MB (70% of 4055 MB)
+[2019.03.29-11.41.38:787][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.03.29-11.41.38:787][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.03.29-11.41.38:787][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.29-11.41.38:808][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.03.29-11.41.38:809][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Intermediate/Shaders/WorkingDirectory/6916/).
+[2019.03.29-11.41.38:809][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kvtuy/AppData/Local/Temp/UnrealShaderWorkingDir/A84D1A6D41E02A3997D13D898835BE61/'.
+[2019.03.29-11.41.39:116][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.29-11.41.39:135][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.29-11.41.39:150][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.29-11.41.39:166][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.29-11.41.39:184][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.29-11.41.39:198][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.29-11.41.39:213][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.29-11.41.39:228][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.29-11.41.39:235][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.29-11.41.39:248][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2019.03.29-11.41.39:261][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2019.03.29-11.41.39:274][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2019.03.29-11.41.39:287][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2019.03.29-11.41.39:300][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2019.03.29-11.41.39:312][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2019.03.29-11.41.39:339][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2019.03.29-11.41.39:339][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.03.29-11.41.39:354][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.29-11.41.39:355][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.29-11.41.39:395][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.29-11.41.39:408][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.29-11.41.39:422][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.29-11.41.39:436][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.29-11.41.39:451][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.29-11.41.39:466][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.29-11.41.39:466][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.29-11.41.39:584][  0]LogXGEController: Cleaning working directory: C:/Users/kvtuy/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.03.29-11.41.39:584][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.29-11.41.39:584][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.29-11.41.39:584][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.29-11.41.40:507][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.29-11.41.41:029][  0]LogDerivedDataCache: Loaded boot cache 0.52s 122MB C:/Users/kvtuy/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.03.29-11.41.41:029][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kvtuy/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2019.03.29-11.41.41:029][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.29-11.41.41:029][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.29-11.41.41:029][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.29-11.41.41:029][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.29-11.41.41:049][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.29-11.41.41:061][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kvtuy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.29-11.41.41:061][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.29-11.41.41:061][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.29-11.41.41:075][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.29-11.41.41:075][  0]LogSlate: Using Freetype 2.6.0
+[2019.03.29-11.41.41:076][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.29-11.41.41:076][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.29-11.41.41:297][  0]LogAssetRegistry: FAssetRegistry took 0.0270 seconds to start up
+[2019.03.29-11.41.41:687][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.29-11.41.41:862][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.29-11.41.41:866][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.29-11.41.41:866][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.29-11.41.41:866][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.29-11.41.41:866][  0]LogMeshReduction: No automatic mesh merging module available
+[2019.03.29-11.41.41:866][  0]LogMeshMerging: No automatic mesh merging module available
+[2019.03.29-11.41.41:898][  0]LogNetVersion: ResidentEvil , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3990793033)
+[2019.03.29-11.41.42:402][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.060303 seconds
+[2019.03.29-11.41.42:408][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2019.03.29-11.41.42:408][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2019.03.29-11.41.42:408][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.29-11.41.44:867][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.29-11.41.44:897][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.29-11.41.45:191][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [4.282200ms] /Game/MyCharacter/Hero/genAssault.genAssault
+[2019.03.29-11.41.45:309][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001fb266cb5e0, Size=96, Default__HunkAnimation_C Function /Game/MyCharacter/Hero/HunkAnimation.HunkAnimation_C:ExecuteUbergraph_HunkAnimation
+[2019.03.29-11.41.45:363][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001fb266cb5e0, Size=96
+[2019.03.29-11.41.45:363][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001fb266cb5e0, Size=96, Default__HunkAnimation_C Function /Engine/Transient.REINST_HunkAnimation_C_0:ExecuteUbergraph_HunkAnimation
+[2019.03.29-11.41.45:426][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001fb2820ffa0, Size=96, Default__HunkAnimation_C Function /Game/MyCharacter/Hero/HunkAnimation.HunkAnimation_C:ExecuteUbergraph_HunkAnimation
+[2019.03.29-11.41.45:620][  0]SourceControl: Source control is disabled
+[2019.03.29-11.41.45:620][  0]SourceControl: Source control is disabled
+[2019.03.29-11.41.45:638][  0]SourceControl: Source control is disabled
+[2019.03.29-11.41.45:654][  0]SourceControl: Source control is disabled
+[2019.03.29-11.41.46:129][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.29-11.41.46:287][  0]LogOcInput: OculusInput pre-init called
+[2019.03.29-11.41.46:400][  0]LogEngine: Initializing Engine...
+[2019.03.29-11.41.46:401][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.29-11.41.46:403][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.29-11.41.46:403][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.29-11.41.46:634][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.29-11.41.46:658][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.29-11.41.46:693][  0]LogInit: FAudioDevice initialized.
+[2019.03.29-11.41.46:807][  0]LogDerivedDataCache: Saved boot cache 0.11s 123MB C:/Users/kvtuy/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.03.29-11.41.46:828][  0]LogInit: Texture streaming: Enabled
+[2019.03.29-11.41.46:845][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.29-11.41.46:845][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={17B43626-47D5-70F1-581B-B5811B42248E}
+[2019.03.29-11.41.46:860][  0]LogInit: Transaction tracking system initialized
+[2019.03.29-11.41.46:893][  0]BlueprintLog: New page: Editor Load
+[2019.03.29-11.41.47:051][  0]LocalizationService: Localization service is disabled
+[2019.03.29-11.41.47:158][  0]LogConsoleResponse: Display: 
+[2019.03.29-11.41.47:349][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.29-11.41.47:349][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.29-11.41.47:349][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.29-11.41.47:349][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.29-11.41.47:349][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.29-11.41.47:778][  0]LogFileCache: Scanning file cache for directory 'D:/KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/' took 0.02s
+[2019.03.29-11.41.47:778][  0]SourceControl: Source control is disabled
+[2019.03.29-11.41.47:778][  0]Cmd: MAP LOAD FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.29-11.41.47:779][  0]LightingResults: New page: Lighting Build
+[2019.03.29-11.41.47:782][  0]MapCheck: New page: Map Check
+[2019.03.29-11.41.47:782][  0]LightingResults: New page: Lighting Build
+[2019.03.29-11.41.47:794][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001fb266cb5e0, Size=96
+[2019.03.29-11.41.48:033][  0]LogAIModule: Creating AISystem for world Map01
+[2019.03.29-11.41.48:040][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.29-11.41.48:053][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.29-11.41.48:107][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 53.802ms to complete.
+[2019.03.29-11.41.48:107][  0]LogFileHelpers: Loading map 'Map01' took 0.329
+[2019.03.29-11.41.48:269][  0]LogCollectionManager: Loaded 0 collections in 0.001487 seconds
+[2019.03.29-11.41.48:311][  0]LogFileCache: Scanning file cache for directory 'D:/KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Collections/' took 0.01s
+[2019.03.29-11.41.48:311][  0]LogFileCache: Scanning file cache for directory 'D:/KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/Developers/kvtuy/Collections/' took 0.01s
+[2019.03.29-11.41.48:312][  0]LogFileCache: Scanning file cache for directory 'D:/KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/Collections/' took 0.01s
+[2019.03.29-11.41.48:312][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.03.29-11.41.48:327][  0]LogContentBrowser: Native class hierarchy populated in 0.0151 seconds. Added 2458 classes and 566 folders.
+[2019.03.29-11.41.48:341][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0066 seconds. Added 0 classes and 0 folders.
+[2019.03.29-11.41.48:466][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0060 seconds. Added 0 classes and 0 folders.
+[2019.03.29-11.41.48:477][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0050 seconds. Added 1 classes and 2 folders.
+[2019.03.29-11.41.48:500][  0]LogSlate: Took 0.000282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.29-11.41.48:504][  0]LogSlate: Took 0.000230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.29-11.41.48:521][  0]LogSlate: Took 0.006143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.29-11.41.48:631][  0]LogRenderer: Reallocating scene render targets to support 856x380 Format 10 NumSamples 1 (Frame:1).
+[2019.03.29-11.41.48:786][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0050 seconds. Added 0 classes and 0 folders.
+[2019.03.29-11.41.48:786][  0]LogLoad: (Engine Initialization) Total time: 13.79 seconds
+[2019.03.29-11.41.48:787][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.29-11.41.48:823][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.29-11.41.48:854][  0]LogSlate: Took 0.002892 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.29-11.41.49:220][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.03.29-11.41.49:306][  2]LogAssetRegistry: Asset discovery search completed in 8.0321 seconds
+[2019.03.29-11.41.49:309][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000005 seconds (updated 0 objects)
+[2019.03.29-11.41.49:930][ 13]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.29-11.45.11:794][298]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-11.45.14:353][396]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-11.45.22:724][890]LogSlate: Took 0.002892 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.29-11.46.28:188][ 98]Running D:/Cai Dat/UE4/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe ResidentEvil Win64 Development -editorrecompile "D:/KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/ResidentEvil.uproject" -invalidatemakefilesonly
+[2019.03.29-11.46.28:492][ 98]Invalidating makefiles only in this run.
+[2019.03.29-11.46.28:618][ 98]Candidate modules for hot reload:
+[2019.03.29-11.46.28:618][ 98]  ResidentEvil
+[2019.03.29-11.46.28:618][ 98]Launching UnrealBuildTool... [D:/Cai Dat/UE4/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe ResidentEvil -ModuleWithSuffix=ResidentEvil,43 Win64 Development -editorrecompile -canskiplink "D:/KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/ResidentEvil.uproject" ]
+[2019.03.29-11.46.56:787][ 98]CompilerResultsLog: New page: Compilation - Mar 30, 2019, 1:46:56 AM
+[2019.03.29-11.46.56:787][ 98]CompilerResultsLog: Creating makefile for hot reloading ResidentEvil (no existing makefile)
+[2019.03.29-11.46.56:788][ 98]CompilerResultsLog: Compiling game modules for hot reload
+[2019.03.29-11.46.56:788][ 98]CompilerResultsLog: Parsing headers for ResidentEvilEditor
+[2019.03.29-11.46.56:788][ 98]CompilerResultsLog:   Running UnrealHeaderTool "D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\ResidentEvil.uproject" "D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\ResidentEvilEditor\Development\ResidentEvilEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.03.29-11.46.56:788][ 98]CompilerResultsLog: Reflection code generated for ResidentEvilEditor in 16.1432687 seconds
+[2019.03.29-11.46.56:788][ 98]CompilerResultsLog: Performing 6 actions (2 in parallel)
+[2019.03.29-11.46.56:788][ 98]CompilerResultsLog: ResidentEvil.init.gen.cpp
+[2019.03.29-11.46.56:788][ 98]CompilerResultsLog: Assault_Rifle.cpp
+[2019.03.29-11.46.56:788][ 98]CompilerResultsLog: Assault_Rifle.gen.cpp
+[2019.03.29-11.46.56:788][ 98]CompilerResultsLog: Weaponts.cpp
+[2019.03.29-11.46.56:788][ 98]CompilerResultsLog: [5/6] Link UE4Editor-ResidentEvil-43.dll
+[2019.03.29-11.46.56:788][ 98]CompilerResultsLog: [6/6] Link UE4Editor-ResidentEvil-43.lib
+[2019.03.29-11.46.56:788][ 98]CompilerResultsLog:    Creating library D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ResidentEvil-43.lib and object D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ResidentEvil-43.exp
+[2019.03.29-11.46.56:788][ 98]CompilerResultsLog:    Creating library D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ResidentEvil-43.suppressed.lib and object D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ResidentEvil-43.suppressed.exp
+[2019.03.29-11.46.56:788][ 98]CompilerResultsLog: Total build time: 27.79 seconds (Local executor: 3.65 seconds)
+[2019.03.29-11.46.56:788][ 98]LogMainFrame: MainFrame: Module compiling took 28.176 seconds
+[2019.03.29-11.46.56:828][ 98]LogClass: Could not find existing class Assault_Rifle in package /Script/ResidentEvil for HotReload, assuming new class
+[2019.03.29-11.46.56:838][ 98]LogHotReload: Re-instancing Hunk after hot-reload.
+[2019.03.29-11.46.56:911][ 98]LogHotReload: Re-instancing Weaponts after hot-reload.
+[2019.03.29-11.46.56:989][ 98]LogContentBrowser: Native class hierarchy updated for 'ResidentEvil' in 0.0062 seconds. Added 7 classes and 9 folders.
+[2019.03.29-11.46.56:991][ 98]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.03.29-11.46.57:091][ 98]LogContentBrowser: Native class hierarchy populated in 0.0175 seconds. Added 2460 classes and 569 folders.
+[2019.03.29-11.46.57:091][ 98]Display: HotReload took 28.5s.
+[2019.03.29-11.46.57:093][ 98]Warning: HotReload operation took 28.5s.
+[2019.03.29-11.46.57:482][ 98]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.03.29-11.46.57:494][ 98]LogHotReload: New module detected: UE4Editor-ResidentEvil-43.dll
+[2019.03.29-11.46.57:571][ 99]LogHotReload: Starting Hot-Reload from IDE
+[2019.03.29-11.46.57:680][ 99]LogContentBrowser: Native class hierarchy updated for 'ResidentEvil' in 0.0112 seconds. Added 7 classes and 9 folders.
+[2019.03.29-11.46.57:686][ 99]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.03.29-11.46.57:767][ 99]LogContentBrowser: Native class hierarchy populated in 0.0302 seconds. Added 2460 classes and 569 folders.
+[2019.03.29-11.46.57:773][ 99]Display: HotReload took  0.2s.
+[2019.03.29-11.55.56:757][ 58]LogSkeletalMesh: Skeletal Mesh found in DDC [1.094900ms] /Game/MyAssets/MilitaryWeapSilver/Weapons/Assault_Rifle_A.Assault_Rifle_A
+[2019.03.29-12.00.50:757][ 76]Candidate modules for hot reload:
+[2019.03.29-12.00.50:757][ 76]  ResidentEvil
+[2019.03.29-12.00.50:757][ 76]Launching UnrealBuildTool... [D:/Cai Dat/UE4/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe ResidentEvil -ModuleWithSuffix=ResidentEvil,9898 Win64 Development -editorrecompile -canskiplink "D:/KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/ResidentEvil.uproject" ]
+[2019.03.29-12.00.50:758][ 76]Warning: Starting HotReload took  0.0s.
+[2019.03.29-12.01.05:282][206]CompilerResultsLog: New page: Compilation - Mar 30, 2019, 2:01:05 AM
+[2019.03.29-12.01.05:282][206]CompilerResultsLog: Compiling game modules for hot reload
+[2019.03.29-12.01.05:282][206]CompilerResultsLog: Parsing headers for ResidentEvilEditor
+[2019.03.29-12.01.05:282][206]CompilerResultsLog:   Running UnrealHeaderTool "D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\ResidentEvil.uproject" "D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\ResidentEvilEditor\Development\ResidentEvilEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.03.29-12.01.05:282][206]CompilerResultsLog: Reflection code generated for ResidentEvilEditor in 11.0974862 seconds
+[2019.03.29-12.01.05:282][206]CompilerResultsLog: Performing 4 actions (2 in parallel)
+[2019.03.29-12.01.05:282][206]CompilerResultsLog: Assault_Rifle.cpp
+[2019.03.29-12.01.05:282][206]CompilerResultsLog: Assault_Rifle.gen.cpp
+[2019.03.29-12.01.05:282][206]CompilerResultsLog: [3/4] Link UE4Editor-ResidentEvil-9898.dll
+[2019.03.29-12.01.05:282][206]CompilerResultsLog: [4/4] Link UE4Editor-ResidentEvil-9898.lib
+[2019.03.29-12.01.05:283][206]CompilerResultsLog:    Creating library D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ResidentEvil-9898.lib and object D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ResidentEvil-9898.exp
+[2019.03.29-12.01.05:283][206]CompilerResultsLog:    Creating library D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ResidentEvil-9898.suppressed.lib and object D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ResidentEvil-9898.suppressed.exp
+[2019.03.29-12.01.05:283][206]CompilerResultsLog: Total build time: 14.10 seconds (Local executor: 2.03 seconds)
+[2019.03.29-12.01.05:283][206]LogMainFrame: MainFrame: Module compiling took 14.531 seconds
+[2019.03.29-12.01.05:298][206]LogClass: Could not find existing class Assault_Rifle in package /Script/ResidentEvil for HotReload, assuming new class
+[2019.03.29-12.01.05:308][206]LogHotReload: Re-instancing Assault_Rifle after hot-reload.
+[2019.03.29-12.01.05:359][206]LogHotReload: Re-instancing Hunk after hot-reload.
+[2019.03.29-12.01.05:418][206]LogContentBrowser: Native class hierarchy updated for 'ResidentEvil' in 0.0058 seconds. Added 7 classes and 9 folders.
+[2019.03.29-12.01.05:420][206]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.03.29-12.01.05:481][206]LogContentBrowser: Native class hierarchy populated in 0.0156 seconds. Added 2460 classes and 569 folders.
+[2019.03.29-12.01.05:481][206]Display: HotReload took 14.7s.
+[2019.03.29-12.01.18:580][610]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0050 seconds. Added 1 classes and 2 folders.
+[2019.03.29-12.01.18:856][610]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.01.18:863][610]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0051 seconds. Added 1 classes and 0 folders.
+[2019.03.29-12.01.18:893][610]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.03.29-12.01.19:159][610]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.29-12.01.19:270][610]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0055 seconds. Added 1 classes and 0 folders.
+[2019.03.29-12.01.19:283][611]LogRenderer: Reallocating scene render targets to support 856x584 Format 10 NumSamples 1 (Frame:1).
+[2019.03.29-12.01.21:444][729]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.01.21:471][729]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2019.03.29-12.01.25:791][960]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.29-12.01.31:413][297]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.01.37:436][654]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.02.23:367][356]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.02.35:402][ 67]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.03.36:322][535]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.03.36:432][538]LogSavePackage: Save=5.41ms
+[2019.03.29-12.03.36:432][538]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/genAssault_SkeletonF02B20104548B6F378AE3B95158358A6.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault_Skeleton.uasset'
+[2019.03.29-12.03.36:433][538]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault_Skeleton.uasset
+[2019.03.29-12.04.24:513][244]LogSkeletalMesh: Building Skeletal Mesh Pistols_A...
+[2019.03.29-12.04.24:522][244]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/MyAssets/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A
+[2019.03.29-12.04.30:582][244]LogTexture: Display: Building textures: Pistols_A_Masks (AutoDXT, 2048X2048)
+[2019.03.29-12.04.30:582][244]LogTexture: Display: Building textures: Pistols_A_Diff (AutoDXT, 2048X2048)
+[2019.03.29-12.04.30:582][244]LogTexture: Display: Building textures: Pistols_A_Norm (BC5, 2048X2048)
+[2019.03.29-12.04.30:605][244]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_2.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2019.03.29-12.04.30:640][244]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.Actor_2.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2019.03.29-12.04.38:514][674]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.04.38:564][677]LogSlate: Window 'Pistols_A' being destroyed
+[2019.03.29-12.04.38:569][677]LogSlate: Window 'Pistols_A' being destroyed
+[2019.03.29-12.06.10:870][920]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.06.10:989][924]LogSavePackage: Save=5.05ms
+[2019.03.29-12.06.10:989][924]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/genAssault_SkeletonE9C566994A759B405B8A91A07643AA83.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault_Skeleton.uasset'
+[2019.03.29-12.06.10:991][924]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault_Skeleton.uasset
+[2019.03.29-12.06.35:933][284]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.29-12.07.20:674][446]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyMap/Map01' took 0.014
+[2019.03.29-12.07.20:676][446]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MyCharacter/Hero/genAssault_Skeleton] ([1] browsable assets)...
+[2019.03.29-12.07.20:676][446]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyCharacter/Hero/genAssault_Skeleton]
+[2019.03.29-12.07.20:712][446]LogSavePackage: Save=5.65ms
+[2019.03.29-12.07.20:712][446]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/genAssault_Skeleton_Auto1BBA4BD504504643D72B0F7BE0E6E9A71.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Autosaves/Game/MyCharacter/Hero/genAssault_Skeleton_Auto1.uasset'
+[2019.03.29-12.07.20:713][446]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Autosaves/Game/MyCharacter/Hero/genAssault_Skeleton_Auto1.uasset
+[2019.03.29-12.07.20:713][446]LogFileHelpers: Auto-saving content packages took 0.039
+[2019.03.29-12.08.32:013][840]LogSavePackage: Save=5.17ms
+[2019.03.29-12.08.32:013][840]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/genAssault_Skeleton33AA619945C5AD79B3D57993D5CA7ABE.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault_Skeleton.uasset'
+[2019.03.29-12.08.32:015][840]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/genAssault_Skeleton.uasset
+[2019.03.29-12.08.33:710][940]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.08.33:734][940]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2019.03.29-12.08.34:131][940]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.03.29-12.08.43:851][515]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.29-12.08.48:361][784]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.09.04:082][676]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.09.08:020][912]Cmd: TRANSACTION UNDO
+[2019.03.29-12.09.08:020][912]LogEditorTransaction: Undo Set Vector Property
+[2019.03.29-12.09.08:383][912]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.09.08:385][912]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.09.08:390][912]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.09.12:212][131]Cmd: TRANSACTION REDO
+[2019.03.29-12.09.12:212][131]LogEditorTransaction: Redo Set Vector Property
+[2019.03.29-12.09.12:593][131]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.09.12:594][131]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.09.12:603][131]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.09.17:404][406]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.09.25:841][907]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.09.40:557][773]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.09.44:903][ 11]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.10.27:995][447]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.10.45:249][440]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.10.55:614][ 51]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.11.33:710][927]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.12.22:879][766]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.12.33:830][393]Cmd: TRANSACTION UNDO
+[2019.03.29-12.12.33:830][393]LogEditorTransaction: Undo Rotate Bone
+[2019.03.29-12.12.34:212][393]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.12.34:214][393]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.12.34:222][393]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.12.44:053][958]Cmd: TRANSACTION UNDO
+[2019.03.29-12.12.44:053][958]LogEditorTransaction: Undo Rotate Bone
+[2019.03.29-12.12.44:440][958]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.12.44:442][958]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.12.44:451][958]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.12.48:857][200]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.12.53:502][470]Cmd: TRANSACTION UNDO
+[2019.03.29-12.12.53:502][470]LogEditorTransaction: Undo Rotate Bone
+[2019.03.29-12.12.53:881][470]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.12.53:883][470]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.12.53:892][470]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.12.55:410][548]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.12.59:515][782]Cmd: TRANSACTION UNDO
+[2019.03.29-12.12.59:515][782]LogEditorTransaction: Undo Rotate Bone
+[2019.03.29-12.12.59:898][782]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.12.59:900][782]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.12.59:908][782]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.13.00:385][805]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.13.02:945][952]Cmd: TRANSACTION UNDO
+[2019.03.29-12.13.02:946][952]LogEditorTransaction: Undo Rotate Bone
+[2019.03.29-12.13.03:330][952]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.13.03:332][952]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.13.03:341][952]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.13.03:789][967]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.13.06:758][136]Cmd: TRANSACTION UNDO
+[2019.03.29-12.13.06:758][136]LogEditorTransaction: Undo Rotate Bone
+[2019.03.29-12.13.07:138][136]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.13.07:139][136]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.13.07:150][136]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.13.08:195][193]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.13.11:925][409]Cmd: TRANSACTION UNDO
+[2019.03.29-12.13.11:925][409]LogEditorTransaction: Undo Rotate Bone
+[2019.03.29-12.13.12:308][409]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.13.12:309][409]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.13.12:319][409]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.13.12:702][426]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.13.18:975][788]Cmd: TRANSACTION UNDO
+[2019.03.29-12.13.18:975][788]LogEditorTransaction: Undo Rotate Bone
+[2019.03.29-12.13.19:373][788]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.13.19:375][788]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.13.19:384][788]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.13.25:274][110]Cmd: TRANSACTION UNDO
+[2019.03.29-12.13.25:274][110]LogEditorTransaction: Undo Rotate Bone
+[2019.03.29-12.13.25:665][110]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.13.25:667][110]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.13.25:676][110]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.13.26:236][137]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.13.29:325][314]Cmd: TRANSACTION UNDO
+[2019.03.29-12.13.29:325][314]LogEditorTransaction: Undo Rotate Bone
+[2019.03.29-12.13.29:716][314]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.13.29:718][314]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.13.29:727][314]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.13.31:320][378]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.14.10:069][623]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.14.53:311][152]Cmd: TRANSACTION UNDO
+[2019.03.29-12.14.53:312][152]LogEditorTransaction: Undo Translate Socket
+[2019.03.29-12.14.53:727][152]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.14.53:729][152]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.14.53:738][152]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.15.07:094][913]Cmd: TRANSACTION UNDO
+[2019.03.29-12.15.07:094][913]LogEditorTransaction: Undo Translate Socket
+[2019.03.29-12.15.07:496][913]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.15.07:497][913]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.15.07:508][913]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.15.37:306][680]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.29-12.15.37:347][680]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Hero/Aim_Rifle" FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/Aim_Rifle.uasset" SILENT=true
+[2019.03.29-12.15.37:395][680]LogSavePackage: Save=18.94ms
+[2019.03.29-12.15.37:395][680]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Aim_Rifle64F5EFD84F25EAD4CC43A3AB172B28DA.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/Aim_Rifle.uasset'
+[2019.03.29-12.15.37:397][680]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/Aim_Rifle.uasset
+[2019.03.29-12.15.37:799][704]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.15.37:854][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Hero/Aim_Rifle" FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/Aim_Rifle.uasset" SILENT=true
+[2019.03.29-12.15.37:891][706]LogSavePackage: Save=9.13ms
+[2019.03.29-12.15.37:891][706]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Aim_RifleEB9D7D9B447CC6ADA4668B96D1522474.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/Aim_Rifle.uasset'
+[2019.03.29-12.15.37:893][706]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/Aim_Rifle.uasset
+[2019.03.29-12.15.51:683][527]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.15.54:032][663]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Aim_Rifle.Aim_Rifle
+[2019.03.29-12.15.54:035][663]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Aim_Rifle) using current/default (AnimCompress_BitwiseCompressOnly_41) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.29-12.16.00:422][ 45]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.16.02:626][169]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Aim_Rifle.Aim_Rifle
+[2019.03.29-12.16.02:629][169]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_0) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.29-12.16.04:646][286]Cmd: TRANSACTION UNDO
+[2019.03.29-12.16.04:646][286]LogEditorTransaction: Undo Bake Animation
+[2019.03.29-12.16.05:035][286]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.16.05:037][286]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.16.05:047][286]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.16.14:347][825]Cmd: TRANSACTION UNDO
+[2019.03.29-12.16.14:347][825]LogEditorTransaction: Undo Set Key
+[2019.03.29-12.16.14:739][825]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.16.14:741][825]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.16.14:751][825]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.16.15:571][856]Cmd: TRANSACTION UNDO
+[2019.03.29-12.16.15:571][856]LogEditorTransaction: Undo Bake Animation
+[2019.03.29-12.16.16:103][856]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.16.16:105][856]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.16.16:118][856]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.16.16:548][864]Cmd: TRANSACTION UNDO
+[2019.03.29-12.16.16:548][864]LogEditorTransaction: Undo Set Key
+[2019.03.29-12.16.16:936][864]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.16.16:938][864]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.16.16:948][864]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.16.17:429][875]Cmd: TRANSACTION UNDO
+[2019.03.29-12.16.17:429][875]LogEditorTransaction: Undo Translate Socket
+[2019.03.29-12.16.17:815][875]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.16.17:817][875]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.16.17:827][875]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.16.20:145][  0]Cmd: TRANSACTION UNDO
+[2019.03.29-12.16.20:146][  0]LogEditorTransaction: Undo Rotate Socket
+[2019.03.29-12.16.20:536][  0]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.16.20:538][  0]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.16.20:549][  0]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.16.21:092][ 17]Cmd: TRANSACTION UNDO
+[2019.03.29-12.16.21:092][ 17]LogEditorTransaction: Undo Rotate Socket
+[2019.03.29-12.16.21:479][ 17]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.16.21:481][ 17]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.16.21:491][ 17]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.16.22:046][ 40]Cmd: TRANSACTION UNDO
+[2019.03.29-12.16.22:046][ 40]LogEditorTransaction: Undo Rotate Bone
+[2019.03.29-12.16.22:442][ 40]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.16.22:444][ 40]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.16.22:454][ 40]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.16.22:942][ 61]Cmd: TRANSACTION UNDO
+[2019.03.29-12.16.22:942][ 61]LogEditorTransaction: Undo Rotate Bone
+[2019.03.29-12.16.23:326][ 61]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.16.23:328][ 61]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.16.23:339][ 61]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.16.23:789][ 81]Cmd: TRANSACTION UNDO
+[2019.03.29-12.16.23:789][ 81]LogEditorTransaction: Undo Translate Socket
+[2019.03.29-12.16.24:174][ 81]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.16.24:175][ 81]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.16.24:187][ 81]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.16.24:840][112]Cmd: TRANSACTION UNDO
+[2019.03.29-12.16.24:840][112]LogEditorTransaction: Undo Rotate Socket
+[2019.03.29-12.16.25:224][112]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.16.25:226][112]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.16.25:237][112]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.16.33:435][586]Cmd: TRANSACTION REDO
+[2019.03.29-12.16.33:435][586]LogEditorTransaction: Redo Rotate Socket
+[2019.03.29-12.16.33:823][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.16.33:825][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.16.33:836][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.16.33:886][586]Cmd: TRANSACTION REDO
+[2019.03.29-12.16.33:886][586]LogEditorTransaction: Redo Translate Socket
+[2019.03.29-12.16.34:285][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.16.34:286][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.16.34:298][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.16.34:355][586]Cmd: TRANSACTION REDO
+[2019.03.29-12.16.34:355][586]LogEditorTransaction: Redo Rotate Bone
+[2019.03.29-12.16.34:743][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.16.34:745][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.16.34:756][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.16.34:815][586]Cmd: TRANSACTION REDO
+[2019.03.29-12.16.34:815][586]LogEditorTransaction: Redo Rotate Bone
+[2019.03.29-12.16.35:209][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.16.35:211][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.16.35:223][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.16.35:282][586]Cmd: TRANSACTION REDO
+[2019.03.29-12.16.35:282][586]LogEditorTransaction: Redo Rotate Socket
+[2019.03.29-12.16.35:673][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.16.35:675][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.16.35:687][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.16.35:749][586]Cmd: TRANSACTION REDO
+[2019.03.29-12.16.35:749][586]LogEditorTransaction: Redo Rotate Socket
+[2019.03.29-12.16.36:148][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.16.36:150][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.16.36:163][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.16.36:225][586]Cmd: TRANSACTION REDO
+[2019.03.29-12.16.36:225][586]LogEditorTransaction: Redo Translate Socket
+[2019.03.29-12.16.36:615][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.16.36:617][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.16.36:629][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.16.36:694][586]Cmd: TRANSACTION REDO
+[2019.03.29-12.16.36:694][586]LogEditorTransaction: Redo Set Key
+[2019.03.29-12.16.37:095][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.16.37:096][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.16.37:108][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.16.37:188][586]Cmd: TRANSACTION REDO
+[2019.03.29-12.16.37:188][586]LogEditorTransaction: Redo Bake Animation
+[2019.03.29-12.16.37:584][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.16.37:586][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.16.37:599][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.16.37:794][586]Cmd: TRANSACTION REDO
+[2019.03.29-12.16.37:794][586]LogEditorTransaction: Redo Set Key
+[2019.03.29-12.16.38:197][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.16.38:199][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.16.38:211][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.16.38:412][586]Cmd: TRANSACTION REDO
+[2019.03.29-12.16.38:412][586]LogEditorTransaction: Redo Bake Animation
+[2019.03.29-12.16.38:815][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.16.38:817][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.16.38:829][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.16.43:204][719]Cmd: TRANSACTION UNDO
+[2019.03.29-12.16.43:204][719]LogEditorTransaction: Undo Bake Animation
+[2019.03.29-12.16.43:596][719]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.16.43:597][719]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.16.43:610][719]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.16.45:135][773]Cmd: TRANSACTION UNDO
+[2019.03.29-12.16.45:135][773]LogEditorTransaction: Undo Set Key
+[2019.03.29-12.16.45:564][773]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.16.45:566][773]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.16.45:578][773]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.17.01:410][668]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.17.07:374][ 11]Cmd: TRANSACTION UNDO
+[2019.03.29-12.17.07:374][ 11]LogEditorTransaction: Undo Rotate Bone
+[2019.03.29-12.17.07:766][ 11]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.17.07:767][ 11]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.17.07:780][ 11]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.17.10:956][152]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.17.11:125][162]Cmd: MODE GRID=0
+[2019.03.29-12.17.14:432][353]Cmd: TRANSACTION UNDO
+[2019.03.29-12.17.14:432][353]LogEditorTransaction: Undo Rotate Bone
+[2019.03.29-12.17.14:833][353]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.17.14:835][353]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.17.14:848][353]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.17.15:688][379]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.17.20:029][638]Cmd: MODE ROTGRID=0
+[2019.03.29-12.17.37:441][663]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.17.37:847][671]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Aim_Rifle.Aim_Rifle
+[2019.03.29-12.17.37:851][671]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_1) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.29-12.17.53:310][577]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.18.03:877][165]Cmd: TRANSACTION UNDO
+[2019.03.29-12.18.03:877][165]LogEditorTransaction: Undo Rotate Bone
+[2019.03.29-12.18.04:277][165]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.18.04:278][165]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.18.04:291][165]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.18.27:463][465]Cmd: TRANSACTION UNDO
+[2019.03.29-12.18.27:463][465]LogEditorTransaction: Undo Rotate Bone
+[2019.03.29-12.18.27:861][465]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.18.27:863][465]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.18.27:877][465]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.18.30:913][601]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.18.31:752][634]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Aim_Rifle.Aim_Rifle
+[2019.03.29-12.18.31:756][634]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_2) using current/default (AnimCompress_BitwiseCompressOnly_3) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.29-12.19.10:074][887]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.19.10:744][908]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Aim_Rifle.Aim_Rifle
+[2019.03.29-12.19.10:747][908]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_3) using current/default (AnimCompress_BitwiseCompressOnly_4) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.29-12.19.16:242][231]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.19.26:954][763]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Aim_Rifle.Aim_Rifle
+[2019.03.29-12.19.26:957][763]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_4) using current/default (AnimCompress_BitwiseCompressOnly_5) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.29-12.19.46:053][838]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.19.46:622][857]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Aim_Rifle.Aim_Rifle
+[2019.03.29-12.19.46:625][857]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_5) using current/default (AnimCompress_BitwiseCompressOnly_6) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.29-12.19.50:200][ 67]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.20.19:751][738]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.20.37:691][770]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.21.15:751][962]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.21.21:478][276]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.21.34:499][998]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.21.38:812][226]Cmd: TRANSACTION UNDO
+[2019.03.29-12.21.38:812][226]LogEditorTransaction: Undo Rotate Bone
+[2019.03.29-12.21.39:230][226]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.21.39:232][226]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.21.39:245][226]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.21.56:381][170]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.22.04:612][632]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.29-12.22.04:655][632]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Hero/Aim_Rifle" FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/Aim_Rifle.uasset" SILENT=true
+[2019.03.29-12.22.04:706][632]LogSavePackage: Save=20.73ms
+[2019.03.29-12.22.04:706][632]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Aim_RifleFA602B34403B5C7F2E16798E9D5A31F3.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/Aim_Rifle.uasset'
+[2019.03.29-12.22.04:708][632]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/Aim_Rifle.uasset
+[2019.03.29-12.22.33:121][312]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.22.33:745][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Hero/Aim_Rifle" FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/Aim_Rifle.uasset" SILENT=true
+[2019.03.29-12.22.33:789][347]LogSavePackage: Save=15.59ms
+[2019.03.29-12.22.33:789][347]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Aim_Rifle79D5698546FEE1437BC0DE9B7058C618.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/Aim_Rifle.uasset'
+[2019.03.29-12.22.33:790][347]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/Aim_Rifle.uasset
+[2019.03.29-12.22.41:682][798]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.23.12:280][574]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.23.35:077][897]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.23.51:432][782]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.23.52:058][810]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Idle_Rifle.Idle_Rifle
+[2019.03.29-12.23.52:061][810]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Idle_Rifle) using current/default (AnimCompress_BitwiseCompressOnly_15) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.29-12.24.16:863][262]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.25.09:214][316]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.25.09:847][339]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Idle_Rifle.Idle_Rifle
+[2019.03.29-12.25.09:851][339]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_6) using current/default (AnimCompress_BitwiseCompressOnly_8) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.29-12.25.16:087][705]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.25.19:911][916]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.25.29:593][435]Cmd: TRANSACTION UNDO
+[2019.03.29-12.25.29:593][435]LogEditorTransaction: Undo Rotate Bone
+[2019.03.29-12.25.29:990][435]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.25.29:992][435]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.25.30:005][435]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.25.36:072][753]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.25.42:454][117]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.25.45:532][280]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.25.56:578][855]Cmd: TRANSACTION UNDO
+[2019.03.29-12.25.56:578][855]LogEditorTransaction: Undo Rotate Bone
+[2019.03.29-12.25.57:001][855]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.25.57:002][855]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.25.57:016][855]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.26.00:214][ 13]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.26.15:651][873]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.26.16:319][895]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Idle_Rifle.Idle_Rifle
+[2019.03.29-12.26.16:322][895]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_7) using current/default (AnimCompress_BitwiseCompressOnly_9) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.29-12.26.30:957][772]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.26.40:601][334]Cmd: TRANSACTION UNDO
+[2019.03.29-12.26.40:601][334]LogEditorTransaction: Undo Rotate Bone
+[2019.03.29-12.26.41:001][334]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.26.41:003][334]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.26.41:016][334]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.27.04:391][669]Cmd: TRANSACTION UNDO
+[2019.03.29-12.27.04:391][669]LogEditorTransaction: Undo Rotate Bone
+[2019.03.29-12.27.04:795][669]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.27.04:797][669]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.27.04:810][669]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.27.17:016][357]Cmd: TRANSACTION UNDO
+[2019.03.29-12.27.17:016][357]LogEditorTransaction: Undo Rotate Bone
+[2019.03.29-12.27.17:414][357]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.27.17:415][357]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.27.17:429][357]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.27.19:409][441]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.27.19:476][445]Cmd: MODE ROTGRID=1
+[2019.03.29-12.27.26:554][857]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.27.26:637][862]Cmd: MODE ROTGRID=0
+[2019.03.29-12.27.39:647][610]Cmd: TRANSACTION UNDO
+[2019.03.29-12.27.39:647][610]LogEditorTransaction: Undo Rotate Socket
+[2019.03.29-12.27.40:046][610]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.27.40:048][610]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.27.40:062][610]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.27.41:053][633]Cmd: TRANSACTION UNDO
+[2019.03.29-12.27.41:053][633]LogEditorTransaction: Undo Rotate Bone
+[2019.03.29-12.27.41:457][633]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.27.41:458][633]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.27.41:472][633]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.27.53:791][316]Cmd: TRANSACTION UNDO
+[2019.03.29-12.27.53:791][316]LogEditorTransaction: Undo Rotate Socket
+[2019.03.29-12.27.54:190][316]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.27.54:191][316]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.27.54:206][316]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.28.05:202][931]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.28.12:617][341]Cmd: TRANSACTION UNDO
+[2019.03.29-12.28.12:617][341]LogEditorTransaction: Undo Rotate Bone
+[2019.03.29-12.28.13:023][341]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.28.13:024][341]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.28.13:039][341]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.28.14:441][392]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.28.23:090][876]Cmd: TRANSACTION UNDO
+[2019.03.29-12.28.23:090][876]LogEditorTransaction: Undo Rotate Bone
+[2019.03.29-12.28.23:496][876]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.28.23:498][876]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.28.23:513][876]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.28.32:736][374]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.29-12.28.32:788][374]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Hero/Idle_Rifle" FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/Idle_Rifle.uasset" SILENT=true
+[2019.03.29-12.28.32:841][374]LogSavePackage: Save=23.75ms
+[2019.03.29-12.28.32:841][374]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Idle_RifleD1C1AB384A5876236D63E69DA3F13C7F.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/Idle_Rifle.uasset'
+[2019.03.29-12.28.32:843][374]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/Idle_Rifle.uasset
+[2019.03.29-12.28.41:400][881]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.29.04:943][267]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.29.12:020][682]Cmd: TRANSACTION UNDO
+[2019.03.29-12.29.12:020][682]LogEditorTransaction: Undo Rotate Bone
+[2019.03.29-12.29.12:430][682]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.29.12:432][682]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.29.12:446][682]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.29.20:094][ 92]Cmd: TRANSACTION UNDO
+[2019.03.29-12.29.20:094][ 92]LogEditorTransaction: Undo Rotate Bone
+[2019.03.29-12.29.20:501][ 92]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.29.20:502][ 92]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.29.20:517][ 92]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.29.25:819][341]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.29.25:914][342]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Hero/Idle_Rifle" FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/Idle_Rifle.uasset" SILENT=true
+[2019.03.29-12.29.25:996][342]LogSavePackage: Save=18.15ms
+[2019.03.29-12.29.25:996][342]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Idle_Rifle40B6B68E45FE9105A41ADA92F1291152.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/Idle_Rifle.uasset'
+[2019.03.29-12.29.25:997][342]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/Idle_Rifle.uasset
+[2019.03.29-12.29.30:000][562]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.29.52:283][852]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.30.46:014][ 22]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.30.59:098][720]Cmd: TRANSACTION UNDO
+[2019.03.29-12.30.59:098][720]LogEditorTransaction: Undo Rotate Socket
+[2019.03.29-12.30.59:496][720]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.30.59:498][720]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.30.59:512][720]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.31.55:454][821]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.32.03:196][246]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.32.11:328][675]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.32.11:824][692]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Crouch_Idle_Rifle_Hip.Crouch_Idle_Rifle_Hip
+[2019.03.29-12.32.11:827][692]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Crouch_Idle_Rifle_Hip) using current/default (AnimCompress_BitwiseCompressOnly_84) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.29-12.32.18:987][120]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.32.21:918][272]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.33.24:411][779]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.33.24:963][796]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Crouch_Idle_Rifle_Hip.Crouch_Idle_Rifle_Hip
+[2019.03.29-12.33.24:966][796]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_8) using current/default (AnimCompress_BitwiseCompressOnly_11) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.29-12.33.25:989][851]LogSavePackage: Save=21.00ms
+[2019.03.29-12.33.25:989][851]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Crouch_Idle_Rifle_HipCE1795FE4F4AD2B4BE46EE8764F83754.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/Crouch_Idle_Rifle_Hip.uasset'
+[2019.03.29-12.33.25:992][851]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/Crouch_Idle_Rifle_Hip.uasset
+[2019.03.29-12.34.08:074][291]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.29-12.34.08:112][291]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyMap/Map01' took 0.013
+[2019.03.29-12.34.08:117][291]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MyCharacter/Hero/genAssault_Skeleton] ([1] browsable assets)...
+[2019.03.29-12.34.08:117][291]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyCharacter/Hero/genAssault_Skeleton]
+[2019.03.29-12.34.08:151][291]LogSavePackage: Save=4.93ms
+[2019.03.29-12.34.08:151][291]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/genAssault_Skeleton_Auto2D7D92A1A416E83F8468697A4F6C40B6A.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Autosaves/Game/MyCharacter/Hero/genAssault_Skeleton_Auto2.uasset'
+[2019.03.29-12.34.08:152][291]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Autosaves/Game/MyCharacter/Hero/genAssault_Skeleton_Auto2.uasset
+[2019.03.29-12.34.08:152][291]LogFileHelpers: Auto-saving content packages took 0.036
+[2019.03.29-12.38.54:340][388]Cmd: TRANSACTION UNDO
+[2019.03.29-12.38.54:340][388]LogEditorTransaction: Undo Translate Bone
+[2019.03.29-12.38.54:731][388]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.38.54:733][388]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.38.54:747][388]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.38.59:133][604]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.39.12:470][301]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.39.13:508][341]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Aim_Rifle.Aim_Rifle
+[2019.03.29-12.39.13:513][341]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_9) using current/default (AnimCompress_BitwiseCompressOnly_7) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.29-12.39.29:294][276]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.39.38:135][792]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.39.48:350][378]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.39.49:076][397]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Aim_Rifle.Aim_Rifle
+[2019.03.29-12.39.49:079][397]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_10) using current/default (AnimCompress_BitwiseCompressOnly_13) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.29-12.39.51:580][539]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.40.02:187][164]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.29-12.40.02:216][164]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Hero/Aim_Rifle" FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/Aim_Rifle.uasset" SILENT=true
+[2019.03.29-12.40.02:262][164]LogSavePackage: Save=13.26ms
+[2019.03.29-12.40.02:262][164]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Aim_RifleCFBE2CD244A53FB9DC3F1F9D4C986758.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/Aim_Rifle.uasset'
+[2019.03.29-12.40.02:264][164]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/Aim_Rifle.uasset
+[2019.03.29-12.40.03:020][206]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Hero/Aim_Rifle" FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/Aim_Rifle.uasset" SILENT=true
+[2019.03.29-12.40.03:062][206]LogSavePackage: Save=13.35ms
+[2019.03.29-12.40.03:062][206]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Aim_Rifle0625B9144883E484E7D0669666779269.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/Aim_Rifle.uasset'
+[2019.03.29-12.40.03:063][206]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hero/Aim_Rifle.uasset
+[2019.03.29-12.40.18:580][ 76]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.40.38:012][135]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.40.50:290][791]Cmd: TRANSACTION UNDO
+[2019.03.29-12.40.50:290][791]LogEditorTransaction: Undo Translate Bone
+[2019.03.29-12.40.50:692][791]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.40.50:693][791]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.40.50:708][791]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.40.53:817][931]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.41.08:232][720]Cmd: TRANSACTION UNDO
+[2019.03.29-12.41.08:232][720]LogEditorTransaction: Undo Translate Bone
+[2019.03.29-12.41.08:633][720]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-12.41.08:635][720]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.29-12.41.08:652][720]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.03.29-12.41.12:985][946]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.41.41:740][563]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-12.41.43:309][596]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.871 s
+[2019.03.29-12.41.43:309][596]LogOutputDevice: Error: === Handled ensure: ===
+[2019.03.29-12.41.43:309][596]LogOutputDevice: Error: 
+[2019.03.29-12.41.43:309][596]LogOutputDevice: Error: Ensure condition failed: RawTrack.PosKeys.Num() == NumFrames [File:D:\Build\++UE4+Release-4.19+Compile\Sync\Engine\Source\Runtime\Engine\Private\Animation\AnimSequence.cpp] [Line: 4418]
+[2019.03.29-12.41.43:309][596]LogOutputDevice: Error: 
+[2019.03.29-12.41.43:309][596]LogOutputDevice: Error: Stack: 
+[2019.03.29-12.41.43:309][596]LogOutputDevice: Error: [Callstack] 0x0000000072FFB706 UE4Editor-Core.dll!UnknownFunction []
+[2019.03.29-12.41.43:309][596]LogOutputDevice: Error: [Callstack] 0x0000000072D5AE3A UE4Editor-Core.dll!UnknownFunction []
+[2019.03.29-12.41.43:309][596]LogOutputDevice: Error: [Callstack] 0x0000000072D6ECD6 UE4Editor-Core.dll!UnknownFunction []
+[2019.03.29-12.41.43:309][596]LogOutputDevice: Error: [Callstack] 0x000000006D14D6A0 UE4Editor-Engine.dll!UnknownFunction []
+[2019.03.29-12.41.43:309][596]LogOutputDevice: Error: [Callstack] 0x000000004C1124B6 UE4Editor-AnimationEditor.dll!UnknownFunction []
+[2019.03.29-12.41.43:309][596]LogOutputDevice: Error: [Callstack] 0x000000004C109361 UE4Editor-AnimationEditor.dll!UnknownFunction []
+[2019.03.29-12.41.43:309][596]LogOutputDevice: Error: [Callstack] 0x000000004C109BE6 UE4Editor-AnimationEditor.dll!UnknownFunction []
+[2019.03.29-12.41.43:309][596]LogOutputDevice: Error: [Callstack] 0x000000007269687F UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.29-12.41.43:309][596]LogOutputDevice: Error: [Callstack] 0x000000007278F8B6 UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.29-12.41.43:309][596]LogOutputDevice: Error: [Callstack] 0x00000000726F46B2 UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.29-12.41.43:309][596]LogOutputDevice: Error: [Callstack] 0x00000000726F5BD9 UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.29-12.41.43:309][596]LogOutputDevice: Error: [Callstack] 0x00000000727712F5 UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.29-12.41.43:309][596]LogOutputDevice: Error: [Callstack] 0x000000007282B7F7 UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.29-12.41.43:309][596]LogOutputDevice: Error: [Callstack] 0x00000000728519E8 UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.29-12.41.43:309][596]LogOutputDevice: Error: [Callstack] 0x000000007267485C UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.29-12.41.43:309][596]LogOutputDevice: Error: [Callstack] 0x0000000072647D75 UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.29-12.41.43:309][596]LogOutputDevice: Error: [Callstack] 0x00000000726DF617 UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.29-12.41.43:309][596]LogOutputDevice: Error: [Callstack] 0x00000000726C7D0D UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.29-12.41.43:310][596]LogOutputDevice: Error: [Callstack] 0x00000000726BB3E2 UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.29-12.41.43:310][596]LogOutputDevice: Error: [Callstack] 0x000000007E95E69B UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.03.29-12.41.43:310][596]LogOutputDevice: Error: [Callstack] 0x000000007E951B78 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.03.29-12.41.43:310][596]LogOutputDevice: Error: [Callstack] 0x000000007E96052C UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.03.29-12.41.43:310][596]LogOutputDevice: Error: [Callstack] 0x000000007E94D679 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.03.29-12.41.43:310][596]LogOutputDevice: Error: [Callstack] 0x00000000A913CA66 USER32.dll!UnknownFunction []
+[2019.03.29-12.41.43:310][596]LogOutputDevice: Error: [Callstack] 0x00000000A913C582 USER32.dll!UnknownFunction []
+[2019.03.29-12.41.43:310][596]LogOutputDevice: Error: [Callstack] 0x000000007E961666 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.03.29-12.41.43:310][596]LogOutputDevice: Error: [Callstack] 0x00000000EDE35475 UE4Editor.exe!UnknownFunction []
+[2019.03.29-12.41.43:310][596]LogOutputDevice: Error: [Callstack] 0x00000000EDE46BD0 UE4Editor.exe!UnknownFunction []
+[2019.03.29-12.41.43:310][596]LogOutputDevice: Error: [Callstack] 0x00000000EDE46C4A UE4Editor.exe!UnknownFunction []
+[2019.03.29-12.41.43:310][596]LogOutputDevice: Error: [Callstack] 0x00000000EDE54177 UE4Editor.exe!UnknownFunction []
+[2019.03.29-12.41.43:310][596]LogOutputDevice: Error: [Callstack] 0x00000000EDE55B87 UE4Editor.exe!UnknownFunction []
+[2019.03.29-12.41.43:310][596]LogOutputDevice: Error: [Callstack] 0x00000000A92E81F4 KERNEL32.DLL!UnknownFunction []
+[2019.03.29-12.41.43:310][596]LogOutputDevice: Error: [Callstack] 0x00000000A98CA251 ntdll.dll!UnknownFunction []
+[2019.03.29-12.41.43:310][596]LogOutputDevice: Error: 
+[2019.03.29-12.41.43:316][596]LogStats:                SubmitErrorReport -  0.000 s

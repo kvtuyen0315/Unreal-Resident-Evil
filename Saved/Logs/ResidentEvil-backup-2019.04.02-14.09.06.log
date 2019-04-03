@@ -1,0 +1,1347 @@
+﻿Log file open, 04/02/19 13:49:31
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: ResidentEvil
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1996861767) SRandInit(-1996861766).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.197369
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +7:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.113s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Binaries/Win64/UE4Editor-ResidentEvil.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am DESKTOP-151KF17 (192.168.0.104:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: D:/Cai Dat/UE4/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.04.02-06.49.33:712][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.02-06.49.33:712][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.02-06.49.33:723][  0]LogInit: Computer: DESKTOP-151KF17
+[2019.04.02-06.49.33:723][  0]LogInit: User: kvtuy
+[2019.04.02-06.49.33:723][  0]LogInit: CPU Page size=4096, Cores=2
+[2019.04.02-06.49.33:723][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.04.02-06.49.33:724][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.04.02-06.49.33:724][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.02-06.49.33:724][  0]LogMemory: Process Physical Memory: 273.54 MB used, 273.54 MB peak
+[2019.04.02-06.49.33:724][  0]LogMemory: Process Virtual Memory: 269.86 MB used, 269.86 MB peak
+[2019.04.02-06.49.33:724][  0]LogMemory: Physical Memory: 5118.76 MB used,  11154.23 MB free, 16272.99 MB total
+[2019.04.02-06.49.33:724][  0]LogMemory: Virtual Memory: 4784.82 MB used,  11154.23 MB free, 134217728.00 MB total
+[2019.04.02-06.49.33:741][  0]LogInit: Using OS detected language (en-US).
+[2019.04.02-06.49.33:741][  0]LogInit: Using OS detected locale (en-US).
+[2019.04.02-06.49.33:744][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.04.02-06.49.34:288][  0]LogStreaming: Display: Took  0.548s to EndInitTextLocalization.
+[2019.04.02-06.49.34:288][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.02-06.49.34:336][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.02-06.49.34:336][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.02-06.49.34:635][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.02-06.49.34:930][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950M' (Feature Level 11_0)
+[2019.04.02-06.49.34:930][  0]LogD3D11RHI:       4055/0/8136 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.04.02-06.49.34:937][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2019.04.02-06.49.34:937][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.04.02-06.49.34:940][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.02-06.49.34:940][  0]LogD3D11RHI:       0/0/8136 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.02-06.49.34:940][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.02-06.49.34:976][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.02-06.49.34:977][  0]LogD3D11RHI:     GPU DeviceId: 0x139a (for the marketing name, search the web for "GPU Device Id")
+[2019.04.02-06.49.34:977][  0]LogWindows: EnumDisplayDevices:
+[2019.04.02-06.49.34:977][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2019.04.02-06.49.34:977][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2019.04.02-06.49.34:978][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2019.04.02-06.49.34:978][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.04.02-06.49.34:978][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
+[2019.04.02-06.49.34:978][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.04.02-06.49.34:978][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.04.02-06.49.34:978][  0]LogRHI: Texture pool is 2839 MB (70% of 4055 MB)
+[2019.04.02-06.49.35:043][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.04.02-06.49.35:043][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.04.02-06.49.35:043][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.02-06.49.35:067][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.04.02-06.49.35:067][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Intermediate/Shaders/WorkingDirectory/10352/).
+[2019.04.02-06.49.35:068][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kvtuy/AppData/Local/Temp/UnrealShaderWorkingDir/8E529A904A0EF1D75E5B6B8E2AD0C94C/'.
+[2019.04.02-06.49.35:417][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.02-06.49.35:433][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.02-06.49.35:450][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.02-06.49.35:469][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.02-06.49.35:488][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.02-06.49.35:504][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.02-06.49.35:522][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.02-06.49.35:538][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.02-06.49.35:545][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.02-06.49.35:558][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2019.04.02-06.49.35:571][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2019.04.02-06.49.35:589][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2019.04.02-06.49.35:603][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2019.04.02-06.49.35:618][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2019.04.02-06.49.35:632][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2019.04.02-06.49.35:660][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2019.04.02-06.49.35:660][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.04.02-06.49.35:675][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.02-06.49.35:676][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.02-06.49.35:714][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.02-06.49.35:730][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.02-06.49.35:745][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.02-06.49.35:759][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.02-06.49.35:776][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.02-06.49.35:795][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.02-06.49.35:795][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.02-06.49.35:906][  0]LogXGEController: Cleaning working directory: C:/Users/kvtuy/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.04.02-06.49.35:907][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.02-06.49.35:907][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.02-06.49.35:907][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.02-06.49.36:946][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.02-06.49.37:121][  0]LogDerivedDataCache: Loaded boot cache 0.17s 155MB C:/Users/kvtuy/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.04.02-06.49.37:121][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kvtuy/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2019.04.02-06.49.37:121][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.02-06.49.37:121][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.02-06.49.37:121][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.02-06.49.37:121][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.02-06.49.37:141][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.02-06.49.37:154][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kvtuy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.02-06.49.37:154][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.02-06.49.37:154][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.02-06.49.37:167][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.02-06.49.37:168][  0]LogSlate: Using Freetype 2.6.0
+[2019.04.02-06.49.37:168][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.02-06.49.37:169][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.02-06.49.37:298][  0]LogAssetRegistry: FAssetRegistry took 0.0273 seconds to start up
+[2019.04.02-06.49.37:759][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.02-06.49.37:955][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.02-06.49.37:957][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.02-06.49.37:957][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.02-06.49.37:957][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.02-06.49.37:957][  0]LogMeshReduction: No automatic mesh merging module available
+[2019.04.02-06.49.37:957][  0]LogMeshMerging: No automatic mesh merging module available
+[2019.04.02-06.49.37:991][  0]LogNetVersion: ResidentEvil , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3990793033)
+[2019.04.02-06.49.38:547][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.082928 seconds
+[2019.04.02-06.49.38:555][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2019.04.02-06.49.38:555][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2019.04.02-06.49.38:555][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.02-06.49.40:527][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.02-06.49.40:557][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.02-06.49.40:808][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.836600ms] /Game/MyAssets/MilitaryWeapSilver/Weapons/Assault_Rifle_A.Assault_Rifle_A
+[2019.04.02-06.49.40:861][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [5.175600ms] /Game/MyCharacter/Hero/genAssault.genAssault
+[2019.04.02-06.49.40:989][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001919cb5bc40, Size=72, Default__HunkAnimation_C Function /Game/MyCharacter/Hero/HunkAnimation.HunkAnimation_C:ExecuteUbergraph_HunkAnimation
+[2019.04.02-06.49.41:066][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001919cb5bc40, Size=72
+[2019.04.02-06.49.41:066][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001919cb5bc40, Size=72, Default__HunkAnimation_C Function /Engine/Transient.REINST_HunkAnimation_C_0:ExecuteUbergraph_HunkAnimation
+[2019.04.02-06.49.41:163][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001919d277bf0, Size=72, Default__HunkAnimation_C Function /Game/MyCharacter/Hero/HunkAnimation.HunkAnimation_C:ExecuteUbergraph_HunkAnimation
+[2019.04.02-06.49.41:257][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.330700ms] /Game/MyAssets/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A
+[2019.04.02-06.49.41:275][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.315200ms] /Game/MyAssets/MilitaryWeapSilver/Weapons/Shotgun_A.Shotgun_A
+[2019.04.02-06.49.41:412][  0]SourceControl: Source control is disabled
+[2019.04.02-06.49.41:413][  0]SourceControl: Source control is disabled
+[2019.04.02-06.49.41:430][  0]SourceControl: Source control is disabled
+[2019.04.02-06.49.41:447][  0]SourceControl: Source control is disabled
+[2019.04.02-06.49.41:939][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.02-06.49.42:106][  0]LogOcInput: OculusInput pre-init called
+[2019.04.02-06.49.42:229][  0]LogEngine: Initializing Engine...
+[2019.04.02-06.49.42:231][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.02-06.49.42:232][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.02-06.49.42:232][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.02-06.49.42:511][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.02-06.49.42:520][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.02-06.49.42:603][  0]LogInit: FAudioDevice initialized.
+[2019.04.02-06.49.42:744][  0]LogDerivedDataCache: Saved boot cache 0.14s 156MB C:/Users/kvtuy/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.04.02-06.49.42:774][  0]LogInit: Texture streaming: Enabled
+[2019.04.02-06.49.42:793][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.02-06.49.42:809][  0]LogInit: Transaction tracking system initialized
+[2019.04.02-06.49.42:837][  0]BlueprintLog: New page: Editor Load
+[2019.04.02-06.49.42:990][  0]LocalizationService: Localization service is disabled
+[2019.04.02-06.49.43:087][  0]LogConsoleResponse: Display: 
+[2019.04.02-06.49.43:337][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.02-06.49.43:337][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.02-06.49.43:337][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.02-06.49.43:338][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.02-06.49.43:338][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.02-06.49.43:691][  0]LogFileCache: Scanning file cache for directory 'D:/KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/' took 0.02s
+[2019.04.02-06.49.43:766][  0]SourceControl: Source control is disabled
+[2019.04.02-06.49.43:767][  0]Cmd: MAP LOAD FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.02-06.49.43:767][  0]LightingResults: New page: Lighting Build
+[2019.04.02-06.49.43:769][  0]MapCheck: New page: Map Check
+[2019.04.02-06.49.43:769][  0]LightingResults: New page: Lighting Build
+[2019.04.02-06.49.43:783][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001919cb5bc40, Size=72
+[2019.04.02-06.49.44:052][  0]LogAIModule: Creating AISystem for world Map01
+[2019.04.02-06.49.44:058][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.02-06.49.44:075][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.02-06.49.44:136][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 61.289ms to complete.
+[2019.04.02-06.49.44:136][  0]LogFileHelpers: Loading map 'Map01' took 0.369
+[2019.04.02-06.49.44:320][  0]LogCollectionManager: Loaded 0 collections in 0.002885 seconds
+[2019.04.02-06.49.44:363][  0]LogFileCache: Scanning file cache for directory 'D:/KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Collections/' took 0.01s
+[2019.04.02-06.49.44:363][  0]LogFileCache: Scanning file cache for directory 'D:/KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/Developers/kvtuy/Collections/' took 0.01s
+[2019.04.02-06.49.44:363][  0]LogFileCache: Scanning file cache for directory 'D:/KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/Collections/' took 0.01s
+[2019.04.02-06.49.44:363][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.04.02-06.49.44:386][  0]LogContentBrowser: Native class hierarchy populated in 0.0227 seconds. Added 2461 classes and 569 folders.
+[2019.04.02-06.49.44:399][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0067 seconds. Added 0 classes and 0 folders.
+[2019.04.02-06.49.44:467][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0073 seconds. Added 0 classes and 0 folders.
+[2019.04.02-06.49.44:480][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0065 seconds. Added 1 classes and 2 folders.
+[2019.04.02-06.49.44:506][  0]LogSlate: Took 0.000232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.02-06.49.44:511][  0]LogSlate: Took 0.000525 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.02-06.49.44:526][  0]LogSlate: Took 0.000262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.02-06.49.44:682][  0]LogRenderer: Reallocating scene render targets to support 856x380 Format 10 NumSamples 1 (Frame:1).
+[2019.04.02-06.49.44:827][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.02-06.49.44:847][  0]LogSlate: Window 'Tutorials' being destroyed
+[2019.04.02-06.49.44:884][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0052 seconds. Added 0 classes and 0 folders.
+[2019.04.02-06.49.44:884][  0]LogLoad: (Engine Initialization) Total time: 14.06 seconds
+[2019.04.02-06.49.44:884][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.02-06.49.44:920][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.04.02-06.49.44:951][  0]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.02-06.49.45:042][  2]LogAssetRegistry: Asset discovery search completed in 7.7665 seconds
+[2019.04.02-06.49.45:045][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.04.02-06.49.45:045][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000074 seconds (updated 0 objects)
+[2019.04.02-06.50.00:422][913]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.02-06.52.00:195][623]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.02-06.52.00:217][623]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\KVT\Unity\Text\Text\Assets\WorldArmy\[WA]US Soldier\Animation\US_rifle@idle01.FBX)
+[2019.04.02-06.52.00:233][623]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2019.04.02-06.52.00:233][623]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2019.04.02-06.52.00:233][623]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2019.04.02-06.52.00:233][623]LogFbx: ItemName: Model, ItemCount : 61
+[2019.04.02-06.52.00:233][623]LogFbx: ItemName: NodeAttribute, ItemCount : 61
+[2019.04.02-06.52.00:233][623]LogFbx: ItemName: CollectionExclusive, ItemCount : 1
+[2019.04.02-06.52.00:233][623]LogFbx: ItemName: AnimationCurve, ItemCount : 549
+[2019.04.02-06.52.00:233][623]LogFbx: ItemName: AnimationCurveNode, ItemCount : 183
+[2019.04.02-06.52.00:241][623]LogFbx: Loading FBX Scene from D:\KVT\Unity\Text\Text\Assets\WorldArmy\[WA]US Soldier\Animation\US_rifle@idle01.FBX
+[2019.04.02-06.52.00:306][623]LogFbx: FBX Scene Loaded Succesfully
+[2019.04.02-06.52.20:083][623]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.04.02-06.52.33:437][716]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\KVT\Unity\Text\Text\Assets\WorldArmy\[WA]US Soldier\Animation\US_SOLDIER01_skinmesh.FBX)
+[2019.04.02-06.52.33:453][716]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2019.04.02-06.52.33:453][716]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2019.04.02-06.52.33:453][716]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2019.04.02-06.52.33:453][716]LogFbx: ItemName: Model, ItemCount : 72
+[2019.04.02-06.52.33:453][716]LogFbx: ItemName: NodeAttribute, ItemCount : 67
+[2019.04.02-06.52.33:453][716]LogFbx: ItemName: Geometry, ItemCount : 5
+[2019.04.02-06.52.33:453][716]LogFbx: ItemName: Material, ItemCount : 3
+[2019.04.02-06.52.33:453][716]LogFbx: ItemName: Texture, ItemCount : 6
+[2019.04.02-06.52.33:453][716]LogFbx: ItemName: CollectionExclusive, ItemCount : 5
+[2019.04.02-06.52.33:453][716]LogFbx: ItemName: AnimationCurve, ItemCount : 570
+[2019.04.02-06.52.33:453][716]LogFbx: ItemName: AnimationCurveNode, ItemCount : 190
+[2019.04.02-06.52.33:453][716]LogFbx: ItemName: Deformer, ItemCount : 256
+[2019.04.02-06.52.33:453][716]LogFbx: ItemName: Pose, ItemCount : 1
+[2019.04.02-06.52.33:453][716]LogFbx: ItemName: Video, ItemCount : 6
+[2019.04.02-06.52.33:460][716]LogFbx: Loading FBX Scene from D:\KVT\Unity\Text\Text\Assets\WorldArmy\[WA]US Soldier\Animation\US_SOLDIER01_skinmesh.FBX
+[2019.04.02-06.52.33:569][716]LogFbx: FBX Scene Loaded Succesfully
+[2019.04.02-06.52.50:529][716]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.04.02-06.52.50:574][716]LogFbx: Loading FBX Scene from D:\KVT\Unity\Text\Text\Assets\WorldArmy\[WA]US Soldier\Animation\US_SOLDIER01_skinmesh.FBX
+[2019.04.02-06.52.50:671][716]LogFbx: FBX Scene Loaded Succesfully
+[2019.04.02-06.52.50:675][716]LogFbx: =================================================
+[2019.04.02-06.52.50:675][716]LogFbx: Dumping Node START [Soldier_01_LOD0] 
+[2019.04.02-06.52.50:675][716]LogFbx: 	Total Deformer Count -147852576.
+[2019.04.02-06.52.50:675][716]LogFbx: 		[Node 1]  (Type Skin).
+[2019.04.02-06.52.50:675][716]LogFbx: =================================================
+[2019.04.02-06.52.50:675][716]LogFbx: 	Attribute () Type (4).
+[2019.04.02-06.52.50:675][716]LogFbx: 		[Node Attribute Child 1] Soldier_01_LOD0 (Type Mesh).
+[2019.04.02-06.52.50:675][716]LogFbx: Dumping Node END [Soldier_01_LOD0]
+[2019.04.02-06.52.50:675][716]LogFbx: =================================================
+[2019.04.02-06.52.50:675][716]LogFbx: Dumping Node START [Soldier_01_LOD1] 
+[2019.04.02-06.52.50:675][716]LogFbx: 	Total Deformer Count -147852576.
+[2019.04.02-06.52.50:675][716]LogFbx: 		[Node 1]  (Type Skin).
+[2019.04.02-06.52.50:675][716]LogFbx: =================================================
+[2019.04.02-06.52.50:675][716]LogFbx: 	Attribute () Type (4).
+[2019.04.02-06.52.50:675][716]LogFbx: 		[Node Attribute Child 1] Soldier_01_LOD1 (Type Mesh).
+[2019.04.02-06.52.50:675][716]LogFbx: Dumping Node END [Soldier_01_LOD1]
+[2019.04.02-06.52.50:675][716]LogFbx: =================================================
+[2019.04.02-06.52.50:675][716]LogFbx: Dumping Node START [Soldier_01_LOD2] 
+[2019.04.02-06.52.50:675][716]LogFbx: 	Total Deformer Count -147852576.
+[2019.04.02-06.52.50:675][716]LogFbx: 		[Node 1]  (Type Skin).
+[2019.04.02-06.52.50:675][716]LogFbx: =================================================
+[2019.04.02-06.52.50:675][716]LogFbx: 	Attribute () Type (4).
+[2019.04.02-06.52.50:675][716]LogFbx: 		[Node Attribute Child 1] Soldier_01_LOD2 (Type Mesh).
+[2019.04.02-06.52.50:676][716]LogFbx: Dumping Node END [Soldier_01_LOD2]
+[2019.04.02-06.52.50:676][716]LogFbx: =================================================
+[2019.04.02-06.52.50:676][716]LogFbx: Dumping Node START [Soldier_01_LOD3] 
+[2019.04.02-06.52.50:676][716]LogFbx: 	Total Deformer Count -147852576.
+[2019.04.02-06.52.50:676][716]LogFbx: 		[Node 1]  (Type Skin).
+[2019.04.02-06.52.50:676][716]LogFbx: =================================================
+[2019.04.02-06.52.50:676][716]LogFbx: 	Attribute () Type (4).
+[2019.04.02-06.52.50:676][716]LogFbx: 		[Node Attribute Child 1] Soldier_01_LOD3 (Type Mesh).
+[2019.04.02-06.52.50:676][716]LogFbx: Dumping Node END [Soldier_01_LOD3]
+[2019.04.02-06.52.50:678][716]LogFbx: =================================================
+[2019.04.02-06.52.50:678][716]LogFbx: Dumping Node START [Soldier_01_LOD0] 
+[2019.04.02-06.52.50:678][716]LogFbx: 	Total Deformer Count -147852576.
+[2019.04.02-06.52.50:678][716]LogFbx: 		[Node 1]  (Type Skin).
+[2019.04.02-06.52.50:678][716]LogFbx: =================================================
+[2019.04.02-06.52.50:678][716]LogFbx: 	Attribute () Type (4).
+[2019.04.02-06.52.50:678][716]LogFbx: 		[Node Attribute Child 1] Soldier_01_LOD0 (Type Mesh).
+[2019.04.02-06.52.50:679][716]LogFbx: Dumping Node END [Soldier_01_LOD0]
+[2019.04.02-06.52.50:679][716]LogFbx: =================================================
+[2019.04.02-06.52.50:679][716]LogFbx: Dumping Node START [Soldier_01_LOD1] 
+[2019.04.02-06.52.50:679][716]LogFbx: 	Total Deformer Count -147852576.
+[2019.04.02-06.52.50:679][716]LogFbx: 		[Node 1]  (Type Skin).
+[2019.04.02-06.52.50:679][716]LogFbx: =================================================
+[2019.04.02-06.52.50:679][716]LogFbx: 	Attribute () Type (4).
+[2019.04.02-06.52.50:679][716]LogFbx: 		[Node Attribute Child 1] Soldier_01_LOD1 (Type Mesh).
+[2019.04.02-06.52.50:679][716]LogFbx: Dumping Node END [Soldier_01_LOD1]
+[2019.04.02-06.52.50:679][716]LogFbx: =================================================
+[2019.04.02-06.52.50:679][716]LogFbx: Dumping Node START [Soldier_01_LOD2] 
+[2019.04.02-06.52.50:679][716]LogFbx: 	Total Deformer Count -147852576.
+[2019.04.02-06.52.50:679][716]LogFbx: 		[Node 1]  (Type Skin).
+[2019.04.02-06.52.50:679][716]LogFbx: =================================================
+[2019.04.02-06.52.50:679][716]LogFbx: 	Attribute () Type (4).
+[2019.04.02-06.52.50:679][716]LogFbx: 		[Node Attribute Child 1] Soldier_01_LOD2 (Type Mesh).
+[2019.04.02-06.52.50:679][716]LogFbx: Dumping Node END [Soldier_01_LOD2]
+[2019.04.02-06.52.50:679][716]LogFbx: =================================================
+[2019.04.02-06.52.50:679][716]LogFbx: Dumping Node START [Soldier_01_LOD3] 
+[2019.04.02-06.52.50:679][716]LogFbx: 	Total Deformer Count -147852576.
+[2019.04.02-06.52.50:679][716]LogFbx: 		[Node 1]  (Type Skin).
+[2019.04.02-06.52.50:679][716]LogFbx: =================================================
+[2019.04.02-06.52.50:679][716]LogFbx: 	Attribute () Type (4).
+[2019.04.02-06.52.50:679][716]LogFbx: 		[Node Attribute Child 1] Soldier_01_LOD3 (Type Mesh).
+[2019.04.02-06.52.50:679][716]LogFbx: Dumping Node END [Soldier_01_LOD3]
+[2019.04.02-06.52.50:682][716]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Soldier_01_LOD0 : Not all the deformers are stored in this BindPose
+[2019.04.02-06.52.50:683][716]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Soldier_01_LOD1 : Not all the deformers are stored in this BindPose
+[2019.04.02-06.52.50:685][716]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Soldier_01_LOD2 : Not all the deformers are stored in this BindPose
+[2019.04.02-06.52.50:686][716]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Soldier_01_LOD3 : Not all the deformers are stored in this BindPose
+[2019.04.02-06.52.50:687][716]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2019.04.02-06.52.50:694][716]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Soldier_01_LOD0
+[2019.04.02-06.52.50:694][716]LogFbx: Warning: Recreating bind pose succeeded.
+[2019.04.02-06.52.50:701][716]LogMaterial: Warning: Material /Game/MyCharacter/Hunk/Material__204.Material__204 needed to have new flag set bUsedWithSkeletalMesh !
+[2019.04.02-06.52.50:703][716]LogMaterial: Missing cached shader map for material Material__204, compiling. 
+[2019.04.02-06.52.50:775][716]LogLinker: Can't find file '/Game/MyCharacter/Hunk/Leg01_D'
+[2019.04.02-06.52.50:775][716]LogLinker: Can't find file '/Game/MyCharacter/Hunk/Leg01_D'
+[2019.04.02-06.52.50:775][716]LogFbxMaterialImport: Warning: Unable to find Texture file C:\Users\user\Downloads\Leg01_D.psd
+[2019.04.02-06.52.50:776][716]LogLinker: Can't find file '/Game/MyCharacter/Hunk/Leg01_N'
+[2019.04.02-06.52.50:776][716]LogLinker: Can't find file '/Game/MyCharacter/Hunk/Leg01_N'
+[2019.04.02-06.52.50:776][716]LogFbxMaterialImport: Warning: Unable to find Texture file C:\Users\user\Downloads\Leg01_N.psd
+[2019.04.02-06.52.50:779][716]LogMaterial: Missing cached shader map for material Material__204, compiling. 
+[2019.04.02-06.52.50:809][716]LogMaterial: Warning: Material /Game/MyCharacter/Hunk/Material__205.Material__205 needed to have new flag set bUsedWithSkeletalMesh !
+[2019.04.02-06.52.50:811][716]LogMaterial: Missing cached shader map for material Material__205, compiling. 
+[2019.04.02-06.52.50:851][716]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.04.02-06.52.50:851][716]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.04.02-06.52.50:851][716]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.04.02-06.52.50:852][716]LogLinker: Can't find file '/Game/MyCharacter/Hunk/Body01_D'
+[2019.04.02-06.52.50:852][716]LogLinker: Can't find file '/Game/MyCharacter/Hunk/Body01_D'
+[2019.04.02-06.52.50:852][716]LogFbxMaterialImport: Warning: Unable to find Texture file C:\Users\user\Downloads\Body01_D.psd
+[2019.04.02-06.52.50:853][716]LogLinker: Can't find file '/Game/MyCharacter/Hunk/Body01_N'
+[2019.04.02-06.52.50:853][716]LogLinker: Can't find file '/Game/MyCharacter/Hunk/Body01_N'
+[2019.04.02-06.52.50:853][716]LogFbxMaterialImport: Warning: Unable to find Texture file C:\Users\user\Downloads\Body01_N.psd
+[2019.04.02-06.52.50:859][716]LogMaterial: Missing cached shader map for material Material__205, compiling. 
+[2019.04.02-06.52.50:897][716]LogMaterial: Warning: Material /Game/MyCharacter/Hunk/Material__206.Material__206 needed to have new flag set bUsedWithSkeletalMesh !
+[2019.04.02-06.52.50:898][716]LogMaterial: Missing cached shader map for material Material__206, compiling. 
+[2019.04.02-06.52.50:937][716]LogLinker: Can't find file '/Game/MyCharacter/Hunk/Head01_D'
+[2019.04.02-06.52.50:938][716]LogLinker: Can't find file '/Game/MyCharacter/Hunk/Head01_D'
+[2019.04.02-06.52.50:938][716]LogFbxMaterialImport: Warning: Unable to find Texture file C:\Users\user\Downloads\Head01_D.psd
+[2019.04.02-06.52.50:938][716]LogLinker: Can't find file '/Game/MyCharacter/Hunk/Head01_N'
+[2019.04.02-06.52.50:938][716]LogLinker: Can't find file '/Game/MyCharacter/Hunk/Head01_N'
+[2019.04.02-06.52.50:938][716]LogFbxMaterialImport: Warning: Unable to find Texture file C:\Users\user\Downloads\Head01_N.psd
+[2019.04.02-06.52.50:941][716]LogMaterial: Missing cached shader map for material Material__206, compiling. 
+[2019.04.02-06.52.51:095][716]LogFbx: Warning: Bones digested - 67  Depth of hierarchy - 11
+[2019.04.02-06.52.55:160][716]LogSkeletalMesh: Section 0: 3319 vertices, 10 active bones
+[2019.04.02-06.52.55:162][716]LogSkeletalMesh: Section 1: 6749 vertices, 49 active bones
+[2019.04.02-06.52.55:162][716]LogSkeletalMesh: Section 2: 2183 vertices, 9 active bones
+[2019.04.02-06.52.55:358][716]LogSkeletalMesh: Section 0: Material=0, 6691 triangles
+[2019.04.02-06.52.55:358][716]LogSkeletalMesh: Section 1: Material=1, 12375 triangles
+[2019.04.02-06.52.55:358][716]LogSkeletalMesh: Section 2: Material=2, 4159 triangles
+[2019.04.02-06.52.55:361][716]LogSkeletalMesh: Building Skeletal Mesh US_SOLDIER01_skinmesh...
+[2019.04.02-06.52.55:433][716]LogSkeletalMesh: Built Skeletal Mesh [0.07s] /Game/MyCharacter/Hunk/US_SOLDIER01_skinmesh.US_SOLDIER01_skinmesh
+[2019.04.02-06.52.55:451][716]LogLinker: Can't find file '/Game/MyCharacter/Hunk/US_SOLDIER01_skinmesh_Skeleton'
+[2019.04.02-06.52.55:451][716]LogLinker: Can't find file '/Game/MyCharacter/Hunk/US_SOLDIER01_skinmesh_Skeleton'
+[2019.04.02-06.52.55:453][716]LogLinker: Can't find file '/Game/MyCharacter/Hunk/US_SOLDIER01_skinmesh_PhysicsAsset'
+[2019.04.02-06.52.55:453][716]LogLinker: Can't find file '/Game/MyCharacter/Hunk/US_SOLDIER01_skinmesh_PhysicsAsset'
+[2019.04.02-06.52.55:465][716]LogFbx: =================================================
+[2019.04.02-06.52.55:465][716]LogFbx: Dumping Node START [Soldier_01_LOD0] 
+[2019.04.02-06.52.55:465][716]LogFbx: 	Total Deformer Count -1473399696.
+[2019.04.02-06.52.55:465][716]LogFbx: 		[Node 1]  (Type Skin).
+[2019.04.02-06.52.55:465][716]LogFbx: =================================================
+[2019.04.02-06.52.55:465][716]LogFbx: 	Attribute () Type (4).
+[2019.04.02-06.52.55:465][716]LogFbx: 		[Node Attribute Child 1] Soldier_01_LOD0 (Type Mesh).
+[2019.04.02-06.52.55:465][716]LogFbx: Dumping Node END [Soldier_01_LOD0]
+[2019.04.02-06.52.55:465][716]LogFbx: =================================================
+[2019.04.02-06.52.55:465][716]LogFbx: Dumping Node START [Soldier_01_LOD1] 
+[2019.04.02-06.52.55:465][716]LogFbx: 	Total Deformer Count -1473399696.
+[2019.04.02-06.52.55:465][716]LogFbx: 		[Node 1]  (Type Skin).
+[2019.04.02-06.52.55:465][716]LogFbx: =================================================
+[2019.04.02-06.52.55:465][716]LogFbx: 	Attribute () Type (4).
+[2019.04.02-06.52.55:465][716]LogFbx: 		[Node Attribute Child 1] Soldier_01_LOD1 (Type Mesh).
+[2019.04.02-06.52.55:465][716]LogFbx: Dumping Node END [Soldier_01_LOD1]
+[2019.04.02-06.52.55:465][716]LogFbx: =================================================
+[2019.04.02-06.52.55:465][716]LogFbx: Dumping Node START [Soldier_01_LOD2] 
+[2019.04.02-06.52.55:465][716]LogFbx: 	Total Deformer Count -1473399696.
+[2019.04.02-06.52.55:465][716]LogFbx: 		[Node 1]  (Type Skin).
+[2019.04.02-06.52.55:465][716]LogFbx: =================================================
+[2019.04.02-06.52.55:465][716]LogFbx: 	Attribute () Type (4).
+[2019.04.02-06.52.55:465][716]LogFbx: 		[Node Attribute Child 1] Soldier_01_LOD2 (Type Mesh).
+[2019.04.02-06.52.55:466][716]LogFbx: Dumping Node END [Soldier_01_LOD2]
+[2019.04.02-06.52.55:466][716]LogFbx: =================================================
+[2019.04.02-06.52.55:466][716]LogFbx: Dumping Node START [Soldier_01_LOD3] 
+[2019.04.02-06.52.55:466][716]LogFbx: 	Total Deformer Count -1473399696.
+[2019.04.02-06.52.55:466][716]LogFbx: 		[Node 1]  (Type Skin).
+[2019.04.02-06.52.55:466][716]LogFbx: =================================================
+[2019.04.02-06.52.55:466][716]LogFbx: 	Attribute () Type (4).
+[2019.04.02-06.52.55:466][716]LogFbx: 		[Node Attribute Child 1] Soldier_01_LOD3 (Type Mesh).
+[2019.04.02-06.52.55:466][716]LogFbx: Dumping Node END [Soldier_01_LOD3]
+[2019.04.02-06.52.55:468][716]LogFbx: =================================================
+[2019.04.02-06.52.55:468][716]LogFbx: Dumping Node START [Soldier_01_LOD0] 
+[2019.04.02-06.52.55:468][716]LogFbx: 	Total Deformer Count -1473399696.
+[2019.04.02-06.52.55:468][716]LogFbx: 		[Node 1]  (Type Skin).
+[2019.04.02-06.52.55:468][716]LogFbx: =================================================
+[2019.04.02-06.52.55:468][716]LogFbx: 	Attribute () Type (4).
+[2019.04.02-06.52.55:468][716]LogFbx: 		[Node Attribute Child 1] Soldier_01_LOD0 (Type Mesh).
+[2019.04.02-06.52.55:468][716]LogFbx: Dumping Node END [Soldier_01_LOD0]
+[2019.04.02-06.52.55:468][716]LogFbx: =================================================
+[2019.04.02-06.52.55:468][716]LogFbx: Dumping Node START [Soldier_01_LOD1] 
+[2019.04.02-06.52.55:468][716]LogFbx: 	Total Deformer Count -1473399696.
+[2019.04.02-06.52.55:468][716]LogFbx: 		[Node 1]  (Type Skin).
+[2019.04.02-06.52.55:468][716]LogFbx: =================================================
+[2019.04.02-06.52.55:468][716]LogFbx: 	Attribute () Type (4).
+[2019.04.02-06.52.55:468][716]LogFbx: 		[Node Attribute Child 1] Soldier_01_LOD1 (Type Mesh).
+[2019.04.02-06.52.55:469][716]LogFbx: Dumping Node END [Soldier_01_LOD1]
+[2019.04.02-06.52.55:469][716]LogFbx: =================================================
+[2019.04.02-06.52.55:469][716]LogFbx: Dumping Node START [Soldier_01_LOD2] 
+[2019.04.02-06.52.55:469][716]LogFbx: 	Total Deformer Count -1473399696.
+[2019.04.02-06.52.55:469][716]LogFbx: 		[Node 1]  (Type Skin).
+[2019.04.02-06.52.55:469][716]LogFbx: =================================================
+[2019.04.02-06.52.55:469][716]LogFbx: 	Attribute () Type (4).
+[2019.04.02-06.52.55:469][716]LogFbx: 		[Node Attribute Child 1] Soldier_01_LOD2 (Type Mesh).
+[2019.04.02-06.52.55:469][716]LogFbx: Dumping Node END [Soldier_01_LOD2]
+[2019.04.02-06.52.55:469][716]LogFbx: =================================================
+[2019.04.02-06.52.55:469][716]LogFbx: Dumping Node START [Soldier_01_LOD3] 
+[2019.04.02-06.52.55:469][716]LogFbx: 	Total Deformer Count -1473399696.
+[2019.04.02-06.52.55:469][716]LogFbx: 		[Node 1]  (Type Skin).
+[2019.04.02-06.52.55:469][716]LogFbx: =================================================
+[2019.04.02-06.52.55:469][716]LogFbx: 	Attribute () Type (4).
+[2019.04.02-06.52.55:469][716]LogFbx: 		[Node Attribute Child 1] Soldier_01_LOD3 (Type Mesh).
+[2019.04.02-06.52.55:469][716]LogFbx: Dumping Node END [Soldier_01_LOD3]
+[2019.04.02-06.52.55:469][716]LogFbx: SortedLinks :(0) Bip001
+[2019.04.02-06.52.55:469][716]LogFbx: SortedLinks :(1) Bip001 Pelvis
+[2019.04.02-06.52.55:470][716]LogFbx: SortedLinks :(2) Bip001 Spine
+[2019.04.02-06.52.55:470][716]LogFbx: SortedLinks :(3) Bip001 Spine1
+[2019.04.02-06.52.55:470][716]LogFbx: SortedLinks :(4) Bip001 Neck
+[2019.04.02-06.52.55:470][716]LogFbx: SortedLinks :(5) Bip001 Head
+[2019.04.02-06.52.55:470][716]LogFbx: SortedLinks :(6) bone_eyeR
+[2019.04.02-06.52.55:470][716]LogFbx: SortedLinks :(7) bone_eyeL
+[2019.04.02-06.52.55:470][716]LogFbx: SortedLinks :(8) bone_eyeLidUpL
+[2019.04.02-06.52.55:470][716]LogFbx: SortedLinks :(9) bone_eyeLidDnL
+[2019.04.02-06.52.55:470][716]LogFbx: SortedLinks :(10) bone_eyeLidUpR
+[2019.04.02-06.52.55:470][716]LogFbx: SortedLinks :(11) bone_eyeLidDnR
+[2019.04.02-06.52.55:470][716]LogFbx: SortedLinks :(12) Bip001 L Clavicle
+[2019.04.02-06.52.55:470][716]LogFbx: SortedLinks :(13) Bip001 L UpperArm
+[2019.04.02-06.52.55:470][716]LogFbx: SortedLinks :(14) Bip001 L Forearm
+[2019.04.02-06.52.55:470][716]LogFbx: SortedLinks :(15) Bip001 L Hand
+[2019.04.02-06.52.55:470][716]LogFbx: SortedLinks :(16) Bip001 L Finger0
+[2019.04.02-06.52.55:470][716]LogFbx: SortedLinks :(17) Bip001 L Finger01
+[2019.04.02-06.52.55:470][716]LogFbx: SortedLinks :(18) Bip001 L Finger02
+[2019.04.02-06.52.55:470][716]LogFbx: SortedLinks :(19) Bip001 L Finger1
+[2019.04.02-06.52.55:471][716]LogFbx: SortedLinks :(20) Bip001 L Finger11
+[2019.04.02-06.52.55:471][716]LogFbx: SortedLinks :(21) Bip001 L Finger12
+[2019.04.02-06.52.55:471][716]LogFbx: SortedLinks :(22) Bip001 L Finger2
+[2019.04.02-06.52.55:471][716]LogFbx: SortedLinks :(23) Bip001 L Finger21
+[2019.04.02-06.52.55:471][716]LogFbx: SortedLinks :(24) Bip001 L Finger22
+[2019.04.02-06.52.55:471][716]LogFbx: SortedLinks :(25) Bip001 L Finger3
+[2019.04.02-06.52.55:471][716]LogFbx: SortedLinks :(26) Bip001 L Finger31
+[2019.04.02-06.52.55:471][716]LogFbx: SortedLinks :(27) Bip001 L Finger32
+[2019.04.02-06.52.55:471][716]LogFbx: SortedLinks :(28) Bip001 L Finger4
+[2019.04.02-06.52.55:471][716]LogFbx: SortedLinks :(29) Bip001 L Finger41
+[2019.04.02-06.52.55:471][716]LogFbx: SortedLinks :(30) Bip001 L Finger42
+[2019.04.02-06.52.55:471][716]LogFbx: SortedLinks :(31) Bone_weappon_L
+[2019.04.02-06.52.55:471][716]LogFbx: SortedLinks :(32) Bip001 L ForeTwist
+[2019.04.02-06.52.55:471][716]LogFbx: SortedLinks :(33) Bip001 L ForeTwist1
+[2019.04.02-06.52.55:471][716]LogFbx: SortedLinks :(34) Bip001 L ForeTwist2
+[2019.04.02-06.52.55:471][716]LogFbx: SortedLinks :(35) Bip001 R Clavicle
+[2019.04.02-06.52.55:471][716]LogFbx: SortedLinks :(36) Bip001 R UpperArm
+[2019.04.02-06.52.55:472][716]LogFbx: SortedLinks :(37) Bip001 R Forearm
+[2019.04.02-06.52.55:472][716]LogFbx: SortedLinks :(38) Bip001 R Hand
+[2019.04.02-06.52.55:472][716]LogFbx: SortedLinks :(39) Bip001 R Finger0
+[2019.04.02-06.52.55:472][716]LogFbx: SortedLinks :(40) Bip001 R Finger01
+[2019.04.02-06.52.55:472][716]LogFbx: SortedLinks :(41) Bip001 R Finger02
+[2019.04.02-06.52.55:472][716]LogFbx: SortedLinks :(42) Bip001 R Finger1
+[2019.04.02-06.52.55:472][716]LogFbx: SortedLinks :(43) Bip001 R Finger11
+[2019.04.02-06.52.55:472][716]LogFbx: SortedLinks :(44) Bip001 R Finger12
+[2019.04.02-06.52.55:472][716]LogFbx: SortedLinks :(45) Bip001 R Finger2
+[2019.04.02-06.52.55:472][716]LogFbx: SortedLinks :(46) Bip001 R Finger21
+[2019.04.02-06.52.55:472][716]LogFbx: SortedLinks :(47) Bip001 R Finger22
+[2019.04.02-06.52.55:472][716]LogFbx: SortedLinks :(48) Bip001 R Finger3
+[2019.04.02-06.52.55:472][716]LogFbx: SortedLinks :(49) Bip001 R Finger31
+[2019.04.02-06.52.55:472][716]LogFbx: SortedLinks :(50) Bip001 R Finger32
+[2019.04.02-06.52.55:472][716]LogFbx: SortedLinks :(51) Bip001 R Finger4
+[2019.04.02-06.52.55:472][716]LogFbx: SortedLinks :(52) Bip001 R Finger41
+[2019.04.02-06.52.55:472][716]LogFbx: SortedLinks :(53) Bip001 R Finger42
+[2019.04.02-06.52.55:472][716]LogFbx: SortedLinks :(54) Bone_weappon_R
+[2019.04.02-06.52.55:472][716]LogFbx: SortedLinks :(55) Bip001 R ForeTwist
+[2019.04.02-06.52.55:472][716]LogFbx: SortedLinks :(56) Bip001 R ForeTwist1
+[2019.04.02-06.52.55:472][716]LogFbx: SortedLinks :(57) Bip001 R ForeTwist2
+[2019.04.02-06.52.55:472][716]LogFbx: SortedLinks :(58) Bone_holder
+[2019.04.02-06.52.55:472][716]LogFbx: SortedLinks :(59) Bip001 L Thigh
+[2019.04.02-06.52.55:472][716]LogFbx: SortedLinks :(60) Bip001 L Calf
+[2019.04.02-06.52.55:472][716]LogFbx: SortedLinks :(61) Bip001 L Foot
+[2019.04.02-06.52.55:472][716]LogFbx: SortedLinks :(62) Bip001 L Toe0
+[2019.04.02-06.52.55:472][716]LogFbx: SortedLinks :(63) Bip001 R Thigh
+[2019.04.02-06.52.55:472][716]LogFbx: SortedLinks :(64) Bip001 R Calf
+[2019.04.02-06.52.55:472][716]LogFbx: SortedLinks :(65) Bip001 R Foot
+[2019.04.02-06.52.55:472][716]LogFbx: SortedLinks :(66) Bip001 R Toe0
+[2019.04.02-06.52.55:475][716]LogFbx: Parsing AnimStack Take 001
+[2019.04.02-06.52.55:481][716]LogLinker: Can't find file '/Game/MyCharacter/Hunk/US_SOLDIER01_skinmesh_Anim'
+[2019.04.02-06.52.55:481][716]LogLinker: Can't find file '/Game/MyCharacter/Hunk/US_SOLDIER01_skinmesh_Anim'
+[2019.04.02-06.53.01:097][716]LogShaderCompilers: Display: Shaders left to compile 150
+[2019.04.02-06.53.03:304][716]LogShaderCompilers: Display: Shaders left to compile 140
+[2019.04.02-06.53.10:346][716]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hunk/US_SOLDIER01_skinmesh_Anim.US_SOLDIER01_skinmesh_Anim
+[2019.04.02-06.53.10:347][716]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.US_SOLDIER01_skinmesh_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.02-06.53.10:457][716]FBXImport: Warning: Mesh [Geometry have no name] in the fbx file is not reference by any hierarchy node. 
+[2019.04.02-06.53.10:457][716]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.04.02-06.53.10:458][716]FBXImport: Warning: The following bones are missing from the bind pose:
+Bone_weappon_L  
+Bone_weappon_R  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2019.04.02-06.53.10:471][716]LogSkeletalMesh: Building Skeletal Mesh US_SOLDIER01_skinmesh...
+[2019.04.02-06.53.10:559][716]LogSkeletalMesh: Built Skeletal Mesh [0.09s] /Game/MyCharacter/Hunk/US_SOLDIER01_skinmesh.US_SOLDIER01_skinmesh
+[2019.04.02-06.53.12:799][810]LogSlate: Window 'Message Log' being destroyed
+[2019.04.02-06.53.12:803][810]LogSlate: Window 'Message Log' being destroyed
+[2019.04.02-06.53.16:988][972]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0104 seconds. Added 1 classes and 2 folders.
+[2019.04.02-06.53.17:382][972]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.04.02-06.53.17:392][972]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0071 seconds. Added 1 classes and 0 folders.
+[2019.04.02-06.53.17:443][972]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_5:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.04.02-06.53.18:064][972]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0081 seconds. Added 1 classes and 0 folders.
+[2019.04.02-06.53.19:507][974]LogShaderCompilers: Display: Shaders left to compile 130
+[2019.04.02-06.53.19:630][974]LogShaderCompilers: Display: Shaders left to compile 120
+[2019.04.02-06.53.20:146][974]LogShaderCompilers: Display: Shaders left to compile 110
+[2019.04.02-06.53.32:845][442]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.02-06.53.32:953][446]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.04.02-06.53.32:989][446]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_6:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2019.04.02-06.53.34:831][503]LogRenderer: Reallocating scene render targets to support 856x584 Format 10 NumSamples 1 (Frame:59).
+[2019.04.02-06.53.36:410][588]LogSlate: Window 'US_SOLDIER01_skinmesh*' being destroyed
+[2019.04.02-06.53.36:414][588]LogSlate: Window 'US_SOLDIER01_skinmesh*' being destroyed
+[2019.04.02-06.53.37:892][657]LogShaderCompilers: Display: Shaders left to compile 100
+[2019.04.02-06.53.41:639][718]LogShaderCompilers: Display: Shaders left to compile 90
+[2019.04.02-06.53.42:582][718]LogShaderCompilers: Display: Shaders left to compile 80
+[2019.04.02-06.53.45:606][722]LogShaderCompilers: Display: Shaders left to compile 70
+[2019.04.02-06.53.49:160][722]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.04.02-06.53.50:532][722]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.04.02-06.53.59:444][171]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.04.02-06.54.02:446][345]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.04.02-06.54.16:774][135]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.04.02-06.54.20:078][296]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.04.02-06.54.47:559][859]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.02-06.54.55:104][307]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.02-06.55.07:717][ 56]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.02-06.55.14:051][430]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.02-06.55.33:836][608]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.02-06.56.28:904][817]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.02-06.57.00:130][259]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\KVT\Unity\Text\Text\Assets\PBR_Customized_Soldier\Meshes\Soldier 1.FBX)
+[2019.04.02-06.57.02:085][259]LogFbx: ItemName: Model, ItemCount : 80
+[2019.04.02-06.57.02:085][259]LogFbx: ItemName: Material, ItemCount : 1
+[2019.04.02-06.57.02:085][259]LogFbx: ItemName: SceneInfo, ItemCount : 1
+[2019.04.02-06.57.02:085][259]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2019.04.02-06.57.02:085][259]LogFbx: ItemName: CollectionExclusive, ItemCount : 6
+[2019.04.02-06.57.02:085][259]LogFbx: ItemName: Deformer, ItemCount : 142
+[2019.04.02-06.57.02:085][259]LogFbx: ItemName: Pose, ItemCount : 1
+[2019.04.02-06.57.02:090][259]LogFbx: Loading FBX Scene from D:\KVT\Unity\Text\Text\Assets\PBR_Customized_Soldier\Meshes\Soldier 1.FBX
+[2019.04.02-06.57.03:902][259]LogFbx: FBX Scene Loaded Succesfully
+[2019.04.02-06.57.08:377][259]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.04.02-06.57.23:116][808]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\KVT\Unity\Text\Text\Assets\PBR_Customized_Soldier\Meshes\Soldier 1.FBX)
+[2019.04.02-06.57.25:072][808]LogFbx: ItemName: Model, ItemCount : 80
+[2019.04.02-06.57.25:072][808]LogFbx: ItemName: Material, ItemCount : 1
+[2019.04.02-06.57.25:072][808]LogFbx: ItemName: SceneInfo, ItemCount : 1
+[2019.04.02-06.57.25:072][808]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2019.04.02-06.57.25:072][808]LogFbx: ItemName: CollectionExclusive, ItemCount : 6
+[2019.04.02-06.57.25:072][808]LogFbx: ItemName: Deformer, ItemCount : 142
+[2019.04.02-06.57.25:072][808]LogFbx: ItemName: Pose, ItemCount : 1
+[2019.04.02-06.57.25:078][808]LogFbx: Loading FBX Scene from D:\KVT\Unity\Text\Text\Assets\PBR_Customized_Soldier\Meshes\Soldier 1.FBX
+[2019.04.02-06.57.26:880][808]LogFbx: FBX Scene Loaded Succesfully
+[2019.04.02-06.57.30:973][808]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.04.02-06.57.32:914][808]LogFbx: Loading FBX Scene from D:\KVT\Unity\Text\Text\Assets\PBR_Customized_Soldier\Meshes\Soldier 1.FBX
+[2019.04.02-06.57.34:731][808]LogFbx: FBX Scene Loaded Succesfully
+[2019.04.02-06.57.34:733][808]LogFbx: =================================================
+[2019.04.02-06.57.34:733][808]LogFbx: Dumping Node START [Body_Mesh] 
+[2019.04.02-06.57.34:733][808]LogFbx: 	Total Deformer Count -142582592.
+[2019.04.02-06.57.34:733][808]LogFbx: 		[Node 1] Skin Body_Mesh (Type Skin).
+[2019.04.02-06.57.34:733][808]LogFbx: =================================================
+[2019.04.02-06.57.34:733][808]LogFbx: 	Attribute (Body_Mesh) Type (4).
+[2019.04.02-06.57.34:733][808]LogFbx: 		[Node Attribute Child 1] Body_Mesh (Type Mesh).
+[2019.04.02-06.57.34:733][808]LogFbx: Dumping Node END [Body_Mesh]
+[2019.04.02-06.57.34:733][808]LogFbx: =================================================
+[2019.04.02-06.57.34:733][808]LogFbx: Dumping Node START [Bags_Mesh] 
+[2019.04.02-06.57.34:733][808]LogFbx: 	Total Deformer Count -142582592.
+[2019.04.02-06.57.34:733][808]LogFbx: 		[Node 1] Skin Bags_Mesh (Type Skin).
+[2019.04.02-06.57.34:733][808]LogFbx: =================================================
+[2019.04.02-06.57.34:733][808]LogFbx: 	Attribute (Bags_Mesh) Type (4).
+[2019.04.02-06.57.34:733][808]LogFbx: 		[Node Attribute Child 1] Bags_Mesh (Type Mesh).
+[2019.04.02-06.57.34:734][808]LogFbx: Dumping Node END [Bags_Mesh]
+[2019.04.02-06.57.34:734][808]LogFbx: =================================================
+[2019.04.02-06.57.34:734][808]LogFbx: Dumping Node START [Armor_Mesh01] 
+[2019.04.02-06.57.34:734][808]LogFbx: 	Total Deformer Count -34203888.
+[2019.04.02-06.57.34:734][808]LogFbx: 		[Node 1] Skin Armor_Mesh01 (Type Skin).
+[2019.04.02-06.57.34:734][808]LogFbx: =================================================
+[2019.04.02-06.57.34:734][808]LogFbx: 	Attribute (Armor_Mesh01) Type (4).
+[2019.04.02-06.57.34:734][808]LogFbx: 		[Node Attribute Child 1] Armor_Mesh01 (Type Mesh).
+[2019.04.02-06.57.34:734][808]LogFbx: Dumping Node END [Armor_Mesh01]
+[2019.04.02-06.57.34:734][808]LogFbx: =================================================
+[2019.04.02-06.57.34:734][808]LogFbx: Dumping Node START [Armor_Mesh02] 
+[2019.04.02-06.57.34:734][808]LogFbx: 	Total Deformer Count -34203888.
+[2019.04.02-06.57.34:734][808]LogFbx: 		[Node 1] Skin Armor_Mesh02 (Type Skin).
+[2019.04.02-06.57.34:734][808]LogFbx: =================================================
+[2019.04.02-06.57.34:734][808]LogFbx: 	Attribute (Armor_Mesh02) Type (4).
+[2019.04.02-06.57.34:734][808]LogFbx: 		[Node Attribute Child 1] Armor_Mesh02 (Type Mesh).
+[2019.04.02-06.57.34:734][808]LogFbx: Dumping Node END [Armor_Mesh02]
+[2019.04.02-06.57.34:734][808]LogFbx: =================================================
+[2019.04.02-06.57.34:734][808]LogFbx: Dumping Node START [Head01_Mesh] 
+[2019.04.02-06.57.34:734][808]LogFbx: 	Total Deformer Count -142580160.
+[2019.04.02-06.57.34:734][808]LogFbx: 		[Node 1] Skin Head01_Mesh (Type Skin).
+[2019.04.02-06.57.34:734][808]LogFbx: =================================================
+[2019.04.02-06.57.34:734][808]LogFbx: 	Attribute (Head01_Mesh) Type (4).
+[2019.04.02-06.57.34:734][808]LogFbx: 		[Node Attribute Child 1] Head01_Mesh (Type Mesh).
+[2019.04.02-06.57.34:734][808]LogFbx: Dumping Node END [Head01_Mesh]
+[2019.04.02-06.57.34:734][808]LogFbx: =================================================
+[2019.04.02-06.57.34:734][808]LogFbx: Dumping Node START [Head02_Mesh] 
+[2019.04.02-06.57.34:734][808]LogFbx: 	Total Deformer Count -142580160.
+[2019.04.02-06.57.34:734][808]LogFbx: 		[Node 1] Skin Head02_Mesh (Type Skin).
+[2019.04.02-06.57.34:735][808]LogFbx: =================================================
+[2019.04.02-06.57.34:735][808]LogFbx: 	Attribute (Head02_Mesh) Type (4).
+[2019.04.02-06.57.34:735][808]LogFbx: 		[Node Attribute Child 1] Head02_Mesh (Type Mesh).
+[2019.04.02-06.57.34:735][808]LogFbx: Dumping Node END [Head02_Mesh]
+[2019.04.02-06.57.34:735][808]LogFbx: =================================================
+[2019.04.02-06.57.34:735][808]LogFbx: Dumping Node START [Head03_Mesh] 
+[2019.04.02-06.57.34:735][808]LogFbx: 	Total Deformer Count -142580160.
+[2019.04.02-06.57.34:735][808]LogFbx: 		[Node 1] Skin Head03_Mesh (Type Skin).
+[2019.04.02-06.57.34:735][808]LogFbx: =================================================
+[2019.04.02-06.57.34:735][808]LogFbx: 	Attribute (Head03_Mesh) Type (4).
+[2019.04.02-06.57.34:735][808]LogFbx: 		[Node Attribute Child 1] Head03_Mesh (Type Mesh).
+[2019.04.02-06.57.34:735][808]LogFbx: Dumping Node END [Head03_Mesh]
+[2019.04.02-06.57.34:735][808]LogFbx: =================================================
+[2019.04.02-06.57.34:735][808]LogFbx: Dumping Node START [Head04_Mesh] 
+[2019.04.02-06.57.34:735][808]LogFbx: 	Total Deformer Count -142580160.
+[2019.04.02-06.57.34:735][808]LogFbx: 		[Node 1] Skin Head04_Mesh (Type Skin).
+[2019.04.02-06.57.34:735][808]LogFbx: =================================================
+[2019.04.02-06.57.34:735][808]LogFbx: 	Attribute (Head04_Mesh) Type (4).
+[2019.04.02-06.57.34:735][808]LogFbx: 		[Node Attribute Child 1] Head04_Mesh (Type Mesh).
+[2019.04.02-06.57.34:735][808]LogFbx: Dumping Node END [Head04_Mesh]
+[2019.04.02-06.57.34:735][808]LogFbx: =================================================
+[2019.04.02-06.57.34:735][808]LogFbx: Dumping Node START [Head05_Mesh] 
+[2019.04.02-06.57.34:735][808]LogFbx: 	Total Deformer Count -142580160.
+[2019.04.02-06.57.34:735][808]LogFbx: 		[Node 1] Skin Head05_Mesh (Type Skin).
+[2019.04.02-06.57.34:735][808]LogFbx: =================================================
+[2019.04.02-06.57.34:735][808]LogFbx: 	Attribute (Head05_Mesh) Type (4).
+[2019.04.02-06.57.34:735][808]LogFbx: 		[Node Attribute Child 1] Head05_Mesh (Type Mesh).
+[2019.04.02-06.57.34:735][808]LogFbx: Dumping Node END [Head05_Mesh]
+[2019.04.02-06.57.34:735][808]LogFbx: =================================================
+[2019.04.02-06.57.34:735][808]LogFbx: Dumping Node START [Head07_Mesh] 
+[2019.04.02-06.57.34:735][808]LogFbx: 	Total Deformer Count -142580160.
+[2019.04.02-06.57.34:735][808]LogFbx: 		[Node 1] Skin Head07_Mesh (Type Skin).
+[2019.04.02-06.57.34:736][808]LogFbx: =================================================
+[2019.04.02-06.57.34:736][808]LogFbx: 	Attribute (Head07_Mesh) Type (4).
+[2019.04.02-06.57.34:736][808]LogFbx: 		[Node Attribute Child 1] Head07_Mesh (Type Mesh).
+[2019.04.02-06.57.34:736][808]LogFbx: Dumping Node END [Head07_Mesh]
+[2019.04.02-06.57.34:736][808]LogFbx: =================================================
+[2019.04.02-06.57.34:736][808]LogFbx: Dumping Node START [Head08_Mesh] 
+[2019.04.02-06.57.34:736][808]LogFbx: 	Total Deformer Count -142580160.
+[2019.04.02-06.57.34:736][808]LogFbx: 		[Node 1] Skin Head08_Mesh (Type Skin).
+[2019.04.02-06.57.34:736][808]LogFbx: =================================================
+[2019.04.02-06.57.34:736][808]LogFbx: 	Attribute (Head08_Mesh) Type (4).
+[2019.04.02-06.57.34:736][808]LogFbx: 		[Node Attribute Child 1] Head08_Mesh (Type Mesh).
+[2019.04.02-06.57.34:736][808]LogFbx: Dumping Node END [Head08_Mesh]
+[2019.04.02-06.57.34:736][808]LogFbx: =================================================
+[2019.04.02-06.57.34:736][808]LogFbx: Dumping Node START [Head06_Mesh] 
+[2019.04.02-06.57.34:736][808]LogFbx: 	Total Deformer Count -142580160.
+[2019.04.02-06.57.34:736][808]LogFbx: 		[Node 1] Skin Head06_Mesh (Type Skin).
+[2019.04.02-06.57.34:736][808]LogFbx: =================================================
+[2019.04.02-06.57.34:736][808]LogFbx: 	Attribute (Head06_Mesh) Type (4).
+[2019.04.02-06.57.34:736][808]LogFbx: 		[Node Attribute Child 1] Head06_Mesh (Type Mesh).
+[2019.04.02-06.57.34:736][808]LogFbx: Dumping Node END [Head06_Mesh]
+[2019.04.02-06.57.34:736][808]LogFbx: =================================================
+[2019.04.02-06.57.34:736][808]LogFbx: Dumping Node START [Bags_Mini_Mesh] 
+[2019.04.02-06.57.34:736][808]LogFbx: 	Total Deformer Count -34208848.
+[2019.04.02-06.57.34:736][808]LogFbx: 		[Node 1] Skin Bags_Mini_Mesh (Type Skin).
+[2019.04.02-06.57.34:736][808]LogFbx: =================================================
+[2019.04.02-06.57.34:736][808]LogFbx: 	Attribute (Bags_Mini_Mesh) Type (4).
+[2019.04.02-06.57.34:736][808]LogFbx: 		[Node Attribute Child 1] Bags_Mini_Mesh (Type Mesh).
+[2019.04.02-06.57.34:736][808]LogFbx: Dumping Node END [Bags_Mini_Mesh]
+[2019.04.02-06.57.34:739][808]LogFbx: =================================================
+[2019.04.02-06.57.34:739][808]LogFbx: Dumping Node START [Body_Mesh] 
+[2019.04.02-06.57.34:739][808]LogFbx: 	Total Deformer Count -142589120.
+[2019.04.02-06.57.34:739][808]LogFbx: 		[Node 1] Skin Body_Mesh (Type Skin).
+[2019.04.02-06.57.34:739][808]LogFbx: =================================================
+[2019.04.02-06.57.34:739][808]LogFbx: 	Attribute (Body_Mesh) Type (4).
+[2019.04.02-06.57.34:739][808]LogFbx: 		[Node Attribute Child 1] Body_Mesh (Type Mesh).
+[2019.04.02-06.57.34:739][808]LogFbx: Dumping Node END [Body_Mesh]
+[2019.04.02-06.57.34:739][808]LogFbx: =================================================
+[2019.04.02-06.57.34:739][808]LogFbx: Dumping Node START [Bags_Mesh] 
+[2019.04.02-06.57.34:739][808]LogFbx: 	Total Deformer Count -142589120.
+[2019.04.02-06.57.34:739][808]LogFbx: 		[Node 1] Skin Bags_Mesh (Type Skin).
+[2019.04.02-06.57.34:739][808]LogFbx: =================================================
+[2019.04.02-06.57.34:739][808]LogFbx: 	Attribute (Bags_Mesh) Type (4).
+[2019.04.02-06.57.34:739][808]LogFbx: 		[Node Attribute Child 1] Bags_Mesh (Type Mesh).
+[2019.04.02-06.57.34:739][808]LogFbx: Dumping Node END [Bags_Mesh]
+[2019.04.02-06.57.34:739][808]LogFbx: =================================================
+[2019.04.02-06.57.34:739][808]LogFbx: Dumping Node START [Armor_Mesh01] 
+[2019.04.02-06.57.34:739][808]LogFbx: 	Total Deformer Count -34200848.
+[2019.04.02-06.57.34:739][808]LogFbx: 		[Node 1] Skin Armor_Mesh01 (Type Skin).
+[2019.04.02-06.57.34:739][808]LogFbx: =================================================
+[2019.04.02-06.57.34:739][808]LogFbx: 	Attribute (Armor_Mesh01) Type (4).
+[2019.04.02-06.57.34:739][808]LogFbx: 		[Node Attribute Child 1] Armor_Mesh01 (Type Mesh).
+[2019.04.02-06.57.34:739][808]LogFbx: Dumping Node END [Armor_Mesh01]
+[2019.04.02-06.57.34:739][808]LogFbx: =================================================
+[2019.04.02-06.57.34:739][808]LogFbx: Dumping Node START [Armor_Mesh02] 
+[2019.04.02-06.57.34:739][808]LogFbx: 	Total Deformer Count -34200848.
+[2019.04.02-06.57.34:739][808]LogFbx: 		[Node 1] Skin Armor_Mesh02 (Type Skin).
+[2019.04.02-06.57.34:739][808]LogFbx: =================================================
+[2019.04.02-06.57.34:739][808]LogFbx: 	Attribute (Armor_Mesh02) Type (4).
+[2019.04.02-06.57.34:739][808]LogFbx: 		[Node Attribute Child 1] Armor_Mesh02 (Type Mesh).
+[2019.04.02-06.57.34:739][808]LogFbx: Dumping Node END [Armor_Mesh02]
+[2019.04.02-06.57.34:739][808]LogFbx: =================================================
+[2019.04.02-06.57.34:739][808]LogFbx: Dumping Node START [Head01_Mesh] 
+[2019.04.02-06.57.34:739][808]LogFbx: 	Total Deformer Count -142578368.
+[2019.04.02-06.57.34:739][808]LogFbx: 		[Node 1] Skin Head01_Mesh (Type Skin).
+[2019.04.02-06.57.34:739][808]LogFbx: =================================================
+[2019.04.02-06.57.34:739][808]LogFbx: 	Attribute (Head01_Mesh) Type (4).
+[2019.04.02-06.57.34:739][808]LogFbx: 		[Node Attribute Child 1] Head01_Mesh (Type Mesh).
+[2019.04.02-06.57.34:739][808]LogFbx: Dumping Node END [Head01_Mesh]
+[2019.04.02-06.57.34:739][808]LogFbx: =================================================
+[2019.04.02-06.57.34:739][808]LogFbx: Dumping Node START [Head02_Mesh] 
+[2019.04.02-06.57.34:739][808]LogFbx: 	Total Deformer Count -142578368.
+[2019.04.02-06.57.34:739][808]LogFbx: 		[Node 1] Skin Head02_Mesh (Type Skin).
+[2019.04.02-06.57.34:739][808]LogFbx: =================================================
+[2019.04.02-06.57.34:739][808]LogFbx: 	Attribute (Head02_Mesh) Type (4).
+[2019.04.02-06.57.34:739][808]LogFbx: 		[Node Attribute Child 1] Head02_Mesh (Type Mesh).
+[2019.04.02-06.57.34:740][808]LogFbx: Dumping Node END [Head02_Mesh]
+[2019.04.02-06.57.34:740][808]LogFbx: =================================================
+[2019.04.02-06.57.34:740][808]LogFbx: Dumping Node START [Head03_Mesh] 
+[2019.04.02-06.57.34:740][808]LogFbx: 	Total Deformer Count -142578368.
+[2019.04.02-06.57.34:740][808]LogFbx: 		[Node 1] Skin Head03_Mesh (Type Skin).
+[2019.04.02-06.57.34:740][808]LogFbx: =================================================
+[2019.04.02-06.57.34:740][808]LogFbx: 	Attribute (Head03_Mesh) Type (4).
+[2019.04.02-06.57.34:740][808]LogFbx: 		[Node Attribute Child 1] Head03_Mesh (Type Mesh).
+[2019.04.02-06.57.34:740][808]LogFbx: Dumping Node END [Head03_Mesh]
+[2019.04.02-06.57.34:740][808]LogFbx: =================================================
+[2019.04.02-06.57.34:740][808]LogFbx: Dumping Node START [Head04_Mesh] 
+[2019.04.02-06.57.34:740][808]LogFbx: 	Total Deformer Count -142578368.
+[2019.04.02-06.57.34:740][808]LogFbx: 		[Node 1] Skin Head04_Mesh (Type Skin).
+[2019.04.02-06.57.34:740][808]LogFbx: =================================================
+[2019.04.02-06.57.34:740][808]LogFbx: 	Attribute (Head04_Mesh) Type (4).
+[2019.04.02-06.57.34:740][808]LogFbx: 		[Node Attribute Child 1] Head04_Mesh (Type Mesh).
+[2019.04.02-06.57.34:740][808]LogFbx: Dumping Node END [Head04_Mesh]
+[2019.04.02-06.57.34:740][808]LogFbx: =================================================
+[2019.04.02-06.57.34:740][808]LogFbx: Dumping Node START [Head05_Mesh] 
+[2019.04.02-06.57.34:740][808]LogFbx: 	Total Deformer Count -334592768.
+[2019.04.02-06.57.34:740][808]LogFbx: 		[Node 1] Skin Head05_Mesh (Type Skin).
+[2019.04.02-06.57.34:740][808]LogFbx: =================================================
+[2019.04.02-06.57.34:740][808]LogFbx: 	Attribute (Head05_Mesh) Type (4).
+[2019.04.02-06.57.34:740][808]LogFbx: 		[Node Attribute Child 1] Head05_Mesh (Type Mesh).
+[2019.04.02-06.57.34:740][808]LogFbx: Dumping Node END [Head05_Mesh]
+[2019.04.02-06.57.34:740][808]LogFbx: =================================================
+[2019.04.02-06.57.34:740][808]LogFbx: Dumping Node START [Head07_Mesh] 
+[2019.04.02-06.57.34:740][808]LogFbx: 	Total Deformer Count -334592768.
+[2019.04.02-06.57.34:740][808]LogFbx: 		[Node 1] Skin Head07_Mesh (Type Skin).
+[2019.04.02-06.57.34:740][808]LogFbx: =================================================
+[2019.04.02-06.57.34:740][808]LogFbx: 	Attribute (Head07_Mesh) Type (4).
+[2019.04.02-06.57.34:740][808]LogFbx: 		[Node Attribute Child 1] Head07_Mesh (Type Mesh).
+[2019.04.02-06.57.34:740][808]LogFbx: Dumping Node END [Head07_Mesh]
+[2019.04.02-06.57.34:740][808]LogFbx: =================================================
+[2019.04.02-06.57.34:740][808]LogFbx: Dumping Node START [Head08_Mesh] 
+[2019.04.02-06.57.34:740][808]LogFbx: 	Total Deformer Count -334592768.
+[2019.04.02-06.57.34:740][808]LogFbx: 		[Node 1] Skin Head08_Mesh (Type Skin).
+[2019.04.02-06.57.34:740][808]LogFbx: =================================================
+[2019.04.02-06.57.34:740][808]LogFbx: 	Attribute (Head08_Mesh) Type (4).
+[2019.04.02-06.57.34:740][808]LogFbx: 		[Node Attribute Child 1] Head08_Mesh (Type Mesh).
+[2019.04.02-06.57.34:740][808]LogFbx: Dumping Node END [Head08_Mesh]
+[2019.04.02-06.57.34:740][808]LogFbx: =================================================
+[2019.04.02-06.57.34:740][808]LogFbx: Dumping Node START [Head06_Mesh] 
+[2019.04.02-06.57.34:740][808]LogFbx: 	Total Deformer Count -334592768.
+[2019.04.02-06.57.34:740][808]LogFbx: 		[Node 1] Skin Head06_Mesh (Type Skin).
+[2019.04.02-06.57.34:740][808]LogFbx: =================================================
+[2019.04.02-06.57.34:740][808]LogFbx: 	Attribute (Head06_Mesh) Type (4).
+[2019.04.02-06.57.34:741][808]LogFbx: 		[Node Attribute Child 1] Head06_Mesh (Type Mesh).
+[2019.04.02-06.57.34:741][808]LogFbx: Dumping Node END [Head06_Mesh]
+[2019.04.02-06.57.34:741][808]LogFbx: =================================================
+[2019.04.02-06.57.34:741][808]LogFbx: Dumping Node START [Bags_Mini_Mesh] 
+[2019.04.02-06.57.34:741][808]LogFbx: 	Total Deformer Count -34202768.
+[2019.04.02-06.57.34:741][808]LogFbx: 		[Node 1] Skin Bags_Mini_Mesh (Type Skin).
+[2019.04.02-06.57.34:741][808]LogFbx: =================================================
+[2019.04.02-06.57.34:741][808]LogFbx: 	Attribute (Bags_Mini_Mesh) Type (4).
+[2019.04.02-06.57.34:741][808]LogFbx: 		[Node Attribute Child 1] Bags_Mini_Mesh (Type Mesh).
+[2019.04.02-06.57.34:741][808]LogFbx: Dumping Node END [Bags_Mini_Mesh]
+[2019.04.02-06.57.34:742][808]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Body_Mesh : Not all the deformers are stored in this BindPose
+[2019.04.02-06.57.34:742][808]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Bags_Mesh : Not all the deformers are stored in this BindPose
+[2019.04.02-06.57.34:743][808]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Armor_Mesh01 : Not all the deformers are stored in this BindPose
+[2019.04.02-06.57.34:743][808]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Armor_Mesh02 : Not all the deformers are stored in this BindPose
+[2019.04.02-06.57.34:744][808]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Head01_Mesh : Not all the deformers are stored in this BindPose
+[2019.04.02-06.57.34:745][808]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Head02_Mesh : Not all the deformers are stored in this BindPose
+[2019.04.02-06.57.34:745][808]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Head03_Mesh : Not all the deformers are stored in this BindPose
+[2019.04.02-06.57.34:746][808]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Head04_Mesh : Not all the deformers are stored in this BindPose
+[2019.04.02-06.57.34:747][808]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Head05_Mesh : Not all the deformers are stored in this BindPose
+[2019.04.02-06.57.34:748][808]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Head07_Mesh : Not all the deformers are stored in this BindPose
+[2019.04.02-06.57.34:748][808]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Head08_Mesh : Not all the deformers are stored in this BindPose
+[2019.04.02-06.57.34:749][808]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Head06_Mesh : Not all the deformers are stored in this BindPose
+[2019.04.02-06.57.34:750][808]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Bags_Mini_Mesh : Not all the deformers are stored in this BindPose
+[2019.04.02-06.57.34:750][808]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2019.04.02-06.57.34:752][808]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Body_Mesh
+[2019.04.02-06.57.34:752][808]LogFbx: Warning: Recreating bind pose succeeded.
+[2019.04.02-06.57.34:970][808]LogFbx: Warning: Bones digested - 67  Depth of hierarchy - 15
+[2019.04.02-06.57.36:690][808]LogSkeletalMesh: Section 0: 35776 vertices, 52 active bones
+[2019.04.02-06.57.38:757][808]LogSkeletalMesh: Section 0: Material=0, 59225 triangles
+[2019.04.02-06.57.38:761][808]LogSkeletalMesh: Building Skeletal Mesh Soldier_1...
+[2019.04.02-06.57.38:924][808]LogSkeletalMesh: Built Skeletal Mesh [0.16s] /Game/MyCharacter/Soldier_1.Soldier_1
+[2019.04.02-06.57.38:961][808]LogLinker: Can't find file '/Game/MyCharacter/Soldier_1_Skeleton'
+[2019.04.02-06.57.38:961][808]LogLinker: Can't find file '/Game/MyCharacter/Soldier_1_Skeleton'
+[2019.04.02-06.57.38:963][808]LogLinker: Can't find file '/Game/MyCharacter/Soldier_1_PhysicsAsset'
+[2019.04.02-06.57.38:963][808]LogLinker: Can't find file '/Game/MyCharacter/Soldier_1_PhysicsAsset'
+[2019.04.02-06.57.38:993][808]FBXImport: Warning: The following bones are missing from the bind pose:
+Thumb_End_L  
+Index_End_L  
+Middle_End_L  
+Ring_End_L  
+Pinky_End_L  
+Thumb_End_R  
+Index_End_R  
+Middle_End_R  
+Ring_End_R  
+Pinky_End_R  
+Head_End  
+Toe_End_ L  
+Toe_End_ R  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2019.04.02-06.57.39:010][808]LogSkeletalMesh: Building Skeletal Mesh Soldier_1...
+[2019.04.02-06.57.39:154][808]LogSkeletalMesh: Built Skeletal Mesh [0.14s] /Game/MyCharacter/Soldier_1.Soldier_1
+[2019.04.02-06.57.42:177][978]LogSlate: Window 'Message Log' being destroyed
+[2019.04.02-06.57.42:182][978]LogSlate: Window 'Message Log' being destroyed
+[2019.04.02-06.57.46:597][154]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_2.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2019.04.02-06.57.46:612][154]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.Actor_2.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2019.04.02-06.57.54:349][587]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.02-06.58.20:187][123]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.02-06.58.27:067][319]LogSlate: Window 'Delete Assets' being destroyed
+[2019.04.02-06.58.28:058][319]LogSkeletalMesh: Building Skeletal Mesh US_SOLDIER01_skinmesh...
+[2019.04.02-06.58.28:099][319]LogSkeletalMesh: Built Skeletal Mesh [0.04s] /Game/MyCharacter/Hunk/US_SOLDIER01_skinmesh.US_SOLDIER01_skinmesh
+[2019.04.02-06.58.28:109][319]LogSkeletalMesh: Building Skeletal Mesh US_SOLDIER01_skinmesh...
+[2019.04.02-06.58.28:149][319]LogSkeletalMesh: Built Skeletal Mesh [0.04s] /Game/MyCharacter/Hunk/US_SOLDIER01_skinmesh.US_SOLDIER01_skinmesh
+[2019.04.02-06.58.28:158][319]LogSkeletalMesh: Building Skeletal Mesh US_SOLDIER01_skinmesh...
+[2019.04.02-06.58.28:192][319]LogSkeletalMesh: Built Skeletal Mesh [0.03s] /Game/MyCharacter/Hunk/US_SOLDIER01_skinmesh.US_SOLDIER01_skinmesh
+[2019.04.02-06.58.28:203][319]LogSkeletalMesh: Building Skeletal Mesh US_SOLDIER01_skinmesh...
+[2019.04.02-06.58.28:241][319]LogSkeletalMesh: Built Skeletal Mesh [0.04s] /Game/MyCharacter/Hunk/US_SOLDIER01_skinmesh.US_SOLDIER01_skinmesh
+[2019.04.02-06.58.28:253][319]LogSkeletalMesh: Building Skeletal Mesh US_SOLDIER01_skinmesh...
+[2019.04.02-06.58.28:294][319]LogSkeletalMesh: Built Skeletal Mesh [0.04s] /Game/MyCharacter/Hunk/US_SOLDIER01_skinmesh.US_SOLDIER01_skinmesh
+[2019.04.02-06.58.35:885][660]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Hunk/09_-_Default" FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hunk/09_-_Default.uasset" SILENT=true
+[2019.04.02-06.58.35:898][660]LogSavePackage: Save=11.65ms
+[2019.04.02-06.58.35:898][660]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/09_-_Default58D66ED249FEE4D21AB02CAF41AB357D.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hunk/09_-_Default.uasset'
+[2019.04.02-06.58.35:900][660]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hunk/09_-_Default.uasset
+[2019.04.02-06.58.35:928][660]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Hunk/Soldier_1" FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hunk/Soldier_1.uasset" SILENT=true
+[2019.04.02-06.58.35:994][660]LogSavePackage: Save=64.63ms
+[2019.04.02-06.58.35:994][660]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Soldier_15297764C4AEE8AEEB04141B6F7A30075.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hunk/Soldier_1.uasset'
+[2019.04.02-06.58.35:995][660]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hunk/Soldier_1.uasset
+[2019.04.02-06.58.36:063][660]LogSavePackage: Save=20.05ms
+[2019.04.02-06.58.36:063][660]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Soldier_1_PhysicsAssetA6B446B143AAB16008B884AC990982AE.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hunk/Soldier_1_PhysicsAsset.uasset'
+[2019.04.02-06.58.36:065][660]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hunk/Soldier_1_PhysicsAsset.uasset
+[2019.04.02-06.58.36:074][660]LogSavePackage: Save=2.52ms
+[2019.04.02-06.58.36:074][660]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Soldier_1_Skeleton804E1C1B47D7D8347C22658418DDA3B6.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hunk/Soldier_1_Skeleton.uasset'
+[2019.04.02-06.58.36:076][660]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hunk/Soldier_1_Skeleton.uasset
+[2019.04.02-06.58.50:451][320]LogSlate: Window 'Delete Assets' being destroyed
+[2019.04.02-06.58.50:598][320]LogMaterial: Missing cached shader map for material MERC_D_Mat, compiling. 
+[2019.04.02-06.58.50:601][320]LogMaterial: Warning: D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Content\MyCharacter\Hunk\Texture\MERC_D_Mat.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.04.02-06.58.50:601][320]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.04.02-06.58.50:603][320]LogMaterial: Missing cached shader map for material MERC_D_Mat, compiling. 
+[2019.04.02-06.58.50:603][320]LogMaterial: Warning: D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Content\MyCharacter\Hunk\Texture\MERC_D_Mat.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.04.02-06.58.50:603][320]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.04.02-06.58.50:606][320]LogMaterial: Missing cached shader map for material MERC_D_Mat, compiling. 
+[2019.04.02-06.58.50:607][320]LogMaterial: Warning: D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Content\MyCharacter\Hunk\Texture\MERC_D_Mat.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.04.02-06.58.50:607][320]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.04.02-06.58.50:609][320]LogMaterial: Missing cached shader map for material MERC_D_Mat, compiling. 
+[2019.04.02-06.58.50:610][320]LogMaterial: Warning: D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Content\MyCharacter\Hunk\Texture\MERC_D_Mat.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.04.02-06.58.50:610][320]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.04.02-06.59.46:698][645]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyMap/Map01' took 0.020
+[2019.04.02-06.59.46:700][645]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyCharacter/Hunk/09_-_Default] ([1] browsable assets)...
+[2019.04.02-06.59.46:742][645]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/MyCharacter/Hunk/09_-_Default.09_-_Default]
+[2019.04.02-06.59.46:742][645]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyCharacter/Hunk/09_-_Default]
+[2019.04.02-06.59.46:794][645]LogSavePackage: Save=12.51ms
+[2019.04.02-06.59.46:794][645]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/09_-_Default_Auto19399BFED4242F664111B4A9E0C290C09.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Autosaves/Game/MyCharacter/Hunk/09_-_Default_Auto1.uasset'
+[2019.04.02-06.59.46:795][645]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Autosaves/Game/MyCharacter/Hunk/09_-_Default_Auto1.uasset
+[2019.04.02-06.59.46:795][645]LogFileHelpers: Auto-saving content packages took 0.096
+[2019.04.02-07.01.13:825][137]LogSlate: Window 'Open Level' being destroyed
+[2019.04.02-07.02.06:509][202]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../KVT/Unity/Text/Text/Assets/PBR_Customized_Soldier/Textures/Body/Soldier_Albedo01.tga)
+[2019.04.02-07.02.06:616][202]LogTexture: Display: Building textures: Soldier_Albedo01 (AutoDXT, 2048X2048)
+[2019.04.02-07.02.12:765][202]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../KVT/Unity/Text/Text/Assets/PBR_Customized_Soldier/Textures/Body/Soldier_Albedo02.tga)
+[2019.04.02-07.02.12:872][202]LogTexture: Display: Building textures: Soldier_Albedo02 (AutoDXT, 2048X2048)
+[2019.04.02-07.02.18:736][202]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../KVT/Unity/Text/Text/Assets/PBR_Customized_Soldier/Textures/Body/Soldier_Albedo03.tga)
+[2019.04.02-07.02.18:835][202]LogTexture: Display: Building textures: Soldier_Albedo03 (AutoDXT, 2048X2048)
+[2019.04.02-07.02.24:593][202]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../KVT/Unity/Text/Text/Assets/PBR_Customized_Soldier/Textures/Body/Soldier_Albedo04.tga)
+[2019.04.02-07.02.24:712][202]LogTexture: Display: Building textures: Soldier_Albedo04 (AutoDXT, 2048X2048)
+[2019.04.02-07.02.30:854][202]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../KVT/Unity/Text/Text/Assets/PBR_Customized_Soldier/Textures/Body/Soldier_Albedo05.tga)
+[2019.04.02-07.02.30:945][202]LogTexture: Display: Building textures: Soldier_Albedo05 (AutoDXT, 2048X2048)
+[2019.04.02-07.02.36:889][202]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../KVT/Unity/Text/Text/Assets/PBR_Customized_Soldier/Textures/Body/Soldier_Albedo06.tga)
+[2019.04.02-07.02.37:006][202]LogTexture: Display: Building textures: Soldier_Albedo06 (AutoDXT, 2048X2048)
+[2019.04.02-07.02.42:500][202]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../KVT/Unity/Text/Text/Assets/PBR_Customized_Soldier/Textures/Body/Soldier_Albedo07.tga)
+[2019.04.02-07.02.42:590][202]LogTexture: Display: Building textures: Soldier_Albedo07 (AutoDXT, 2048X2048)
+[2019.04.02-07.02.48:596][202]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../KVT/Unity/Text/Text/Assets/PBR_Customized_Soldier/Textures/Body/Soldier_Albedo08.tga)
+[2019.04.02-07.02.49:039][202]LogTexture: Display: Building textures: Soldier_Albedo08 (AutoDXT, 4096X4096)
+[2019.04.02-07.03.08:973][202]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../KVT/Unity/Text/Text/Assets/PBR_Customized_Soldier/Textures/Body/Soldier_Ao.tga)
+[2019.04.02-07.03.09:008][202]LogTexture: Display: Building textures: Soldier_Ao (G8, 2048X2048)
+[2019.04.02-07.03.09:535][202]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../KVT/Unity/Text/Text/Assets/PBR_Customized_Soldier/Textures/Body/Soldier_Metallic.tga)
+[2019.04.02-07.03.09:881][202]LogTexture: Display: Building textures: Soldier_Metallic (AutoDXT, 4096X4096)
+[2019.04.02-07.03.13:140][202]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../KVT/Unity/Text/Text/Assets/PBR_Customized_Soldier/Textures/Body/Soldier_Normals.tga)
+[2019.04.02-07.03.13:555][202]LogTexture: Display: Building textures: Soldier_Normals (BC5, 4096X4096)
+[2019.04.02-07.03.42:297][380]LogRenderer: Reallocating scene render targets to support 948x620 Format 10 NumSamples 1 (Frame:4).
+[2019.04.02-07.03.47:089][664]LogSlate: Window '09_-_Default*' being destroyed
+[2019.04.02-07.03.47:093][664]LogSlate: Window '09_-_Default*' being destroyed
+[2019.04.02-07.03.47:134][664]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2019.04.02-07.03.59:619][406]LogMaterial: Missing cached shader map for material Soldier_Albedo06_Mat, compiling. 
+[2019.04.02-07.03.59:649][407]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.04.02-07.03.59:649][407]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.04.02-07.03.59:649][407]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.04.02-07.04.00:904][477]LogMaterial: Missing cached shader map for material Soldier_Albedo06_Mat, compiling. 
+[2019.04.02-07.04.01:033][477]LogMaterial: Missing cached shader map for material Soldier_Albedo06_Mat, compiling. 
+[2019.04.02-07.04.01:058][477]LogMaterial: Missing cached shader map for material Soldier_Albedo06_Mat, compiling. 
+[2019.04.02-07.04.01:101][477]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.04.02-07.04.01:119][477]LogSlate: Took 0.000267 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.04.02-07.04.07:488][760]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.04.02-07.04.12:928][ 42]LogMaterial: Missing cached shader map for material Soldier_Albedo06_Mat, compiling. 
+[2019.04.02-07.04.12:950][ 42]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.04.02-07.04.12:985][ 42]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.04.02-07.04.12:992][ 42]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.04.02-07.04.14:638][123]LogMaterial: Missing cached shader map for material Soldier_Albedo06_Mat, compiling. 
+[2019.04.02-07.04.14:664][123]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2019.04.02-07.04.14:675][123]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.04.02-07.04.14:701][123]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.04.02-07.04.14:708][123]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.04.02-07.04.14:716][123]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2019.04.02-07.04.15:948][176]LogMaterial: Missing cached shader map for material Soldier_Albedo06_Mat, compiling. 
+[2019.04.02-07.04.15:969][176]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2019.04.02-07.04.16:004][176]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.04.02-07.04.16:013][176]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.04.02-07.04.16:021][176]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2019.04.02-07.04.16:027][176]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2019.04.02-07.04.20:642][415]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.04.02-07.04.27:253][760]LogMaterial: Missing cached shader map for material Soldier_Albedo06_Mat, compiling. 
+[2019.04.02-07.04.27:266][760]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.04.02-07.04.27:273][760]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.04.02-07.04.32:656][ 42]LogMaterial: Missing cached shader map for material Soldier_Albedo06_Mat, compiling. 
+[2019.04.02-07.04.32:681][ 42]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.04.02-07.04.33:585][ 88]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.04.02-07.04.38:105][329]LogMaterial: Missing cached shader map for material Soldier_Albedo06_Mat, compiling. 
+[2019.04.02-07.04.38:138][329]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2019.04.02-07.04.39:638][401]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.04.02-07.04.40:512][403]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.04.02-07.04.40:847][403]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.04.02-07.04.41:033][403]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.04.02-07.04.41:648][403]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.04.02-07.04.41:681][403]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.04.02-07.04.42:388][403]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.04.02-07.04.42:421][403]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.04.02-07.04.42:959][403]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.04.02-07.04.43:046][403]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.04.02-07.04.43:518][403]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.04.02-07.04.43:523][403]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.04.02-07.04.44:099][405]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.04.02-07.04.44:288][405]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.04.02-07.04.44:599][405]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.04.02-07.04.44:871][405]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.04.02-07.04.45:120][405]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.04.02-07.04.45:616][405]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.04.02-07.04.46:000][405]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.04.02-07.04.46:053][405]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.04.02-07.04.46:608][405]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.04.02-07.04.46:673][405]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.04.02-07.04.47:164][406]MaterialEditorStats: Base pass shader: 111 instructions
+[2019.04.02-07.04.47:164][406]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 185 instructions
+[2019.04.02-07.04.47:164][406]MaterialEditorStats: Vertex shader: 38 instructions
+[2019.04.02-07.04.47:164][406]MaterialEditorStats: Texture samplers: 5/16
+[2019.04.02-07.04.47:164][406]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.04.02-07.04.56:850][969]LogMaterial: Missing cached shader map for material Soldier_Albedo06_Mat, compiling. 
+[2019.04.02-07.04.56:860][969]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2019.04.02-07.04.56:881][969]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.04.02-07.04.56:881][969]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.04.02-07.04.56:881][969]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.04.02-07.04.56:894][969]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.04.02-07.04.56:902][969]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.04.02-07.04.56:911][969]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2019.04.02-07.04.56:916][969]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2019.04.02-07.04.56:924][969]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2019.04.02-07.05.00:781][163]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.04.02-07.05.00:902][169]LogMaterial: Missing cached shader map for material Soldier_Albedo06_Mat, compiling. 
+[2019.04.02-07.05.00:927][169]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2019.04.02-07.05.02:262][237]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.04.02-07.05.02:262][237]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.04.02-07.05.04:645][364]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.04.02-07.05.08:321][554]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.04.02-07.05.09:621][622]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.04.02-07.05.12:106][753]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.04.02-07.05.13:743][838]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.04.02-07.05.15:924][952]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.04.02-07.05.17:358][ 27]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.04.02-07.05.21:206][227]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.04.02-07.05.21:207][227]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.04.02-07.05.23:683][355]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.04.02-07.05.27:889][574]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.04.02-07.05.27:969][578]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.04.02-07.05.28:924][626]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.04.02-07.05.30:772][706]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.04.02-07.05.31:210][707]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.04.02-07.05.31:211][707]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.04.02-07.05.32:171][709]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.04.02-07.05.32:171][709]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.04.02-07.05.32:697][711]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.04.02-07.05.33:440][713]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.04.02-07.05.33:440][713]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.04.02-07.05.33:907][714]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.04.02-07.05.34:523][716]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.04.02-07.05.34:523][716]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.04.02-07.05.34:789][716]MaterialEditorStats: Base pass shader: 117 instructions
+[2019.04.02-07.05.34:789][716]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2019.04.02-07.05.34:789][716]MaterialEditorStats: Vertex shader: 38 instructions
+[2019.04.02-07.05.34:789][716]MaterialEditorStats: Texture samplers: 6/16
+[2019.04.02-07.05.34:789][716]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.04.02-07.05.50:024][445]LogMaterialEditor: Applying material Soldier_Albedo06_Mat
+[2019.04.02-07.05.50:967][445]LogMaterial: Missing cached shader map for material Soldier_Albedo06_Mat, compiling. 
+[2019.04.02-07.05.51:017][445]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.04.02-07.05.51:017][445]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.04.02-07.05.51:017][445]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.04.02-07.05.51:053][445]LogMaterial: Missing cached shader map for material Soldier_Albedo06_Mat, compiling. 
+[2019.04.02-07.05.51:089][445]LogMaterial: Missing cached shader map for material Soldier_Albedo06_Mat, compiling. 
+[2019.04.02-07.05.51:145][445]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Soldier_Albedo06_Mat, compiling. 
+[2019.04.02-07.05.55:829][445]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.04.02-07.05.55:829][445]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.04.02-07.05.55:829][445]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.04.02-07.05.55:829][445]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.04.02-07.05.55:829][445]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.04.02-07.05.55:829][445]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.04.02-07.05.55:829][445]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.04.02-07.05.55:829][445]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.04.02-07.05.55:829][445]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.04.02-07.05.55:829][445]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.04.02-07.05.55:829][445]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.04.02-07.05.55:829][445]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.04.02-07.05.55:829][445]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.04.02-07.05.55:829][445]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.04.02-07.05.55:829][445]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.04.02-07.05.55:829][445]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.04.02-07.05.55:829][445]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.04.02-07.05.55:832][445]TextureStreamingBuild: Display: Compiling optional shaders took 4.696 seconds.
+[2019.04.02-07.06.01:270][515]LogMaterialEditor: Saving and Compiling material Soldier_Albedo06_Mat
+[2019.04.02-07.06.02:840][515]LogSavePackage: Save=18.47ms
+[2019.04.02-07.06.02:840][515]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Soldier_Albedo06_MatA92AB8E24B5904E00EEDE79617A76BF6.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hunk/Texture/Soldier_Albedo06_Mat.uasset'
+[2019.04.02-07.06.02:842][515]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hunk/Texture/Soldier_Albedo06_Mat.uasset
+[2019.04.02-07.06.02:851][515]MaterialEditorStats: Base pass shader: 117 instructions
+[2019.04.02-07.06.02:851][515]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2019.04.02-07.06.02:851][515]MaterialEditorStats: Vertex shader: 38 instructions
+[2019.04.02-07.06.02:851][515]MaterialEditorStats: Texture samplers: 7/16
+[2019.04.02-07.06.02:851][515]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.04.02-07.06.04:316][602]LogSlate: Window 'Soldier_Albedo06_Mat' being destroyed
+[2019.04.02-07.06.04:321][602]LogSlate: Window 'Soldier_Albedo06_Mat' being destroyed
+[2019.04.02-07.06.06:535][674]LogSlate: Window 'Save Content' being destroyed
+[2019.04.02-07.06.06:607][674]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Hunk/09_-_Default" FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hunk/09_-_Default.uasset" SILENT=true
+[2019.04.02-07.06.06:659][674]LogSavePackage: Save=12.58ms
+[2019.04.02-07.06.06:659][674]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/09_-_Default383B9E5447151118E5BA9A9587C9D448.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hunk/09_-_Default.uasset'
+[2019.04.02-07.06.06:661][674]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hunk/09_-_Default.uasset
+[2019.04.02-07.06.07:428][674]LogSavePackage: Save=747.59ms
+[2019.04.02-07.06.07:429][674]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Soldier_Albedo016BEF498948C8B739F7AD66888169F589.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hunk/Texture/Soldier_Albedo01.uasset'
+[2019.04.02-07.06.07:430][674]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hunk/Texture/Soldier_Albedo01.uasset
+[2019.04.02-07.06.08:180][674]LogSavePackage: Save=726.77ms
+[2019.04.02-07.06.08:180][674]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Soldier_Albedo0217F7A4E44248101F0BA541888AD9B54E.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hunk/Texture/Soldier_Albedo02.uasset'
+[2019.04.02-07.06.08:182][674]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hunk/Texture/Soldier_Albedo02.uasset
+[2019.04.02-07.06.08:926][674]LogSavePackage: Save=726.56ms
+[2019.04.02-07.06.08:926][674]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Soldier_Albedo038545809740ABB53791534BB73FBD9D76.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hunk/Texture/Soldier_Albedo03.uasset'
+[2019.04.02-07.06.08:928][674]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hunk/Texture/Soldier_Albedo03.uasset
+[2019.04.02-07.06.09:695][674]LogSavePackage: Save=749.54ms
+[2019.04.02-07.06.09:695][674]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Soldier_Albedo0423F644DF47045CC70B339E929D4DDD55.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hunk/Texture/Soldier_Albedo04.uasset'
+[2019.04.02-07.06.09:697][674]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hunk/Texture/Soldier_Albedo04.uasset
+[2019.04.02-07.06.10:458][674]LogSavePackage: Save=740.85ms
+[2019.04.02-07.06.10:458][674]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Soldier_Albedo053FEAD48342D0696E9DB25598A2C1D110.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hunk/Texture/Soldier_Albedo05.uasset'
+[2019.04.02-07.06.10:460][674]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hunk/Texture/Soldier_Albedo05.uasset
+[2019.04.02-07.06.11:157][674]LogSavePackage: Save=681.95ms
+[2019.04.02-07.06.11:157][674]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Soldier_Albedo063CC870C64A99396499E2EE945FAFB625.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hunk/Texture/Soldier_Albedo06.uasset'
+[2019.04.02-07.06.11:159][674]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hunk/Texture/Soldier_Albedo06.uasset
+[2019.04.02-07.06.11:900][674]LogSavePackage: Save=722.88ms
+[2019.04.02-07.06.11:900][674]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Soldier_Albedo07615C00734605F177026005956ED79F9A.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hunk/Texture/Soldier_Albedo07.uasset'
+[2019.04.02-07.06.11:902][674]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hunk/Texture/Soldier_Albedo07.uasset
+[2019.04.02-07.06.14:468][674]LogSavePackage: Save=2543.52ms
+[2019.04.02-07.06.14:468][674]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Soldier_Albedo0873C0216442D1AC18B21B099E9F510EE5.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hunk/Texture/Soldier_Albedo08.uasset'
+[2019.04.02-07.06.14:471][674]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hunk/Texture/Soldier_Albedo08.uasset
+[2019.04.02-07.06.14:709][674]LogSavePackage: Save=221.15ms
+[2019.04.02-07.06.14:709][674]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Soldier_Ao971CB9F145AACE33A667728D3B6FEC66.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hunk/Texture/Soldier_Ao.uasset'
+[2019.04.02-07.06.14:711][674]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hunk/Texture/Soldier_Ao.uasset
+[2019.04.02-07.06.16:574][674]LogSavePackage: Save=1851.82ms
+[2019.04.02-07.06.16:574][674]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Soldier_Metallic572B45924832459AEF2306942B0A0D1A.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hunk/Texture/Soldier_Metallic.uasset'
+[2019.04.02-07.06.16:576][674]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hunk/Texture/Soldier_Metallic.uasset
+[2019.04.02-07.06.21:070][674]LogSavePackage: Save=4475.46ms
+[2019.04.02-07.06.21:070][674]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Soldier_NormalsE5718E90414327489675F0B8AC42D419.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hunk/Texture/Soldier_Normals.uasset'
+[2019.04.02-07.06.21:072][674]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hunk/Texture/Soldier_Normals.uasset
+[2019.04.02-07.06.29:374][107]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2019.04.02-07.06.29:417][107]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2019.04.02-07.06.29:749][107]LogSlate: Took 0.000272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.04.02-07.06.35:818][437]LogSlate: Window 'Soldier_1' being destroyed
+[2019.04.02-07.06.40:290][699]LogSkeletalMesh: Building Skeletal Mesh Soldier_1...
+[2019.04.02-07.06.40:436][699]LogSkeletalMesh: Built Skeletal Mesh [0.15s] /Game/MyCharacter/Hunk/Soldier_1.Soldier_1
+[2019.04.02-07.06.40:437][699]LogMaterial: Warning: Material /Game/MyCharacter/Hunk/Texture/Soldier_Albedo06_Mat.Soldier_Albedo06_Mat needed to have new flag set bUsedWithSkeletalMesh !
+[2019.04.02-07.06.40:453][699]LogMaterial: Missing cached shader map for material Soldier_Albedo06_Mat, compiling. 
+[2019.04.02-07.06.40:528][700]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.04.02-07.06.40:528][700]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.04.02-07.06.40:528][700]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.04.02-07.06.49:448][187]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.02-07.06.51:366][237]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.04.02-07.06.55:708][476]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.04.02-07.07.04:360][967]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.02-07.07.04:513][973]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Hunk/Soldier_1" FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hunk/Soldier_1.uasset" SILENT=true
+[2019.04.02-07.07.04:676][973]LogSavePackage: Save=110.20ms
+[2019.04.02-07.07.04:676][973]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Soldier_14D252EF045DBC0905BA19CA427E6C920.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hunk/Soldier_1.uasset'
+[2019.04.02-07.07.04:680][973]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Hunk/Soldier_1.uasset
+[2019.04.02-07.07.09:295][114]LogSlate: Window 'Delete Assets' being destroyed
+[2019.04.02-07.07.14:352][114]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.04.02-07.08.11:958][483]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.02-07.08.25:778][670]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\KVT\Unity\Text\Text\Assets\PBR_Customized_Soldier\Textures\Head(H)\Head_H_Metallic.tga)
+[2019.04.02-07.08.26:210][670]LogTexture: Display: Building textures: Head_H_Metallic (AutoDXT, 4096X4096)
+[2019.04.02-07.08.28:664][670]LogAssetTools: Warning: Failed to import 'D:\KVT\Unity\Text\Text\Assets\PBR_Customized_Soldier\Textures\Head(H)\Head_H_Metallic.tga.meta'. Unknown extension 'meta'.
+[2019.04.02-07.08.28:824][670]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\KVT\Unity\Text\Text\Assets\PBR_Customized_Soldier\Textures\Head(H)\Head_H_Normals.tga)
+[2019.04.02-07.08.29:341][670]LogTexture: Display: Building textures: Head_H_Normals (BC5, 4096X4096)
+[2019.04.02-07.08.32:519][670]LogAssetTools: Warning: Failed to import 'D:\KVT\Unity\Text\Text\Assets\PBR_Customized_Soldier\Textures\Head(H)\Head_H_Normals.tga.meta'. Unknown extension 'meta'.
+[2019.04.02-07.08.32:697][670]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\KVT\Unity\Text\Text\Assets\PBR_Customized_Soldier\Textures\Head(H)\Head_H_Albedo.tga)
+[2019.04.02-07.08.33:149][670]LogTexture: Display: Building textures: Head_H_Albedo (AutoDXT, 4096X4096)
+[2019.04.02-07.08.49:343][670]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.02-07.08.49:343][670]LogD3D11RHI: Error: SwapChain->ResizeBuffers(1,SizeX,SizeY,RenderTargetFormat,DXGI_SWAP_CHAIN_FLAG_ALLOW_MODE_SWITCH) failed 
+ at D:\Build\++UE4+Release-4.19+Compile\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Viewport.cpp:234 
+ with error E_OUTOFMEMORY, 
+ Size=1168x54 Format=DXGI_FORMAT_R8G8B8A8_UNORM(0x0000001C)
+[2019.04.02-07.08.57:089][670]LogConsoleResponse:     51 = 4592 KB (2D 948x620 PF_FloatRGBA RT UAV VRam) SceneColor VRamInKB(Start/Size):<NONE>
+[2019.04.02-07.08.57:089][670]LogConsoleResponse:     62 = 4592 KB (2D 948x620 PF_FloatRGBA RT UAV) LightAccumulation
+[2019.04.02-07.08.57:089][670]LogConsoleResponse:     82 = 4592 KB (2D 948x620 PF_FloatRGBA RT) SSRTemporalAA
+[2019.04.02-07.08.57:089][670]LogConsoleResponse:     47 = 4592 KB (2D 948x620 PF_FloatRGBA RT) SSRTemporalAA
+[2019.04.02-07.08.57:089][670]LogConsoleResponse:     50 = 4592 KB (2D 948x620 PF_FloatRGBA RT) TemporalAA
+[2019.04.02-07.08.57:089][670]LogConsoleResponse:     54 = 4592 KB (2D 948x620 PF_FloatRGBA RT) TemporalAA
+[2019.04.02-07.08.57:089][670]LogConsoleResponse:     75 = 4592 KB (2D 948x620 PF_FloatRGBA RT) TemporalAA
+[2019.04.02-07.08.57:089][670]LogConsoleResponse:     57 = 4592 KB (2D 948x620 PF_FloatRGBA RT) TemporalAA
+[2019.04.02-07.08.57:089][670]LogConsoleResponse:     74 = 2296 KB (2D 948x620 PF_DepthStencil VRam) SceneDepthZ VRamInKB(Start/Size):<NONE>
+[2019.04.02-07.08.57:090][670]LogConsoleResponse:     68 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolume0
+[2019.04.02-07.08.57:090][670]LogConsoleResponse:     66 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolume1
+[2019.04.02-07.08.57:090][670]LogConsoleResponse:     64 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolume2
+[2019.04.02-07.08.57:090][670]LogConsoleResponse:     67 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolumeDir0
+[2019.04.02-07.08.57:090][670]LogConsoleResponse:     65 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolumeDir1
+[2019.04.02-07.08.57:090][670]LogConsoleResponse:     63 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolumeDir2
+[2019.04.02-07.08.57:090][670]LogConsoleResponse:     29 = 2048 KB (Cube[2] 128 PF_FloatRGBA) ReflectionEnvs
+[2019.04.02-07.08.57:090][670]LogConsoleResponse:     70 = 1148 KB (2D 474x310 PF_DepthStencil) SmallDepthZ
+[2019.04.02-07.08.57:090][670]LogConsoleResponse:     61 = 1148 KB (2D 948x310 PF_R32_UINT RT UAV) QuadOverdrawBuffer
+[2019.04.02-07.08.57:090][670]LogConsoleResponse:     77 = 1024 KB (Cube 128 PF_FloatRGBA RT) ReflectionColorScratchCubemap0
+[2019.04.02-07.08.57:090][670]LogConsoleResponse:     73 = 1024 KB (Cube 128 PF_FloatRGBA RT) ReflectionColorScratchCubemap1
+[2019.04.02-07.08.57:090][670]LogConsoleResponse:     69 = 574 KB (2D 948x620 PF_G8 RT UAV) ScreenSpaceAO
+[2019.04.02-07.08.57:090][670]LogConsoleResponse:      2 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2019.04.02-07.08.57:090][670]LogConsoleResponse:     89 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2019.04.02-07.08.57:090][670]LogConsoleResponse:      3 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2019.04.02-07.08.57:090][670]LogConsoleResponse:      1 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2019.04.02-07.08.57:090][670]LogConsoleResponse:      4 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2019.04.02-07.08.57:090][670]LogConsoleResponse:     17 = 128 KB (3D 32x32x32 PF_A2B10G10R10 RT VRam) CombineLUTs VRamInKB(Start/Size):<NONE>
+[2019.04.02-07.08.57:090][670]LogConsoleResponse:     41 = 128 KB (3D 32x32x32 PF_A2B10G10R10 RT) CombineLUTs
+[2019.04.02-07.08.57:091][670]LogConsoleResponse:     10 = 64 KB (2D 128x128 PF_B8G8R8A8) PerlinNoiseGradient
+[2019.04.02-07.08.57:091][670]LogConsoleResponse:     72 = 64 KB (Cube 32 PF_FloatRGBA RT) DiffuseIrradianceScratchCubemap0
+[2019.04.02-07.08.57:091][670]LogConsoleResponse:     71 = 64 KB (Cube 32 PF_FloatRGBA RT) DiffuseIrradianceScratchCubemap1
+[2019.04.02-07.08.57:091][670]LogConsoleResponse:     16 = 16 KB (2D 128x32 PF_G16R16) PreintegratedGF
+[2019.04.02-07.08.57:091][670]LogConsoleResponse:     14 = 16 KB (3D 16x16x16 PF_B8G8R8A8) PerlinNoise3D
+[2019.04.02-07.08.57:091][670]LogConsoleResponse:     15 = 8 KB (2D 64x64 PF_R8G8) SSAORandomization
+[2019.04.02-07.08.57:091][670]LogConsoleResponse:      7 = 1 KB (2D 1x1 PF_B8G8R8A8 RT) BlackAlphaOneDummy
+[2019.04.02-07.08.57:091][670]LogConsoleResponse:      6 = 1 KB (2D 1x1 PF_B8G8R8A8 RT) BlackDummy
+[2019.04.02-07.08.57:091][670]LogConsoleResponse:      9 = 1 KB (2D 1x1 PF_B8G8R8A8 RT) DefaultNormal8Bit
+[2019.04.02-07.08.57:091][670]LogConsoleResponse:      8 = 1 KB (2D 1x1 PF_B8G8R8A8 RT) GreenDummy
+[2019.04.02-07.08.57:091][670]LogConsoleResponse:      5 = 1 KB (2D 1x1 PF_B8G8R8A8 RT) WhiteDummy
+[2019.04.02-07.08.57:091][670]LogConsoleResponse:     13 = 1 KB (2D 1x1 PF_DepthStencil) DepthDummy
+[2019.04.02-07.08.57:091][670]LogConsoleResponse:     12 = 1 KB (2D 1x1 PF_FloatRGBA RT) MaxFP16Depth
+[2019.04.02-07.08.57:091][670]LogConsoleResponse:     56 = 1 KB (2D 1x1 PF_G32R32F RT UAV) EyeAdaptation
+[2019.04.02-07.08.57:091][670]LogConsoleResponse:     55 = 1 KB (2D 1x1 PF_G32R32F RT UAV) EyeAdaptation
+[2019.04.02-07.08.57:091][670]LogConsoleResponse:     52 = 1 KB (2D 1x1 PF_G32R32F RT UAV) EyeAdaptation
+[2019.04.02-07.08.57:091][670]LogConsoleResponse:     53 = 1 KB (2D 1x1 PF_G32R32F RT UAV) EyeAdaptation
+[2019.04.02-07.08.57:091][670]LogConsoleResponse:     11 = 1 KB (2D 32x16 PF_R16_UINT) SobolSampling
+[2019.04.02-07.08.57:091][670]LogConsoleResponse:     60 = 1 KB (2D 9x1 PF_FloatRGBA RT) SkySHIrradianceMap
+[2019.04.02-07.08.57:091][670]LogConsoleResponse: 
+[2019.04.02-07.08.57:091][670]LogConsoleResponse: Pool: 59/59 MB (referenced/allocated)
+[2019.04.02-07.08.57:092][670]LogWindows: FPlatformMisc::RequestExit(1)
+[2019.04.02-07.08.57:092][670]Log file closed, 04/02/19 14:08:57

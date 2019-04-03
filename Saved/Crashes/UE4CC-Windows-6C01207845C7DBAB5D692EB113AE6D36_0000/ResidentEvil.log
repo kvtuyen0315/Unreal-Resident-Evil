@@ -1,0 +1,1320 @@
+﻿Log file open, 03/30/19 15:18:17
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: ResidentEvil
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(735873976) SRandInit(735873977).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 1.220875
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +7:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.128s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Binaries/Win64/UE4Editor-ResidentEvil.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am DESKTOP-151KF17 (192.168.0.104:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: D:/Cai Dat/UE4/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.003s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.03.30-08.18.20:026][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.30-08.18.20:026][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.30-08.18.20:040][  0]LogInit: Computer: DESKTOP-151KF17
+[2019.03.30-08.18.20:040][  0]LogInit: User: kvtuy
+[2019.03.30-08.18.20:040][  0]LogInit: CPU Page size=4096, Cores=2
+[2019.03.30-08.18.20:040][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.03.30-08.18.20:040][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.03.30-08.18.20:040][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.30-08.18.20:040][  0]LogMemory: Process Physical Memory: 273.37 MB used, 273.37 MB peak
+[2019.03.30-08.18.20:040][  0]LogMemory: Process Virtual Memory: 265.84 MB used, 265.84 MB peak
+[2019.03.30-08.18.20:040][  0]LogMemory: Physical Memory: 5499.52 MB used,  10773.48 MB free, 16272.99 MB total
+[2019.03.30-08.18.20:040][  0]LogMemory: Virtual Memory: 4780.70 MB used,  10773.48 MB free, 134217728.00 MB total
+[2019.03.30-08.18.20:127][  0]LogInit: Using OS detected language (en-US).
+[2019.03.30-08.18.20:127][  0]LogInit: Using OS detected locale (en-US).
+[2019.03.30-08.18.20:138][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.03.30-08.18.20:720][  0]LogStreaming: Display: Took  0.591s to EndInitTextLocalization.
+[2019.03.30-08.18.20:721][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.30-08.18.20:781][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.30-08.18.20:782][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.30-08.18.21:204][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.30-08.18.21:709][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950M' (Feature Level 11_0)
+[2019.03.30-08.18.21:709][  0]LogD3D11RHI:       4055/0/8136 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.30-08.18.21:717][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2019.03.30-08.18.21:717][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.03.30-08.18.21:720][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.30-08.18.21:720][  0]LogD3D11RHI:       0/0/8136 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.30-08.18.21:720][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.30-08.18.21:761][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.30-08.18.21:761][  0]LogD3D11RHI:     GPU DeviceId: 0x139a (for the marketing name, search the web for "GPU Device Id")
+[2019.03.30-08.18.21:761][  0]LogWindows: EnumDisplayDevices:
+[2019.03.30-08.18.21:762][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2019.03.30-08.18.21:762][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2019.03.30-08.18.21:762][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2019.03.30-08.18.21:762][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.03.30-08.18.21:762][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
+[2019.03.30-08.18.21:763][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.03.30-08.18.21:763][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.03.30-08.18.21:763][  0]LogRHI: Texture pool is 2839 MB (70% of 4055 MB)
+[2019.03.30-08.18.21:826][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.03.30-08.18.21:826][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.03.30-08.18.21:826][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.30-08.18.21:859][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.03.30-08.18.21:863][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Intermediate/Shaders/WorkingDirectory/7080/).
+[2019.03.30-08.18.21:863][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kvtuy/AppData/Local/Temp/UnrealShaderWorkingDir/3D218A2E4C6FFB8268E1BD93914C730F/'.
+[2019.03.30-08.18.22:244][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.30-08.18.22:266][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.30-08.18.22:283][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.30-08.18.22:300][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.30-08.18.22:318][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.30-08.18.22:334][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.30-08.18.22:350][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.30-08.18.22:367][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.30-08.18.22:376][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.30-08.18.22:398][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2019.03.30-08.18.22:416][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2019.03.30-08.18.22:436][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2019.03.30-08.18.22:457][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2019.03.30-08.18.22:478][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2019.03.30-08.18.22:498][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2019.03.30-08.18.22:533][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2019.03.30-08.18.22:533][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.03.30-08.18.22:551][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.30-08.18.22:553][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.30-08.18.22:597][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.30-08.18.22:611][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.30-08.18.22:627][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.30-08.18.22:644][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.30-08.18.22:664][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.30-08.18.22:683][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.30-08.18.22:684][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.30-08.18.22:905][  0]LogXGEController: Cleaning working directory: C:/Users/kvtuy/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.03.30-08.18.22:905][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.30-08.18.22:906][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.30-08.18.22:906][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.30-08.18.24:236][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.30-08.18.24:565][  0]LogDerivedDataCache: Loaded boot cache 0.33s 74MB C:/Users/kvtuy/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.03.30-08.18.24:565][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kvtuy/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2019.03.30-08.18.24:565][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.30-08.18.24:565][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.30-08.18.24:565][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.30-08.18.24:565][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.30-08.18.24:589][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.30-08.18.24:602][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kvtuy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.30-08.18.24:602][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.30-08.18.24:602][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.30-08.18.24:618][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.30-08.18.24:622][  0]LogSlate: Using Freetype 2.6.0
+[2019.03.30-08.18.24:626][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.30-08.18.24:626][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.30-08.18.25:010][  0]LogAssetRegistry: FAssetRegistry took 0.0300 seconds to start up
+[2019.03.30-08.18.25:599][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.30-08.18.25:890][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.30-08.18.25:899][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.30-08.18.25:900][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.30-08.18.25:900][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.30-08.18.25:900][  0]LogMeshReduction: No automatic mesh merging module available
+[2019.03.30-08.18.25:900][  0]LogMeshMerging: No automatic mesh merging module available
+[2019.03.30-08.18.25:955][  0]LogNetVersion: ResidentEvil , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3990793033)
+[2019.03.30-08.18.26:755][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.090522 seconds
+[2019.03.30-08.18.26:763][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2019.03.30-08.18.26:763][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2019.03.30-08.18.26:763][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.30-08.18.30:172][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.30-08.18.30:215][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.30-08.18.30:595][  0]LogSkeletalMesh: Building Skeletal Mesh Assault_Rifle_A...
+[2019.03.30-08.18.30:615][  0]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/MyAssets/MilitaryWeapSilver/Weapons/Assault_Rifle_A.Assault_Rifle_A
+[2019.03.30-08.18.31:825][  0]LogTexture: Display: Building textures: Assault_Rifle_A_Norm (BC5, 2048X2048)
+[2019.03.30-08.18.31:825][  0]LogTexture: Display: Building textures: Assault_Rifle_A_masks (AutoDXT, 2048X2048)
+[2019.03.30-08.18.36:490][  0]LogTexture: Display: Building textures: Assault_Rifle_A_Diff (AutoDXT, 2048X2048)
+[2019.03.30-08.18.38:507][  0]LogMaterial: Missing cached shader map for material M_WeaponMaster_01, compiling. 
+[2019.03.30-08.19.04:997][  0]LogShaderCompilers: Display: Shaders left to compile 69
+[2019.03.30-08.19.04:998][  0]LogShaderCompilers: Display: Shaders left to compile 59
+[2019.03.30-08.19.04:998][  0]LogShaderCompilers: Display: Shaders left to compile 49
+[2019.03.30-08.19.04:998][  0]LogTexture: Display: Building textures: genAssault_MERC_d (AutoDXT, 4096X4096)
+[2019.03.30-08.19.04:998][  0]LogTexture: Display: Building textures: genAssault_GreenArmyMan_nm (BC5, 4096X4096)
+[2019.03.30-08.19.04:998][  0]LogTexture: Display: Building textures: genAssault_arctic_sg (AutoDXT, 4096X4096)
+[2019.03.30-08.19.04:998][  0]LogSkeletalMesh: Building Skeletal Mesh genAssault...
+[2019.03.30-08.19.05:237][  0]LogSkeletalMesh: Built Skeletal Mesh [0.24s] /Game/MyCharacter/Hero/genAssault.genAssault
+[2019.03.30-08.19.05:243][  0]LogMaterial: Missing cached shader map for material genAssault_arctic_mat, compiling. 
+[2019.03.30-08.19.06:162][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f58259f940, Size=96, Default__HunkAnimation_C Function /Game/MyCharacter/Hero/HunkAnimation.HunkAnimation_C:ExecuteUbergraph_HunkAnimation
+[2019.03.30-08.19.06:324][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f58259f940, Size=96
+[2019.03.30-08.19.06:324][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f58637c3a0, Size=96, Default__HunkAnimation_C Function /Engine/Transient.REINST_HunkAnimation_C_0:ExecuteUbergraph_HunkAnimation
+[2019.03.30-08.19.06:547][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f585de7fa0, Size=96, Default__HunkAnimation_C Function /Game/MyCharacter/Hero/HunkAnimation.HunkAnimation_C:ExecuteUbergraph_HunkAnimation
+[2019.03.30-08.19.06:617][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Walk_Lt_Rifle_Aim.Walk_Lt_Rifle_Aim
+[2019.03.30-08.19.06:618][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/Walk_Lt_Rifle_Aim.Walk_Lt_Rifle_Aim) using current/default (AnimCompress_BitwiseCompressOnly_81) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:624][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Walk_Fwd_Rifle_Aim.Walk_Fwd_Rifle_Aim
+[2019.03.30-08.19.06:625][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/Walk_Fwd_Rifle_Aim.Walk_Fwd_Rifle_Aim) using current/default (AnimCompress_BitwiseCompressOnly_90) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:631][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Crouch_to_Stand_Rifle_Hip.Crouch_to_Stand_Rifle_Hip
+[2019.03.30-08.19.06:631][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/Crouch_to_Stand_Rifle_Hip.Crouch_to_Stand_Rifle_Hip) using current/default (AnimCompress_BitwiseCompressOnly_158) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:634][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Crouch_Idle_Rifle_Ironsights.Crouch_Idle_Rifle_Ironsights
+[2019.03.30-08.19.06:634][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/Crouch_Idle_Rifle_Ironsights.Crouch_Idle_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_155) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:644][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Crouch_Idle_Rifle_Hip.Crouch_Idle_Rifle_Hip
+[2019.03.30-08.19.06:645][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/Crouch_Idle_Rifle_Hip.Crouch_Idle_Rifle_Hip) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:655][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Crouch_Idle.Crouch_Idle
+[2019.03.30-08.19.06:655][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/Crouch_Idle.Crouch_Idle) using current/default (AnimCompress_BitwiseCompressOnly_29) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:685][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Aim_Up.Aim_Up
+[2019.03.30-08.19.06:695][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/Aim_Up.Aim_Up) using current/default (AnimCompress_BitwiseCompressOnly_61) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:699][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Aim_Right_Up.Aim_Right_Up
+[2019.03.30-08.19.06:700][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/Aim_Right_Up.Aim_Right_Up) using current/default (AnimCompress_BitwiseCompressOnly_56) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:700][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Aim_Rifle.Aim_Rifle
+[2019.03.30-08.19.06:701][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/Aim_Rifle.Aim_Rifle) using current/default (AnimCompress_BitwiseCompressOnly_14) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:711][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Aim_Center.Aim_Center
+[2019.03.30-08.19.06:711][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/Aim_Center.Aim_Center) using current/default (AnimCompress_BitwiseCompressOnly_18) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:717][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Walk_Right_Rifle.Walk_Right_Rifle
+[2019.03.30-08.19.06:717][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/Walk_Right_Rifle.Walk_Right_Rifle) using current/default (AnimCompress_BitwiseCompressOnly_72) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:753][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Walk_Left_Rifle.Walk_Left_Rifle
+[2019.03.30-08.19.06:753][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/Walk_Left_Rifle.Walk_Left_Rifle) using current/default (AnimCompress_BitwiseCompressOnly_86) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:756][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Walk_Forward_Rifle.Walk_Forward_Rifle
+[2019.03.30-08.19.06:756][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/Walk_Forward_Rifle.Walk_Forward_Rifle) using current/default (AnimCompress_BitwiseCompressOnly_95) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:769][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Walk_Backward_Rifle.Walk_Backward_Rifle
+[2019.03.30-08.19.06:769][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/Walk_Backward_Rifle.Walk_Backward_Rifle) using current/default (AnimCompress_BitwiseCompressOnly_104) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:772][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Crouch_Walk_Rt_Rifle_Hip.Crouch_Walk_Rt_Rifle_Hip
+[2019.03.30-08.19.06:773][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/Crouch_Walk_Rt_Rifle_Hip.Crouch_Walk_Rt_Rifle_Hip) using current/default (AnimCompress_BitwiseCompressOnly_197) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:777][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Crouch_Walk_Lt_Rifle_Hip.Crouch_Walk_Lt_Rifle_Hip
+[2019.03.30-08.19.06:777][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/Crouch_Walk_Lt_Rifle_Hip.Crouch_Walk_Lt_Rifle_Hip) using current/default (AnimCompress_BitwiseCompressOnly_188) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:782][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Crouch_Walk_Fwd_Rifle_Hip.Crouch_Walk_Fwd_Rifle_Hip
+[2019.03.30-08.19.06:782][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/Crouch_Walk_Fwd_Rifle_Hip.Crouch_Walk_Fwd_Rifle_Hip) using current/default (AnimCompress_BitwiseCompressOnly_178) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:785][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Crouch_Walk_Bwd_Rifle_Hip.Crouch_Walk_Bwd_Rifle_Hip
+[2019.03.30-08.19.06:786][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/Crouch_Walk_Bwd_Rifle_Hip.Crouch_Walk_Bwd_Rifle_Hip) using current/default (AnimCompress_BitwiseCompressOnly_166) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:792][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Crouch_Walk_Rt_Rifle_Ironsights.Crouch_Walk_Rt_Rifle_Ironsights
+[2019.03.30-08.19.06:793][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/Crouch_Walk_Rt_Rifle_Ironsights.Crouch_Walk_Rt_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_202) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:798][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Crouch_Walk_Lt_Rifle_Ironsights.Crouch_Walk_Lt_Rifle_Ironsights
+[2019.03.30-08.19.06:799][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/Crouch_Walk_Lt_Rifle_Ironsights.Crouch_Walk_Lt_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_192) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:802][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Crouch_Walk_Fwd_Rifle_Ironsights.Crouch_Walk_Fwd_Rifle_Ironsights
+[2019.03.30-08.19.06:802][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/Crouch_Walk_Fwd_Rifle_Ironsights.Crouch_Walk_Fwd_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_184) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:807][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Crouch_Walk_Bwd_Rifle_Ironsights.Crouch_Walk_Bwd_Rifle_Ironsights
+[2019.03.30-08.19.06:808][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/Crouch_Walk_Bwd_Rifle_Ironsights.Crouch_Walk_Bwd_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_172) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:812][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Walk_Rt_Rifle_Aim.Walk_Rt_Rifle_Aim
+[2019.03.30-08.19.06:812][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/Walk_Rt_Rifle_Aim.Walk_Rt_Rifle_Aim) using current/default (AnimCompress_BitwiseCompressOnly_66) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:818][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Walk_Bwd_Rifle_Aim.Walk_Bwd_Rifle_Aim
+[2019.03.30-08.19.06:818][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/Walk_Bwd_Rifle_Aim.Walk_Bwd_Rifle_Aim) using current/default (AnimCompress_BitwiseCompressOnly_105) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:822][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/StopWalk.StopWalk
+[2019.03.30-08.19.06:822][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/StopWalk.StopWalk) using current/default (AnimCompress_BitwiseCompressOnly_10) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:824][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Stand_to_Crouch_Rifle_Ironsights.Stand_to_Crouch_Rifle_Ironsights
+[2019.03.30-08.19.06:824][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/Stand_to_Crouch_Rifle_Ironsights.Stand_to_Crouch_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_97) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:826][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Stand_to_Crouch_Rifle_Hip.Stand_to_Crouch_Rifle_Hip
+[2019.03.30-08.19.06:827][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/Stand_to_Crouch_Rifle_Hip.Stand_to_Crouch_Rifle_Hip) using current/default (AnimCompress_BitwiseCompressOnly_96) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:836][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/SprintStop.SprintStop
+[2019.03.30-08.19.06:836][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/SprintStop.SprintStop) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:839][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/NewAnimation.NewAnimation
+[2019.03.30-08.19.06:839][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/NewAnimation.NewAnimation) using current/default (AnimCompress_BitwiseCompressOnly_34) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:847][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Idle_Rifle.Idle_Rifle
+[2019.03.30-08.19.06:848][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/Idle_Rifle.Idle_Rifle) using current/default (AnimCompress_BitwiseCompressOnly_27) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:859][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Idle.Idle
+[2019.03.30-08.19.06:859][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/Idle.Idle) using current/default (AnimCompress_BitwiseCompressOnly_11) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:867][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Fire_Rifle.Fire_Rifle
+[2019.03.30-08.19.06:867][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/Fire_Rifle.Fire_Rifle) using current/default (AnimCompress_BitwiseCompressOnly_33) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:869][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/EquipOrUnEquip.EquipOrUnEquip
+[2019.03.30-08.19.06:869][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/EquipOrUnEquip.EquipOrUnEquip) using current/default (AnimCompress_BitwiseCompressOnly_103) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:872][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Crouch_to_Stand_Rifle_Ironsights.Crouch_to_Stand_Rifle_Ironsights
+[2019.03.30-08.19.06:873][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/Crouch_to_Stand_Rifle_Ironsights.Crouch_to_Stand_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_162) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:874][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Aim_Right_Down.Aim_Right_Down
+[2019.03.30-08.19.06:875][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/Aim_Right_Down.Aim_Right_Down) using current/default (AnimCompress_BitwiseCompressOnly_50) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:882][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Aim_Right.Aim_Right
+[2019.03.30-08.19.06:882][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/Aim_Right.Aim_Right) using current/default (AnimCompress_BitwiseCompressOnly_47) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:883][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Aim_Left_Up.Aim_Left_Up
+[2019.03.30-08.19.06:884][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/Aim_Left_Up.Aim_Left_Up) using current/default (AnimCompress_BitwiseCompressOnly_40) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:884][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Aim_Left_Down.Aim_Left_Down
+[2019.03.30-08.19.06:884][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/Aim_Left_Down.Aim_Left_Down) using current/default (AnimCompress_BitwiseCompressOnly_32) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:885][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Aim_Left.Aim_Left
+[2019.03.30-08.19.06:885][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/Aim_Left.Aim_Left) using current/default (AnimCompress_BitwiseCompressOnly_30) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:897][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Aim_Down.Aim_Down
+[2019.03.30-08.19.06:897][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/Aim_Down.Aim_Down) using current/default (AnimCompress_BitwiseCompressOnly_27) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:898][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Sprint_Fwd_Rifle.Sprint_Fwd_Rifle
+[2019.03.30-08.19.06:898][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/Sprint_Fwd_Rifle.Sprint_Fwd_Rifle) using current/default (AnimCompress_BitwiseCompressOnly_108) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:910][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Sprint.Sprint
+[2019.03.30-08.19.06:910][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/Sprint.Sprint) using current/default (AnimCompress_BitwiseCompressOnly_12) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:915][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/Crouch_Walk_Forward.Crouch_Walk_Forward
+[2019.03.30-08.19.06:915][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/Crouch_Walk_Forward.Crouch_Walk_Forward) using current/default (AnimCompress_BitwiseCompressOnly_31) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.06:919][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Hero/WalkForward.WalkForward
+[2019.03.30-08.19.06:920][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/MyCharacter/Hero/WalkForward.WalkForward) using current/default (AnimCompress_BitwiseCompressOnly_17) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.19.07:229][  0]LogSkeletalMesh: Building Skeletal Mesh Pistols_A...
+[2019.03.30-08.19.07:240][  0]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/MyAssets/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A
+[2019.03.30-08.19.16:735][  0]LogTexture: Display: Building textures: Pistols_A_Masks (AutoDXT, 2048X2048)
+[2019.03.30-08.19.16:735][  0]LogTexture: Display: Building textures: Pistols_A_Diff (AutoDXT, 2048X2048)
+[2019.03.30-08.19.16:735][  0]LogTexture: Display: Building textures: Pistols_A_Norm (BC5, 2048X2048)
+[2019.03.30-08.19.16:868][  0]LogSkeletalMesh: Building Skeletal Mesh Shotgun_A...
+[2019.03.30-08.19.16:881][  0]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/MyAssets/MilitaryWeapSilver/Weapons/Shotgun_A.Shotgun_A
+[2019.03.30-08.19.17:596][  0]LogTexture: Display: Building textures: Shotgun_A_Norm (BC5, 2048X2048)
+[2019.03.30-08.19.17:596][  0]LogTexture: Display: Building textures: Shotgun_A_Masks (AutoDXT, 2048X2048)
+[2019.03.30-08.19.17:596][  0]LogTexture: Display: Building textures: Shotgun_A_Diff (AutoDXT, 2048X2048)
+[2019.03.30-08.19.24:148][  0]SourceControl: Source control is disabled
+[2019.03.30-08.19.24:148][  0]SourceControl: Source control is disabled
+[2019.03.30-08.19.24:186][  0]SourceControl: Source control is disabled
+[2019.03.30-08.19.24:218][  0]SourceControl: Source control is disabled
+[2019.03.30-08.19.25:007][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.30-08.19.25:306][  0]LogOcInput: OculusInput pre-init called
+[2019.03.30-08.19.25:621][  0]LogEngine: Initializing Engine...
+[2019.03.30-08.19.25:627][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.30-08.19.25:644][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.30-08.19.25:652][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.30-08.19.26:183][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.30-08.19.26:207][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.30-08.19.26:260][  0]LogInit: FAudioDevice initialized.
+[2019.03.30-08.19.26:426][  0]LogDerivedDataCache: Saved boot cache 0.17s 156MB C:/Users/kvtuy/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.03.30-08.19.26:467][  0]LogInit: Texture streaming: Enabled
+[2019.03.30-08.19.26:501][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.30-08.19.26:821][  0]LogInit: Transaction tracking system initialized
+[2019.03.30-08.19.27:069][  0]BlueprintLog: New page: Editor Load
+[2019.03.30-08.19.27:605][  0]LocalizationService: Localization service is disabled
+[2019.03.30-08.19.27:901][  0]LogConsoleResponse: Display: 
+[2019.03.30-08.19.28:476][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.30-08.19.28:476][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.30-08.19.28:476][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.30-08.19.28:476][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.30-08.19.28:476][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.30-08.19.29:308][  0]LogFileCache: Scanning file cache for directory 'D:/KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/' took 0.02s
+[2019.03.30-08.19.29:846][  0]SourceControl: Source control is disabled
+[2019.03.30-08.19.29:848][  0]Cmd: MAP LOAD FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyMap/Map01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.30-08.19.29:849][  0]LightingResults: New page: Lighting Build
+[2019.03.30-08.19.29:864][  0]MapCheck: New page: Map Check
+[2019.03.30-08.19.29:865][  0]LightingResults: New page: Lighting Build
+[2019.03.30-08.19.31:738][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f58637c3a0, Size=96
+[2019.03.30-08.19.32:963][  0]LogAIModule: Creating AISystem for world Map01
+[2019.03.30-08.19.33:062][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.30-08.19.47:061][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.30-08.19.47:151][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 89.896ms to complete.
+[2019.03.30-08.19.47:152][  0]LogFileHelpers: Loading map 'Map01' took 17.305
+[2019.03.30-08.19.47:623][  0]LogCollectionManager: Loaded 0 collections in 0.002111 seconds
+[2019.03.30-08.19.47:686][  0]LogFileCache: Scanning file cache for directory 'D:/KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Collections/' took 0.01s
+[2019.03.30-08.19.47:686][  0]LogFileCache: Scanning file cache for directory 'D:/KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/Developers/kvtuy/Collections/' took 0.01s
+[2019.03.30-08.19.47:686][  0]LogFileCache: Scanning file cache for directory 'D:/KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/Collections/' took 0.01s
+[2019.03.30-08.19.47:686][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.03.30-08.19.47:720][  0]LogContentBrowser: Native class hierarchy populated in 0.0325 seconds. Added 2461 classes and 569 folders.
+[2019.03.30-08.19.47:743][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0076 seconds. Added 0 classes and 0 folders.
+[2019.03.30-08.19.47:950][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0074 seconds. Added 0 classes and 0 folders.
+[2019.03.30-08.19.47:971][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0076 seconds. Added 1 classes and 2 folders.
+[2019.03.30-08.19.48:109][  0]LogSlate: Took 0.001504 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.30-08.19.48:114][  0]LogSlate: Took 0.001456 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.30-08.19.48:133][  0]LogSlate: Took 0.001166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.30-08.19.48:392][  0]LogRenderer: Reallocating scene render targets to support 856x380 Format 10 NumSamples 1 (Frame:1).
+[2019.03.30-08.20.23:886][  0]LogShaderCompilers: Display: Shaders left to compile 99
+[2019.03.30-08.20.23:886][  0]LogShaderCompilers: Display: Shaders left to compile 89
+[2019.03.30-08.20.23:886][  0]LogShaderCompilers: Display: Shaders left to compile 79
+[2019.03.30-08.20.23:886][  0]LogShaderCompilers: Display: Shaders left to compile 69
+[2019.03.30-08.20.23:886][  0]LogShaderCompilers: Display: Shaders left to compile 59
+[2019.03.30-08.20.23:886][  0]LogShaderCompilers: Display: Shaders left to compile 49
+[2019.03.30-08.20.23:886][  0]LogShaderCompilers: Display: Shaders left to compile 39
+[2019.03.30-08.20.23:886][  0]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.03.30-08.20.23:887][  0]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.30-08.20.23:887][  0]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.30-08.20.23:887][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.30-08.20.27:573][  0]LogSlate: Window 'Tutorials' being destroyed
+[2019.03.30-08.20.27:617][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0077 seconds. Added 0 classes and 0 folders.
+[2019.03.30-08.20.27:617][  0]LogLoad: (Engine Initialization) Total time: 133.09 seconds
+[2019.03.30-08.20.27:617][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.30-08.20.27:979][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.30-08.20.28:049][  0]LogSlate: Took 0.003103 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.30-08.20.29:010][  3]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.30-08.20.29:315][  4]LogAssetRegistry: Asset discovery search completed in 124.3269 seconds
+[2019.03.30-08.20.29:318][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.03.30-08.20.29:318][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000077 seconds (updated 0 objects)
+[2019.03.30-08.20.38:892][136]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.30-08.21.30:233][543]LogHttp: Warning: 000001F586BCF400: request has been successfully processed. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B402691CF-4728-C9BB-12B3-919000010738%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=0c4c5f304307896d9a7e629a07f73503%7Cbd0d44da81fc4386b9b7e19b4dc26ea9%7Ca2cfd1b4-f417-43a9-8f1c-a82aed35cb7d&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 502, content length: 138, actual payload size: 138
+[2019.03.30-08.21.30:233][543]LogHttp: Warning: 000001F586BCF400 Response Header Server: awselb/2.0
+[2019.03.30-08.21.30:233][543]LogHttp: Warning: 000001F586BCF400 Response Header Date: Sat, 30 Mar 2019 08:22:29 GMT
+[2019.03.30-08.21.30:233][543]LogHttp: Warning: 000001F586BCF400 Response Header Content-Type: text/html
+[2019.03.30-08.21.30:233][543]LogHttp: Warning: 000001F586BCF400 Response Header Content-Length: 138
+[2019.03.30-08.21.30:233][543]LogHttp: Warning: 000001F586BCF400 Response Header Connection: keep-alive
+[2019.03.30-08.22.21:464][660]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.30-08.23.00:229][350]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\KVT\Unity\Text\Zombie\Model 1\Zombie@Attack(1).FBX)
+[2019.03.30-08.23.00:261][350]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2019.03.30-08.23.00:261][350]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2019.03.30-08.23.00:261][350]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2019.03.30-08.23.00:261][350]LogFbx: ItemName: Model, ItemCount : 66
+[2019.03.30-08.23.00:261][350]LogFbx: ItemName: NodeAttribute, ItemCount : 62
+[2019.03.30-08.23.00:261][350]LogFbx: ItemName: Geometry, ItemCount : 4
+[2019.03.30-08.23.00:261][350]LogFbx: ItemName: Material, ItemCount : 2
+[2019.03.30-08.23.00:261][350]LogFbx: ItemName: Texture, ItemCount : 4
+[2019.03.30-08.23.00:261][350]LogFbx: ItemName: CollectionExclusive, ItemCount : 3
+[2019.03.30-08.23.00:261][350]LogFbx: ItemName: AnimationCurve, ItemCount : 549
+[2019.03.30-08.23.00:261][350]LogFbx: ItemName: AnimationCurveNode, ItemCount : 183
+[2019.03.30-08.23.00:261][350]LogFbx: ItemName: Deformer, ItemCount : 64
+[2019.03.30-08.23.00:261][350]LogFbx: ItemName: Pose, ItemCount : 1
+[2019.03.30-08.23.00:261][350]LogFbx: ItemName: Video, ItemCount : 4
+[2019.03.30-08.23.00:270][350]LogFbx: Loading FBX Scene from D:\KVT\Unity\Text\Zombie\Model 1\Zombie@Attack(1).FBX
+[2019.03.30-08.23.00:374][350]LogFbx: FBX Scene Loaded Succesfully
+[2019.03.30-08.23.14:977][350]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.03.30-08.23.15:030][350]LogFbx: Loading FBX Scene from D:\KVT\Unity\Text\Zombie\Model 1\Zombie@Attack(1).FBX
+[2019.03.30-08.23.15:160][350]LogFbx: FBX Scene Loaded Succesfully
+[2019.03.30-08.23.15:165][350]LogFbx: =================================================
+[2019.03.30-08.23.15:165][350]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.23.15:165][350]LogFbx: 	Total Deformer Count -2115540048.
+[2019.03.30-08.23.15:165][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:165][350]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.23.15:165][350]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.23.15:165][350]LogFbx: =================================================
+[2019.03.30-08.23.15:165][350]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.23.15:165][350]LogFbx: 	Total Deformer Count -2115551008.
+[2019.03.30-08.23.15:165][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:165][350]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.23.15:165][350]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.23.15:165][350]LogFbx: =================================================
+[2019.03.30-08.23.15:165][350]LogFbx: Dumping Node START [Body_mesh] 
+[2019.03.30-08.23.15:165][350]LogFbx: 	Total Deformer Count -1585111424.
+[2019.03.30-08.23.15:165][350]LogFbx: 		[Node 1]  (Type Skin).
+[2019.03.30-08.23.15:165][350]LogFbx: =================================================
+[2019.03.30-08.23.15:165][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:165][350]LogFbx: 		[Node Attribute Child 1] Body_mesh (Type Mesh).
+[2019.03.30-08.23.15:165][350]LogFbx: Dumping Node END [Body_mesh]
+[2019.03.30-08.23.15:165][350]LogFbx: =================================================
+[2019.03.30-08.23.15:165][350]LogFbx: Dumping Node START [jaw_mesh] 
+[2019.03.30-08.23.15:165][350]LogFbx: 	Total Deformer Count -204741800.
+[2019.03.30-08.23.15:165][350]LogFbx: 		[Node 1]  (Type Skin).
+[2019.03.30-08.23.15:165][350]LogFbx: =================================================
+[2019.03.30-08.23.15:165][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:165][350]LogFbx: 		[Node Attribute Child 1] jaw_mesh (Type Mesh).
+[2019.03.30-08.23.15:165][350]LogFbx: Dumping Node END [jaw_mesh]
+[2019.03.30-08.23.15:166][350]LogFbx: =================================================
+[2019.03.30-08.23.15:166][350]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.23.15:166][350]LogFbx: 	Total Deformer Count -2115546048.
+[2019.03.30-08.23.15:166][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:166][350]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.23.15:166][350]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.23.15:166][350]LogFbx: =================================================
+[2019.03.30-08.23.15:166][350]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.23.15:166][350]LogFbx: 	Total Deformer Count -2115544368.
+[2019.03.30-08.23.15:166][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:166][350]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.23.15:166][350]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.23.15:166][350]LogFbx: =================================================
+[2019.03.30-08.23.15:166][350]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.23.15:166][350]LogFbx: 	Total Deformer Count -2115541488.
+[2019.03.30-08.23.15:166][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:167][350]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.23.15:167][350]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.23.15:167][350]LogFbx: =================================================
+[2019.03.30-08.23.15:167][350]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.23.15:167][350]LogFbx: 	Total Deformer Count -2115544928.
+[2019.03.30-08.23.15:167][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:167][350]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.23.15:167][350]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.23.15:167][350]LogFbx: =================================================
+[2019.03.30-08.23.15:167][350]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.23.15:167][350]LogFbx: 	Total Deformer Count -2115541488.
+[2019.03.30-08.23.15:167][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:167][350]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.23.15:167][350]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.23.15:167][350]LogFbx: =================================================
+[2019.03.30-08.23.15:167][350]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.23.15:167][350]LogFbx: 	Total Deformer Count -2115537488.
+[2019.03.30-08.23.15:168][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:168][350]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.23.15:168][350]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.23.15:168][350]LogFbx: =================================================
+[2019.03.30-08.23.15:168][350]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.23.15:168][350]LogFbx: 	Total Deformer Count -2115543248.
+[2019.03.30-08.23.15:168][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:168][350]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.23.15:168][350]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.23.15:168][350]LogFbx: =================================================
+[2019.03.30-08.23.15:168][350]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.23.15:168][350]LogFbx: 	Total Deformer Count -2115536768.
+[2019.03.30-08.23.15:168][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:168][350]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.23.15:168][350]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.23.15:169][350]LogFbx: =================================================
+[2019.03.30-08.23.15:169][350]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.23.15:169][350]LogFbx: 	Total Deformer Count -2115542208.
+[2019.03.30-08.23.15:169][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:169][350]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.23.15:169][350]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.23.15:169][350]LogFbx: =================================================
+[2019.03.30-08.23.15:169][350]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.23.15:169][350]LogFbx: 	Total Deformer Count -2115545008.
+[2019.03.30-08.23.15:169][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:169][350]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.23.15:169][350]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.23.15:169][350]LogFbx: =================================================
+[2019.03.30-08.23.15:169][350]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.23.15:169][350]LogFbx: 	Total Deformer Count -2115540608.
+[2019.03.30-08.23.15:169][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:169][350]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.23.15:169][350]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.23.15:169][350]LogFbx: =================================================
+[2019.03.30-08.23.15:169][350]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.23.15:169][350]LogFbx: 	Total Deformer Count -2115540608.
+[2019.03.30-08.23.15:169][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:170][350]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.23.15:170][350]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.23.15:170][350]LogFbx: =================================================
+[2019.03.30-08.23.15:170][350]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.23.15:170][350]LogFbx: 	Total Deformer Count -2115545888.
+[2019.03.30-08.23.15:170][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:170][350]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.23.15:170][350]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.23.15:171][350]LogFbx: =================================================
+[2019.03.30-08.23.15:171][350]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.23.15:171][350]LogFbx: 	Total Deformer Count -2115536288.
+[2019.03.30-08.23.15:171][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:171][350]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.23.15:171][350]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.23.15:172][350]LogFbx: =================================================
+[2019.03.30-08.23.15:172][350]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.23.15:172][350]LogFbx: 	Total Deformer Count -2115536288.
+[2019.03.30-08.23.15:172][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:172][350]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.23.15:172][350]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.23.15:172][350]LogFbx: =================================================
+[2019.03.30-08.23.15:172][350]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.23.15:172][350]LogFbx: 	Total Deformer Count -2115536288.
+[2019.03.30-08.23.15:172][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:172][350]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.23.15:172][350]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.23.15:172][350]LogFbx: =================================================
+[2019.03.30-08.23.15:172][350]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.23.15:172][350]LogFbx: 	Total Deformer Count -2115546928.
+[2019.03.30-08.23.15:172][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:172][350]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.23.15:172][350]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.23.15:172][350]LogFbx: =================================================
+[2019.03.30-08.23.15:172][350]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.23.15:172][350]LogFbx: 	Total Deformer Count -2115537808.
+[2019.03.30-08.23.15:172][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:173][350]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.23.15:173][350]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.23.15:173][350]LogFbx: =================================================
+[2019.03.30-08.23.15:173][350]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.23.15:173][350]LogFbx: 	Total Deformer Count -2115545888.
+[2019.03.30-08.23.15:173][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:173][350]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.23.15:173][350]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.23.15:173][350]LogFbx: =================================================
+[2019.03.30-08.23.15:173][350]LogFbx: Dumping Node START [Body_mesh] 
+[2019.03.30-08.23.15:173][350]LogFbx: 	Total Deformer Count -2027315456.
+[2019.03.30-08.23.15:173][350]LogFbx: 		[Node 1]  (Type Skin).
+[2019.03.30-08.23.15:173][350]LogFbx: =================================================
+[2019.03.30-08.23.15:173][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:173][350]LogFbx: 		[Node Attribute Child 1] Body_mesh (Type Mesh).
+[2019.03.30-08.23.15:173][350]LogFbx: Dumping Node END [Body_mesh]
+[2019.03.30-08.23.15:173][350]LogFbx: =================================================
+[2019.03.30-08.23.15:174][350]LogFbx: Dumping Node START [jaw_mesh] 
+[2019.03.30-08.23.15:174][350]LogFbx: 	Total Deformer Count -204742080.
+[2019.03.30-08.23.15:174][350]LogFbx: 		[Node 1]  (Type Skin).
+[2019.03.30-08.23.15:174][350]LogFbx: =================================================
+[2019.03.30-08.23.15:174][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:174][350]LogFbx: 		[Node Attribute Child 1] jaw_mesh (Type Mesh).
+[2019.03.30-08.23.15:174][350]LogFbx: Dumping Node END [jaw_mesh]
+[2019.03.30-08.23.15:174][350]LogFbx: =================================================
+[2019.03.30-08.23.15:174][350]LogFbx: Dumping Node START [Body_mesh] 
+[2019.03.30-08.23.15:174][350]LogFbx: 	Total Deformer Count -2027313536.
+[2019.03.30-08.23.15:174][350]LogFbx: 		[Node 1]  (Type Skin).
+[2019.03.30-08.23.15:174][350]LogFbx: =================================================
+[2019.03.30-08.23.15:174][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:174][350]LogFbx: 		[Node Attribute Child 1] Body_mesh (Type Mesh).
+[2019.03.30-08.23.15:174][350]LogFbx: Dumping Node END [Body_mesh]
+[2019.03.30-08.23.15:174][350]LogFbx: =================================================
+[2019.03.30-08.23.15:174][350]LogFbx: Dumping Node START [jaw_mesh] 
+[2019.03.30-08.23.15:174][350]LogFbx: 	Total Deformer Count -204742080.
+[2019.03.30-08.23.15:174][350]LogFbx: 		[Node 1]  (Type Skin).
+[2019.03.30-08.23.15:174][350]LogFbx: =================================================
+[2019.03.30-08.23.15:174][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:174][350]LogFbx: 		[Node Attribute Child 1] jaw_mesh (Type Mesh).
+[2019.03.30-08.23.15:174][350]LogFbx: Dumping Node END [jaw_mesh]
+[2019.03.30-08.23.15:176][350]LogFbx: Valid bind pose for Pose (BIND_POSES) - Body_mesh
+[2019.03.30-08.23.15:181][350]LogMaterial: Warning: Material /Game/MyCharacter/Zombie/Zombi.Zombi needed to have new flag set bUsedWithSkeletalMesh !
+[2019.03.30-08.23.15:184][350]LogMaterial: Missing cached shader map for material Zombi, compiling. 
+[2019.03.30-08.23.15:220][350]LogLinker: Can't find file '/Game/MyCharacter/Zombie/Zombie_diffuse'
+[2019.03.30-08.23.15:220][350]LogLinker: Can't find file '/Game/MyCharacter/Zombie/Zombie_diffuse'
+[2019.03.30-08.23.15:225][350]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.03.30-08.23.15:225][350]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.03.30-08.23.15:225][350]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.03.30-08.23.15:225][350]LogFbxMaterialImport: Warning: Unable to find Texture file E:\ГОТОВЫЕ  ТЕКСТУРНЫЕ КАРТЫ\персонаж зомби\Zombie_diffuse.tga
+[2019.03.30-08.23.15:225][350]LogLinker: Can't find file '/Game/MyCharacter/Zombie/Zombie_normals'
+[2019.03.30-08.23.15:226][350]LogLinker: Can't find file '/Game/MyCharacter/Zombie/Zombie_normals'
+[2019.03.30-08.23.15:229][350]LogFbxMaterialImport: Warning: Unable to find Texture file E:\ГОТОВЫЕ  ТЕКСТУРНЫЕ КАРТЫ\персонаж зомби\Zombie_normals.tga
+[2019.03.30-08.23.15:232][350]LogMaterial: Missing cached shader map for material Zombi, compiling. 
+[2019.03.30-08.23.15:333][350]LogMaterial: Warning: Material /Game/MyCharacter/Zombie/backsword.backsword needed to have new flag set bUsedWithSkeletalMesh !
+[2019.03.30-08.23.15:336][350]LogMaterial: Missing cached shader map for material backsword, compiling. 
+[2019.03.30-08.23.15:392][350]LogLinker: Can't find file '/Game/MyCharacter/Zombie/backsword_diffuse'
+[2019.03.30-08.23.15:393][350]LogLinker: Can't find file '/Game/MyCharacter/Zombie/backsword_diffuse'
+[2019.03.30-08.23.15:397][350]LogFbxMaterialImport: Warning: Unable to find Texture file E:\ГОТОВЫЕ  ТЕКСТУРНЫЕ КАРТЫ\оружие зомби\backsword_diffuse.tga
+[2019.03.30-08.23.15:397][350]LogLinker: Can't find file '/Game/MyCharacter/Zombie/backsword_normals'
+[2019.03.30-08.23.15:397][350]LogLinker: Can't find file '/Game/MyCharacter/Zombie/backsword_normals'
+[2019.03.30-08.23.15:401][350]LogFbxMaterialImport: Warning: Unable to find Texture file E:\ГОТОВЫЕ  ТЕКСТУРНЫЕ КАРТЫ\оружие зомби\backsword_normals.tga
+[2019.03.30-08.23.15:406][350]LogMaterial: Missing cached shader map for material backsword, compiling. 
+[2019.03.30-08.23.15:498][350]LogFbx: Warning: Bones digested - 60  Depth of hierarchy - 13
+[2019.03.30-08.23.15:740][350]LogSkeletalMesh: Section 0: 2179 vertices, 58 active bones
+[2019.03.30-08.23.15:740][350]LogSkeletalMesh: Section 1: 77 vertices, 1 active bones
+[2019.03.30-08.23.15:754][350]LogSkeletalMesh: Section 0: Material=0, 3454 triangles
+[2019.03.30-08.23.15:754][350]LogSkeletalMesh: Section 1: Material=1, 100 triangles
+[2019.03.30-08.23.15:755][350]LogSkeletalMesh: Building Skeletal Mesh Zombie_Attack_1_...
+[2019.03.30-08.23.15:764][350]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/MyCharacter/Zombie/Zombie_Attack_1_.Zombie_Attack_1_
+[2019.03.30-08.23.15:768][350]LogLinker: Can't find file '/Game/MyCharacter/Zombie/Zombie_Attack_1__Skeleton'
+[2019.03.30-08.23.15:769][350]LogLinker: Can't find file '/Game/MyCharacter/Zombie/Zombie_Attack_1__Skeleton'
+[2019.03.30-08.23.15:770][350]LogLinker: Can't find file '/Game/MyCharacter/Zombie/Zombie_Attack_1__PhysicsAsset'
+[2019.03.30-08.23.15:770][350]LogLinker: Can't find file '/Game/MyCharacter/Zombie/Zombie_Attack_1__PhysicsAsset'
+[2019.03.30-08.23.15:782][350]LogFbx: =================================================
+[2019.03.30-08.23.15:782][350]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.23.15:782][350]LogFbx: 	Total Deformer Count -194201072.
+[2019.03.30-08.23.15:782][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:782][350]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.23.15:782][350]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.23.15:782][350]LogFbx: =================================================
+[2019.03.30-08.23.15:782][350]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.23.15:782][350]LogFbx: 	Total Deformer Count -194202832.
+[2019.03.30-08.23.15:783][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:783][350]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.23.15:783][350]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.23.15:783][350]LogFbx: =================================================
+[2019.03.30-08.23.15:783][350]LogFbx: Dumping Node START [Body_mesh] 
+[2019.03.30-08.23.15:783][350]LogFbx: 	Total Deformer Count -1589791936.
+[2019.03.30-08.23.15:783][350]LogFbx: 		[Node 1]  (Type Skin).
+[2019.03.30-08.23.15:783][350]LogFbx: =================================================
+[2019.03.30-08.23.15:783][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:783][350]LogFbx: 		[Node Attribute Child 1] Body_mesh (Type Mesh).
+[2019.03.30-08.23.15:783][350]LogFbx: Dumping Node END [Body_mesh]
+[2019.03.30-08.23.15:783][350]LogFbx: =================================================
+[2019.03.30-08.23.15:783][350]LogFbx: Dumping Node START [jaw_mesh] 
+[2019.03.30-08.23.15:783][350]LogFbx: 	Total Deformer Count -2062188936.
+[2019.03.30-08.23.15:783][350]LogFbx: 		[Node 1]  (Type Skin).
+[2019.03.30-08.23.15:783][350]LogFbx: =================================================
+[2019.03.30-08.23.15:783][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:783][350]LogFbx: 		[Node Attribute Child 1] jaw_mesh (Type Mesh).
+[2019.03.30-08.23.15:783][350]LogFbx: Dumping Node END [jaw_mesh]
+[2019.03.30-08.23.15:783][350]LogFbx: =================================================
+[2019.03.30-08.23.15:783][350]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.23.15:783][350]LogFbx: 	Total Deformer Count -194203392.
+[2019.03.30-08.23.15:784][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:784][350]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.23.15:784][350]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.23.15:784][350]LogFbx: =================================================
+[2019.03.30-08.23.15:784][350]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.23.15:784][350]LogFbx: 	Total Deformer Count -194203712.
+[2019.03.30-08.23.15:784][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:784][350]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.23.15:784][350]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.23.15:784][350]LogFbx: =================================================
+[2019.03.30-08.23.15:785][350]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.23.15:785][350]LogFbx: 	Total Deformer Count -194203312.
+[2019.03.30-08.23.15:785][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:785][350]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.23.15:785][350]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.23.15:785][350]LogFbx: =================================================
+[2019.03.30-08.23.15:785][350]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.23.15:785][350]LogFbx: 	Total Deformer Count -194203872.
+[2019.03.30-08.23.15:785][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:785][350]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.23.15:786][350]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.23.15:786][350]LogFbx: =================================================
+[2019.03.30-08.23.15:786][350]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.23.15:786][350]LogFbx: 	Total Deformer Count -194203312.
+[2019.03.30-08.23.15:786][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:786][350]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.23.15:786][350]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.23.15:786][350]LogFbx: =================================================
+[2019.03.30-08.23.15:786][350]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.23.15:786][350]LogFbx: 	Total Deformer Count -194204112.
+[2019.03.30-08.23.15:786][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:786][350]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.23.15:786][350]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.23.15:786][350]LogFbx: =================================================
+[2019.03.30-08.23.15:786][350]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.23.15:786][350]LogFbx: 	Total Deformer Count -194203232.
+[2019.03.30-08.23.15:786][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:786][350]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.23.15:786][350]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.23.15:787][350]LogFbx: =================================================
+[2019.03.30-08.23.15:787][350]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.23.15:787][350]LogFbx: 	Total Deformer Count -194204272.
+[2019.03.30-08.23.15:787][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:787][350]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.23.15:787][350]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.23.15:787][350]LogFbx: =================================================
+[2019.03.30-08.23.15:787][350]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.23.15:787][350]LogFbx: 	Total Deformer Count -194203152.
+[2019.03.30-08.23.15:787][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:787][350]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.23.15:787][350]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.23.15:787][350]LogFbx: =================================================
+[2019.03.30-08.23.15:787][350]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.23.15:787][350]LogFbx: 	Total Deformer Count -194204432.
+[2019.03.30-08.23.15:787][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:787][350]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.23.15:787][350]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.23.15:787][350]LogFbx: =================================================
+[2019.03.30-08.23.15:787][350]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.23.15:787][350]LogFbx: 	Total Deformer Count -194203072.
+[2019.03.30-08.23.15:788][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:788][350]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.23.15:788][350]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.23.15:788][350]LogFbx: =================================================
+[2019.03.30-08.23.15:788][350]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.23.15:788][350]LogFbx: 	Total Deformer Count -194203072.
+[2019.03.30-08.23.15:788][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:788][350]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.23.15:788][350]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.23.15:788][350]LogFbx: =================================================
+[2019.03.30-08.23.15:788][350]LogFbx: Dumping Node START [eyes_mesh001] 
+[2019.03.30-08.23.15:788][350]LogFbx: 	Total Deformer Count -194201152.
+[2019.03.30-08.23.15:788][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:788][350]LogFbx: 		[Node Attribute Child 1] eyes_mesh001 (Type Mesh).
+[2019.03.30-08.23.15:788][350]LogFbx: Dumping Node END [eyes_mesh001]
+[2019.03.30-08.23.15:789][350]LogFbx: =================================================
+[2019.03.30-08.23.15:789][350]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.23.15:789][350]LogFbx: 	Total Deformer Count -194204912.
+[2019.03.30-08.23.15:789][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:789][350]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.23.15:789][350]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.23.15:790][350]LogFbx: =================================================
+[2019.03.30-08.23.15:790][350]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.23.15:790][350]LogFbx: 	Total Deformer Count -194204912.
+[2019.03.30-08.23.15:790][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:790][350]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.23.15:790][350]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.23.15:790][350]LogFbx: =================================================
+[2019.03.30-08.23.15:790][350]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.23.15:790][350]LogFbx: 	Total Deformer Count -194204912.
+[2019.03.30-08.23.15:790][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:790][350]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.23.15:790][350]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.23.15:790][350]LogFbx: =================================================
+[2019.03.30-08.23.15:790][350]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.23.15:790][350]LogFbx: 	Total Deformer Count -194204832.
+[2019.03.30-08.23.15:790][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:790][350]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.23.15:790][350]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.23.15:790][350]LogFbx: =================================================
+[2019.03.30-08.23.15:790][350]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.23.15:790][350]LogFbx: 	Total Deformer Count -194204752.
+[2019.03.30-08.23.15:791][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:791][350]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.23.15:791][350]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.23.15:791][350]LogFbx: =================================================
+[2019.03.30-08.23.15:791][350]LogFbx: Dumping Node START [backsword_mesh] 
+[2019.03.30-08.23.15:791][350]LogFbx: 	Total Deformer Count -194201152.
+[2019.03.30-08.23.15:791][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:791][350]LogFbx: 		[Node Attribute Child 1] backsword_mesh (Type Mesh).
+[2019.03.30-08.23.15:791][350]LogFbx: Dumping Node END [backsword_mesh]
+[2019.03.30-08.23.15:791][350]LogFbx: =================================================
+[2019.03.30-08.23.15:791][350]LogFbx: Dumping Node START [Body_mesh] 
+[2019.03.30-08.23.15:791][350]LogFbx: 	Total Deformer Count -1585118720.
+[2019.03.30-08.23.15:791][350]LogFbx: 		[Node 1]  (Type Skin).
+[2019.03.30-08.23.15:791][350]LogFbx: =================================================
+[2019.03.30-08.23.15:791][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:791][350]LogFbx: 		[Node Attribute Child 1] Body_mesh (Type Mesh).
+[2019.03.30-08.23.15:791][350]LogFbx: Dumping Node END [Body_mesh]
+[2019.03.30-08.23.15:791][350]LogFbx: =================================================
+[2019.03.30-08.23.15:791][350]LogFbx: Dumping Node START [jaw_mesh] 
+[2019.03.30-08.23.15:792][350]LogFbx: 	Total Deformer Count -2062189216.
+[2019.03.30-08.23.15:792][350]LogFbx: 		[Node 1]  (Type Skin).
+[2019.03.30-08.23.15:792][350]LogFbx: =================================================
+[2019.03.30-08.23.15:792][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:792][350]LogFbx: 		[Node Attribute Child 1] jaw_mesh (Type Mesh).
+[2019.03.30-08.23.15:792][350]LogFbx: Dumping Node END [jaw_mesh]
+[2019.03.30-08.23.15:792][350]LogFbx: =================================================
+[2019.03.30-08.23.15:792][350]LogFbx: Dumping Node START [Body_mesh] 
+[2019.03.30-08.23.15:792][350]LogFbx: 	Total Deformer Count -1585115072.
+[2019.03.30-08.23.15:792][350]LogFbx: 		[Node 1]  (Type Skin).
+[2019.03.30-08.23.15:792][350]LogFbx: =================================================
+[2019.03.30-08.23.15:792][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:792][350]LogFbx: 		[Node Attribute Child 1] Body_mesh (Type Mesh).
+[2019.03.30-08.23.15:792][350]LogFbx: Dumping Node END [Body_mesh]
+[2019.03.30-08.23.15:792][350]LogFbx: =================================================
+[2019.03.30-08.23.15:792][350]LogFbx: Dumping Node START [jaw_mesh] 
+[2019.03.30-08.23.15:792][350]LogFbx: 	Total Deformer Count -2062189216.
+[2019.03.30-08.23.15:792][350]LogFbx: 		[Node 1]  (Type Skin).
+[2019.03.30-08.23.15:792][350]LogFbx: =================================================
+[2019.03.30-08.23.15:792][350]LogFbx: 	Attribute () Type (4).
+[2019.03.30-08.23.15:792][350]LogFbx: 		[Node Attribute Child 1] jaw_mesh (Type Mesh).
+[2019.03.30-08.23.15:792][350]LogFbx: Dumping Node END [jaw_mesh]
+[2019.03.30-08.23.15:793][350]LogFbx: SortedLinks :(0) CATRigHub001
+[2019.03.30-08.23.15:793][350]LogFbx: SortedLinks :(1) CATRigLLeg1
+[2019.03.30-08.23.15:793][350]LogFbx: SortedLinks :(2) CATRigLLeg2
+[2019.03.30-08.23.15:793][350]LogFbx: SortedLinks :(3) CATRigLLegAnkle
+[2019.03.30-08.23.15:793][350]LogFbx: SortedLinks :(4) CATRigLLegDigit11
+[2019.03.30-08.23.15:793][350]LogFbx: SortedLinks :(5) CATRigRLeg1
+[2019.03.30-08.23.15:793][350]LogFbx: SortedLinks :(6) CATRigRLeg2
+[2019.03.30-08.23.15:793][350]LogFbx: SortedLinks :(7) CATRigRLegAnkle
+[2019.03.30-08.23.15:793][350]LogFbx: SortedLinks :(8) CATRigRLegDigit11
+[2019.03.30-08.23.15:793][350]LogFbx: SortedLinks :(9) CATRigHub001Bone001
+[2019.03.30-08.23.15:793][350]LogFbx: SortedLinks :(10) CATRigSpine1
+[2019.03.30-08.23.15:793][350]LogFbx: SortedLinks :(11) CATRigSpine2
+[2019.03.30-08.23.15:793][350]LogFbx: SortedLinks :(12) CATRigHub002
+[2019.03.30-08.23.15:793][350]LogFbx: SortedLinks :(13) CATRigSpine
+[2019.03.30-08.23.15:793][350]LogFbx: SortedLinks :(14) CATRigHub003
+[2019.03.30-08.23.15:793][350]LogFbx: SortedLinks :(15) CATRigHub003Bone001
+[2019.03.30-08.23.15:793][350]LogFbx: SortedLinks :(16) CATRigHub003Bone002
+[2019.03.30-08.23.15:793][350]LogFbx: SortedLinks :(17) CATRigHub003Bone003
+[2019.03.30-08.23.15:793][350]LogFbx: SortedLinks :(18) eyes_mesh001
+[2019.03.30-08.23.15:793][350]LogFbx: SortedLinks :(19) CATRigLArmCollarbone
+[2019.03.30-08.23.15:793][350]LogFbx: SortedLinks :(20) CATRigLArm1
+[2019.03.30-08.23.15:793][350]LogFbx: SortedLinks :(21) CATRigLArm21
+[2019.03.30-08.23.15:793][350]LogFbx: SortedLinks :(22) CATRigLArm22
+[2019.03.30-08.23.15:793][350]LogFbx: SortedLinks :(23) CATRigLArmPalm
+[2019.03.30-08.23.15:793][350]LogFbx: SortedLinks :(24) CATRigLArmDigit11
+[2019.03.30-08.23.15:793][350]LogFbx: SortedLinks :(25) CATRigLArmDigit12
+[2019.03.30-08.23.15:793][350]LogFbx: SortedLinks :(26) CATRigLArmDigit13
+[2019.03.30-08.23.15:794][350]LogFbx: SortedLinks :(27) CATRigLArmDigit21
+[2019.03.30-08.23.15:794][350]LogFbx: SortedLinks :(28) CATRigLArmDigit22
+[2019.03.30-08.23.15:794][350]LogFbx: SortedLinks :(29) CATRigLArmDigit23
+[2019.03.30-08.23.15:794][350]LogFbx: SortedLinks :(30) CATRigLArmDigit31
+[2019.03.30-08.23.15:794][350]LogFbx: SortedLinks :(31) CATRigLArmDigit32
+[2019.03.30-08.23.15:794][350]LogFbx: SortedLinks :(32) CATRigLArmDigit33
+[2019.03.30-08.23.15:794][350]LogFbx: SortedLinks :(33) CATRigLArmDigit41
+[2019.03.30-08.23.15:794][350]LogFbx: SortedLinks :(34) CATRigLArmDigit42
+[2019.03.30-08.23.15:794][350]LogFbx: SortedLinks :(35) CATRigLArmDigit43
+[2019.03.30-08.23.15:794][350]LogFbx: SortedLinks :(36) CATRigLArmDigit51
+[2019.03.30-08.23.15:794][350]LogFbx: SortedLinks :(37) CATRigLArmDigit52
+[2019.03.30-08.23.15:794][350]LogFbx: SortedLinks :(38) CATRigLArmDigit53
+[2019.03.30-08.23.15:794][350]LogFbx: SortedLinks :(39) CATRigRArmCollarbone
+[2019.03.30-08.23.15:794][350]LogFbx: SortedLinks :(40) CATRigRArm1
+[2019.03.30-08.23.15:794][350]LogFbx: SortedLinks :(41) CATRigRArm21
+[2019.03.30-08.23.15:794][350]LogFbx: SortedLinks :(42) CATRigRArm22
+[2019.03.30-08.23.15:794][350]LogFbx: SortedLinks :(43) CATRigRArmPalm
+[2019.03.30-08.23.15:794][350]LogFbx: SortedLinks :(44) CATRigRArmDigit11
+[2019.03.30-08.23.15:794][350]LogFbx: SortedLinks :(45) CATRigRArmDigit12
+[2019.03.30-08.23.15:794][350]LogFbx: SortedLinks :(46) CATRigRArmDigit13
+[2019.03.30-08.23.15:794][350]LogFbx: SortedLinks :(47) CATRigRArmDigit21
+[2019.03.30-08.23.15:794][350]LogFbx: SortedLinks :(48) CATRigRArmDigit22
+[2019.03.30-08.23.15:794][350]LogFbx: SortedLinks :(49) CATRigRArmDigit23
+[2019.03.30-08.23.15:794][350]LogFbx: SortedLinks :(50) CATRigRArmDigit31
+[2019.03.30-08.23.15:794][350]LogFbx: SortedLinks :(51) CATRigRArmDigit32
+[2019.03.30-08.23.15:794][350]LogFbx: SortedLinks :(52) CATRigRArmDigit33
+[2019.03.30-08.23.15:794][350]LogFbx: SortedLinks :(53) CATRigRArmDigit41
+[2019.03.30-08.23.15:794][350]LogFbx: SortedLinks :(54) CATRigRArmDigit42
+[2019.03.30-08.23.15:794][350]LogFbx: SortedLinks :(55) CATRigRArmDigit43
+[2019.03.30-08.23.15:794][350]LogFbx: SortedLinks :(56) CATRigRArmDigit51
+[2019.03.30-08.23.15:794][350]LogFbx: SortedLinks :(57) CATRigRArmDigit52
+[2019.03.30-08.23.15:794][350]LogFbx: SortedLinks :(58) CATRigRArmDigit53
+[2019.03.30-08.23.15:794][350]LogFbx: SortedLinks :(59) backsword_mesh
+[2019.03.30-08.23.15:798][350]LogFbx: Parsing AnimStack Take 001
+[2019.03.30-08.23.15:805][350]LogLinker: Can't find file '/Game/MyCharacter/Zombie/Zombie_Attack_1__Anim'
+[2019.03.30-08.23.15:805][350]LogLinker: Can't find file '/Game/MyCharacter/Zombie/Zombie_Attack_1__Anim'
+[2019.03.30-08.23.16:775][350]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyCharacter/Zombie/Zombie_Attack_1__Anim.Zombie_Attack_1__Anim
+[2019.03.30-08.23.16:777][350]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Zombie_Attack_1__Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.30-08.23.16:830][350]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.03.30-08.23.16:830][350]FBXImport: Warning: The following bones are missing from the bind pose:
+CATRigHub001Bone001  
+CATRigSpine1  
+CATRigSpine2  
+CATRigHub002  
+CATRigSpine  
+CATRigHub003  
+CATRigHub003Bone001  
+CATRigHub003Bone002  
+CATRigHub003Bone003  
+eyes_mesh001  
+CATRigLArmCollarbone  
+CATRigLArm1  
+CATRigLArm21  
+CATRigLArm22  
+CATRigLArmPalm  
+CATRigLArmDigit11  
+CATRigLArmDigit12  
+CATRigLArmDigit13  
+CATRigLArmDigit21  
+CATRigLArmDigit22  
+CATRigLArmDigit23  
+CATRigLArmDigit31  
+CATRigLArmDigit32  
+CATRigLArmDigit33  
+CATRigLArmDigit41  
+CATRigLArmDigit42  
+CATRigLArmDigit43  
+CATRigLArmDigit51  
+CATRigLArmDigit52  
+CATRigLArmDigit53  
+CATRigRArmCollarbone  
+CATRigRArm1  
+CATRigRArm21  
+CATRigRArm22  
+CATRigRArmPalm  
+CATRigRArmDigit11  
+CATRigRArmDigit12  
+CATRigRArmDigit13  
+CATRigRArmDigit21  
+CATRigRArmDigit22  
+CATRigRArmDigit23  
+CATRigRArmDigit31  
+CATRigRArmDigit32  
+CATRigRArmDigit33  
+CATRigRArmDigit41  
+CATRigRArmDigit42  
+CATRigRArmDigit43  
+CATRigRArmDigit51  
+CATRigRArmDigit52  
+CATRigRArmDigit53  
+backsword_mesh  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2019.03.30-08.23.16:863][350]LogSkeletalMesh: Building Skeletal Mesh Zombie_Attack_1_...
+[2019.03.30-08.23.16:871][350]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/MyCharacter/Zombie/Zombie_Attack_1_.Zombie_Attack_1_
+[2019.03.30-08.23.22:071][565]LogSlate: Window 'Message Log' being destroyed
+[2019.03.30-08.23.22:076][565]LogSlate: Window 'Message Log' being destroyed
+[2019.03.30-08.23.42:885][795]LogShaderCompilers: Display: Shaders left to compile 120
+[2019.03.30-08.23.45:926][802]LogShaderCompilers: Display: Shaders left to compile 110
+[2019.03.30-08.23.46:949][802]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\KVT\Unity\Text\Zombie\Model 1\texture\Zombie_diffusePSD.psd)
+[2019.03.30-08.23.48:464][802]LogTexture: Display: Building textures: Zombie_diffusePSD (AutoDXT, 2048X2048)
+[2019.03.30-08.23.56:477][802]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\KVT\Unity\Text\Zombie\Model 1\texture\Zombie_normals.tga)
+[2019.03.30-08.23.56:688][802]LogTexture: Display: Building textures: Zombie_normals (BC5, 2048X2048)
+[2019.03.30-08.23.58:003][802]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\KVT\Unity\Text\Zombie\Model 1\texture\Zombie_specular.tga)
+[2019.03.30-08.23.58:183][802]LogTexture: Display: Building textures: Zombie_specular (AutoDXT, 2048X2048)
+[2019.03.30-08.24.01:290][802]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\KVT\Unity\Text\Zombie\Model 1\texture\backsword_diffuse.tga)
+[2019.03.30-08.24.01:343][802]LogTexture: Display: Building textures: backsword_diffuse (AutoDXT, 1024X1024)
+[2019.03.30-08.24.02:584][802]LogShaderCompilers: Display: Shaders left to compile 100
+[2019.03.30-08.24.02:611][802]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\KVT\Unity\Text\Zombie\Model 1\texture\backsword_normals.tga)
+[2019.03.30-08.24.02:670][802]LogTexture: Display: Building textures: backsword_normals (BC5, 1024X1024)
+[2019.03.30-08.24.03:026][802]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\KVT\Unity\Text\Zombie\Model 1\texture\backsword_specular.tga)
+[2019.03.30-08.24.03:068][802]LogTexture: Display: Building textures: backsword_specular (AutoDXT, 1024X1024)
+[2019.03.30-08.24.03:859][802]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\KVT\Unity\Text\Zombie\Model 1\texture\Zombie_diffuse.tga)
+[2019.03.30-08.24.04:041][802]LogTexture: Display: Building textures: Zombie_diffuse (AutoDXT, 2048X2048)
+[2019.03.30-08.24.19:458][214]LogMaterial: Missing cached shader map for material Zombi, compiling. 
+[2019.03.30-08.24.20:251][214]LogMaterial: Missing cached shader map for material Zombi, compiling. 
+[2019.03.30-08.24.20:305][214]LogMaterial: Missing cached shader map for material Zombi, compiling. 
+[2019.03.30-08.24.20:376][214]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.03.30-08.24.20:421][214]LogSlate: Took 0.023428 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.30-08.24.20:842][215]LogSlate: Took 0.078133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.30-08.24.41:564][982]LogMaterial: Missing cached shader map for material Zombi, compiling. 
+[2019.03.30-08.24.43:454][ 55]LogMaterial: Missing cached shader map for material Zombi, compiling. 
+[2019.03.30-08.24.43:498][ 55]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.03.30-08.24.43:531][ 55]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.03.30-08.24.49:295][103]LogShaderCompilers: Display: Shaders left to compile 140
+[2019.03.30-08.24.49:295][103]LogShaderCompilers: Display: Shaders left to compile 139
+[2019.03.30-08.24.54:309][320]LogMaterial: Missing cached shader map for material Zombi, compiling. 
+[2019.03.30-08.24.54:366][320]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.03.30-08.25.04:398][728]LogMaterial: Missing cached shader map for material Zombi, compiling. 
+[2019.03.30-08.25.14:334][128]LogMaterial: Missing cached shader map for material Zombi, compiling. 
+[2019.03.30-08.25.14:384][128]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.03.30-08.25.14:420][128]LogShaderCompilers: Display: Shaders left to compile 138
+[2019.03.30-08.25.14:420][128]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.03.30-08.25.18:219][299]LogMaterial: Missing cached shader map for material Zombi, compiling. 
+[2019.03.30-08.25.18:270][299]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.03.30-08.25.20:982][414]LogMaterial: Missing cached shader map for material Zombi, compiling. 
+[2019.03.30-08.25.21:025][414]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2019.03.30-08.25.21:064][414]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.03.30-08.25.21:070][414]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2019.03.30-08.25.26:606][652]LogMaterial: Missing cached shader map for material Zombi, compiling. 
+[2019.03.30-08.25.26:649][652]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2019.03.30-08.25.29:728][771]LogMaterial: Missing cached shader map for material Zombi, compiling. 
+[2019.03.30-08.25.29:772][771]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2019.03.30-08.25.29:807][771]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.03.30-08.25.29:814][771]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2019.03.30-08.25.29:822][771]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2019.03.30-08.25.35:823][ 23]LogMaterial: Missing cached shader map for material Zombi, compiling. 
+[2019.03.30-08.25.35:876][ 23]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2019.03.30-08.25.37:603][ 88]LogMaterial: Missing cached shader map for material Zombi, compiling. 
+[2019.03.30-08.25.37:643][ 88]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2019.03.30-08.25.37:680][ 88]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.03.30-08.25.37:687][ 88]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2019.03.30-08.25.37:696][ 88]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2019.03.30-08.25.37:702][ 88]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2019.03.30-08.25.41:802][257]LogMaterial: Missing cached shader map for material Zombi, compiling. 
+[2019.03.30-08.25.41:848][257]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2019.03.30-08.25.46:457][438]LogMaterialEditor: Applying material Zombi
+[2019.03.30-08.25.47:924][438]LogMaterial: Missing cached shader map for material Zombi, compiling. 
+[2019.03.30-08.25.48:068][438]LogMaterial: Missing cached shader map for material Zombi, compiling. 
+[2019.03.30-08.25.48:138][438]LogMaterial: Missing cached shader map for material Zombi, compiling. 
+[2019.03.30-08.25.48:235][438]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Zombi, compiling. 
+[2019.03.30-08.26.28:577][438]LogShaderCompilers: Display: Shaders left to compile 207
+[2019.03.30-08.26.28:577][438]LogShaderCompilers: Display: Shaders left to compile 206
+[2019.03.30-08.26.28:578][438]LogShaderCompilers: Display: Shaders left to compile 205
+[2019.03.30-08.26.28:578][438]LogShaderCompilers: Display: Shaders left to compile 204
+[2019.03.30-08.26.28:578][438]LogShaderCompilers: Display: Shaders left to compile 203
+[2019.03.30-08.26.28:578][438]LogShaderCompilers: Display: Shaders left to compile 202
+[2019.03.30-08.26.28:578][438]LogShaderCompilers: Display: Shaders left to compile 201
+[2019.03.30-08.26.28:578][438]LogShaderCompilers: Display: Shaders left to compile 200
+[2019.03.30-08.26.28:578][438]LogShaderCompilers: Display: Shaders left to compile 199
+[2019.03.30-08.26.28:578][438]LogShaderCompilers: Display: Shaders left to compile 198
+[2019.03.30-08.26.28:578][438]LogShaderCompilers: Display: Shaders left to compile 197
+[2019.03.30-08.26.28:578][438]LogShaderCompilers: Display: Shaders left to compile 196
+[2019.03.30-08.26.28:578][438]LogShaderCompilers: Display: Shaders left to compile 195
+[2019.03.30-08.26.28:578][438]LogShaderCompilers: Display: Shaders left to compile 194
+[2019.03.30-08.26.28:578][438]LogShaderCompilers: Display: Shaders left to compile 193
+[2019.03.30-08.26.28:578][438]LogShaderCompilers: Display: Shaders left to compile 192
+[2019.03.30-08.26.28:578][438]LogShaderCompilers: Display: Shaders left to compile 191
+[2019.03.30-08.26.28:578][438]LogShaderCompilers: Display: Shaders left to compile 190
+[2019.03.30-08.26.28:578][438]LogShaderCompilers: Display: Shaders left to compile 189
+[2019.03.30-08.26.28:578][438]LogShaderCompilers: Display: Shaders left to compile 188
+[2019.03.30-08.26.28:578][438]LogShaderCompilers: Display: Shaders left to compile 187
+[2019.03.30-08.26.28:578][438]LogShaderCompilers: Display: Shaders left to compile 186
+[2019.03.30-08.26.28:578][438]LogShaderCompilers: Display: Shaders left to compile 185
+[2019.03.30-08.26.28:578][438]LogShaderCompilers: Display: Shaders left to compile 184
+[2019.03.30-08.26.28:578][438]LogShaderCompilers: Display: Shaders left to compile 183
+[2019.03.30-08.26.28:578][438]LogShaderCompilers: Display: Shaders left to compile 182
+[2019.03.30-08.26.28:578][438]LogShaderCompilers: Display: Shaders left to compile 181
+[2019.03.30-08.26.28:578][438]LogShaderCompilers: Display: Shaders left to compile 180
+[2019.03.30-08.26.28:578][438]LogShaderCompilers: Display: Shaders left to compile 179
+[2019.03.30-08.26.28:578][438]LogShaderCompilers: Display: Shaders left to compile 178
+[2019.03.30-08.26.28:578][438]LogShaderCompilers: Display: Shaders left to compile 177
+[2019.03.30-08.26.28:578][438]LogShaderCompilers: Display: Shaders left to compile 176
+[2019.03.30-08.26.28:578][438]LogShaderCompilers: Display: Shaders left to compile 175
+[2019.03.30-08.26.28:578][438]LogShaderCompilers: Display: Shaders left to compile 174
+[2019.03.30-08.26.28:579][438]LogShaderCompilers: Display: Shaders left to compile 173
+[2019.03.30-08.26.28:579][438]LogShaderCompilers: Display: Shaders left to compile 172
+[2019.03.30-08.26.28:579][438]LogShaderCompilers: Display: Shaders left to compile 171
+[2019.03.30-08.26.28:579][438]LogShaderCompilers: Display: Shaders left to compile 170
+[2019.03.30-08.26.28:579][438]LogShaderCompilers: Display: Shaders left to compile 169
+[2019.03.30-08.26.28:579][438]LogShaderCompilers: Display: Shaders left to compile 168
+[2019.03.30-08.26.28:579][438]LogShaderCompilers: Display: Shaders left to compile 167
+[2019.03.30-08.26.28:579][438]LogShaderCompilers: Display: Shaders left to compile 166
+[2019.03.30-08.26.28:579][438]LogShaderCompilers: Display: Shaders left to compile 165
+[2019.03.30-08.26.28:579][438]LogShaderCompilers: Display: Shaders left to compile 164
+[2019.03.30-08.26.28:579][438]LogShaderCompilers: Display: Shaders left to compile 163
+[2019.03.30-08.26.28:579][438]LogShaderCompilers: Display: Shaders left to compile 162
+[2019.03.30-08.26.28:579][438]LogShaderCompilers: Display: Shaders left to compile 161
+[2019.03.30-08.26.28:579][438]LogShaderCompilers: Display: Shaders left to compile 160
+[2019.03.30-08.26.28:579][438]LogShaderCompilers: Display: Shaders left to compile 159
+[2019.03.30-08.26.28:579][438]LogShaderCompilers: Display: Shaders left to compile 158
+[2019.03.30-08.26.28:579][438]LogShaderCompilers: Display: Shaders left to compile 157
+[2019.03.30-08.26.28:579][438]LogShaderCompilers: Display: Shaders left to compile 156
+[2019.03.30-08.26.28:580][438]LogShaderCompilers: Display: Shaders left to compile 155
+[2019.03.30-08.26.28:580][438]LogShaderCompilers: Display: Shaders left to compile 154
+[2019.03.30-08.26.28:580][438]LogShaderCompilers: Display: Shaders left to compile 153
+[2019.03.30-08.26.28:580][438]LogShaderCompilers: Display: Shaders left to compile 152
+[2019.03.30-08.26.28:580][438]LogShaderCompilers: Display: Shaders left to compile 151
+[2019.03.30-08.26.28:580][438]LogShaderCompilers: Display: Shaders left to compile 150
+[2019.03.30-08.26.28:580][438]LogShaderCompilers: Display: Shaders left to compile 140
+[2019.03.30-08.26.28:580][438]LogShaderCompilers: Display: Shaders left to compile 130
+[2019.03.30-08.26.28:886][438]TextureStreamingBuild: Display: Compiling optional shaders took 40.665 seconds.
+[2019.03.30-08.27.37:198][469]LogShaderCompilers: Display: Shaders left to compile 120
+[2019.03.30-08.27.43:013][481]LogShaderCompilers: Display: Shaders left to compile 110
+[2019.03.30-08.27.43:013][481]LogShaderCompilers: Display: Shaders left to compile 100
+[2019.03.30-08.27.55:833][509]LogShaderCompilers: Display: Shaders left to compile 90
+[2019.03.30-08.28.05:721][528]LogShaderCompilers: Display: Shaders left to compile 80
+[2019.03.30-08.28.12:531][541]LogShaderCompilers: Display: Shaders left to compile 70
+[2019.03.30-08.28.25:177][569]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.03.30-08.28.26:381][571]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.03.30-08.28.40:238][598]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.03.30-08.28.46:042][611]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.03.30-08.28.56:332][641]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.03.30-08.28.58:341][646]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.30-08.29.04:486][658]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.30-08.30.21:058][314]LogMaterialEditor: Saving and Compiling material Zombi
+[2019.03.30-08.30.28:522][314]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Zombie/Zombi" FILE="../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/Zombi.uasset" SILENT=true
+[2019.03.30-08.30.28:550][314]LogSavePackage: Save=26.10ms
+[2019.03.30-08.30.28:550][314]LogSavePackage: Moving '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Saved/Zombi9FA320E94F5BDD433EABA99905F1B69A.tmp' to '../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/Zombi.uasset'
+[2019.03.30-08.30.28:552][314]LogSavePackage: Display: Finished SavePackage ../../../../../../KVT/Unreal Engine 4/Resident Evil Hunk/ResidentEvil/Content/MyCharacter/Zombie/Zombi.uasset
+[2019.03.30-08.30.28:565][314]MaterialEditorStats: Base pass shader: 117 instructions
+[2019.03.30-08.30.28:565][314]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2019.03.30-08.30.28:565][314]MaterialEditorStats: Vertex shader: 38 instructions
+[2019.03.30-08.30.28:565][314]MaterialEditorStats: Texture samplers: 7/16
+[2019.03.30-08.30.28:566][314]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.03.30-08.30.31:497][453]LogSlate: Window 'Zombi' being destroyed
+[2019.03.30-08.30.31:505][453]LogSlate: Window 'Zombi' being destroyed
+[2019.03.30-08.30.37:188][715]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0082 seconds. Added 1 classes and 2 folders.
+[2019.03.30-08.30.37:209][715]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.30-08.30.37:223][715]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0070 seconds. Added 1 classes and 0 folders.
+[2019.03.30-08.30.37:296][715]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.03.30-08.30.37:888][715]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0063 seconds. Added 1 classes and 0 folders.
+[2019.03.30-08.30.46:782][159]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.30-08.30.46:923][164]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2019.03.30-08.30.46:950][164]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2019.03.30-08.30.47:839][164]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.03.30-08.30.53:366][427]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.30-08.30.53:454][431]LogSlate: Window 'Zombie_Attack_1__Anim*' being destroyed
+[2019.03.30-08.30.53:460][431]LogSlate: Window 'Zombie_Attack_1__Anim*' being destroyed
+[2019.03.30-08.30.56:718][564]LogMaterial: Missing cached shader map for material backsword, compiling. 
+[2019.03.30-08.30.56:862][564]LogMaterial: Missing cached shader map for material backsword, compiling. 
+[2019.03.30-08.30.56:900][564]LogMaterial: Missing cached shader map for material backsword, compiling. 
+[2019.03.30-08.30.56:939][564]LogShaderCompilers: Display: Shaders left to compile 48
+[2019.03.30-08.30.56:939][564]LogShaderCompilers: Display: Shaders left to compile 47
+[2019.03.30-08.30.56:939][564]LogShaderCompilers: Display: Shaders left to compile 46
+[2019.03.30-08.30.56:968][564]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.03.30-08.31.05:037][913]LogMaterial: Missing cached shader map for material backsword, compiling. 
+[2019.03.30-08.31.07:036][989]LogMaterial: Missing cached shader map for material backsword, compiling. 
+[2019.03.30-08.31.07:075][989]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2019.03.30-08.31.07:114][989]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2019.03.30-08.31.09:305][ 76]LogMaterial: Missing cached shader map for material backsword, compiling. 
+[2019.03.30-08.31.09:347][ 76]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2019.03.30-08.31.09:381][ 76]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2019.03.30-08.31.09:387][ 76]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2019.03.30-08.31.12:808][229]LogMaterial: Missing cached shader map for material backsword, compiling. 
+[2019.03.30-08.31.12:853][229]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2019.03.30-08.31.19:134][512]LogMaterial: Missing cached shader map for material backsword, compiling. 
+[2019.03.30-08.31.19:182][512]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2019.03.30-08.31.23:473][693]LogMaterial: Missing cached shader map for material backsword, compiling. 
+[2019.03.30-08.31.23:513][693]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2019.03.30-08.31.23:547][693]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2019.03.30-08.31.23:554][693]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2019.03.30-08.31.23:562][693]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2019.03.30-08.31.28:015][881]LogMaterial: Missing cached shader map for material backsword, compiling. 
+[2019.03.30-08.31.28:062][881]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2019.03.30-08.31.29:319][930]LogMaterialEditor: Applying material backsword
+[2019.03.30-08.31.30:737][930]LogMaterial: Missing cached shader map for material backsword, compiling. 
+[2019.03.30-08.31.30:880][930]LogMaterial: Missing cached shader map for material backsword, compiling. 
+[2019.03.30-08.31.30:990][930]LogMaterial: Missing cached shader map for material backsword, compiling. 
+[2019.03.30-08.31.31:113][930]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy backsword, compiling. 
+[2019.03.30-08.32.14:663][930]LogShaderCompilers: Display: Shaders left to compile 115
+[2019.03.30-08.32.14:663][930]LogShaderCompilers: Display: Shaders left to compile 114
+[2019.03.30-08.32.14:663][930]LogShaderCompilers: Display: Shaders left to compile 113
+[2019.03.30-08.32.14:663][930]LogShaderCompilers: Display: Shaders left to compile 112
+[2019.03.30-08.32.14:663][930]LogShaderCompilers: Display: Shaders left to compile 111
+[2019.03.30-08.32.14:663][930]LogShaderCompilers: Display: Shaders left to compile 110
+[2019.03.30-08.32.14:664][930]LogShaderCompilers: Display: Shaders left to compile 109
+[2019.03.30-08.32.14:664][930]LogShaderCompilers: Display: Shaders left to compile 108
+[2019.03.30-08.32.14:664][930]LogShaderCompilers: Display: Shaders left to compile 107
+[2019.03.30-08.32.14:664][930]LogShaderCompilers: Display: Shaders left to compile 106
+[2019.03.30-08.32.14:664][930]LogShaderCompilers: Display: Shaders left to compile 105
+[2019.03.30-08.32.14:664][930]LogShaderCompilers: Display: Shaders left to compile 104
+[2019.03.30-08.32.14:664][930]LogShaderCompilers: Display: Shaders left to compile 103
+[2019.03.30-08.32.14:664][930]LogShaderCompilers: Display: Shaders left to compile 102
+[2019.03.30-08.32.14:664][930]LogShaderCompilers: Display: Shaders left to compile 101
+[2019.03.30-08.32.14:664][930]LogShaderCompilers: Display: Shaders left to compile 100
+[2019.03.30-08.32.14:664][930]LogShaderCompilers: Display: Shaders left to compile 99
+[2019.03.30-08.32.14:664][930]LogShaderCompilers: Display: Shaders left to compile 98
+[2019.03.30-08.32.14:664][930]LogShaderCompilers: Display: Shaders left to compile 97
+[2019.03.30-08.32.14:664][930]LogShaderCompilers: Display: Shaders left to compile 96
+[2019.03.30-08.32.14:664][930]LogShaderCompilers: Display: Shaders left to compile 95
+[2019.03.30-08.32.14:664][930]LogShaderCompilers: Display: Shaders left to compile 94
+[2019.03.30-08.32.14:664][930]LogShaderCompilers: Display: Shaders left to compile 93
+[2019.03.30-08.32.14:664][930]LogShaderCompilers: Display: Shaders left to compile 92
+[2019.03.30-08.32.14:665][930]LogShaderCompilers: Display: Shaders left to compile 91
+[2019.03.30-08.32.14:665][930]LogShaderCompilers: Display: Shaders left to compile 90
+[2019.03.30-08.32.14:665][930]LogShaderCompilers: Display: Shaders left to compile 89
+[2019.03.30-08.32.14:665][930]LogShaderCompilers: Display: Shaders left to compile 88
+[2019.03.30-08.32.14:665][930]LogShaderCompilers: Display: Shaders left to compile 87
+[2019.03.30-08.32.14:665][930]LogShaderCompilers: Display: Shaders left to compile 86
+[2019.03.30-08.32.14:665][930]LogShaderCompilers: Display: Shaders left to compile 85
+[2019.03.30-08.32.14:665][930]LogShaderCompilers: Display: Shaders left to compile 84
+[2019.03.30-08.32.14:665][930]LogShaderCompilers: Display: Shaders left to compile 83
+[2019.03.30-08.32.14:665][930]LogShaderCompilers: Display: Shaders left to compile 82
+[2019.03.30-08.32.14:665][930]LogShaderCompilers: Display: Shaders left to compile 81
+[2019.03.30-08.32.14:665][930]LogShaderCompilers: Display: Shaders left to compile 80
+[2019.03.30-08.32.14:665][930]LogShaderCompilers: Display: Shaders left to compile 79
+[2019.03.30-08.32.14:665][930]LogShaderCompilers: Display: Shaders left to compile 78
+[2019.03.30-08.32.14:665][930]LogShaderCompilers: Display: Shaders left to compile 77
+[2019.03.30-08.32.14:665][930]LogShaderCompilers: Display: Shaders left to compile 76
+[2019.03.30-08.32.14:665][930]LogShaderCompilers: Display: Shaders left to compile 75
+[2019.03.30-08.32.14:665][930]LogShaderCompilers: Display: Shaders left to compile 74
+[2019.03.30-08.32.14:665][930]LogShaderCompilers: Display: Shaders left to compile 73
+[2019.03.30-08.32.14:665][930]LogShaderCompilers: Display: Shaders left to compile 72
+[2019.03.30-08.32.14:665][930]LogShaderCompilers: Display: Shaders left to compile 71
+[2019.03.30-08.32.14:665][930]LogShaderCompilers: Display: Shaders left to compile 70
+[2019.03.30-08.32.14:665][930]LogShaderCompilers: Display: Shaders left to compile 69
+[2019.03.30-08.32.14:665][930]LogShaderCompilers: Display: Shaders left to compile 68
+[2019.03.30-08.32.14:665][930]LogShaderCompilers: Display: Shaders left to compile 67
+[2019.03.30-08.32.14:665][930]LogShaderCompilers: Display: Shaders left to compile 66
+[2019.03.30-08.32.14:665][930]LogShaderCompilers: Display: Shaders left to compile 65
+[2019.03.30-08.32.14:665][930]LogShaderCompilers: Display: Shaders left to compile 64
+[2019.03.30-08.32.14:665][930]LogShaderCompilers: Display: Shaders left to compile 63
+[2019.03.30-08.32.14:666][930]LogShaderCompilers: Display: Shaders left to compile 62
+[2019.03.30-08.32.14:666][930]LogShaderCompilers: Display: Shaders left to compile 61
+[2019.03.30-08.32.14:666][930]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.03.30-08.32.14:666][930]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.03.30-08.32.14:666][930]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.03.30-08.32.14:669][930]TextureStreamingBuild: Display: Compiling optional shaders took 43.564 seconds.
+[2019.03.30-08.32.22:345][936]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.03.30-08.32.23:966][940]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.30-08.32.26:363][946]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.30-08.32.36:952][272]LogMaterialEditor: Saving and Compiling material backsword
+[2019.03.30-08.32.53:615][272]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.03.30-08.32.53:650][272]LogD3D11RHI: Error: SwapChain->ResizeBuffers(1,SizeX,SizeY,RenderTargetFormat,DXGI_SWAP_CHAIN_FLAG_ALLOW_MODE_SWITCH) failed 
+ at D:\Build\++UE4+Release-4.19+Compile\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Viewport.cpp:234 
+ with error E_OUTOFMEMORY, 
+ Size=648x134 Format=DXGI_FORMAT_R8G8B8A8_UNORM(0x0000001C)
+[2019.03.30-08.33.02:281][272]LogD3D11RHI: Error: SwapChain->ResizeBuffers(1,SizeX,SizeY,RenderTargetFormat,DXGI_SWAP_CHAIN_FLAG_ALLOW_MODE_SWITCH) failed 
+ at D:\Build\++UE4+Release-4.19+Compile\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Viewport.cpp:234 
+ with error DXGI_ERROR_DEVICE_REMOVED, 
+ Size=648x97 Format=DXGI_FORMAT_R8G8B8A8_UNORM(0x0000001C)
+[2019.03.30-08.33.02:282][272]LogRHI: Error: [Aftermath] Status: Timeout
+[2019.03.30-08.33.02:282][272]LogRHI: Error: [Aftermath] GPU Stack Dump
+[2019.03.30-08.33.02:282][272]LogRHI: Error: [Aftermath] GPU Stack Dump
+[2019.03.30-08.33.02:311][272]LogWindows: Windows GetLastError: The operation completed successfully. (0)

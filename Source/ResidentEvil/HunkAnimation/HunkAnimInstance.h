@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Animation/AnimInstance.h"
+#include "ResidentEvil/GameConstValue.h"
 #include "HunkAnimInstance.generated.h"
 
 /**
@@ -21,22 +22,28 @@ protected:
 		float Speed;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Direction")
 		float Direction;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Pitch")
+		float Pitch;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Is Sprint")
 		bool IsSprint;
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Is Crouch")
-		bool IsCrouch;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Is Falling")
 		bool IsFalling;
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Is Rifle")
-		bool IsRifle;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Is Aim")
 		bool IsAim;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Is Aim")
 		bool IsFiring;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Is Reload")
+		bool IsReload;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Enum Weaponts")
+		EWeaponts eWeaponts;
+
+private:
+	FRotator HunkRotationAimOffset;
 
 protected:
-	class AHunk *Hunk;
+	class AHunk* Hunk;
 
 #pragma endregion
 
