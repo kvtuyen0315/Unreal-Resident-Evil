@@ -24,9 +24,9 @@
 /wd4838
 /w44668
 /I "D:\Cai Dat\UE4\UE_4.19\Engine\Source"
-/I "D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Source"
-/I "D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\UE4Editor\Inc\ResidentEvil"
-/I "D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Source\ResidentEvil"
+/I "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Source"
+/I "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Intermediate\Build\Win64\UE4Editor\Inc\ResidentEvil"
+/I "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Source\ResidentEvil"
 /I "D:\Cai Dat\UE4\UE_4.19\Engine\Source\Runtime\Core\Public"
 /I "D:\Cai Dat\UE4\UE_4.19\Engine\Source\Runtime\Core\Public\Internationalization"
 /I "D:\Cai Dat\UE4\UE_4.19\Engine\Source\Runtime\Core\Public\Async"
@@ -364,9 +364,9 @@
 /FI"D:\Cai Dat\UE4\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Yu"D:\Cai Dat\UE4\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Fp"D:\Cai Dat\UE4\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Source\ResidentEvil\ResidentEvilGameModeBase.cpp"
-/FI"D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\UE4Editor\Development\ResidentEvil\Definitions.ResidentEvil.h"
-/Fo"D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Intermediate\Build\Win64\UE4Editor\Development\ResidentEvil\ResidentEvilGameModeBase.cpp.obj"
+"D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Source\ResidentEvil\ResidentEvilGameModeBase.cpp"
+/FI"D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Intermediate\Build\Win64\UE4Editor\Development\ResidentEvil\Definitions.ResidentEvil.h"
+/Fo"D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Intermediate\Build\Win64\UE4Editor\Development\ResidentEvil\ResidentEvilGameModeBase.cpp.obj"
 /TP
 /GR-
 /W4

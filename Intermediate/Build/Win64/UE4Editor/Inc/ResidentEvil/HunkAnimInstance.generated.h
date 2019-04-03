@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define RESIDENTEVIL_HunkAnimInstance_generated_h
 
-#define ResidentEvil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h_15_RPC_WRAPPERS
-#define ResidentEvil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define ResidentEvil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h_15_INCLASS_NO_PURE_DECLS \
+#define Unreal_Resident_Evil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h_16_RPC_WRAPPERS
+#define Unreal_Resident_Evil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h_16_RPC_WRAPPERS_NO_PURE_DECLS
+#define Unreal_Resident_Evil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUHunkAnimInstance(); \
 	friend RESIDENTEVIL_API class UClass* Z_Construct_UClass_UHunkAnimInstance(); \
@@ -25,7 +25,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define ResidentEvil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h_15_INCLASS \
+#define Unreal_Resident_Evil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesUHunkAnimInstance(); \
 	friend RESIDENTEVIL_API class UClass* Z_Construct_UClass_UHunkAnimInstance(); \
@@ -35,7 +35,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define ResidentEvil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h_15_STANDARD_CONSTRUCTORS \
+#define Unreal_Resident_Evil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UHunkAnimInstance(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UHunkAnimInstance) \
@@ -48,7 +48,7 @@ private: \
 public:
 
 
-#define ResidentEvil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h_15_ENHANCED_CONSTRUCTORS \
+#define Unreal_Resident_Evil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UHunkAnimInstance(UHunkAnimInstance&&); \
@@ -59,42 +59,43 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UHunkAnimInstance); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UHunkAnimInstance)
 
 
-#define ResidentEvil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h_15_PRIVATE_PROPERTY_OFFSET \
+#define Unreal_Resident_Evil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h_16_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__Speed() { return STRUCT_OFFSET(UHunkAnimInstance, Speed); } \
 	FORCEINLINE static uint32 __PPO__Direction() { return STRUCT_OFFSET(UHunkAnimInstance, Direction); } \
+	FORCEINLINE static uint32 __PPO__Pitch() { return STRUCT_OFFSET(UHunkAnimInstance, Pitch); } \
 	FORCEINLINE static uint32 __PPO__IsSprint() { return STRUCT_OFFSET(UHunkAnimInstance, IsSprint); } \
-	FORCEINLINE static uint32 __PPO__IsCrouch() { return STRUCT_OFFSET(UHunkAnimInstance, IsCrouch); } \
 	FORCEINLINE static uint32 __PPO__IsFalling() { return STRUCT_OFFSET(UHunkAnimInstance, IsFalling); } \
-	FORCEINLINE static uint32 __PPO__IsRifle() { return STRUCT_OFFSET(UHunkAnimInstance, IsRifle); } \
 	FORCEINLINE static uint32 __PPO__IsAim() { return STRUCT_OFFSET(UHunkAnimInstance, IsAim); } \
-	FORCEINLINE static uint32 __PPO__IsFiring() { return STRUCT_OFFSET(UHunkAnimInstance, IsFiring); }
+	FORCEINLINE static uint32 __PPO__IsFiring() { return STRUCT_OFFSET(UHunkAnimInstance, IsFiring); } \
+	FORCEINLINE static uint32 __PPO__IsReload() { return STRUCT_OFFSET(UHunkAnimInstance, IsReload); } \
+	FORCEINLINE static uint32 __PPO__eWeaponts() { return STRUCT_OFFSET(UHunkAnimInstance, eWeaponts); }
 
 
-#define ResidentEvil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h_12_PROLOG
-#define ResidentEvil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h_15_GENERATED_BODY_LEGACY \
+#define Unreal_Resident_Evil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h_13_PROLOG
+#define Unreal_Resident_Evil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ResidentEvil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h_15_PRIVATE_PROPERTY_OFFSET \
-	ResidentEvil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h_15_RPC_WRAPPERS \
-	ResidentEvil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h_15_INCLASS \
-	ResidentEvil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h_15_STANDARD_CONSTRUCTORS \
+	Unreal_Resident_Evil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h_16_PRIVATE_PROPERTY_OFFSET \
+	Unreal_Resident_Evil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h_16_RPC_WRAPPERS \
+	Unreal_Resident_Evil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h_16_INCLASS \
+	Unreal_Resident_Evil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define ResidentEvil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h_15_GENERATED_BODY \
+#define Unreal_Resident_Evil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ResidentEvil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h_15_PRIVATE_PROPERTY_OFFSET \
-	ResidentEvil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	ResidentEvil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h_15_INCLASS_NO_PURE_DECLS \
-	ResidentEvil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h_15_ENHANCED_CONSTRUCTORS \
+	Unreal_Resident_Evil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h_16_PRIVATE_PROPERTY_OFFSET \
+	Unreal_Resident_Evil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	Unreal_Resident_Evil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h_16_INCLASS_NO_PURE_DECLS \
+	Unreal_Resident_Evil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID ResidentEvil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h
+#define CURRENT_FILE_ID Unreal_Resident_Evil_Source_ResidentEvil_HunkAnimation_HunkAnimInstance_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -17,6 +17,8 @@ void EmptyLinkFunctionForGeneratedCodeHunk() {}
 	RESIDENTEVIL_API UClass* Z_Construct_UClass_AHunk();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_ResidentEvil();
+	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 // End Cross Module References
 	void AHunk::StaticRegisterNativesAHunk()
 	{
@@ -41,6 +43,28 @@ void EmptyLinkFunctionForGeneratedCodeHunk() {}
 				{ "ModuleRelativePath", "Character/Hero/Hunk.h" },
 			};
 #endif
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FollowCamera_MetaData[] = {
+				{ "AllowPrivateAccess", "true" },
+				{ "Category", "Camera" },
+				{ "EditInline", "true" },
+				{ "ModuleRelativePath", "Character/Hero/Hunk.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FollowCamera = { UE4CodeGen_Private::EPropertyClass::Object, "FollowCamera", RF_Public|RF_Transient|RF_MarkAsNative, 0x00400000000a001d, 1, nullptr, STRUCT_OFFSET(AHunk, FollowCamera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(NewProp_FollowCamera_MetaData, ARRAY_COUNT(NewProp_FollowCamera_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpaceCameraToHunk_MetaData[] = {
+				{ "AllowPrivateAccess", "true" },
+				{ "Category", "Camera" },
+				{ "EditInline", "true" },
+				{ "ModuleRelativePath", "Character/Hero/Hunk.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SpaceCameraToHunk = { UE4CodeGen_Private::EPropertyClass::Object, "SpaceCameraToHunk", RF_Public|RF_Transient|RF_MarkAsNative, 0x00400000000a001d, 1, nullptr, STRUCT_OFFSET(AHunk, SpaceCameraToHunk), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(NewProp_SpaceCameraToHunk_MetaData, ARRAY_COUNT(NewProp_SpaceCameraToHunk_MetaData)) };
+			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_FollowCamera,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_SpaceCameraToHunk,
+			};
 			static const FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 				TCppClassTypeTraits<AHunk>::IsAbstract,
 			};
@@ -49,7 +73,7 @@ void EmptyLinkFunctionForGeneratedCodeHunk() {}
 				DependentSingletons, ARRAY_COUNT(DependentSingletons),
 				0x00900080u,
 				nullptr, 0,
-				nullptr, 0,
+				PropPointers, ARRAY_COUNT(PropPointers),
 				nullptr,
 				&StaticCppClassTypeInfo,
 				nullptr, 0,
@@ -59,7 +83,7 @@ void EmptyLinkFunctionForGeneratedCodeHunk() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AHunk, 3549029109);
+	IMPLEMENT_CLASS(AHunk, 3352042719);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AHunk(Z_Construct_UClass_AHunk, &AHunk::StaticClass, TEXT("/Script/ResidentEvil"), TEXT("AHunk"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AHunk);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

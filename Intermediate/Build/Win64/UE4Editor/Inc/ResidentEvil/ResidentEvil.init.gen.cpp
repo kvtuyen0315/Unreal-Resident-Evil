@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeResidentEvil_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/ResidentEvil",
 				PKG_CompiledIn | 0x00000000,
-				0x52DB5EF3,
-				0x14C126E9,
+				0xCC626A8B,
+				0x09ED7986,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

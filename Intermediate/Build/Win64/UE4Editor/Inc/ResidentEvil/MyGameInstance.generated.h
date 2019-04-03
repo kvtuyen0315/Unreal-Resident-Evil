@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define RESIDENTEVIL_MyGameInstance_generated_h
 
-#define ResidentEvil_Source_ResidentEvil_GameInstance_MyGameInstance_h_15_RPC_WRAPPERS
-#define ResidentEvil_Source_ResidentEvil_GameInstance_MyGameInstance_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define ResidentEvil_Source_ResidentEvil_GameInstance_MyGameInstance_h_15_INCLASS_NO_PURE_DECLS \
+#define Unreal_Resident_Evil_Source_ResidentEvil_GameInstance_MyGameInstance_h_15_RPC_WRAPPERS
+#define Unreal_Resident_Evil_Source_ResidentEvil_GameInstance_MyGameInstance_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define Unreal_Resident_Evil_Source_ResidentEvil_GameInstance_MyGameInstance_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUMyGameInstance(); \
 	friend RESIDENTEVIL_API class UClass* Z_Construct_UClass_UMyGameInstance(); \
@@ -25,7 +25,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define ResidentEvil_Source_ResidentEvil_GameInstance_MyGameInstance_h_15_INCLASS \
+#define Unreal_Resident_Evil_Source_ResidentEvil_GameInstance_MyGameInstance_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesUMyGameInstance(); \
 	friend RESIDENTEVIL_API class UClass* Z_Construct_UClass_UMyGameInstance(); \
@@ -35,7 +35,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define ResidentEvil_Source_ResidentEvil_GameInstance_MyGameInstance_h_15_STANDARD_CONSTRUCTORS \
+#define Unreal_Resident_Evil_Source_ResidentEvil_GameInstance_MyGameInstance_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UMyGameInstance(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMyGameInstance) \
@@ -48,7 +48,7 @@ private: \
 public:
 
 
-#define ResidentEvil_Source_ResidentEvil_GameInstance_MyGameInstance_h_15_ENHANCED_CONSTRUCTORS \
+#define Unreal_Resident_Evil_Source_ResidentEvil_GameInstance_MyGameInstance_h_15_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UMyGameInstance(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -61,32 +61,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMyGameInstance); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMyGameInstance)
 
 
-#define ResidentEvil_Source_ResidentEvil_GameInstance_MyGameInstance_h_15_PRIVATE_PROPERTY_OFFSET
-#define ResidentEvil_Source_ResidentEvil_GameInstance_MyGameInstance_h_12_PROLOG
-#define ResidentEvil_Source_ResidentEvil_GameInstance_MyGameInstance_h_15_GENERATED_BODY_LEGACY \
+#define Unreal_Resident_Evil_Source_ResidentEvil_GameInstance_MyGameInstance_h_15_PRIVATE_PROPERTY_OFFSET
+#define Unreal_Resident_Evil_Source_ResidentEvil_GameInstance_MyGameInstance_h_12_PROLOG
+#define Unreal_Resident_Evil_Source_ResidentEvil_GameInstance_MyGameInstance_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ResidentEvil_Source_ResidentEvil_GameInstance_MyGameInstance_h_15_PRIVATE_PROPERTY_OFFSET \
-	ResidentEvil_Source_ResidentEvil_GameInstance_MyGameInstance_h_15_RPC_WRAPPERS \
-	ResidentEvil_Source_ResidentEvil_GameInstance_MyGameInstance_h_15_INCLASS \
-	ResidentEvil_Source_ResidentEvil_GameInstance_MyGameInstance_h_15_STANDARD_CONSTRUCTORS \
+	Unreal_Resident_Evil_Source_ResidentEvil_GameInstance_MyGameInstance_h_15_PRIVATE_PROPERTY_OFFSET \
+	Unreal_Resident_Evil_Source_ResidentEvil_GameInstance_MyGameInstance_h_15_RPC_WRAPPERS \
+	Unreal_Resident_Evil_Source_ResidentEvil_GameInstance_MyGameInstance_h_15_INCLASS \
+	Unreal_Resident_Evil_Source_ResidentEvil_GameInstance_MyGameInstance_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define ResidentEvil_Source_ResidentEvil_GameInstance_MyGameInstance_h_15_GENERATED_BODY \
+#define Unreal_Resident_Evil_Source_ResidentEvil_GameInstance_MyGameInstance_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ResidentEvil_Source_ResidentEvil_GameInstance_MyGameInstance_h_15_PRIVATE_PROPERTY_OFFSET \
-	ResidentEvil_Source_ResidentEvil_GameInstance_MyGameInstance_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	ResidentEvil_Source_ResidentEvil_GameInstance_MyGameInstance_h_15_INCLASS_NO_PURE_DECLS \
-	ResidentEvil_Source_ResidentEvil_GameInstance_MyGameInstance_h_15_ENHANCED_CONSTRUCTORS \
+	Unreal_Resident_Evil_Source_ResidentEvil_GameInstance_MyGameInstance_h_15_PRIVATE_PROPERTY_OFFSET \
+	Unreal_Resident_Evil_Source_ResidentEvil_GameInstance_MyGameInstance_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	Unreal_Resident_Evil_Source_ResidentEvil_GameInstance_MyGameInstance_h_15_INCLASS_NO_PURE_DECLS \
+	Unreal_Resident_Evil_Source_ResidentEvil_GameInstance_MyGameInstance_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID ResidentEvil_Source_ResidentEvil_GameInstance_MyGameInstance_h
+#define CURRENT_FILE_ID Unreal_Resident_Evil_Source_ResidentEvil_GameInstance_MyGameInstance_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,3 +1,3 @@
-D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Source\ResidentEvil\ResidentEvil.Build.cs
-D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Source\ResidentEvil.Target.cs
-D:\KVT\Unreal Engine 4\Resident Evil Hunk\ResidentEvil\Source\ResidentEvilEditor.Target.cs
+D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Source\ResidentEvil\ResidentEvil.Build.cs
+D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Source\ResidentEvil.Target.cs
+D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Source\ResidentEvilEditor.Target.cs

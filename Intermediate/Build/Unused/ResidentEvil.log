@@ -1,3 +1,122 @@
-﻿  Target is up to date
+﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for ResidentEvilEditor (.uproject file is newer)
+  Parsing headers for ResidentEvilEditor
+    Running UnrealHeaderTool "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\ResidentEvil.uproject" "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Intermediate\Build\Win64\ResidentEvilEditor\Development\ResidentEvilEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for ResidentEvilEditor in 10.5025166 seconds
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-1319.dll".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-1319.pdb".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-1586.dll".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-1586.pdb".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-204.dll".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-204.pdb".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-2343.dll".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-2343.pdb".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-2690.dll".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-2690.pdb".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-3636.dll".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-3636.pdb".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-3756.dll".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-3756.pdb".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-473.dll".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-473.pdb".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-4757.dll".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-4757.pdb".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-480.dll".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-480.pdb".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-5644.dll".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-5644.pdb".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-5658.dll".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-5658.pdb".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-577.dll".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-577.pdb".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-610.dll".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-610.pdb".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-6606.dll".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-6606.pdb".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-7170.dll".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-7170.pdb".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-7472.dll".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-7472.pdb".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-7726.dll".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-7726.pdb".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-8325.dll".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-8325.pdb".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-8502.dll".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-8502.pdb".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-8787.dll".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-8787.pdb".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-9184.dll".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-9184.pdb".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-9656.dll".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-9656.pdb".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-988.dll".
+  Deleting old hot reload file: "D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Binaries\Win64\UE4Editor-ResidentEvil-988.pdb".
+  Performing 64 actions (2 in parallel)
+  BTDecoratorCanBeIdle.gen.cpp
+  Assault_Rifle.gen.cpp
+  BTDecoratorIsTargetInSight.gen.cpp
+  BTServiceCheckPlayer.gen.cpp
+  BTTaskIdle.gen.cpp
+  BTTaskIsEnoughRangeToAttack.gen.cpp
+  BTTaskIsHearingStrangeSound.gen.cpp
+  BTTaskIsTargetInSight.gen.cpp
+  BTTaskMoveToLastSeenLocation.gen.cpp
+  BTTaskMoveToPlayer.gen.cpp
+  BTTaskMoveToRandomLocation.gen.cpp
+  BTTaskMoveToSoundLocation.gen.cpp
+  BTTaskRotate.gen.cpp
+  EnemyAIController.gen.cpp
+  EnemyAnimInstance.gen.cpp
+  EnemyBase.gen.cpp
+  GameConstValue.gen.cpp
+  Hunk.gen.cpp
+  HunkAnimInstance.gen.cpp
+  MyGameInstance.gen.cpp
+  MyGameModeBase.gen.cpp
+  Pistol.gen.cpp
+  ResidentEvil.init.gen.cpp
+  ResidentEvilGameModeBase.gen.cpp
+  Shotgun.gen.cpp
+  TargetHearingInfo.gen.cpp
+  TargetInSightInfo.gen.cpp
+  Weaponts.gen.cpp
+  BTComposite_RandomSelector.gen.cpp
+  Shotgun.cpp
+  Assault_Rifle.cpp
+  Pistol.cpp
+  GameConstValue.cpp
+  ResidentEvil.cpp
+  ResidentEvilGameModeBase.cpp
+  BTComposite_RandomSelector.cpp
+  BTDecoratorCanBeIdle.cpp
+  BTDecoratorIsTargetInSight.cpp
+  BTServiceCheckPlayer.cpp
+  BTTaskIdle.cpp
+  BTTaskIsEnoughRangeToAttack.cpp
+  BTTaskIsHearingStrangeSound.cpp
+  BTTaskIsTargetInSight.cpp
+  BTTaskMoveToLastSeenLocation.cpp
+  BTTaskMoveToPlayer.cpp
+  BTTaskMoveToRandomLocation.cpp
+  BTTaskMoveToSoundLocation.cpp
+  BTTaskRotate.cpp
+  EnemyAIController.cpp
+  EnemyAnimInstance.cpp
+  EnemyBase.cpp
+  TargetHearingInfo.cpp
+  TargetInSightInfo.cpp
+  Zombie.cpp
+  ZombieAnimInstance.cpp
+  Hunk.cpp
+  MyGameInstance.cpp
+  MyGameModeBase.cpp
+  HunkAnimInstance.cpp
+  Weaponts.cpp
+  Zombie.gen.cpp
+  ZombieAnimInstance.gen.cpp
+  [63/64] Link UE4Editor-ResidentEvil.dll
+  [64/64] Link UE4Editor-ResidentEvil.lib
+     Creating library D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ResidentEvil.lib and object D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ResidentEvil.exp
+     Creating library D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ResidentEvil.suppressed.lib and object D:\KVT\Unreal Engine 4\Resident Evil Hunk\GitHub\Unreal-Resident-Evil\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ResidentEvil.suppressed.exp
   Deploying ResidentEvilEditor Win64 Development...
-  Total build time: 1.33 seconds (NoActionsToExecute executor: 0.00 seconds)
+  Total build time: 135.47 seconds (Local executor: 117.33 seconds)
