@@ -1,0 +1,136 @@
+The first thing I want to say is you need to call the right functions in the right places to make it works.
+1. Animation
+a. Setup Assets:
+- In constructor you call
+	USkeletalMeshComponent* SkeletalMeshComponent = this->GetMesh();
+	static ConstructorHelpers::FObjectFinder<USkeletalMesh> SkeletalMeshAsset(ANSI_TO_TCHAR(Path));
+	if (SkeletalMeshAsset.Succeeded())
+	{
+		SkeletalMeshComponent->SetSkeletalMesh(SkeletalMeshAsset.Object);
+		SkeletalMeshComponent->SetRelativeLocation(FVector(0.f, 0.f, -90.f));
+	}
+	
+- Set AnimationBlueprint (You can easily find tutorial how to create it in Editor)
+	static ConstructorHelpers::FObjectFinder<UAnimBlueprint> AnimationBlueprint(ANSI_TO_TCHAR(Path));
+	if (AnimationBlueprint.Succeeded())
+	{
+		SkeletalMeshComponent->SetAnimationMode(EAnimationMode::AnimationBlueprint);
+		SkeletalMeshComponent->SetAnimInstanceClass(AnimationBlueprint.Object->GetAnimBlueprintGeneratedClass());
+	}
+	// Dont play animation on constructor
+	// Play at beginplay or elsewhere
+b. StateMachine:
+- I find it's very hard (impossible) to create state machine in C++, so I just stick with it. But I could control the
+variables to change state in C++.
+- You should create variables in BluePrint and update it in event tick. If you directly use variables from
+C++, you will get warning about thread-safe.
+c. BlendSpace
+- Just like state machine, I don't think it worth spending time for it in C++. Just do it in BluePrint
+
+2. AI Detect Enemy: AIPerceptionComponent
+- You need to Add "AIModule" to your Build.cs file
+PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "AIModule"});
+- I advise you to you AIPerceptionComponent because UPawnSensingComponent component not work great
+and it has a bug that rename function after first run not work. In my case, I need to delete the map (unmapasset) file.
+a. To create component, call it like this in Constructor scope
+	AIPereptionComp = CreateDefaultSubobject<UAIPerceptionComponent>(TEXT("AIPerception Component"));
+// Hearing
+	AIHearingConfig = CreateDefaultSubobject<UAISenseConfig_Hearing>(TEXT("Hearing Config"));
+	AIPereptionComp->ConfigureSense(*AIHearingConfig);
+// Seeing
+	AISightConfig = CreateDefaultSubobject<UAISenseConfig_Sight>(TEXT("Sight Config"));
+	AIPereptionComp->ConfigureSense(*AISightConfig);
+// Events (see below for more detail)
+	AIPereptionComp->OnPerceptionUpdated.AddDynamic(this, &AZombie::OnSenseActors);
+	AIPereptionComp->OnTargetPerceptionUpdated.AddDynamic(this, &AZombie::OnUpdatedSenseActor);
+- Then you can config these sense in PostInitializeComponents() (If you guys have better place, please share it to me)
+	if (AISightConfig)
+	{
+		AISightConfig->SightRadius = 2000.f;
+		AISightConfig->LoseSightRadius = 2100.f;
+		AISightConfig->PeripheralVisionAngleDegrees = 40.0f;
+		AISightConfig->DetectionByAffiliation.bDetectEnemies = true;
+		AISightConfig->DetectionByAffiliation.bDetectNeutrals = true;
+		AISightConfig->DetectionByAffiliation.bDetectFriendlies = true;
+		AIPereptionComp->ConfigureSense(*AISightConfig);
+	}
+
+	if (AIHearingConfig)
+	{
+		AIHearingConfig->HearingRange = 1000.f;
+		AIHearingConfig->DetectionByAffiliation.bDetectEnemies = true;
+		AIHearingConfig->DetectionByAffiliation.bDetectNeutrals = true;
+		AIHearingConfig->DetectionByAffiliation.bDetectFriendlies = true;
+		AIPereptionComp->ConfigureSense(*AIHearingConfig);
+	}
+	
+	I don't know much about DetectionByAffiliation. I thought It's used to detect friend or enemy?
+	As I cannot find useful document about this, someone say it's useless? But you must set bDetectFriendlies to true,
+	or it will not work at all.
+b. Register Events:
+- It's very easy but I need lots of time to figure it out. In ver 4.19.2 I'm using, the auto complete doesn't
+display function AddDynamic.
+- This is in header file, you can change the function name to whatever. It just need to match the signature.
+	// Delegate events, called when sense actor and called again when lose sense of it too
+	UFUNCTION()
+	virtual void OnSenseActors(const TArray<AActor*>& TestActors);
+	UFUNCTION()
+	virtual void OnUpdatedSenseActor(AActor* UpdatedActor, FAIStimulus Stimulus);
+- Add this two line like I said in part 2a.
+	AIPereptionComp->OnPerceptionUpdated.AddDynamic(this, &AZombie::OnSenseActors);
+	AIPereptionComp->OnTargetPerceptionUpdated.AddDynamic(this, &AZombie::OnUpdatedSenseActor);	
+	
+- If you want to know which type of sense, you can use Stimulus in OnUpdatedSenseActor function. Like this:
+	if (Stimulus.Type == this->AISightConfig->GetSenseID())
+- Use (Stimulus.WasSuccessfullySensed()) to check if AI sensed player or not. When AI lost sense, 
+It returns false.
+	if (Stimulus.Type == this->AISightConfig->GetSenseID())
+	{
+		if (Stimulus.WasSuccessfullySensed())
+		{
+			// do stuff
+		}
+	}
+
+c. Make noise: 	
+- Call this somewhere to make noise. Make sure you set the hearing range enough.
+	(Header #include "Perception/AISense_Hearing.h")
+	UAISense_Hearing::ReportNoiseEvent(this, GetActorLocation(), 1.0, this);
+
+d. Debuging:
+- First, you possess the player then press "apostrophe (') key" (the left of Enter key). Press Numpad 4
+to use perception debug. (You need to click to the actor if Debug Actor on the top right is none)
+	
+3. Behavior Tree:
+- I don't implement BehaviorTree and BlackBoard entirely in C++. I still create it in Editor, what
+I did in C++ is creating the Services, Decorators, Tasks and sending data to blackboard.
+- You need to Add "GameplayTasks" to your Build.cs file
+PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "GameplayTasks"});
+a. Service:
+- Derive from UBTService class and override the TickNode() function.
+	virtual void TickNode(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory, float DeltaSeconds) override;
+- What I had done in service is setting the data for the Blackboard to use. (like Sensing data, Target info)
+b. Task:
+- Derive from UBTTask_BlackboardBase and override ExecuteTask() function.
+	virtual EBTNodeResult::Type ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory) override;
+- If you need to check something per tick, you can override TickTask function (remember to create constructor and set bNotifyTick to true)	
+	virtual void TickTask(UBehaviorTreeComponent & OwnerComp, uint8 * NodeMemory, float DeltaSeconds) override;
+- Use FinishLatentTask() function to finish task (Don't use OnTaskFinish())
+	FinishLatentTask(OwnerComp, EBTNodeResult::/*result you want*/);
+c. Decorators:
+- It takes me hours to find a solution for the question "How to abort the running task?" In BluePrint,
+It already has a decorator BTDecorator_BluePrintBase for it. How about C++? Well, It's much easier.
+- Firstly, derive UBTDecorator class
+- Secondly, override these two function
+		virtual void OnBecomeRelevant(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory) override;
+		virtual void TickNode(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory, float DeltaSeconds) override;
+	+ The OnBecomeRelevant() is called when node becomes active, you can initialize data or caching what you
+	need in TickNode()
+	+ The TickNode() is called once per tick, just make sure you set some properties in constructor
+		bNotifyBecomeRelevant = true;
+		bAllowAbortChildNodes = true;
+		bAllowAbortLowerPri = true;
+		bNotifyTick = true;
+		FlowAbortMode = EBTFlowAbortMode::Self;
+- Finally, call OwnerComp.RequestExecution(this); in TickNode() if condition is met to abort the task/node
+	
