@@ -33,4 +33,7 @@ public:
 	void SetDirection(float Value);
 	UFUNCTION(BlueprintCallable)
 	float GetDirection() const;
+
+	// Update animation.
+	virtual void NativeUpdateAnimation(float DeltaTime) override;
 };

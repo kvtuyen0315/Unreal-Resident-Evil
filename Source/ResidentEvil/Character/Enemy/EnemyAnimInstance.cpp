@@ -21,4 +21,10 @@ float UEnemyAnimInstance::GetDirection() const
 	return Direction;
 }
 
+// Update animation.
+void UEnemyAnimInstance::NativeUpdateAnimation(float DeltaTime)
+{
+	Super::NativeUpdateAnimation(DeltaTime);
+}
+
 
