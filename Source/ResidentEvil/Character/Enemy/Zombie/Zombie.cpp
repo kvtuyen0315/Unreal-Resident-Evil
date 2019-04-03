@@ -23,7 +23,7 @@
 #define ASSET_PATH_ANIM_BLUEPRINT "AnimBlueprint'/Game/MyCharacter/Enemy/Zombie1/Zombie.Zombie'"
 #define ASSET_PATH_BEHAVIOR_TREE "BehaviorTree'/Game/AI/ZombieBT.ZombieBT'"
 #define ZOMBIE_ATTACK_RANGE 100.f
-#define ZOMBIE_WALK_SPEED 200.f
+#define ZOMBIE_WALK_SPEED 100.f
 #define ZOMBIE_TIME_FOLLOW_SOUND 7.f
 
 AZombie::AZombie(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)
