@@ -16,6 +16,7 @@
 #include "ResidentEvil/Weaponts/Rifle/Assault_Rifle.h"
 #include "ResidentEvil/Weaponts/Shotgun/Shotgun.h"
 #include "ResidentEvil/Weaponts/Pistol/Pistol.h"
+#include "Perception/AISense_Hearing.h"
 
 // Sets default values
 AHunk::AHunk() :
@@ -249,6 +250,12 @@ void AHunk::Tick(float DeltaTime)
 	else
 	{
 		SetCameraArmLengthNormal(DeltaTime);
+	}
+
+	// Danny test noise
+	if (IsSprint && this->GetVelocity().SizeSquared() > 0)
+	{
+		UAISense_Hearing::ReportNoiseEvent(this, GetActorLocation(), 1.0, this);
 	}
 }
 

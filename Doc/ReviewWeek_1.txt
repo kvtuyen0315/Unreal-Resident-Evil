@@ -121,7 +121,7 @@ c. Decorators:
 - It takes me hours to find a solution for the question "How to abort the running task?" In BluePrint,
 It already has a decorator BTDecorator_BluePrintBase for it. How about C++? Well, It's much easier.
 - Firstly, derive UBTDecorator class
-- Secondly, override these two function
+- Secondly, override constructor and these two function
 		virtual void OnBecomeRelevant(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory) override;
 		virtual void TickNode(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory, float DeltaSeconds) override;
 	+ The OnBecomeRelevant() is called when node becomes active, you can initialize data or caching what you
