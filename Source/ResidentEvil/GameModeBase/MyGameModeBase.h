@@ -18,4 +18,6 @@ class RESIDENTEVIL_API AMyGameModeBase : public AGameModeBase
 #pragma region Create.
 		AMyGameModeBase();
 #pragma endregion
+
+	virtual void StartPlay();
 };
