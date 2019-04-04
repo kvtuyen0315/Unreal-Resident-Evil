@@ -26,5 +26,6 @@ void AWeaponts::SetSkeletalMeshComponentGun()
 {
 	SkeletalMeshComponentGun = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Skeletal Weapont"));
 	SkeletalMeshComponentGun->SetupAttachment(SceneComponentGun);
+	
 }
 #pragma endregion

@@ -16,7 +16,6 @@
 #include "ResidentEvil/Weaponts/Rifle/Assault_Rifle.h"
 #include "ResidentEvil/Weaponts/Shotgun/Shotgun.h"
 #include "ResidentEvil/Weaponts/Pistol/Pistol.h"
-#include "Perception/AISense_Hearing.h"
 
 // Sets default values
 AHunk::AHunk() :
@@ -114,8 +113,8 @@ void AHunk::SetCharacterMovement()
 void AHunk::SetCameraArmLengthNormal(float DeltaTime)
 {
 	SpaceCameraToHunk->TargetArmLength = UKismetMathLibrary::FInterpTo(SpaceCameraToHunk->TargetArmLength, TARGET_ARM_LENGTH_NORMAL, DeltaTime, 10.0f);
-	SpaceCameraToHunk->SocketOffset.Y = UKismetMathLibrary::FInterpTo(SpaceCameraToHunk->SocketOffset.Y, SOCKET_OFFSET_Y, DeltaTime, 10.0f);
-	SpaceCameraToHunk->SocketOffset.Z = UKismetMathLibrary::FInterpTo(SpaceCameraToHunk->SocketOffset.Z, SOCKET_OFFSET_Z, DeltaTime, 10.0f);
+	//SpaceCameraToHunk->SocketOffset.Y = UKismetMathLibrary::FInterpTo(SpaceCameraToHunk->SocketOffset.Y, SOCKET_OFFSET_Y, DeltaTime, 15.0f);
+	SpaceCameraToHunk->SocketOffset.Z = UKismetMathLibrary::FInterpTo(SpaceCameraToHunk->SocketOffset.Z, SOCKET_OFFSET_Z, DeltaTime, 15.0f);
 }
 
 void AHunk::SetCameraArmLengthToAim(float DeltaTime)
@@ -126,8 +125,8 @@ void AHunk::SetCameraArmLengthToAim(float DeltaTime)
 	}
 
 	SpaceCameraToHunk->TargetArmLength = UKismetMathLibrary::FInterpTo(SpaceCameraToHunk->TargetArmLength, TARGET_ARM_LENGTH_TO_AIM, DeltaTime, 10.0f);
-	SpaceCameraToHunk->SocketOffset.Y = UKismetMathLibrary::FInterpTo(SpaceCameraToHunk->SocketOffset.Y, SOCKET_OFFSET_TO_AIM_Y, DeltaTime, 10.0f);
-	SpaceCameraToHunk->SocketOffset.Z = UKismetMathLibrary::FInterpTo(SpaceCameraToHunk->SocketOffset.Z, SOCKET_OFFSET_TO_AIM_Z, DeltaTime, 10.0f);
+	//SpaceCameraToHunk->SocketOffset.Y = UKismetMathLibrary::FInterpTo(SpaceCameraToHunk->SocketOffset.Y, SOCKET_OFFSET_TO_AIM_Y, DeltaTime, 15.0f);
+	SpaceCameraToHunk->SocketOffset.Z = UKismetMathLibrary::FInterpTo(SpaceCameraToHunk->SocketOffset.Z, SOCKET_OFFSET_TO_AIM_Z, DeltaTime, 15.0f);
 }
 
 void AHunk::SetAssaultRifle()
@@ -250,12 +249,6 @@ void AHunk::Tick(float DeltaTime)
 	else
 	{
 		SetCameraArmLengthNormal(DeltaTime);
-	}
-
-	// Danny test noise
-	if (IsSprint && this->GetVelocity().SizeSquared() > 0)
-	{
-		UAISense_Hearing::ReportNoiseEvent(this, GetActorLocation(), 1.0, this);
 	}
 }
 
@@ -414,6 +407,8 @@ void AHunk::PressedReload()
 
 void AHunk::PressedNumber1()
 {
+	IsFiring = false;
+
 	if (!IsSprint) SpeedWalk = MAX_WALK_RIFLE_SPEED;
 	
 	eWeaponts = EWeaponts::PISTOL;
@@ -429,6 +424,8 @@ void AHunk::PressedNumber1()
 
 void AHunk::PressedNumber2()
 {
+	IsFiring = false;
+
 	if (!IsSprint) SpeedWalk = MAX_WALK_RIFLE_SPEED;
 
 	eWeaponts = EWeaponts::SHOTGUN;
@@ -444,6 +441,8 @@ void AHunk::PressedNumber2()
 
 void AHunk::PressedNumber3()
 {
+	IsFiring = false;
+
 	if (!IsSprint) SpeedWalk = MAX_WALK_RIFLE_SPEED;
 
 	eWeaponts = EWeaponts::RIFLE;

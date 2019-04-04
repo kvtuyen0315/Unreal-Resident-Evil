@@ -2,6 +2,7 @@
 
 #include "Pistol.h"
 #include "UObject/ConstructorHelpers.h"
+#include "Animation/AnimBlueprint.h"
 #include "Components/SkeletalMeshComponent.h"
 
 #pragma region Functions
@@ -18,8 +19,11 @@ APistol::APistol()
 void APistol::SetSkeletalMeshGun()
 {
 	static ConstructorHelpers::FObjectFinder<USkeletalMesh> Pistol(TEXT("/Game/MyAssets/MilitaryWeapSilver/Weapons/Pistols_A"));
+	static ConstructorHelpers::FObjectFinder<UAnimBlueprint> PistolAnimation(TEXT("/Game/MyCharacter/Hunk/Swat/Pistol/Pistol_Animation"));
 	SkeletalMeshPistol = Pistol.Object;
 	SkeletalMeshComponentGun->SetSkeletalMesh(SkeletalMeshPistol);
+	SkeletalMeshComponentGun->SetAnimationMode(EAnimationMode::AnimationBlueprint);
+	SkeletalMeshComponentGun->SetAnimInstanceClass(PistolAnimation.Object->GetAnimBlueprintGeneratedClass());
 }
 #pragma endregion
 
