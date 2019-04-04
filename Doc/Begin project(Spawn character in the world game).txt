@@ -155,11 +155,16 @@ Reference, rồi ấn vào tab "Copy Reference" Xong ! quay lại Paste chỗ mu
     };
 
     + Trong file AMyGameModeBase.cpp
+
+    #include "MyGameModeBase.h"
+    #include "--find your source class AMyHero.h--"
+    #include "UObject/ConstructorHelpers.h"
     AMyGameModeBase::AMyGameModeBase()
     {
-	    static ConstructorHelpers::FClassFinder<AHunk> yourHero(TEXT("--Past your Reference Class here--"));
+	    static ConstructorHelpers::FClassFinder<AMyHero> yourHero(TEXT("--Past your Reference Class here--"));
 	    this->DefaultPawnClass = yourHero.Class;
     }
+
 Ok! Tiếp theo bạn hãy ra trang giao diện của UE4, trên thanh công cụ ngay chỗ Top Screen View! có cái nút "Settings"! Ấn vào đấy vào chọn thư mục
 "Project Settings"! Xong, các bạn hãy nhìn bên trái màn hình tìm đến Thư mục "Project" và trong thư mục đó chọn "Maps & Modes"! Khi đã chọn xong
 thì ngay chỗ "Default Modes" các tìm đến chỗ "Default GameMode" và chọn tới file "MyGameModeBase" mà bạn đã tạo ở C++.
