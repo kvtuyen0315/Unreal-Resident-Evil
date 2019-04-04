@@ -1,0 +1,168 @@
+Xin chào mọi người ! Mình sẽ bắt đầu project thôi.
+Trước tiên mình sẽ tạo những Folder trong thư mục Content.
+    + 1: MyAsset.
+    + 2: MyBlueprints.
+    + 3: MyCharacter.
+    + 4: MyMap.
+Vì về sau này dễ quản lý file.
+Bài viết này sử dụng phương pháp C++ để buil project này nên sẽ không đề cập nhiều về Blueprint!.
+ - Trước tiên bạn hãy tạo ra 1 file .h rồi sau đó đặt tên là GameConstValue (Chỉ sử dụng file GameConstValue.h thôi! để dùng Macro).
+    + Trong file GameConstValue.h
+    /*Word*/
+    #define _Fzero (0.0f)
+    #define _Izero (0)
+    #define Delta_Secons GetWorld()->DeltaTimeSeconds
+
+    #pragma region Hunk.
+    /*SetCapsuleCollisionHunk*/
+    #define RADIUS_CAPSULE (34.0f)
+    #define HEIGHT_CAPSULE (88.0f)
+
+    /*SetSkeletalMeshHunk*/
+    #define	LOCALTION_SKELETAL_HUNK FVector(_Fzero, _Fzero, -90.0f)
+    #define ROTATION_SKELETAL_HUNK	FRotator(_Fzero, -90.0f, _Fzero)
+
+    /*SetCameraFollowToHunk*/
+    #define TARGET_ARM_LENGTH_NORMAL (130.0f)
+    #define TARGET_ARM_LENGTH_TO_AIM (45.0f)
+    #define SOCKET_OFFSET_Y (50.0f)
+    #define SOCKET_OFFSET_TO_AIM_Y (45.0f)
+    #define SOCKET_OFFSET_Z (10.0f)
+    #define SOCKET_OFFSET_TO_AIM_Z (35.0f)
+    #define RELATIVE_LOCATION_Z (40.0f)
+    #define LOCATION_CAMERA FVector(_Fzero, _Fzero, RELATIVE_LOCATION_Z)
+
+    /*SetCharacterMovement*/
+    #define MAX_WALK_SPEED (150.0f)
+    #define MAX_WALK_RIFLE_SPEED (200.0)
+    #define MAX_WALK_SPRINT_SPEED (400.0f)
+
+Đây là cách mà mình đặt tên! Các bạn có thể đặt tên khác hoặc chỉnh thông số khác nếu muốn! =) 
+
+ -Tiếp theo trong thư mục C++ các bạn hãy tạo ra 1 (class character) tùy bạn đặt tên! Đây mình sẽ đặt tên là MyHero!
+ và sau đó các bạn viết thêm các dòng code này như sau:
+    + Trong file AMyHero.h
+#pragma region Variable.
+    private:    
+        UCapsuleComponent* CapsuleCollisionHunk;
+        USkeletalMesh* SkeletalMeshHunk;
+        USkeletalMeshComponent* MeshHunk;
+        UCharacterMovementComponent* CharacterMovementHunk;
+
+        UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camera", meta = (AllowPrivateAccess = "true"))
+        class USpringArmComponent* SpaceCameraToHunk;
+        UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camera", meta = (AllowPrivateAccess = "true"))
+        class UCameraComponent* FollowCamera;
+#pragma endregion
+
+#pragma region Set Functions.
+    private:
+	void SetRotationHunk();
+	void SetCapsuleCollisionHunk();
+	void SetSkeletalMeshHunk();
+	void SetCameraFollowToHunk();
+	void SetCharacterMovement();
+	void SetCameraArmLengthNormal(float DeltaTime);
+	void SetCameraArmLengthToAim(float DeltaTime);
+#pragma endregion
+
+Trong file AMyHero.h này chỉ khởi tạo những biến và hàm mà mình muốn sử dụng trong tương lai!
+
+    + Trong file AMyHero.cpp
+    MyHero::AMyHero()
+    {
+        /*Set all this to equal NULL*/
+        CapsuleCollisionHunk = NULL;
+        MeshHunk = NULL;
+        SkeletalMeshHunk = NULL;
+        SpaceCameraToHunk = NULL;
+        FollowCamera = NULL;
+
+        SetRotationHunk();
+        SetCapsuleCollisionHunk();
+        SetSkeletalMeshHunk();
+        SetCameraFollowToHunk();
+        SetCharacterMovement();
+    }
+
+#pragma region Set Functions.
+    void AMyHero::SetRotationHunk()
+    {
+        this->bUseControllerRotationPitch = false;
+        this->bUseControllerRotationRoll = false;
+        this->bUseControllerRotationYaw = false;
+    }
+
+    void AMyHero::SetCapsuleCollisionHunk()
+    {
+        CapsuleCollisionHunk = this->GetCapsuleComponent();
+        CapsuleCollisionHunk->SetCapsuleSize(RADIUS_CAPSULE, HEIGHT_CAPSULE, true);
+        CapsuleCollisionHunk->bHiddenInGame = false;
+    }
+
+    void AMyHero::SetSkeletalMeshHunk()
+    {
+        MeshHunk = this->GetMesh();
+        static ConstructorHelpers::FObjectFinder<USkeletalMesh> skeletalMesh(TEXT("--Past your Reference Object here--"));
+        SkeletalMeshHunk = skeletalMesh.Object;
+        MeshHunk->SetSkeletalMesh(SkeletalMeshHunk);
+        LocationSkeletalHunk = LOCALTION_SKELETAL_HUNK;
+        RotationSkeletalHunk = ROTATION_SKELETAL_HUNK;
+        MeshHunk->SetRelativeLocationAndRotation(LocationSkeletalHunk, RotationSkeletalHunk);
+        
+        static ConstructorHelpers::FObjectFinder<UAnimBlueprint> animationBlueprint(TEXT("--Past your Reference Object here--"));
+        MeshHunk->SetAnimationMode(EAnimationMode::AnimationBlueprint);
+        MeshHunk->SetAnimInstanceClass(animationBlueprint.Object->GetAnimBlueprintGeneratedClass());
+    }
+
+/* Muốn lấy được đường dẫn Reference của 1 Object thì các bạn hãy ra chỗ main chính của UE4 rồi click chuột phải vào 1 Object mà bạn muốn lấy
+Reference, rồi ấn vào tab "Copy Reference" Xong ! quay lại Paste chỗ muốn mà bạn muốn lấy! */
+    
+    void AMyHero::SetCameraFollowToHunk()
+    {
+        SpaceCameraToHunk = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpaceCameraToHunk"));
+        SpaceCameraToHunk->SetupAttachment(RootComponent);
+        SpaceCameraToHunk->TargetArmLength = TARGET_ARM_LENGTH_NORMAL;
+        LocationCamera = LOCATION_CAMERA;
+        SpaceCameraToHunk->SetRelativeLocation(LocationCamera);
+        SpaceCameraToHunk->bUsePawnControlRotation = true;
+        SpaceCameraToHunk->SocketOffset.Y = SOCKET_OFFSET_Y;
+        SpaceCameraToHunk->SocketOffset.Z = SOCKET_OFFSET_Z;
+        
+        FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
+        FollowCamera->SetupAttachment(SpaceCameraToHunk, USpringArmComponent::SocketName);
+        FollowCamera->bUsePawnControlRotation = false;
+    }
+#pragma endregion
+
+ - Tiếp theo trong thư mục C++ bạn hãy tạo ra (class GameModeBase) đặt tên là MyGameModeBase.
+    +Trong file AMyGameModeBase.h
+
+    #include "CoreMinimal.h"
+    #include "GameFramework/GameModeBase.h"
+    #include "MyGameModeBase.generated.h"
+
+    /**
+    * 
+    */
+    UCLASS()
+    class RESIDENTEVIL_API AMyGameModeBase : public AGameModeBase
+    {
+        GENERATED_BODY()
+
+    // Create Function.
+        AMyGameModeBase();
+    };
+
+    + Trong file AMyGameModeBase.cpp
+    AMyGameModeBase::AMyGameModeBase()
+    {
+	    static ConstructorHelpers::FClassFinder<AHunk> hunk(TEXT("/Script/ResidentEvil.Hunk"));
+	    this->DefaultPawnClass = hunk.Class;
+    }
+Ok! Tiếp theo bạn hãy ra trang giao diện của UE4, trên thanh công cụ ngay chỗ Top Screen View! có cái nút "Settings"! Ấn vào đấy vào chọn thư mục
+"Project Settings"! Xong, các bạn hãy nhìn bên trái màn hình tìm đến Thư mục "Project" và trong thư mục đó chọn "Maps & Modes"! Khi đã chọn xong
+thì ngay chỗ "Default Modes" các tìm đến chỗ "Default GameMode" và chọn tới file "MyGameModeBase" mà bạn đã tạo ở C++.
+    - Done! lúc này các bạn hãy ra chỗ giao diện chính (main Screen) ấn vào nút "Compile" ở trên Screen View ! chờ nó Compile xong thì ấn "Play"
+xem kết quả ! =)
+    Thanks you to read this!
