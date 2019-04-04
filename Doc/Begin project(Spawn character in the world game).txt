@@ -1,4 +1,4 @@
-Xin chào mọi người ! Mình sẽ bắt đầu project thôi.
+﻿Xin chào mọi người ! Mình sẽ bắt đầu project thôi.
 Trước tiên mình sẽ tạo những Folder trong thư mục Content.
     + 1: MyAsset.
     + 2: MyBlueprints.
@@ -13,7 +13,7 @@ Bài viết này sử dụng phương pháp C++ để buil project này nên s�
     #define _Izero (0)
     #define Delta_Secons GetWorld()->DeltaTimeSeconds
 
-    #pragma region Hunk.
+    #pragma region AMyHero.
     /*SetCapsuleCollisionHunk*/
     #define RADIUS_CAPSULE (34.0f)
     #define HEIGHT_CAPSULE (88.0f)
@@ -157,8 +157,8 @@ Reference, rồi ấn vào tab "Copy Reference" Xong ! quay lại Paste chỗ mu
     + Trong file AMyGameModeBase.cpp
     AMyGameModeBase::AMyGameModeBase()
     {
-	    static ConstructorHelpers::FClassFinder<AHunk> hunk(TEXT("/Script/ResidentEvil.Hunk"));
-	    this->DefaultPawnClass = hunk.Class;
+	    static ConstructorHelpers::FClassFinder<AHunk> yourHero(TEXT("--Past your Reference Class here--"));
+	    this->DefaultPawnClass = yourHero.Class;
     }
 Ok! Tiếp theo bạn hãy ra trang giao diện của UE4, trên thanh công cụ ngay chỗ Top Screen View! có cái nút "Settings"! Ấn vào đấy vào chọn thư mục
 "Project Settings"! Xong, các bạn hãy nhìn bên trái màn hình tìm đến Thư mục "Project" và trong thư mục đó chọn "Maps & Modes"! Khi đã chọn xong
