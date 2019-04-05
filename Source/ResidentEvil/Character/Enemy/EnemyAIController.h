@@ -42,4 +42,6 @@ public:
 	uint8 GetHearingTargetInfoID() const { return HearingTargetInfoID; }
 	
 	AEnemyBase* GetEnemyPawn() const { return EnemyPawn; };
+
+	void AttackTarget(AActor* Target);
 };

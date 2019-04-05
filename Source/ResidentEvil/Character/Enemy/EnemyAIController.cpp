@@ -35,3 +35,8 @@ void AEnemyAIController::Possess(APawn* AIPawn)
 		BehaviorComp->StartTree(*EnemyPawn->GetAIBehaviorTree());
 	}
 }
+
+void AEnemyAIController::AttackTarget(AActor * Target)
+{
+	EnemyPawn->AttackTarget(Target);
+}

@@ -19,12 +19,13 @@
 #include "GameConstValue.h"
 #include "Animation/AnimBlueprint.h"
 
-#define ASSET_PATH_SKELETAL_MESH "SkeletalMesh'/Game/MyCharacter/Enemy/Zombie1/Zombie_1_SkeletalMesh.Zombie_1_SkeletalMesh'"
-#define ASSET_PATH_ANIM_BLUEPRINT "AnimBlueprint'/Game/MyCharacter/Enemy/Zombie1/Zombie.Zombie'"
+#define ASSET_PATH_SKELETAL_MESH "SkeletalMesh'/Game/MyCharacter/Enemy/Zombie2/Zombie_idle.Zombie_idle'"
+#define ASSET_PATH_ANIM_BLUEPRINT "AAnimBlueprint'/Game/MyCharacter/Enemy/Zombie2/ZombieNormal.ZombieNormal'"
 #define ASSET_PATH_BEHAVIOR_TREE "BehaviorTree'/Game/AI/ZombieBT.ZombieBT'"
 #define ZOMBIE_ATTACK_RANGE 100.f
-#define ZOMBIE_WALK_SPEED 100.f
+#define ZOMBIE_WALK_SPEED 70.f
 #define ZOMBIE_TIME_FOLLOW_SOUND 7.f
+#define ZOMBIE_SCALING 1.f
 
 AZombie::AZombie(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)
 {
@@ -52,6 +53,13 @@ void AZombie::BeginPlay()
 {
 	UE_LOG(LogTemp, Warning, TEXT("Zombie BeginPlay called"));
 	Super::BeginPlay();
+
+	USkeletalMeshComponent* SkeletalMeshComponent = this->GetMesh();
+	SkeletalMeshComponent->SetRelativeLocation(FVector(0.f, 0.f, -90.f));
+	FRotator SkeletalMeshRotation = SkeletalMeshComponent->RelativeRotation;
+	SkeletalMeshRotation.Add(0.f, -90.f, 0.f);
+	SkeletalMeshComponent->SetRelativeRotation(SkeletalMeshRotation);
+	SkeletalMeshComponent->SetRelativeScale3D(FVector(ZOMBIE_SCALING));
 
 	// register events for AI such as sight and hearing
 	UAIPerceptionSystem::RegisterPerceptionStimuliSource(this, AISightConfig->GetSenseImplementation(), this);
@@ -116,6 +124,11 @@ void AZombie::OnUpdatedSenseActor(AActor * UpdatedActor, FAIStimulus Stimulus)
 	UE_LOG(LogTemp, Warning, TEXT("AZombie SenseStuff"));
 }
 
+void AZombie::OnAttackEnd()
+{
+	bIsAttacking = false;
+}
+
 void AZombie::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
@@ -134,7 +147,21 @@ void AZombie::Tick(float DeltaTime)
 		}
 	}
 
-	CalculateVariableForAnimation(DeltaTime);
+	//CalculateVariableForAnimation(DeltaTime);
+}
+
+void AZombie::OnAnimNotify(EAnimationType AnimationType)
+{
+	switch (AnimationType)
+	{
+	case EAnimationType::ZOMBIE_ATTACK_END:
+	{
+		OnAttackEnd();
+	}
+		break;
+	default:
+		break;
+	}
 }
 
 void AZombie::SetupEnemySensingComponent()
@@ -157,13 +184,12 @@ void AZombie::SetupEnemySensingComponent()
 void AZombie::PostInitializeComponents()
 {
 	Super::PostInitializeComponents();
-	USkeletalMeshComponent* SkeletalMeshComponent = this->GetMesh();
-	SkeletalMeshComponent->SetRelativeLocation(FVector(0.f, 0.f, -90.f));
-	FRotator SkeletalMeshRotation = SkeletalMeshComponent->RelativeRotation;
-	SkeletalMeshRotation.Add(0.f, -90.f, 0.f);
-	SkeletalMeshComponent->SetRelativeRotation(SkeletalMeshRotation);
-	// Scale 2.5 to match the capsule
-	SkeletalMeshComponent->SetRelativeScale3D(FVector(2.5f));
+	//USkeletalMeshComponent* SkeletalMeshComponent = this->GetMesh();
+	//SkeletalMeshComponent->SetRelativeLocation(FVector(0.f, 0.f, -90.f));
+	//FRotator SkeletalMeshRotation = SkeletalMeshComponent->RelativeRotation;
+	//SkeletalMeshRotation.Add(0.f, -90.f, 0.f);
+	//SkeletalMeshComponent->SetRelativeRotation(SkeletalMeshRotation);
+	//SkeletalMeshComponent->SetRelativeScale3D(FVector(ZOMBIE_SCALING));
 
 	if (AISightConfig)
 	{

@@ -16,6 +16,7 @@
 #include "ResidentEvil/Weaponts/Rifle/Assault_Rifle.h"
 #include "ResidentEvil/Weaponts/Shotgun/Shotgun.h"
 #include "ResidentEvil/Weaponts/Pistol/Pistol.h"
+#include "Perception/AISense_Hearing.h"
 
 // Sets default values
 AHunk::AHunk() :
@@ -81,9 +82,12 @@ void AHunk::SetSkeletalMeshHunk()
 	RotationSkeletalHunk = ROTATION_SKELETAL_HUNK;
 	MeshHunk->SetRelativeLocationAndRotation(LocationSkeletalHunk, RotationSkeletalHunk);
 	
-	static ConstructorHelpers::FObjectFinder<UAnimBlueprint> animationBlueprint(TEXT("/Game/MyCharacter/Hunk/Swat/Hunk_Animation"));
-	MeshHunk->SetAnimationMode(EAnimationMode::AnimationBlueprint);
-	MeshHunk->SetAnimInstanceClass(animationBlueprint.Object->GetAnimBlueprintGeneratedClass());
+	static ConstructorHelpers::FObjectFinder<UAnimBlueprint> AnimationBlueprintAsset(TEXT("/Game/MyCharacter/Hunk/Swat/Hunk_Animation"));
+	if (AnimationBlueprintAsset.Succeeded())
+	{
+		MeshHunk->SetAnimationMode(EAnimationMode::AnimationBlueprint);
+		MeshHunk->SetAnimInstanceClass(AnimationBlueprintAsset.Object->GeneratedClass);
+	}
 }
 
 void AHunk::SetCameraFollowToHunk()
@@ -131,20 +135,20 @@ void AHunk::SetCameraArmLengthToAim(float DeltaTime)
 
 void AHunk::SetAssaultRifle()
 {
-	static ConstructorHelpers::FClassFinder<AAssault_Rifle> AssaultRifle(TEXT("/Script/ResidentEvil.Assault_Rifle"));
-	this->AssaultRifle = AssaultRifle.Class;
+	static ConstructorHelpers::FClassFinder<AAssault_Rifle> AssaultRifleActor(TEXT("/Script/ResidentEvil.Assault_Rifle"));
+	this->AssaultRifle = AssaultRifleActor.Class;
 }
 
 void AHunk::SetShotgun()
 {
-	static ConstructorHelpers::FClassFinder<AShotgun> Shotgun(TEXT("/Script/ResidentEvil.Shotgun"));
-	this->Shotgun = Shotgun.Class;
+	static ConstructorHelpers::FClassFinder<AShotgun> ShotgunActor(TEXT("/Script/ResidentEvil.Shotgun"));
+	this->Shotgun = ShotgunActor.Class;
 }
 
 void AHunk::SetPistol()
 {
-	static ConstructorHelpers::FClassFinder<APistol> Pistol(TEXT("/Script/ResidentEvil.Pistol"));
-	this->Pistol = Pistol.Class;
+	static ConstructorHelpers::FClassFinder<APistol> PistolActor(TEXT("/Script/ResidentEvil.Pistol"));
+	this->Pistol = PistolActor.Class;
 }
 #pragma endregion
 
@@ -249,6 +253,12 @@ void AHunk::Tick(float DeltaTime)
 	else
 	{
 		SetCameraArmLengthNormal(DeltaTime);
+	}
+
+	// Danny test noise
+	if (IsSprint && this->GetVelocity().SizeSquared() > 0)
+	{
+		UAISense_Hearing::ReportNoiseEvent(this, GetActorLocation(), 1.0, this);
 	}
 }
 

@@ -5,6 +5,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Structures/GameEnumName.h"
 #include "EnemyBase.generated.h"
 
 UCLASS()
@@ -32,6 +33,9 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	// Control animation attack and other stuff when attack the target
+	virtual void AttackTarget(AActor* Target);
 protected:
 	// Calculate Velocity Every frame for Animation to use
 	virtual void CalculateVariableForAnimation(float DeltaTime);
@@ -65,6 +69,10 @@ protected:
 	UPROPERTY(EditAnywhere)
 	float AttackRange;
 
+	// Variable to control attacking animation
+	UPROPERTY(EditAnywhere)
+	bool bIsAttacking;
+
 	// The custom class derived from AnimInstance
 	UPROPERTY(VisibleDefaultsOnly)
 	class UEnemyAnimInstance* AnimInstance;
@@ -73,4 +81,14 @@ public:
 	UTargetInSightInfo* GetTargetInSightInfo() const { return TargetInSightInfo; }
 	UTargetHearingInfo* GetTargetHearingInfo() const { return TargetHearingInfo; }
 	float GetAttackRange() const { return AttackRange; };
+	bool IsAttacking() const { return bIsAttacking; }
+
+	UFUNCTION()
+	virtual void OnAnimNotifyBegin(UAnimSequenceBase* Animation, float TotalDuration);
+	UFUNCTION()
+	virtual void OnAnimNotifyTick(UAnimSequenceBase* Animation, float FrameDeltaTime);
+	UFUNCTION()
+	virtual void OnAnimNotifyEnd(UAnimSequenceBase* Animation);
+	UFUNCTION()
+	virtual void OnAnimNotify(EAnimationType AnimationType);
 };

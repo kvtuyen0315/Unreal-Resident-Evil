@@ -12,6 +12,7 @@
 AEnemyBase::AEnemyBase(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)
 {
 	bReplicates = true;
+	bIsAttacking = false;
 }
 
 void AEnemyBase::InitializeSkeletaMesh(const char* Path)
@@ -51,6 +52,11 @@ void AEnemyBase::BeginPlay()
 	Super::BeginPlay();
 	// Cache reference for later use
 	AnimInstance = Cast<UEnemyAnimInstance>(this->GetMesh()->GetAnimInstance());
+	if (AnimInstance)
+	{
+		AnimInstance->OnAnimNotifyEnd.AddDynamic(this, &AEnemyBase::OnAnimNotifyEnd);
+		AnimInstance->OnAnimNotify.AddDynamic(this, &AEnemyBase::OnAnimNotify);
+	}
 }
 
 void AEnemyBase::PostInitializeComponents()
@@ -73,6 +79,36 @@ void AEnemyBase::CalculateVariableForAnimation(float DeltaTime)
 		AnimInstance->SetSpeed(Speed);
 		float Direction = this->AnimInstance->CalculateDirection(Velocity, this->GetActorRotation());
 		this->AnimInstance->SetDirection(Direction);
+	}
+}
+
+void AEnemyBase::AttackTarget(AActor * Target)
+{
+	bIsAttacking = true;
+}
+
+void AEnemyBase::OnAnimNotifyBegin(UAnimSequenceBase * Animation, float TotalDuration)
+{
+}
+
+void AEnemyBase::OnAnimNotifyTick(UAnimSequenceBase * Animation, float FrameDeltaTime)
+{
+}
+
+void AEnemyBase::OnAnimNotifyEnd(UAnimSequenceBase * Animation)
+{
+	FString Name = Animation->GetName();
+	if (Name.IsEmpty() == false)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("On Anim Notify End Name %s"), *Name);
+	}
+}
+
+void AEnemyBase::OnAnimNotify(EAnimationType AnimationType)
+{
+	if (AnimationType == EAnimationType::ZOMBIE_ATTACK_END)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("On Anim Notify End Name ZOMBIE_ATTACK_END"));
 	}
 }
 

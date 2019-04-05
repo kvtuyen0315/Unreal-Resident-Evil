@@ -23,9 +23,12 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	virtual void SetupEnemySensingComponent();
-
 	virtual void PostInitializeComponents() override;
+
+	// Event fires by animation
+	virtual void OnAnimNotify(EAnimationType AnimationType) override;
+
+	virtual void SetupEnemySensingComponent();
 
 	// Delaget events, called when see actor and called again when lose sigh of it too
 	UFUNCTION()
@@ -33,6 +36,8 @@ protected:
 	UFUNCTION()
 	virtual void OnUpdatedSenseActor(AActor* UpdatedActor, FAIStimulus Stimulus);
 
+protected:
+	void OnAttackEnd();
 public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
