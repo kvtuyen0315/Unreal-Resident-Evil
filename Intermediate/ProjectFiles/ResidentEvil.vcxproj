@@ -404,8 +404,18 @@
     <NMakeReBuildCommandLine>"D:\Cai Dat\UE4\UE_4.19\Engine\Build\BatchFiles\Rebuild.bat" ResidentEvil HTML5 Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
     <NMakeCleanCommandLine>"D:\Cai Dat\UE4\UE_4.19\Engine\Build\BatchFiles\Clean.bat" ResidentEvil HTML5 Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
     <NMakeOutput>..\..\Binaries\HTML5\ResidentEvil-HTML5-Shipping.js</NMakeOutput>
-  </PropertyGroup>
-  <ItemGroup>
+	</PropertyGroup>
+	<ItemGroup>
+    <ClCompile Include="..\..\Source\ResidentEvil\Structures\GameEnumName.cpp" />
+    <ClCompile Include="..\..\Source\ResidentEvil\Weaponts\Pistol\Pistol.cpp" />
+    <ClCompile Include="..\..\Source\ResidentEvil\Weaponts\Rifle\Assault_Rifle.cpp" />
+    <ClCompile Include="..\..\Source\ResidentEvil\Weaponts\Shotgun\Shotgun.cpp" />
+    <ClCompile Include="..\..\Source\ResidentEvil\Weaponts\Weaponts.cpp" />
+    <ClInclude Include="..\..\Source\ResidentEvil\Structures\GameEnumName.h" />
+    <ClInclude Include="..\..\Source\ResidentEvil\Weaponts\Pistol\Pistol.h" />
+    <ClInclude Include="..\..\Source\ResidentEvil\Weaponts\Rifle\Assault_Rifle.h" />
+    <ClInclude Include="..\..\Source\ResidentEvil\Weaponts\Shotgun\Shotgun.h" />
+    <ClInclude Include="..\..\Source\ResidentEvil\Weaponts\Weaponts.h" />
     <None Include="..\..\ResidentEvil.uproject" />
     <None Include="..\..\Source\ResidentEvil.Target.cs" />
     <None Include="..\..\Source\ResidentEvilEditor.Target.cs" />
@@ -414,12 +424,60 @@
     <None Include="..\..\Config\DefaultGame.ini" />
     <None Include="..\..\Source\ResidentEvil\ResidentEvil.Build.cs" />
     <ClCompile Include="..\..\Source\ResidentEvil\Character\Hero\Hunk.cpp" />
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\BTComposite_RandomSelector.cpp" />
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\BTDecoratorCanBeIdle.cpp" />
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\BTDecoratorIsTargetInSight.cpp" />
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\BTServiceCheckPlayer.cpp" />
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\BTTaskAttackTarget.cpp" />
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\BTTaskIdle.cpp" />
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\BTTaskIsEnoughRangeToAttack.cpp" />
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\BTTaskIsHearingStrangeSound.cpp" />
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\BTTaskIsTargetInSight.cpp" />
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\BTTaskMoveToLastSeenLocation.cpp" />
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\BTTaskMoveToPlayer.cpp" />
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\BTTaskMoveToRandomLocation.cpp" />
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\BTTaskMoveToSoundLocation.cpp" />
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\BTTaskRotate.cpp" />
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\MonsterAIController.cpp" />
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\MonsterAnimInstance.cpp" />
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\MonsterAnimNotify.cpp" />
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\MonsterAnimNotifyState.cpp" />
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\MonsterBase.cpp" />
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\MonsterStat.cpp" />
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\TargetHearingInfo.cpp" />
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\TargetInSightInfo.cpp" />
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\Zombie\Zombie.cpp" />
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\Zombie\ZombieAnimInstance.cpp" />
     <ClCompile Include="..\..\Source\ResidentEvil\GameConstValue.cpp" />
     <ClCompile Include="..\..\Source\ResidentEvil\GameInstance\MyGameInstance.cpp" />
     <ClCompile Include="..\..\Source\ResidentEvil\GameModeBase\MyGameModeBase.cpp" />
     <ClCompile Include="..\..\Source\ResidentEvil\HunkAnimation\HunkAnimInstance.cpp" />
     <ClCompile Include="..\..\Source\ResidentEvil\ResidentEvil.cpp" />
     <ClInclude Include="..\..\Source\ResidentEvil\Character\Hero\Hunk.h" />
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\BTComposite_RandomSelector.h" />
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\BTDecoratorCanBeIdle.h" />
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\BTDecoratorIsTargetInSight.h" />
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\BTServiceCheckPlayer.h" />
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\BTTaskAttackTarget.h" />
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\BTTaskIdle.h" />
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\BTTaskIsEnoughRangeToAttack.h" />
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\BTTaskIsHearingStrangeSound.h" />
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\BTTaskIsTargetInSight.h" />
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\BTTaskMoveToLastSeenLocation.h" />
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\BTTaskMoveToPlayer.h" />
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\BTTaskMoveToRandomLocation.h" />
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\BTTaskMoveToSoundLocation.h" />
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\BTTaskRotate.h" />
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\MonsterAIController.h" />
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\MonsterAnimInstance.h" />
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\MonsterAnimNotify.h" />
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\MonsterAnimNotifyState.h" />
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\MonsterBase.h" />
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\MonsterStat.h" />
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\TargetHearingInfo.h" />
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\TargetInSightInfo.h" />
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\Zombie\Zombie.h" />
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\Zombie\ZombieAnimInstance.h" />
     <ClInclude Include="..\..\Source\ResidentEvil\GameConstValue.h" />
     <ClInclude Include="..\..\Source\ResidentEvil\GameInstance\MyGameInstance.h" />
     <ClInclude Include="..\..\Source\ResidentEvil\GameModeBase\MyGameModeBase.h" />

@@ -58,6 +58,27 @@
     <Filter Include="Source\ResidentEvil\HunkAnimation">
       <UniqueIdentifier>{9ae21000-0c10-443d-ba69-73d2e8523a3b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\ResidentEvil\Character\Monster">
+      <UniqueIdentifier>{3d4ce332-3e5c-4f56-9484-f401d569cac8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ResidentEvil\Character\Monster\Zombie">
+      <UniqueIdentifier>{99710336-9354-472e-b9a1-f9cbfe3bd86e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ResidentEvil\Structures">
+      <UniqueIdentifier>{6fb77f9c-42a9-4c55-b1c2-c118e6940ded}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ResidentEvil\Weaponts">
+      <UniqueIdentifier>{763b1534-fa52-4802-8cd1-062b80f0904d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ResidentEvil\Weaponts\Pistol">
+      <UniqueIdentifier>{774831e7-37f1-4e21-99d2-46a3562a8654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ResidentEvil\Weaponts\Rifle">
+      <UniqueIdentifier>{227d070b-84d7-4707-a051-0f37f4cd4fe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ResidentEvil\Weaponts\Shotgun">
+      <UniqueIdentifier>{107c2b5d-1da9-42fa-8160-e2b18ea4282c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Source\ResidentEvil\GameModeBase\MyGameModeBase.h">
@@ -75,6 +96,93 @@
     <ClInclude Include="..\..\Source\ResidentEvil\HunkAnimation\HunkAnimInstance.h">
       <Filter>Source\ResidentEvil\HunkAnimation</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\BTComposite_RandomSelector.h">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\BTDecoratorCanBeIdle.h">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\BTDecoratorIsTargetInSight.h">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\BTServiceCheckPlayer.h">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\BTTaskAttackTarget.h">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\BTTaskIdle.h">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\BTTaskIsEnoughRangeToAttack.h">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\BTTaskIsHearingStrangeSound.h">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\BTTaskIsTargetInSight.h">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\BTTaskMoveToLastSeenLocation.h">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\BTTaskMoveToPlayer.h">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\BTTaskMoveToRandomLocation.h">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\BTTaskMoveToSoundLocation.h">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\BTTaskRotate.h">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\MonsterAIController.h">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\MonsterAnimInstance.h">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\MonsterAnimNotify.h">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\MonsterAnimNotifyState.h">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\MonsterBase.h">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\MonsterStat.h">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\TargetHearingInfo.h">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\TargetInSightInfo.h">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\Zombie\Zombie.h">
+      <Filter>Source\ResidentEvil\Character\Monster\Zombie</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ResidentEvil\Character\Monster\Zombie\ZombieAnimInstance.h">
+      <Filter>Source\ResidentEvil\Character\Monster\Zombie</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ResidentEvil\Structures\GameEnumName.h">
+      <Filter>Source\ResidentEvil\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ResidentEvil\Weaponts\Weaponts.h">
+      <Filter>Source\ResidentEvil\Weaponts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ResidentEvil\Weaponts\Shotgun\Shotgun.h">
+      <Filter>Source\ResidentEvil\Weaponts\Shotgun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ResidentEvil\Weaponts\Rifle\Assault_Rifle.h">
+      <Filter>Source\ResidentEvil\Weaponts\Rifle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ResidentEvil\Weaponts\Pistol\Pistol.h">
+      <Filter>Source\ResidentEvil\Weaponts\Pistol</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\ResidentEvil\GameModeBase\MyGameModeBase.cpp">
@@ -91,6 +199,93 @@
     </ClCompile>
     <ClCompile Include="..\..\Source\ResidentEvil\HunkAnimation\HunkAnimInstance.cpp">
       <Filter>Source\ResidentEvil\HunkAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\BTComposite_RandomSelector.cpp">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\BTDecoratorCanBeIdle.cpp">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\BTDecoratorIsTargetInSight.cpp">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\BTServiceCheckPlayer.cpp">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\BTTaskAttackTarget.cpp">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\BTTaskIdle.cpp">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\BTTaskIsEnoughRangeToAttack.cpp">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\BTTaskIsHearingStrangeSound.cpp">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\BTTaskIsTargetInSight.cpp">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\BTTaskMoveToLastSeenLocation.cpp">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\BTTaskMoveToPlayer.cpp">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\BTTaskMoveToRandomLocation.cpp">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\BTTaskMoveToSoundLocation.cpp">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\BTTaskRotate.cpp">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\MonsterAIController.cpp">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\MonsterAnimInstance.cpp">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\MonsterAnimNotify.cpp">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\MonsterAnimNotifyState.cpp">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\MonsterBase.cpp">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\MonsterStat.cpp">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\TargetHearingInfo.cpp">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\TargetInSightInfo.cpp">
+      <Filter>Source\ResidentEvil\Character\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\Zombie\Zombie.cpp">
+      <Filter>Source\ResidentEvil\Character\Monster\Zombie</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ResidentEvil\Character\Monster\Zombie\ZombieAnimInstance.cpp">
+      <Filter>Source\ResidentEvil\Character\Monster\Zombie</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ResidentEvil\Structures\GameEnumName.cpp">
+      <Filter>Source\ResidentEvil\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ResidentEvil\Weaponts\Weaponts.cpp">
+      <Filter>Source\ResidentEvil\Weaponts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ResidentEvil\Weaponts\Shotgun\Shotgun.cpp">
+      <Filter>Source\ResidentEvil\Weaponts\Shotgun</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ResidentEvil\Weaponts\Rifle\Assault_Rifle.cpp">
+      <Filter>Source\ResidentEvil\Weaponts\Rifle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ResidentEvil\Weaponts\Pistol\Pistol.cpp">
+      <Filter>Source\ResidentEvil\Weaponts\Pistol</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
