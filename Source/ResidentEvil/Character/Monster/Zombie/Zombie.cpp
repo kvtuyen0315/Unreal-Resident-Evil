@@ -20,10 +20,10 @@
 #include "Animation/AnimBlueprint.h"
 #include "Character/Monster/MonsterStat.h"
 
-#define ASSET_PATH_SKELETAL_MESH "SkeletalMesh'/Game/MyCharacter/Enemy/Zombie2/Zombie_idle.Zombie_idle'"
-#define ASSET_PATH_ANIM_BLUEPRINT "AAnimBlueprint'/Game/MyCharacter/Enemy/Zombie2/ZombieNormal.ZombieNormal'"
+#define ASSET_PATH_SKELETAL_MESH "SkeletalMesh'/Game/MyCharacter/Monster/Zombie2/Zombie_idle.Zombie_idle'"
+#define ASSET_PATH_ANIM_BLUEPRINT "AAnimBlueprint'/Game/MyCharacter/Monster/Zombie2/ZombieNormal.ZombieNormal'"
 #define ASSET_PATH_BEHAVIOR_TREE "BehaviorTree'/Game/AI/ZombieBT.ZombieBT'"
-#define ZOMBIE_ATTACK_RANGE 100.f
+#define ZOMBIE_ATTACK_RANGE 200.f
 #define ZOMBIE_WALK_SPEED 70.f
 #define ZOMBIE_TIME_FOLLOW_SOUND 7.f
 #define ZOMBIE_SCALING 1.f

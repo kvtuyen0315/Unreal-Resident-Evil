@@ -17,7 +17,7 @@ EBTNodeResult::Type UBTTaskIsEnoughRangeToAttack::ExecuteTask(UBehaviorTreeCompo
 	if (Character)
 	{
 		float Distance = FVector::Distance(Character->GetActorLocation(), MonsterPawn->GetActorLocation());
-		if (Distance < MonsterPawn->GetAttackRange()) // temp
+		if (Distance < MonsterPawn->GetAttackRange())
 		{
 			return EBTNodeResult::Succeeded;
 		}
