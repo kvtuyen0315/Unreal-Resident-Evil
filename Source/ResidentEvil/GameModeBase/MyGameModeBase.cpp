@@ -3,7 +3,7 @@
 #include "MyGameModeBase.h"
 #include "ResidentEvil/Character/Hero/Hunk.h"
 #include "UObject/ConstructorHelpers.h"
-#include "Character/Enemy/Zombie/Zombie.h"
+#include "Character/Monster/Zombie/Zombie.h"
 #include "GameFramework/Actor.h"
 #include "Engine/World.h"
 
@@ -27,7 +27,7 @@ void AMyGameModeBase::StartPlay()
 		SpawnInfo.Owner = this;
 		SpawnInfo.Instigator = Instigator;
 		FVector Location = FVector(100.f * (i + 1), 0.f, 100.f);
-		AZombie* obj = GetWorld()->SpawnActor<AZombie>(AZombie::StaticClass(), Location, FRotator::ZeroRotator, SpawnInfo);
+		AZombie* Obj = GetWorld()->SpawnActor<AZombie>(AZombie::StaticClass(), Location, FRotator::ZeroRotator, SpawnInfo);
 	}
 	
 }
