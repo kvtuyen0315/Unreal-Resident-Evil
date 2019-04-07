@@ -15,17 +15,17 @@ void UMonsterStat::TickComponent(float DeltaTime, ELevelTick TickType, FActorCom
 	static EMonsterAttackType TempKey;
 	static TArray<EMonsterAttackType> ArrayKeys;
 	ArrayKeys.Reset();
-	MapAttackDelay.GetKeys(ArrayKeys);
+	MapAttackCoolDown.GetKeys(ArrayKeys);
 	for (int32 i = 0; i < ArrayKeys.Num(); i++)
 	{
 		TempKey = ArrayKeys[i];
-		if (MapAttackDelay[TempKey] > 0.f)
+		if (MapAttackCoolDown[TempKey] > 0.f)
 		{
-			MapAttackDelay[TempKey] -= DeltaTime;
+			MapAttackCoolDown[TempKey] -= DeltaTime;
 			// Maybe no need, just in case someone check delay == 0.f
-			if (MapAttackDelay[TempKey] < 0.f)
+			if (MapAttackCoolDown[TempKey] < 0.f)
 			{
-				MapAttackDelay[TempKey] = 0.f;
+				MapAttackCoolDown[TempKey] = 0.f;
 			}
 		}
 	}
@@ -36,22 +36,22 @@ void UMonsterStat::SetOwningMonster(AMonsterBase * Monster, bool bInitData)
 	SetOwningMonster(Monster);
 	if (bInitData)
 	{
-		SetAttackDelayDefault(Monster->GetMonsterType());
+		SetAttackCoolDownDefault(Monster->GetMonsterType());
 	}
 }
 
-void UMonsterStat::SetAttackDelayDefault(EMonsterType Type)
+void UMonsterStat::SetAttackCoolDownDefault(EMonsterType Type)
 {
-	MapAttackDelay.Reset(); // just make sure
+	MapAttackCoolDown.Reset(); // just make sure
 	const TArray<UMonsterAttackPattern*>& ArrayAttackPattern = UMonsterAttackPattern::GetMonsterAttackPatternArray(Type);
 	for (int32 i = 0; i < ArrayAttackPattern.Num(); i++)
 	{
 		UMonsterAttackPattern* Info = ArrayAttackPattern[i];
-		MapAttackDelay.Add(Info->GetAttackType(), 0.f);
+		MapAttackCoolDown.Add(Info->GetAttackType(), 0.f);
 	}
 }
 
-void UMonsterStat::SetAttackDelay(EMonsterAttackType Type)
+void UMonsterStat::SetAttackCoolDown(EMonsterAttackType Type)
 {
 	const TArray<UMonsterAttackPattern*>& ArrayAttackPattern = UMonsterAttackPattern::GetMonsterAttackPatternArray(OwningMonster->GetMonsterType());
 	for (int32 i = 0; i < ArrayAttackPattern.Num(); i++)
@@ -59,22 +59,22 @@ void UMonsterStat::SetAttackDelay(EMonsterAttackType Type)
 		UMonsterAttackPattern* Info = ArrayAttackPattern[i];
 		if (Info->GetAttackType() == Type)
 		{
-			MapAttackDelay[Type] = Info->GetAttackDelay();
+			MapAttackCoolDown[Type] = Info->GetAttackCoolDown();
 			break;
 		}
 	}
 }
 
-void UMonsterStat::SetAttackDelay(EMonsterAttackType Type, float Delay)
+void UMonsterStat::SetAttackCoolDown(EMonsterAttackType Type, float Delay)
 {
-	MapAttackDelay[Type] = Delay;
+	MapAttackCoolDown[Type] = Delay;
 }
 
-float UMonsterStat::GetAttackDelay(EMonsterAttackType AttackType)
+float UMonsterStat::GetAttackCoolDown(EMonsterAttackType AttackType)
 {
-	if (MapAttackDelay.Contains(AttackType))
+	if (MapAttackCoolDown.Contains(AttackType))
 	{
-		return MapAttackDelay[AttackType];
+		return MapAttackCoolDown[AttackType];
 	}
 	return 0.0f;
 }

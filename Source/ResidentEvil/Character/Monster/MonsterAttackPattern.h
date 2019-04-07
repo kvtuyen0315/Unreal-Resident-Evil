@@ -28,7 +28,7 @@ protected:
 	float AttackRange;
 
 	UPROPERTY()
-	float AttackDelay;
+	float AttackCoolDown;
 
 	static TMap<EMonsterType, TArray<UMonsterAttackPattern*>> sMapAttackPatternData;
 protected:
@@ -45,6 +45,6 @@ public:
 	FORCEINLINE EMonsterAttackType GetAttackType() const { return AttackType; }
 	FORCEINLINE int32 GetBaseAttackDamage() const { return BaseAttackDamage; }
 	FORCEINLINE float GetAttackRange() const { return AttackRange; }
-	FORCEINLINE int32 GetAttackDelay() const { return AttackDelay; }
+	FORCEINLINE int32 GetAttackCoolDown() const { return AttackCoolDown; }
 
 };

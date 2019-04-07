@@ -34,7 +34,7 @@ protected:
 	bool bIsAttacking;
 
 	UPROPERTY(EditAnywhere)
-	TMap<EMonsterAttackType, float> MapAttackDelay;
+	TMap<EMonsterAttackType, float> MapAttackCoolDown;
 
 public:
 	virtual void TickComponent(float DeltaTime, enum ELevelTick TickType, FActorComponentTickFunction *ThisTickFunction) override;
@@ -56,10 +56,10 @@ public:
 	FORCEINLINE bool IsAttacking() const { return bIsAttacking; };
 
 	// Find Info Attack pattern base on type and initialize the map
-	void SetAttackDelayDefault(EMonsterType Type);
+	void SetAttackCoolDownDefault(EMonsterType Type);
 	// Will set Default Data 
-	void SetAttackDelay(EMonsterAttackType Type);
-	void SetAttackDelay(EMonsterAttackType Type, float Delay);
-	float GetAttackDelay(EMonsterAttackType AttackType);
-	FORCEINLINE TMap<EMonsterAttackType, float> GetMapAttackDelay() const { return MapAttackDelay; }
+	void SetAttackCoolDown(EMonsterAttackType Type);
+	void SetAttackCoolDown(EMonsterAttackType Type, float Delay);
+	float GetAttackCoolDown(EMonsterAttackType AttackType);
+	FORCEINLINE TMap<EMonsterAttackType, float> GetMapAttackCoolDown() const { return MapAttackCoolDown; }
 };

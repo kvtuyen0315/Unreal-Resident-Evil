@@ -157,11 +157,11 @@ void AZombie::Tick(float DeltaTime)
 
 EMonsterAttackResult AZombie::AttackTarget(AActor * Target, UMonsterAttackPattern * AttackPattern)
 {
-	float AttackDelay = MonsterStat->GetAttackDelay(AttackPattern->GetAttackType());
-	if (AttackDelay <= 0.f)
+	float AttackCoolDown = MonsterStat->GetAttackCoolDown(AttackPattern->GetAttackType());
+	if (AttackCoolDown <= 0.f)
 	{
 		this->MonsterStat->SetIsAttacking(true);
-		this->MonsterStat->SetAttackDelay(AttackPattern->GetAttackType());
+		this->MonsterStat->SetAttackCoolDown(AttackPattern->GetAttackType());
 		return EMonsterAttackResult::SUCCEED;
 	}
 	else

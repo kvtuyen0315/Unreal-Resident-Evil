@@ -10,7 +10,7 @@ void UMonsterAttackPattern::Set(EMonsterAttackType Type, int32 BaseDamage /*= 0*
 	AttackType = Type;
 	BaseAttackDamage = BaseDamage;
 	AttackRange = Range;
-	AttackDelay = Delay;
+	AttackCoolDown = Delay;
 }
 
 void UMonsterAttackPattern::Initialize()
