@@ -24,7 +24,6 @@ EBTNodeResult::Type UBTTaskAttackTarget::ExecuteTask(UBehaviorTreeComponent & Ow
 	ACharacter* Target = Cast<ACharacter>(OwnerComp.GetBlackboardComponent()->GetValue<UBlackboardKeyType_Object>(AIController->GetTargetKeyID()));
 	if (AIController && Target)
 	{
-		AIController->AttackTarget(Target);
 		return EBTNodeResult::Succeeded;
 	}
 	return EBTNodeResult::Failed;

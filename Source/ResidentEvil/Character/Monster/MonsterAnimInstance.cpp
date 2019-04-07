@@ -31,30 +31,6 @@ void UMonsterAnimInstance::NativeUpdateAnimation(float DeltaTime)
 	}
 }
 
-void UMonsterAnimInstance::ReceiveAnimNotifyBegin(UAnimSequenceBase * Animation, float TotalDuration)
-{
-	if (OnAnimNotifyBegin.IsBound())
-	{
-		OnAnimNotifyBegin.Broadcast(Animation, TotalDuration);
-	}
-}
-
-void UMonsterAnimInstance::ReceiveAnimNotifyTick(UAnimSequenceBase * Animation, float FrameDeltaTime)
-{
-	if (OnAnimNotifyTick.IsBound())
-	{
-		OnAnimNotifyTick.Broadcast(Animation, FrameDeltaTime);
-	}
-}
-
-void UMonsterAnimInstance::ReceiveAnimNotifyEnd(UAnimSequenceBase * Animation)
-{
-	if (OnAnimNotifyEnd.IsBound())
-	{
-		OnAnimNotifyEnd.Broadcast(Animation);
-	}
-}
-
 void UMonsterAnimInstance::ReceiveAnimNotify(EAnimationType AnimationType)
 {
 	if (OnAnimNotify.IsBound())

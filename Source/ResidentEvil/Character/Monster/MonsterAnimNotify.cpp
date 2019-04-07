@@ -3,6 +3,7 @@
 #include "MonsterAnimNotify.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "MonsterAnimInstance.h"
+#include "Structures/GameEnumName.h"
 
 void UMonsterAnimNotify::Notify(USkeletalMeshComponent* MeshComp, UAnimSequenceBase* Animation)
 {

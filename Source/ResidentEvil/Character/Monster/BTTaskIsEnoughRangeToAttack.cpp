@@ -8,6 +8,8 @@
 #include "GameFramework/Character.h"
 #include "GameConstValue.h"
 #include "MonsterBase.h"
+#include "Structures/GameEnumName.h"
+#include "MonsterAttackPattern.h"
 
 EBTNodeResult::Type UBTTaskIsEnoughRangeToAttack::ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory)
 {
@@ -17,9 +19,15 @@ EBTNodeResult::Type UBTTaskIsEnoughRangeToAttack::ExecuteTask(UBehaviorTreeCompo
 	if (Character)
 	{
 		float Distance = FVector::Distance(Character->GetActorLocation(), MonsterPawn->GetActorLocation());
-		if (Distance < MonsterPawn->GetAttackRange())
+		const TArray<UMonsterAttackPattern*>& ArrayAttack = UMonsterAttackPattern::GetMonsterAttackPatternArray(MonsterPawn->GetMonsterType());
+		for (int32 i = 0; i < ArrayAttack.Num(); i++)
 		{
-			return EBTNodeResult::Succeeded;
+			const UMonsterAttackPattern* AttackPattern = ArrayAttack[i];
+			const float AttackRange = AttackPattern->GetAttackRange();
+			if (Distance <= AttackRange)
+			{
+				return EBTNodeResult::Succeeded;
+			}
 		}
 	}
 	return EBTNodeResult::Failed;

@@ -9,7 +9,6 @@ void UMonsterAnimNotifyState::NotifyBegin(USkeletalMeshComponent * MeshComp, UAn
 	MonsterAnimInstance = Cast<UMonsterAnimInstance>(MeshComp->GetAnimInstance());
 	if (MonsterAnimInstance)
 	{
-		MonsterAnimInstance->ReceiveAnimNotifyBegin(Animation, TotalDuration);
 	}
 }
 
@@ -17,7 +16,6 @@ void UMonsterAnimNotifyState::NotifyTick(USkeletalMeshComponent * MeshComp, UAni
 {
 	if (MonsterAnimInstance)
 	{
-		MonsterAnimInstance->ReceiveAnimNotifyTick(Animation, FrameDeltaTime);
 	}
 }
 
@@ -25,7 +23,6 @@ void UMonsterAnimNotifyState::NotifyEnd(USkeletalMeshComponent * MeshComp, UAnim
 {
 	if (MonsterAnimInstance)
 	{
-		MonsterAnimInstance->ReceiveAnimNotifyEnd(Animation);
 	}
 }
 

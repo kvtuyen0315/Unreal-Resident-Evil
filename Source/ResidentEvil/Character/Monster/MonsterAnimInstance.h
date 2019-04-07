@@ -5,18 +5,19 @@
 #include "CoreMinimal.h"
 #include "Animation/AnimInstance.h"
 #include "Structures/GameEnumName.h"
+#include "Structures/GameDelegateName.h"
 #include "MonsterAnimInstance.generated.h"
 /**
  * The base class for control the Monster's animation blueprint
  * We will change variables in C++ to make State Machince in BluePrint work
  */
 
-class UAnimSequenceBase;
-
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FMonsterAnimNotifyBegin, UAnimSequenceBase*, Animation, float, TotalDuration);
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FMonsterAnimNotifyTick, UAnimSequenceBase*, Animation, float, FrameDeltaTime);
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FMonsterAnimNotifyEnd, UAnimSequenceBase*, Animation);
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FMonsterAnimNotify, EAnimationType, AnimationType);
+//class UAnimSequenceBase;
+//
+//DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FMonsterAnimNotifyBegin, UAnimSequenceBase*, Animation, float, TotalDuration);
+//DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FMonsterAnimNotifyTick, UAnimSequenceBase*, Animation, float, FrameDeltaTime);
+//DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FMonsterAnimNotifyEnd, UAnimSequenceBase*, Animation);
+//DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FMonsterAnimNotify, EAnimationType, AnimationType);
 
 UCLASS()
 class RESIDENTEVIL_API UMonsterAnimInstance : public UAnimInstance
@@ -40,15 +41,6 @@ protected:
 
 public:
 	// Delegate Animation events
-	UPROPERTY(BlueprintAssignable)
-	FMonsterAnimNotifyBegin OnAnimNotifyBegin;
-
-	UPROPERTY(BlueprintAssignable)
-	FMonsterAnimNotifyTick OnAnimNotifyTick;
-
-	UPROPERTY(BlueprintAssignable)
-	FMonsterAnimNotifyEnd OnAnimNotifyEnd;
-
 	UPROPERTY(BlueprintAssignable)
 	FMonsterAnimNotify OnAnimNotify;
 
@@ -74,8 +66,5 @@ public:
 	virtual void NativeUpdateAnimation(float DeltaTime) override;
 
 	// Receive Events from animation
-	virtual void ReceiveAnimNotifyBegin(UAnimSequenceBase * Animation, float TotalDuration);
-	virtual void ReceiveAnimNotifyTick(UAnimSequenceBase * Animation, float FrameDeltaTime);
-	virtual void ReceiveAnimNotifyEnd(UAnimSequenceBase * Animation);
 	virtual void ReceiveAnimNotify(EAnimationType AnimationType);
 };

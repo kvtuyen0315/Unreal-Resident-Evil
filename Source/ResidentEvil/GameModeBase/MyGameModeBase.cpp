@@ -6,6 +6,7 @@
 #include "Character/Monster/Zombie/Zombie.h"
 #include "GameFramework/Actor.h"
 #include "Engine/World.h"
+#include "Character/Monster/MonsterAttackPattern.h"
 
 // Tuyển.
 #pragma region Create.
@@ -20,6 +21,9 @@ AMyGameModeBase::AMyGameModeBase()
 void AMyGameModeBase::StartPlay()
 {
 	Super::StartPlay();
+	// Init game data 
+	UMonsterAttackPattern::Initialize();
+
 	UWorld* World = this->GetWorld();
 	for (int32 i = 0; i < 1; i++)
 	{

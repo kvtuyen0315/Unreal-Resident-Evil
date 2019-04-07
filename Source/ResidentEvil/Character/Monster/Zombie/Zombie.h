@@ -12,7 +12,7 @@
  * 
  */
 struct FAIStimulus;
-
+class UMonsterAttackPattern;
 UCLASS()
 class RESIDENTEVIL_API AZombie : public AMonsterBase
 {
@@ -41,4 +41,6 @@ protected:
 public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	virtual EMonsterAttackResult AttackTarget(AActor* Target, UMonsterAttackPattern* AttackPattern);
 };

@@ -4,9 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "Animation/AnimNotifies/AnimNotify.h"
-#include "Structures/GameEnumName.h"
 #include "MonsterAnimNotify.generated.h"
 
+enum class EAnimationType : uint8;
 /**
  * 
  */

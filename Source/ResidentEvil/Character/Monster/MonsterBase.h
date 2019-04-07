@@ -8,6 +8,10 @@
 #include "Structures/GameEnumName.h"
 #include "MonsterBase.generated.h"
 
+enum class EMonsterType : uint8;
+enum class EMonsterAttackResult : uint8;
+class UMonsterAttackPattern;
+
 UCLASS()
 class RESIDENTEVIL_API AMonsterBase : public ACharacter
 {
@@ -17,7 +21,7 @@ public:
 	// Sets default values for this character's properties
 	AMonsterBase(const FObjectInitializer& ObjectInitializer);
 protected:
-	// Functions in constructor
+	// Functions called in constructor
 	virtual void InitializeSkeletaMesh(const char* Path);
 	virtual void InitializeBehaviorTree(const char* Path);
 	virtual void InitializeAnimationBluePrint(const char* Path);
@@ -35,7 +39,7 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	// Control animation attack and other stuff when attack the target
-	virtual void AttackTarget(AActor* Target);
+	virtual EMonsterAttackResult AttackTarget(AActor* Target, UMonsterAttackPattern* AttackPattern);
 protected:
 	// Calculate Velocity Every frame for Animation to use
 	virtual void CalculateVariableForAnimation(float DeltaTime);
@@ -56,22 +60,24 @@ protected:
 	class UAISenseConfig_Hearing* AIHearingConfig;
 
 	// The custom classes store the sense information
-	UPROPERTY(VisibleDefaultsOnly)
+	UPROPERTY(VisibleAnywhere)
 	class UTargetInSightInfo* TargetInSightInfo;
-	UPROPERTY(VisibleDefaultsOnly)
+	UPROPERTY(VisibleAnywhere)
 	class UTargetHearingInfo* TargetHearingInfo;
 
 	// The custom class derived from AnimInstance
-	UPROPERTY(VisibleDefaultsOnly)
+	UPROPERTY(VisibleAnywhere)
 	class UMonsterAnimInstance* AnimInstance;
 
 	// Hold All Information needed
+	UPROPERTY(VisibleAnywhere)
 	class UMonsterStat* MonsterStat;
+
 public:
-	UBehaviorTree* GetAIBehaviorTree() const { return AIBehaviorTree; }
-	UTargetInSightInfo* GetTargetInSightInfo() const { return TargetInSightInfo; }
-	UTargetHearingInfo* GetTargetHearingInfo() const { return TargetHearingInfo; }
-	UMonsterStat* GetMonsterStat() const { return MonsterStat; }
+	FORCEINLINE UBehaviorTree* GetAIBehaviorTree() const { return AIBehaviorTree; }
+	FORCEINLINE UTargetInSightInfo* GetTargetInSightInfo() const { return TargetInSightInfo; }
+	FORCEINLINE UTargetHearingInfo* GetTargetHearingInfo() const { return TargetHearingInfo; }
+	FORCEINLINE UMonsterStat* GetMonsterStat() const { return MonsterStat; }
 	bool IsAttacking() const;
 	float GetAttackRange() const;
 
@@ -83,4 +89,9 @@ public:
 	virtual void OnAnimNotifyEnd(UAnimSequenceBase* Animation);
 	UFUNCTION()
 	virtual void OnAnimNotify(EAnimationType AnimationType);
+protected:
+	EMonsterType MonsterType;
+
+public:
+	FORCEINLINE EMonsterType GetMonsterType() const { return MonsterType; }
 };

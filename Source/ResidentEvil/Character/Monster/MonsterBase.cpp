@@ -10,13 +10,15 @@
 #include "MonsterAnimInstance.h"
 #include "MonsterStat.h"
 #include "Structures/GameEnumName.h"
+#include "MonsterAttackPattern.h"
+#include "Structures/GameDelegateName.h"
 
 AMonsterBase::AMonsterBase(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)
 {
 	bReplicates = true;
 	MonsterStat = CreateDefaultSubobject<UMonsterStat>(TEXT("Monster Info"));
-	MonsterStat->OwnerMonster = this;
-	MonsterStat->bIsAttacking = false;
+	MonsterStat->SetOwningMonster(this);
+	MonsterStat->SetIsAttacking(false);
 }
 
 void AMonsterBase::InitializeSkeletaMesh(const char* Path)
@@ -58,7 +60,6 @@ void AMonsterBase::BeginPlay()
 	AnimInstance = Cast<UMonsterAnimInstance>(this->GetMesh()->GetAnimInstance());
 	if (AnimInstance)
 	{
-		AnimInstance->OnAnimNotifyEnd.AddDynamic(this, &AMonsterBase::OnAnimNotifyEnd);
 		AnimInstance->OnAnimNotify.AddDynamic(this, &AMonsterBase::OnAnimNotify);
 	}
 }
@@ -74,6 +75,12 @@ void AMonsterBase::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 }
 
+EMonsterAttackResult AMonsterBase::AttackTarget(AActor * Target, UMonsterAttackPattern * AttackPattern)
+{
+	// Base Class Function Empty
+	return EMonsterAttackResult::NONE;
+}
+
 void AMonsterBase::CalculateVariableForAnimation(float DeltaTime)
 {
 	FVector Velocity = this->GetVelocity();
@@ -84,11 +91,6 @@ void AMonsterBase::CalculateVariableForAnimation(float DeltaTime)
 		float Direction = this->AnimInstance->CalculateDirection(Velocity, this->GetActorRotation());
 		this->AnimInstance->SetDirection(Direction);
 	}
-}
-
-void AMonsterBase::AttackTarget(AActor * Target)
-{
-	MonsterStat->bIsAttacking = true;
 }
 
 void AMonsterBase::OnAnimNotifyBegin(UAnimSequenceBase * Animation, float TotalDuration)
@@ -118,11 +120,11 @@ void AMonsterBase::OnAnimNotify(EAnimationType AnimationType)
 
 bool AMonsterBase::IsAttacking() const
 {
-	return MonsterStat->bIsAttacking;
+	return MonsterStat->IsAttacking();
 }
 
 float AMonsterBase::GetAttackRange() const
 {
-	return MonsterStat->AttackRange;
+	return MonsterStat->GetAttackRange();
 }
 

@@ -7,6 +7,8 @@
 #include "BehaviorTree/Blackboard/BlackboardKeyAllTypes.h"
 #include "MonsterBase.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "MonsterAttackPattern.h"
+#include "Structures/GameEnumName.h"
 
 #define KEY_ID_TARGET "Target"
 #define KEY_ID_TARGET_SIGHT_INFO "TargetInSightInfo"
@@ -36,7 +38,11 @@ void AMonsterAIController::Possess(APawn* AIPawn)
 	}
 }
 
-void AMonsterAIController::AttackTarget(AActor * Target)
+void AMonsterAIController::AttackTarget(AActor * Target, UMonsterAttackPattern* AttackPattern)
 {
-	MonsterPawn->AttackTarget(Target);
+	EMonsterAttackResult Result = MonsterPawn->AttackTarget(Target, AttackPattern);
+	if (Result == EMonsterAttackResult::SUCCEED)
+	{
+
+	}
 }

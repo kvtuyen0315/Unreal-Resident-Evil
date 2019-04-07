@@ -4,17 +4,23 @@
 
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
+#include "Components/ActorComponent.h"
 #include "MonsterStat.generated.h"
 
 /**
  * 
  */
+enum class EMonsterAttackType : uint8;
+enum class EMonsterType : uint8;
+
 UCLASS()
-class RESIDENTEVIL_API UMonsterStat : public UObject
+class RESIDENTEVIL_API UMonsterStat : public UActorComponent
 {
 	GENERATED_BODY()
-public:
-	class AMonsterBase* OwnerMonster;
+protected:
+	UMonsterStat(const FObjectInitializer& ObjectInitializer);
+
+	class AMonsterBase* OwningMonster;
 	// Time follow the sound, after this time, the AI won't go to the location of the last known sound.
 	UPROPERTY(EditAnywhere)
 	float TimeFollowLastSound;
@@ -27,7 +33,19 @@ public:
 	UPROPERTY(EditAnywhere)
 	bool bIsAttacking;
 
+	UPROPERTY(EditAnywhere)
+	TMap<EMonsterAttackType, float> MapAttackDelay;
+
 public:
+	virtual void TickComponent(float DeltaTime, enum ELevelTick TickType, FActorComponentTickFunction *ThisTickFunction) override;
+
+public:
+	// Set OwningMonster and search related data
+	void SetOwningMonster(AMonsterBase* Monster, bool bInitData);
+
+	FORCEINLINE void SetOwningMonster(AMonsterBase* Monster) { OwningMonster = Monster; };
+	FORCEINLINE AMonsterBase* GetOwningMonster() const { return OwningMonster; };
+
 	FORCEINLINE void SetTimeFollowLastSound(float Value) { TimeFollowLastSound = Value; };
 	FORCEINLINE float GetTimeFollowLastSound() const { return TimeFollowLastSound; };
 
@@ -36,4 +54,12 @@ public:
 
 	FORCEINLINE void SetIsAttacking(bool Value) { bIsAttacking = Value; };
 	FORCEINLINE bool IsAttacking() const { return bIsAttacking; };
+
+	// Find Info Attack pattern base on type and initialize the map
+	void SetAttackDelayDefault(EMonsterType Type);
+	// Will set Default Data 
+	void SetAttackDelay(EMonsterAttackType Type);
+	void SetAttackDelay(EMonsterAttackType Type, float Delay);
+	float GetAttackDelay(EMonsterAttackType AttackType);
+	FORCEINLINE TMap<EMonsterAttackType, float> GetMapAttackDelay() const { return MapAttackDelay; }
 };

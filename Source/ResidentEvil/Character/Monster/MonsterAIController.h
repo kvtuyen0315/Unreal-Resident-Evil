@@ -10,6 +10,7 @@
 /**
  * 
  */
+class UMonsterAttackPattern;
 UCLASS()
 class RESIDENTEVIL_API AMonsterAIController : public AAIController
 {
@@ -43,5 +44,5 @@ public:
 	
 	AMonsterBase* GetMonsterPawn() const { return MonsterPawn; };
 
-	void AttackTarget(AActor* Target);
+	void AttackTarget(AActor* Target, UMonsterAttackPattern* AttackPattern);
 };

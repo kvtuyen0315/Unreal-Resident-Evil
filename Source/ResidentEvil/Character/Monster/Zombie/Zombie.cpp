@@ -19,6 +19,8 @@
 #include "GameConstValue.h"
 #include "Animation/AnimBlueprint.h"
 #include "Character/Monster/MonsterStat.h"
+#include "Structures/GameEnumName.h"
+#include "Character/Monster/MonsterAttackPattern.h"
 
 #define ASSET_PATH_SKELETAL_MESH "SkeletalMesh'/Game/MyCharacter/Monster/Zombie2/Zombie_idle.Zombie_idle'"
 #define ASSET_PATH_ANIM_BLUEPRINT "AAnimBlueprint'/Game/MyCharacter/Monster/Zombie2/ZombieNormal.ZombieNormal'"
@@ -31,8 +33,11 @@
 AZombie::AZombie(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)
 {
 	UE_LOG(LogTemp, Warning, TEXT("Zombie Constructor called"));
-	MonsterStat->AttackRange = ZOMBIE_ATTACK_RANGE;
-	MonsterStat->TimeFollowLastSound = ZOMBIE_TIME_FOLLOW_SOUND;
+	this->MonsterType = EMonsterType::ZOMBIE;
+	MonsterStat->SetAttackRange(ZOMBIE_ATTACK_RANGE);
+	MonsterStat->SetTimeFollowLastSound(ZOMBIE_TIME_FOLLOW_SOUND);
+	MonsterStat->SetOwningMonster(this, true);
+	MonsterStat->SetIsAttacking(false);
 	this->GetCharacterMovement()->MaxWalkSpeed = ZOMBIE_WALK_SPEED;
 
 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
@@ -75,7 +80,6 @@ void AZombie::OnSenseActors(const TArray<AActor*>& TestActors)
 		AHunk* Hunk = Cast<AHunk>(Actor);
 		if (Hunk)
 		{
-			//GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Red, TEXT("AZombie see Player %s"));
 		}
 	}
 }
@@ -127,7 +131,7 @@ void AZombie::OnUpdatedSenseActor(AActor * UpdatedActor, FAIStimulus Stimulus)
 
 void AZombie::OnAttackEnd()
 {
-	MonsterStat->bIsAttacking = false;
+	MonsterStat->SetIsAttacking(false);
 }
 
 void AZombie::Tick(float DeltaTime)
@@ -137,7 +141,7 @@ void AZombie::Tick(float DeltaTime)
 	if (TargetHearingInfo && TargetHearingInfo->IsHearingTargetSound())
 	{
 		float NewTime = TargetHearingInfo->GetTimeHeardSound() + DeltaTime; // Increase time we had heard
-		if (NewTime > MonsterStat->TimeFollowLastSound) // if it exceed the time, reset it to 0 and set hearing = false
+		if (NewTime > MonsterStat->GetTimeFollowLastSound()) // if it exceed the time, reset it to 0 and set hearing = false
 		{
 			TargetHearingInfo->SetIsHearingTargetSound(false);
 			TargetHearingInfo->SetTimeHeardSound(0.f);
@@ -149,6 +153,22 @@ void AZombie::Tick(float DeltaTime)
 	}
 
 	//CalculateVariableForAnimation(DeltaTime);
+}
+
+EMonsterAttackResult AZombie::AttackTarget(AActor * Target, UMonsterAttackPattern * AttackPattern)
+{
+	float AttackDelay = MonsterStat->GetAttackDelay(AttackPattern->GetAttackType());
+	if (AttackDelay <= 0.f)
+	{
+		this->MonsterStat->SetIsAttacking(true);
+		this->MonsterStat->SetAttackDelay(AttackPattern->GetAttackType());
+		return EMonsterAttackResult::SUCCEED;
+	}
+	else
+	{
+		return EMonsterAttackResult::FAILED_ON_COOLDOWN;
+	}
+	return EMonsterAttackResult::NONE;
 }
 
 void AZombie::OnAnimNotify(EAnimationType AnimationType)
@@ -196,7 +216,7 @@ void AZombie::PostInitializeComponents()
 	{
 		AISightConfig->SightRadius = 2000.f;
 		AISightConfig->LoseSightRadius = 2100.f;
-		AISightConfig->PeripheralVisionAngleDegrees = 40.0f;
+		AISightConfig->PeripheralVisionAngleDegrees = 80.0f;
 		AISightConfig->DetectionByAffiliation.bDetectEnemies = true;
 		AISightConfig->DetectionByAffiliation.bDetectNeutrals = true;
 		AISightConfig->DetectionByAffiliation.bDetectFriendlies = true;
