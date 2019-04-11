@@ -257,9 +257,18 @@ void AHunk::Tick(float DeltaTime)
 	}
 
 	// Danny test noise
-	if (IsSprint && this->GetVelocity().SizeSquared() > 0)
+	if (IsSprint && this->GetVelocity().SizeSquared() > 0.f)
 	{
 		UAISense_Hearing::ReportNoiseEvent(this, GetActorLocation(), 1.0, this);
+	}
+
+	if (this->GetVelocity().SizeSquared() > 0.f)
+	{
+		// Broad cast Moving event
+		if (OnMoving.IsBound())
+		{
+			OnMoving.Broadcast();
+		}
 	}
 }
 

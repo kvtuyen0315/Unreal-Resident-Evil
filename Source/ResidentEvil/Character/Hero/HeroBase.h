@@ -33,5 +33,9 @@ public:
 	FPlayerPressAimDelegate OnPressAim;
 	UPROPERTY()
 	FPlayerReleaseAimDelegate OnReleaseAim;
+	UPROPERTY()
+	FPlayerMovingDelegate OnMoving;
+	UPROPERTY()
+	FPlayerShootingDelegate OnShooting;
 #pragma endregion
 };

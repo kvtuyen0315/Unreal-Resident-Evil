@@ -18,8 +18,8 @@ public:
 	UWidgetCrosshair(const FObjectInitializer& ObjectInitializer);
 	virtual void NativeConstruct() override;
 
-	virtual void NativeTick(const FGeometry& MyGeometry, float InDeltaTime);
-		
+	virtual void NativeTick(const FGeometry& MyGeometry, float InDeltaTime) override;
+
 	// Delegate called when player press aim
 	UFUNCTION()
 	void OnPlayerPressAim();
@@ -27,6 +27,10 @@ public:
 	// Delegate called when player release aim
 	UFUNCTION()
 	void OnPlayerReleaseAim();
+
+	// Delegate called when player moving
+	UFUNCTION()
+	void OnPlayerMoving();
 
 protected:
 	UPROPERTY(meta = (BindWidget))
@@ -41,12 +45,42 @@ protected:
 	UPROPERTY(meta = (BindWidget))
 	UBorder* Top;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	float Spread;
+	// Caching 4 slot
+	UPROPERTY()
+	class UCanvasPanelSlot* LeftSlot;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	float Thickness;
+	UPROPERTY()
+	UCanvasPanelSlot* RightSlot;
 
+	UPROPERTY()
+	UCanvasPanelSlot* TopSlot;
+
+	UPROPERTY()
+	UCanvasPanelSlot* BottomSlot;
+
+
+	// Base values, set by default
+	// Spread, The higher the value, the higher the radius of crosshair
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	float Lenght;
+	float Spread = 10.f;
+
+	// Thickness, affect to each part of crosshair
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float Thickness = 4.f;
+
+	// Lenght, affect to each part of crosshair
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float Lenght = 30.f;
+
+	// The radius of crosshair will change when perform specific actions
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float MaxRadius = 50.f;
+
+	// The time takes to "focus"q when aiming
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float ReduceRadiusTime = 1.f;
+
+	// Dynamic 
+	UPROPERTY()
+	float CurrentSpread;
 };
