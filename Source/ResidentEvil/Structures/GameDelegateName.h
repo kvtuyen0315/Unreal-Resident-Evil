@@ -3,10 +3,12 @@
 #pragma once
 
 #include "CoreMinimal.h"
-//#include "GameEnumName.h"
+#include "GameEnumName.h"
 #include "GameDelegateName.generated.h"
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FMonsterAnimNotify, EAnimationType, AnimationType);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FPlayerPressAimDelegate);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FPlayerReleaseAimDelegate);
 
 /**
  * 

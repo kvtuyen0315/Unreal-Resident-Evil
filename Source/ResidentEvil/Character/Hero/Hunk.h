@@ -3,12 +3,13 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Character.h"
+#include "HeroBase.h"
 #include "ResidentEvil/GameConstValue.h"
+#include "Structures/GameDelegateName.h"
 #include "Hunk.generated.h"
 
 UCLASS()
-class RESIDENTEVIL_API AHunk : public ACharacter
+class RESIDENTEVIL_API AHunk : public AHeroBase
 {
 	GENERATED_BODY()
 
@@ -133,4 +134,5 @@ private:
 #pragma endregion
 
 #pragma endregion
+
 };

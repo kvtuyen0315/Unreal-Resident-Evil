@@ -19,5 +19,5 @@ class RESIDENTEVIL_API AMyGameModeBase : public AGameModeBase
 		AMyGameModeBase();
 #pragma endregion
 
-	virtual void StartPlay();
+	virtual void StartPlay() override;
 };

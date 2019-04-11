@@ -23,6 +23,6 @@ void AAssault_Rifle::SetSkeletalMeshGun()
 	SkeletalMeshAssaultRifle = AssaultRifle.Object;
 	SkeletalMeshComponentGun->SetSkeletalMesh(SkeletalMeshAssaultRifle);
 	SkeletalMeshComponentGun->SetAnimationMode(EAnimationMode::AnimationBlueprint);
-	SkeletalMeshComponentGun->SetAnimInstanceClass(AssaultRigleAniamtion.Object->GetAnimBlueprintGeneratedClass());
+	SkeletalMeshComponentGun->SetAnimInstanceClass(AssaultRigleAniamtion.Object->GeneratedClass);
 }
 #pragma endregion

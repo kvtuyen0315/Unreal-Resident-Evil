@@ -16,7 +16,7 @@ class RESIDENTEVIL_API APistol : public AWeaponts
 	
 #pragma region Variable.
 private:
-	USkeletalMesh* SkeletalMeshPistol;
+	class USkeletalMesh* SkeletalMeshPistol;
 
 #pragma endregion
 

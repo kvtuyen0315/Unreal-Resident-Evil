@@ -16,7 +16,7 @@ class RESIDENTEVIL_API AShotgun : public AWeaponts
 	
 #pragma region Variable.
 private:
-	USkeletalMesh* SkeletalMeshShotgun;
+	class USkeletalMesh* SkeletalMeshShotgun;
 
 #pragma endregion
 

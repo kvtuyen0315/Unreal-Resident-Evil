@@ -7,14 +7,17 @@
 #include "GameFramework/Actor.h"
 #include "Engine/World.h"
 #include "Character/Monster/MonsterAttackPattern.h"
+#include "Widgets/GameUserWidget.h"
+#include "PlayerController/MyPlayerController.h"
 
 // Tuyển.
 #pragma region Create.
 AMyGameModeBase::AMyGameModeBase()
 {
 	static ConstructorHelpers::FClassFinder<AHunk> hunk(TEXT("/Script/ResidentEvil.Hunk"));
-
 	this->DefaultPawnClass = hunk.Class;
+
+	this->PlayerControllerClass = AMyPlayerController::StaticClass();
 }
 #pragma endregion
 
@@ -31,7 +34,7 @@ void AMyGameModeBase::StartPlay()
 		SpawnInfo.Owner = this;
 		SpawnInfo.Instigator = Instigator;
 		FVector Location = FVector(100.f * (i + 1), 0.f, 100.f);
-		AZombie* Obj = GetWorld()->SpawnActor<AZombie>(AZombie::StaticClass(), Location, FRotator::ZeroRotator, SpawnInfo);
+		AZombie* Obj = World->SpawnActor<AZombie>(AZombie::StaticClass(), Location, FRotator::ZeroRotator, SpawnInfo);
 	}
-	
+
 }

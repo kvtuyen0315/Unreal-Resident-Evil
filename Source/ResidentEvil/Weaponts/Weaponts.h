@@ -13,8 +13,8 @@ class RESIDENTEVIL_API AWeaponts : public AActor
 
 #pragma region Variable.
 protected:
-	USceneComponent* SceneComponentGun;
-	USkeletalMeshComponent* SkeletalMeshComponentGun;
+	class USceneComponent* SceneComponentGun;
+	class USkeletalMeshComponent* SkeletalMeshComponentGun;
 
 #pragma endregion
 

@@ -18,7 +18,7 @@ void UMonsterAttackPattern::Initialize()
 	// Zombie Attack Data
 	TArray<UMonsterAttackPattern*> ArrayAttack;
 	UMonsterAttackPattern* Object = NewObject<UMonsterAttackPattern>(UMonsterAttackPattern::StaticClass());
-	Object->Set(EMonsterAttackType::ZOMBIE_ATTACK_NORMAL, 10, 100.f, 5.f);
+	Object->Set(EMonsterAttackType::ZOMBIE_ATTACK_NORMAL, 10, 100.f, 4.f);
 	Object->AddToRoot();
 	ArrayAttack.Add(Object);
 	sMapAttackPatternData.Add(EMonsterType::ZOMBIE, ArrayAttack);

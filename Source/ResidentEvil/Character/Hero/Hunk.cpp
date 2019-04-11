@@ -17,6 +17,7 @@
 #include "ResidentEvil/Weaponts/Shotgun/Shotgun.h"
 #include "ResidentEvil/Weaponts/Pistol/Pistol.h"
 #include "Perception/AISense_Hearing.h"
+#include "Structures/GameEnumName.h"
 
 // Sets default values
 AHunk::AHunk() :
@@ -387,6 +388,12 @@ void AHunk::PressedAim()
 	IsAim = true;
 	this->bUseControllerRotationYaw = true;
 	CharacterMovementHunk->bOrientRotationToMovement = false;
+
+	// Fire Event Player Press Aim
+	if (OnPressAim.IsBound())
+	{
+		OnPressAim.Broadcast();
+	}
 }
 
 void AHunk::ReleasedAim()
@@ -394,6 +401,12 @@ void AHunk::ReleasedAim()
 	IsAim = false;
 	this->bUseControllerRotationYaw = false;
 	CharacterMovementHunk->bOrientRotationToMovement = true;
+
+	// Fire Event Player Release Aim
+	if (OnReleaseAim.IsBound())
+	{
+		OnReleaseAim.Broadcast();
+	}
 }
 
 void AHunk::PressedFire()

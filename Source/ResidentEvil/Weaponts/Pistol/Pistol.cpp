@@ -23,7 +23,7 @@ void APistol::SetSkeletalMeshGun()
 	SkeletalMeshPistol = Pistol.Object;
 	SkeletalMeshComponentGun->SetSkeletalMesh(SkeletalMeshPistol);
 	SkeletalMeshComponentGun->SetAnimationMode(EAnimationMode::AnimationBlueprint);
-	SkeletalMeshComponentGun->SetAnimInstanceClass(PistolAnimation.Object->GetAnimBlueprintGeneratedClass());
+	SkeletalMeshComponentGun->SetAnimInstanceClass(PistolAnimation.Object->GeneratedClass);
 }
 #pragma endregion
 

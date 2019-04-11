@@ -16,7 +16,7 @@ class RESIDENTEVIL_API AAssault_Rifle : public AWeaponts
 	
 #pragma region Variable.
 private:
-	USkeletalMesh* SkeletalMeshAssaultRifle;
+	class USkeletalMesh* SkeletalMeshAssaultRifle;
 
 #pragma endregion
 
