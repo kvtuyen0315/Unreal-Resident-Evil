@@ -76,11 +76,22 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float MaxRadius = 50.f;
 
-	// The time takes to "focus"q when aiming
+	// The time takes to fully "focus"
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	float ReduceRadiusTime = 1.f;
+	float TimeReduceRadius = 1.f;
+
+	// The exponent use in formula
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float Exponent = 2.f;
+
+	// The Color of Crosshair
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FColor CrosshairColor = FColor::White;
 
 	// Dynamic 
 	UPROPERTY()
 	float CurrentSpread;
+
+	UPROPERTY()
+	float CurrentTime;
 };

@@ -33,6 +33,11 @@ void UWidgetCrosshair::NativeConstruct()
 	TopSlot = Cast<UCanvasPanelSlot>(Top->Slot);
 	BottomSlot = Cast<UCanvasPanelSlot>(Bottom->Slot);
 
+	Left->SetBrushColor(CrosshairColor);
+	Right->SetBrushColor(CrosshairColor);
+	Bottom->SetBrushColor(CrosshairColor);
+	Top->SetBrushColor(CrosshairColor);
+
 	CurrentSpread = Spread;
 }
 
@@ -40,10 +45,13 @@ void UWidgetCrosshair::NativeTick(const FGeometry & MyGeometry, float InDeltaTim
 {
 	Super::NativeTick(MyGeometry, InDeltaTime);
 	
+	CurrentTime += InDeltaTime;
+	CurrentTime = UKismetMathLibrary::FClamp(CurrentTime, 0.f, TimeReduceRadius);
 	if (IsVisible())
 	{
-		CurrentSpread = UKismetMathLibrary::FInterpTo(CurrentSpread, Spread, InDeltaTime, ReduceRadiusTime);
-		UE_LOG(LogTemp, Warning, TEXT("Current Spread Value = %f"), CurrentSpread);
+		UE_LOG(LogTemp, Warning, TEXT("Current time = %f"), CurrentTime);
+		CurrentSpread = UKismetMathLibrary::FInterpEaseInOut(MaxRadius, Spread, CurrentTime / TimeReduceRadius, 2.f);
+		//CurrentSpread = UKismetMathLibrary::FInterpTo(CurrentSpread, Spread, InDeltaTime, ReduceRadiusTime);
 
 		FVector2D Position;
 		// Left
@@ -76,6 +84,7 @@ void UWidgetCrosshair::OnPlayerPressAim()
 {
 	SetVisibility(ESlateVisibility::Visible);
 	CurrentSpread = MaxRadius;
+	CurrentTime = 0.f;
 }
 
 void UWidgetCrosshair::OnPlayerReleaseAim()
@@ -86,4 +95,5 @@ void UWidgetCrosshair::OnPlayerReleaseAim()
 void UWidgetCrosshair::OnPlayerMoving()
 {
 	CurrentSpread = MaxRadius;
+	CurrentTime = 0.f;
 }
